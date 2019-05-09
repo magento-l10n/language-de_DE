@@ -958,6 +958,8 @@ label,Kennzeichen
 "Save &amp; New","Speichern &amp; Neu"
 "Enable Hints for Storefront with URL Parameter","Hinweise für Shop mit URL-Parameter aktivieren"
 "Parameter Value",Parameterwert
+"Enable Template Path Hints for Storefront","Vorlagenpfad-Hinweise für Frontend aktivieren"
+"Enable Template Path Hints for Admin","Vorlagenpfad-Hinweise für Admin aktivieren"
 "System Backup",Systemsicherung
 "Database and Media Backup","Datenbank- und Mediensicherung"
 "Database Backup",Datenbanksicherung
@@ -2225,6 +2227,7 @@ Cost,Einkaufspreis
 "The required option wasn't entered. Enter the option and try again.","Die erforderliche Option wurde nicht eingegeben. Geben Sie die Option an und versuchen Sie es erneut."
 "The file is empty. Select another file and try again.","Die Datei ist leer. Wählen Sie eine andere Datei und versuchen Sie es erneut."
 "The text is too long. Shorten the text and try again.","Der Text ist zu lang. Kürzen Sie den Text und versuchen Sie es erneut."
+"The product that was requested doesn't exist. Verify the product and try again. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Das angeforderte Produkt existiert nicht. Überprüfen Sie das Produkt und versuchen Sie es erneut. Zeile ID: SKU = %SKU, Shop ID: %storeId, Preis von: %priceFrom, Preis zu: %priceTo."
 "Tier price is unavailable for this product.","Staffelpreise sind für dieses Produkt nicht verfügbar."
 "The group price couldn't be saved.","Der Gruppenpreis konnte nicht gespeichert werden."
 "The data was invalid. Verify the data and try again.","Die Daten waren ungültig. Überprüfen Sie die Daten und versuchen Sie es erneut."
@@ -2321,6 +2324,8 @@ End,Ende
 """id for category should be specified","""Id für Kategorie sollte angegeben werden"
 "No child sku found for product link.","Kein Kind-SKU für den Produkt-Link gefunden."
 "'search' or 'filter' input argument is required.","Eingabeargument 'Suche' oder 'Filter' ist erforderlich."
+"SimpleProduct type not defined in schema.","SimpleProduct Typ nicht im Schema definiert."
+"'category_id' only supports 'eq' condition type.","'category_id' unterstützt nur Bedingungen vom Typ 'eq'."
 "Cannot resolve type","Typ kann nicht aufgelöst werden"
 "Category doesn't exist","Kategorie existiert nicht"
 """image_type"" value should be specified","""image_type"" Wert sollte angegeben werden"
@@ -3086,10 +3091,12 @@ Users,Benutzer
 "%fieldName is a required field","%fieldName ist ein Pflichtfeld"
 "Consumer is not authorized to access resource","Der Benutzer hat keine Zugangsberechtigung für die Resource"
 "Your company account is blocked and you cannot place orders. If you have questions, please contact your company administrator.","Ihr Unternehmenskonto ist gesperrt und Sie können keine Bestellungen aufgeben. Wenn Sie Fragen haben, kontaktieren Sie bitte den Administrator Ihres Unternehmens."
+unavailable.,"Nicht verfügbar."
 "The requested Payment Method is not available.","Die angeforderte Zahlungsart ist nicht verfügbar."
 Updated,Aktualisiert
 Purchased,Gekauft
 Reverted,"Rückgängig gemacht"
+"Could not save history","Verlauf konnte nicht gespeichert werden"
 "Invoice created for %1","Rechnung für %1 erstellt"
 "Store Credit",Shop-Guthaben
 "We refunded %1 online.","Es wurden %1 online erstattet."
@@ -3317,6 +3324,8 @@ Select,Auswählen
 save,Speichern
 "Configurable Product Image","Konfigurierbares Produktbild"
 "As low as: ","Ab: "
+"productFactory is already set","productFactory ist bereits gesetzt"
+"catalogProductMediaConfig is already set","catalogProductMediaConfig ist bereits gesetzt"
 "Could not update option with id ""%1""","Die Option mit der Id ""%1"" konnte nicht aktualisiert werden"
 "Product already has this option","Produkt besitzt diese Option bereits"
 "The configurable product does not have any variation attribute.","Das konfigurierbare Produkt hat kein Variations-Attribut."
@@ -3334,6 +3343,9 @@ save,Speichern
 "Please, select image(s) for your attribute","Bitte wählen Sie Bild(er) für die Attribute"
 "Please choose image(s)","Bitte Bild(er) auswählen"
 "Please, select attribute(s)","Bitte Eigenschaft(en) auswählen"
+"The product with the ""%1"" SKU isn't a configurable product.","Das Produkt mit der Artikelnummer ""%1"" ist kein konfigurierbares Produkt."
+"The variations from the ""%1"" product can't be deleted.","Die Variationen des Produkts ""%1"" können nicht gelöscht werden."
+"An error occurred while saving the option. Please try to save again.","Beim Speichern der Option ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
 "Configurable product ""%1"" does not have sub-products","Das konfigurierbare Produkt ""%1"" hat keine Varianten"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Vielen Dank, dass Sie uns mit Ihren Kommentaren und Fragen kontaktieren. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen."
 "An error occurred while processing your form. Please try again later.","Während der Verarbeitung des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
@@ -4555,6 +4567,7 @@ hello,Hallo
 "EAV types and attributes","EAV-Typen und -Attribute"
 "Entity types declaration cache","Deklarations-Cache für Entitäten-Typen"
 "Entity types declaration cache.","Deklarations-Cache für Entity-Typen."
+"'Invalid backend model specified: ' .","'Ungültiges Backend-Model angegeben: ' ."
 "The attribute group doesn't belong to the provided attribute set.","Die Attributgruppe gehört nicht zum angegebenen Attributsatz."
 "The attributeGroup can't be saved.","Die Attributgruppe konnte nicht gespeichert werden."
 "The attribute group with id ""%1"" can't be deleted.","Die Attributgruppe mit ID ""%1"" konnte nicht gelöscht werden."
@@ -4578,6 +4591,7 @@ hello,Hallo
 "The ""%1"" attribute doesn't work with options.","Das Attribut ""%1"" funktioniert nicht mit Optionen."
 "The ""%1"" attribute can't be saved.","Das Attribut ""%1"" konnte nicht gespeichert werden."
 "The ""%1"" attribute has no option.","Das Attribut ""%1"" hat keine Option."
+"The options for ""%1"" attribute can't be loaded.","Die Optionen für Attribut ""%1"" konnten nicht geladen werden."
 "The attribute set name is empty. Enter the name and try again.","Der Attributset-Name ist leer. Geben Sie den Namen ein und versuchen Sie es erneut."
 "A ""%1"" attribute set name already exists. Create a new name and try again.","Ein Attributset mit dem Namen ""%1"" existiert bereits. Erstellen Sie einen neuen Namen und versuchen Sie es erneut."
 "The ""%1"" attribute requested is invalid. Verify the attribute and try again.","Das angeforderte Attribut ""%1"" ist ungültig. Überprüfen Sie das Attribut und versuchen Sie es erneut."
@@ -8898,6 +8912,7 @@ Language,Sprache
 "Collection data files.",Datensammlungsdateien
 "API interfaces reflection data.","API-Schnittstellen Reflexions-Daten"
 "Results of DDL queries, such as describing tables or indexes.","Ergebnisse der DDL-Abfragen, wie beschreibende Tabellen oder Indizes."
+"The store cannot be switched.","Dieser Store kann nicht gewechselt werden."
 "The website wasn't found. Verify the website and try again.","Die Website wurde nicht gefunden. Überprüfen Sie die Website und versuchen Sie es erneut."
 "The group wasn't found. Verify the group and try again.","Die Gruppe wurde nicht gefunden. Überprüfen Sie die Gruppe und versuchen Sie es erneut."
 "The store wasn't found. Verify the store and try again.","Der Store wurde nicht gefunden. Überprüfen Sie den Store und versuchen Sie es erneut."
