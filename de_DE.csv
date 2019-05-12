@@ -1180,7 +1180,14 @@ YY,JJ
 "Please try again with another form of payment.","Bitte versuchen Sie es mit einer andere Zahlungsart erneut."
 "Sorry, but something went wrong.","Entschuldigung, es ist ein Fehler aufgetreten."
 "Payment ","Zahlung "
+"Cannot refund a transaction unless it is settled.","Eine Transaktion kann nur erstattet werden, wenn sie verrechnet ist."
+"Cannot submit for settlement unless status is authorized.","Kann nur zur Verrechnung eingereicht werden, wenn der Status autorisiert ist."
+"Customer does not have any credit cards.","Der Kunde hat keine Kreditkarten."
+"Transaction has already been completely refunded.","Die Transaktion wurde bereits vollständig erstattet."
 "Refund amount is too large.","Der zu erstattende Betrag ist zu groß."
+"Cannot provide a billing address unless also providing a credit card.","Eine Rechnungsadresse kann nur gemeinsam mit einer Kreditkarte angegeben werden."
+"Cannot refund a transaction with a suspended merchant account.","Eine Transaktion mit einem gesperrten Händlerkonto kann nicht erstattet werden."
+"Merchant account does not support refunds.","Händler-Konto unterstützt keine Rückerstattungen."
 "Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Akzeptieren Sie Kreditkarten und PayPal in Ihrem Magento-Shop!<br />Keine Einrichtungsgebühren oder laufende Kosten und Ihre Kunden müssen Ihren Shop nie verlassen, um einen Kauf abzuschließen."
 "Enable this Solution","Diese Lösung aktivieren"
 "Enable PayPal through Braintree","PayPal über Braintree aktivieren"
@@ -1210,6 +1217,8 @@ YY,JJ
 "Verify for Specific Countries","Verifizierung für bestimmte Länder"
 "Dynamic Descriptors","Dynamische Beschreibung"
 Phone,Telefonnummer
+"CVV is required.","CVV ist erforderlich."
+"CVV must be 4 digits for American Express and 3 digits for other card types.","CVV muss 4 Ziffern für American Express und 3 Ziffern für andere Kartentypen sein."
 "Expiration date is required.","Ablaufdatum ist erforderlich."
 "Expiration date is invalid.","Ablaufdatum ist ungültig."
 "Expiration year is invalid. It must be between 1975 and 2201.","Ablaufjahr ist ungültig. Es muss zwischen 1975 und 2201 liegen."
@@ -1217,19 +1226,29 @@ Phone,Telefonnummer
 "Expiration year is invalid.","Ablaufjahr ist ungültig."
 "Credit card number is required.","Kreditkartennummer ist erforderlich."
 "Credit card number is invalid.","Kreditkartennummer ist ungültig."
+"Credit card number must be 12-19 digits.","Kreditkartennummer muss 12-19 Ziffern sein."
 "Cardholder name is too long.","Der Name des Karteninhabers ist zu lang."
+"CVV verification failed.","CVV-Verfizierung fehlgeschlagen."
 "Postal code verification failed.","Postleitzahl-Überprüfung ist fehlgeschlagen."
 "Credit card number is prohibited.","Kreditkartennummer ist verboten."
 "Addresses must have at least one field filled in.","Adressen benötigen mindestens ein ausgefülltes Feld."
 "Company is too long.","Firma ist zu lang."
+"Extended address is too long.","Erweiterte Adresse ist zu lang."
 "First name is too long.","Vorname ist zu lang."
 "Last name is too long.","Nachname ist zu lang."
+"Locality is too long.","Ort ist zu lang."
 "Postal code is required.","Postleitzahl ist erforderlich."
+"Postal code may contain no more than 9 letter or number characters.","Postleitzahl darf nicht mehr als 9 Buchstaben oder Zahlen enthalten."
+"Region is too long.","Region ist zu lang."
 "Street address is required.","Straße ist erforderlich."
+"Street address is too long.","Straße ist zu lang."
+"Postal code can only contain letters, numbers, spaces, and hyphens.","Postleitzahl darf nur Buchstaben, Zahlen, Leerzeichen und Bindestriche enthalten."
+"US state codes must be two characters to meet PayPal Seller Protection requirements.","US-Bundesstaat-Code muss aus zwei Zeichen bestehen, um die Anforderungen des PayPal Verkäuferschutzes zu erfüllen."
 "Incomplete PayPal account information.","Unvollständige PayPal-Kontoinformationen."
 "Invalid PayPal account information.","Ungültige PayPal-Kontoinformationen."
 "PayPal Accounts are not accepted by this merchant account.","PayPal-Konten werden von diesem Händler-Konto nicht akzeptiert."
 "Billing address format is invalid.","Format der Rechnungsadresse ist ungültig."
+"Country name is not an accepted country.","Ländername ist keins der akzeptierten Länder."
 "Country code is not accepted. Please contact the store administrator.","Ländercode wurde nicht akzeptiert. Bitte kontaktiere den Administrator."
 "Provided country information is inconsistent.","Angegebene Länderinformation ist inkonsistent."
 "Customer has already reached the maximum of 50 addresses.","Der Kunde hat bereits das Maximum von 50 Adressen erreicht."
@@ -1237,6 +1256,7 @@ Phone,Telefonnummer
 "Error communicating with PayPal.","Fehler bei der Kommunikation mit PayPal."
 "PayPal authentication expired.","PayPal Authentifizierung ist abgelaufen."
 "Error executing PayPal order.","Fehler beim Ausführen der Bestellung mit  PayPal."
+"Error executing PayPal billing agreement.","Fehler beim Ausführen der PayPal-Abrechnungsvereinbarung."
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Wenden Sie Filter an, um Ergebnisse zu erzielen. Nur die ersten 100 Datensätze können in der Übersicht angezeigt werden. Die vollständige Auflistung der Datensätze kann im CSV-Format heruntergeladen werden."
 Select...,"Bitte wählen..."
 "Transaction Type",Transaktionstyp
@@ -1322,9 +1342,14 @@ State/Province,Bundesland
 "Use Cache","Cache verwenden"
 "Edit My Credit Cards","Meine Kreditkarten bearbeiten"
 "Pay with PayPal","Mit PayPal bezahlen"
+"Transaction is cancelled offline.","Transaktion ist offline abgebrochen."
+"If you don't specify the merchant account to use to process a transaction, Braintree will process it using your default merchant account.","Wenn Sie kein Händlerkonto für die Abwicklung der Transaktion angeben, wird Braintree automatisch Ihr Standard-Händlerkonto verwenden."
+"Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","Achten Sie darauf, den erweiterten Betrugsschutz in Ihrem Braintree-Konto unter Einstellungen/Verarbeitungsbereich zu aktivieren"
 "It is recommended to set this value to ""PayPal"" per store views.","Es wird empfohlen, diesen Wert auf ""PayPal"" pro Store View zu setzen."
 "This feature needs be enabled first for the merchant account through PayPal technical support.","Dieses Feature muss zunächst für das Händler-Konto über den technischen PayPal-Support aktiviert sein."
 "Also affects mini-shopping cart.","Dies betrifft auch den Mini-Warenkorb."
+"The Payment Token is not available to perform the request.","Der Zahlungs-Token ist nicht verfügbar, um die Anfrage auszuführen."
+"Checkout failed to initialize. Verify and try again.","Checkout konnte nicht geladen werden, bitte versuchen Sie es erneut."
 "The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Die Bestellung wurde nicht aufgenommen. Bitte stimmen Sie zuerst den Allgemeinen Geschäftsbedingungen zu, bevor Sie die Bestellung erneut aufgeben."
 "Paypal account",PayPal-Konto
 "Coinbase account",Coinbase-Konto
@@ -2090,7 +2115,9 @@ Template,Vorlage
 "List of Products Recently Viewed by Visitor","Liste der Produkte, die vor kurzem vom Besucher angesehen wurden"
 "UI Component",UI-Komponente
 "Number of Products to display","Anzahl der Artikel, die angezeigt werden sollen"
+"Product attributes to show","Anzuzeigende Produktattribute"
 Image,Bild
+"Learn More Link","Mehr erfahren Link"
 "Buttons to show","Anzuzeigende Buttons"
 "Add to Wishlist","Zur Wunschliste hinzufügen"
 "Viewed Products Grid Template",Angesehene-Artikel-Gittervorlage
@@ -2246,6 +2273,7 @@ Cost,Einkaufspreis
 "Start typing to find products","Eingabe starten, um Produkte zu finden"
 "Product with ID: %s doesn't exist","Produkt mit ID: %s ist nicht vorhanden"
 "Use Static URLs for Media Content in WYSIWYG","Verwende Statische URLs für Medieninhalte im WYSIWYG"
+"Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Medien-Inhalte werden als statische URL in den Editor eingefügt. Diese werden nicht aktualisiert, wenn die Basis-URL in der Systemkonfiguration verändert wird."
 "Default Layouts",Standard-Layouts
 "Default Product Layout",Standard-Produkt-Layout
 "Default Category Layout",Standard-Kategorie-Layout
@@ -2353,6 +2381,7 @@ End,Ende
 "Disallowed file type.","Nicht erlaubter Datei-Typ."
 "Value for multiselect attribute %s contains duplicated values","Wert für das Mehrfachauswahl-Attribut %s enthält doppelte Werte"
 "Invalid Stock data for insert","Ungültige Bestandsdaten zum Einfügen"
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: %1","Wert für 'type'-Unterattribut in 'custom_options'-Attribut enthält ungültigen Wert, zulässige Werte sind: %1"
 "Minimum Qty","Der Lagerbestand des Artikels ist ungültig"
 "Add Minimum Qty","Mindestmenge hinzufügen"
 "Could not rebuild index for empty products array","Der Index für leere Produkte konnte nicht neu aufgebaut werden"
@@ -2790,6 +2819,9 @@ Manually,Manuell
 "Checkout agreement with specified ID ""%1"" not found.","Bestellbedingung mit ID ""%1"" wurde nicht gefunden."
 "Terms & Conditions","Allgemeine Geschäftsbedingungen"
 "Enable Terms and Conditions","Allgemeine Geschäftsbedingungen aktivieren"
+"The ""%1"" checkout agreement couldn't be saved.","Die ""%1"" Bestellbedingungen konnten nicht gespeichert werden."
+"The ""%1"" checkout agreement couldn't be removed.","Die ""%1"" Bestellbedingungen konnten nicht entfernt werden."
+"A checkout agreement with the ""%1"" specified ID wasn't found. Verify the ID and try again.","Eine Bestellbedingung mit der spezifizierten ID ""%1"" wurde nicht gefunden. Überprüfen Sie die ID und versuchen Sie es erneut."
 "Preview mode doesn't allow submitting the order.","Der Vorschaumodus lässt das Abschicken einer Bestellung nicht zu."
 "Preview Quote Lifetime (minutes)","Gültigkeit des Vorschau-Angebots (Minuten)"
 "The order can't be submitted in preview mode.","Die Bestellung kann nicht im Vorschaumodus aufgegeben werden."
@@ -2961,6 +2993,7 @@ State/Province:,Bundesland:
 "Email Address:",E-Mail-Adresse:
 Prefix:,Präfix:
 "First Name:",Vorname:
+"Middle Name/Initial:","Zweiter Vorname:"
 "Last Name:",Nachname:
 Gender:,Geschlecht:
 Duplicated,Dupliziert
@@ -2971,6 +3004,7 @@ Duplicated,Dupliziert
 "Create New Company","Neue Firma erstellen"
 "Something went wrong. Please try again later.","Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
 "Invalid value of ""%value"" provided for the email field.","Ungültiger Wert für ""%value"" im E-Mail-Feld."
+"Invalid value ""%value"" given for the website ID field.","Ungültiger Wert ""%value"" im Website-ID-Feld angegeben."
 "You have deleted company %companyName.","Sie haben die Firma %companyName gelöscht."
 "The company no longer exists.","Diese Firma existiert nicht mehr."
 "The requested company is not found","Die angeforderte Firma wurde nicht gefunden"
@@ -3014,20 +3048,53 @@ Blocked,Gesperrt
 "Unable to move customer structure.","Kundenstruktur konnte nicht verschoben werden."
 "Cannot delete company with id %1","Unternehmen mit der ID %1 kann nicht gelöscht werden"
 "No company admin email is specified in request.","In der Anfrage ist keine Unternehmens-E-Mail-Adresse angegeben."
+"No company admin website ID is specified in request.","In der Anfrage ist keine Firmen-Admin Website-ID angegeben."
+"No such entity with id = %idValue","Kein Objekt mit der ID = %idValue gefunden"
+"The user %1 is the company admin and cannot be set to inactive. You must set another user as the company admin first.","Der Benutzer %1 ist der Firmen-Admin und kann nicht auf inaktiv gesetzt werden. Sie müssen zuerst einen anderen Benutzer als Firmen-Admin festlegen."
+"You cannot update the requested attribute. Row ID: %fieldName = %fieldValue.","Sie können das angeforderte Attribut nicht aktualisieren. Zeilen-ID: %fieldName = %fieldValue."
+"Invalid attribute value. Cannot change company for a company admin.","Ungültiger Attributwert. Kann Unternehmen für einen Firmen-Admin nicht ändern."
+"Company admin",Firmen-Admin
+"Company user",Unternehmensbenutzer
+"Individual user","Einzelner Nutzer"
+"Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Es ist nicht möglich, die Ressource auf ""erlauben"" zu setzen, da ihre übergeordnete Ressource(n) auf ""ablehnen"" gesetzt ist."
 "Invalid login or password.","Ungültiger Benutzername oder Passwort."
 "This account is locked.","Das Konto ist gesperrt."
+"Your account is not yet approved. If you have questions, please contact the seller.","Ihr Konto ist noch nicht freigeschaltet. Wenn Sie Fragen haben, kontaktieren Sie bitte den Verkäufer."
+"There was an error saving custom attributes.","Beim Speichern des Kundenattributs ist ein Fehler aufgetreten."
 "Invalid value of ""%value"" provided for the %fieldName field.","Ungültiger Wert ""%value"" für Feld %fieldName."
 "No such entity with %fieldName = %fieldValue","Keine Eintrag mit %fieldName = %fieldValue"
+"This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Diese Rolle kann nicht gelöscht werden, da ihr Benutzer zugewiesen sind. Weisen Sie den Benutzern eine andere Rolle zu, um fortzufahren."
+"You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.","Sie können keine Rolle löschen, wenn sie die einzige Rolle im Unternehmen ist. Sie müssen eine andere Rolle erstellen, bevor Sie diese Rolle löschen."
+"User role with this name already exists. Enter a different name to save this role.","Benutzerrolle mit diesem Namen existiert bereits. Geben Sie einen anderen Namen ein, um diese Rolle zu speichern."
+"Cannot delete role with id %1","Rolle mit ID %1 kann nicht gelöscht werden"
 "Type %1 is not an instance of %2","Typ %1 ist keine Instanz von %2"
+"The selected user is inactive. To continue, select another user or activate the current user.","Der ausgewählte Benutzer ist inaktiv. Um fortzufahren, wählen Sie einen anderen Benutzer oder aktivieren Sie den aktuellen Benutzer."
+"This customer is a user of a different company. Enter a different email address to continue.","Dieser Kunde ist ein Benutzer eines anderen Unternehmens. Geben Sie eine andere E-Mail-Adresse ein, um fortzufahren."
+"Company with this email address already exists in the system. Enter a different email address to continue.","Eine Firma mit dieser E-Mail-Adresse existiert bereits im System. Bitte geben Sie eine andere E-Mail-Adresse an, um diese Firma zu erstellen."
+"Invalid attribute value. Rejected date&time and Rejected Reason can be changed only when a company status is changed to Rejected.","Ungültiger Attributwert. Abgelehnter Datum&Zeit und Ablehnungsgrund können nur geändert werden, wenn ein Firmenstatus auf Abgelehnt geändert wird."
 "Could not save company: %1","Die Firma konnte nicht gespeichert werden: %1"
+"Cannot delete structure with id %1","Struktur mit ID %1 kann nicht gelöscht werden"
+"Could not create team","Team konnte nicht erstellt werden"
+"This team has child users or teams aligned to it and cannot be deleted. Please re-align the child users or teams first.","Dieses Team hat untergeordnete Nutzer und Teams und kann nicht gelöscht werden. Bitte weisen Sie die Nutzer und Teams zuerst neu zu."
+"Could not update team","Team konnte nicht aktualisiert werden"
+"Cannot delete team with id %1","Team mit der ID %1 konnte nicht gelöscht werden"
+"You cannot assign a different role to a company admin.","Sie können einem Firmen-Admin keine andere Rolle zuweisen."
+"You cannot assign multiple roles to a user.","Sie können einem Benutzer nicht mehreren Rollen zuweisen."
+"Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.","Firmen-Admin kann nicht gelöscht werden. Der Löschvorgang wurde gestoppt. Bitte wiederholen Sie die Aktion für andere Kunden."
 "Something went wrong","Es ist ein Fehler aufgetreten"
+"This customer company account is blocked and customer cannot place orders.","Das Kunden-Firmen-Konto ist blockiert und der Kunde kann keine Bestellungen tätigen."
+"The consumer isn't authorized to access resource.","Der Verbraucher ist nicht berechtigt, auf diese Ressource zuzugreifen."
 " - Duplicated"," - Dupliziert"
 "Exception message",Fehlermeldung
 phrase,Ausdruck
 "Localized Exception.","Lokalisierte Ausnahme."
 "No such entity.","Keine solche Einheit"
 "error message",Fehlermeldung
+"Could not save role","Rolle konnte nicht gespeichert werden"
+"""%fieldName"" is required. Enter and try again.""%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Geben Sie ein und versuchen Sie es erneut.""%fieldName"" ist erforderlich. Geben Sie ein und versuchen Sie es erneut."
+"Cannot delete team","Team konnte nicht gelöscht werden"
 "Role Name",Rollenname
+"Role Name 15","Rollenname 15"
 Duplicate,Kopieren
 "Company Name",Firmenname
 "Customer Type:",Kundentyp:
@@ -3040,8 +3107,10 @@ Company:,Firma:
 "Legal Address",Meldeadresse
 "Please select a region, state or province.","Wählen Sie eine Region, Bundesland oder Provinz."
 "Phone Number",Telefonnummer
+"Company Administrator",Firmen-Admin
 "Job Title",Job-Titel
 "New Company Account","Neues Unternehmenskonto"
+"If you represent a company, you will want to use our company account area. Creating a company account provides all company members with access to B2B features like quoting, company users management, quick order, and more.","Wenn Sie ein Unternehmen vertreten, können Sie unseren Firmenkundenbereich nutzen. Durch die Erstellung eines Firmenkontos erhalten alle Firmenmitglieder Zugang zu B2B-Funktionen wie Angebote, Firmennutzerverwaltung, Schnellbestellung und mehr."
 "Create a Company Account","Unternehmenskonto erstellen"
 "Business Structure",Unternehmensstruktur
 "Add User","Benutzer hinzufügen"
@@ -3059,10 +3128,68 @@ Contacts,Kontakte
 "Save Role","Rolle speichern"
 "Add New User","Neuen Benutzer hinzufügen"
 "Create an Account","Ein Konto erstellen"
+"This action will replace your Company Admin.","Diese Aktion ersetzt Ihren Firmen-Administrator."
+"* Your latest changes on the company profile have not been saved yet.","* Ihre neuesten Änderungen am Firmenprofil wurden noch nicht gespeichert."
 "Dear %name,","Hallo %name,"
+"You have been assigned to <a href=""%customer_url"">%company_name</a> as the Company Admin.","Sie wurden <a href=""%customer_url"">%company_name</a> als Firmen-Admin zugewiesen."
+"When you sign in to your account, you can:","Wenn Sie sich in Ihr Benutzerkonto einloggen, können Sie:"
+"* Create and manage company users and teams","* Firmenbenutzer und -teams erstellen und verwalten"
+"* Manage user permissions for the store","* Benutzerrechte für den Shop verwalten"
+"* Create and manage company shipping and billing addresses","* Erstellen und verwalten Sie die Liefer- und Rechnungsadressen"
+"You've been added to the <a href=%customer_url>%company_name</a> as the company member.
+    Once you enter your account,
+    the company's shared resources will be available for you.","Sie wurden zu <a href=%customer_url>%company_name</a> als Firmenmitglied zugewiesen.
+Sobald Sie Ihr Konto nutzen, 
+erhalten Sie Zugriff auf die Ressourcen Ihrer Firma."
+"If this is a mistake,
+    please contact the company Admin at %company_admin_email.","Falls dies ein Fehler ist, 
+kontaktieren Sie bitte den Firmen-Admin unter %company_admin_email."
+"Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Ihr Konto ist jetzt aktiv. Sie können es verwenden, um sich auf der <a href=""%customer_url"">Website</a> einzuloggen."
+"Your account is no longer active. You will not be able to use it for login.","Ihr Konto ist nicht mehr aktiv. Sie können es nicht für den Login verwenden."
+"If this is a mistake, please contact the seller.","Falls dies ein Fehler ist, kontaktieren Sie bitte den Verkäufer."
+"Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.","Ihr Konto wurde auf inaktiv gesetzt und kann jetzt nicht auf das Firmenkonto zugreifen. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte Ihren Manager für Details."
+"A company registration request has been submitted by customer %customer. The account is temporarily locked until you approve or reject this company.","Eine Firmenregistrierungsanfrage wurde vom Kunden %customer eingereicht. Das Konto ist vorübergehend gesperrt, bis Sie diese Firma freischalten oder ablehnen."
+"Company: %company","Firma: %company"
+"Your company registration request (for the <strong>%company_name</strong>)
+    has been approved and you have been set as the Company Admin.
+    You can now create and manage your company structure.
+    Your company members are able to request quotes, create requisition lists,
+    and use other B2B features.","Ihre Firmenregistrierungsanfrage (für <strong>%company_name</strong>) 
+wurde genehmigt und Sie wurden als Firmen-Admin eingestellt. 
+Sie können nun Ihre Unternehmensstruktur erstellen und verwalten. 
+Ihre Firmenmitglieder können Angebote anfordern, Anforderungslisten erstellen und andere B2B-Funktionen verwenden."
+"The status of your company <strong>%company_name</strong>
+    is now <strong>Active</strong>.
+    Once you login, you will be able to place orders on behalf of your company
+    and use other B2B features.","Der Status Ihres Unternehmens <strong>%company_name</strong>
+ist jetzt <strong>aktiv</strong>. 
+Sobald Sie sich angemeldet haben, können Sie Bestellungen im Namen Ihres Unternehmens tätigen
+und andere B2B-Funktionen verwenden."
+"Your account type has been changed from Company Admin to a regular user account. If you think this is a mistake, please contact your manager for details.","Ihr Kontotyp wurde von der Firmen-Admin auf ein reguläres Benutzerkonto geändert. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte Ihren Manager für Details."
+"You have been assigned to %company_name as the Sales Representative.","Sie wurden %company_name als Verkaufsvertreter zugewiesen."
 "When you sign in to your account, you will be able to:","Wenn Sie sich in Ihr Benutzerkonto einloggen können Sie:"
+"* View and manage company quotes in Admin Panel","* Firmenangebote im Admin-Panel anzeigen und verwalten"
+"* View and edit company profile in Admin Panel","* Firmenprofil im Admin-Panel anzeigen und verändern"
+"Your company account <strong>%company_name</strong> has been blocked.
+    Your company members can continue using the website,
+    but they will not be able to place orders.","Ihr Firmenkonto <strong>%company_name</strong> wurde blockiert. 
+Ihre Firmenmitglieder können die Website weiterhin nutzen, 
+aber sie können keine Bestellungen tätigen."
+"If you have any questions, please contact the seller.","Wenn Sie Fragen haben, kontaktieren Sie bitte den Verkäufer."
+"Your company account <strong>%company_name</strong> has been suspended, pending approval from the seller.","Ihr Firmenkonto <strong>%company_name</strong> wurde vorübergehend gesperrt, bis die Genehmigung des Verkäufers vorliegt."
+"Your company registration request (for the <strong>%company_name</strong>) has been rejected
+    for the following reason:","Ihre Firmenregistrierungsanfrage (für <strong>%company_name</strong>) wurde abgelehnt 
+aus folgendem Grund:"
+"This action cannot be undone. Are you sure you want to delete this company? After the company is deleted, all the company members will be set to Inactive.","Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie die ausgewählte Firma löschen möchten? Nachdem das Unternehmen gelöscht wurde, werden alle Firmenmitglieder auf inaktiv gesetzt."
+"Delete a Company?","Firma löschen?"
+"Sorry! You cannot delete this user: The user is the company admin.","Entschuldigung! Sie können diesen Benutzer nicht löschen: Der Benutzer ist der Firmen-Admin."
+"Cannot Delete the Company Admin","Kann den Firmen-Admin nicht löschen"
 "No results","Keine Ergebnisse"
 Proceed,Fortfahren
+"Change Company Status?","Firmenstatus ändern?"
+"Popup title",Popup-Titel
+"Cannot delete the user","Dieser Benutzer kann nicht gelöscht werden"
+"This user cannot be deleted because he/she is a company admin.","Dieser Nutzer kann nicht gelöscht werden, da er/sie Firmen-Admin ist."
 "Edit User","Benutzer bearbeiten"
 "Cannot Delete User","Nutzer kann nicht gelöscht werden"
 "Delete this user?","Diesen Benutzer löschen?"
@@ -3076,39 +3203,170 @@ Proceed,Fortfahren
 "Cannot Delete Role","Rolle kann nicht gelöscht werden"
 "Cannot Delete Customer","Kunde kann nicht gelöscht werden"
 "Set Inactive","Inaktiv setzen"
+"Select Delete to permanently delete the user account and content. User's orders and quotes are still visible for the merchant. Select Set Inactive to temporarily lock the user. The user’s content is still available to parent users.","Wählen Sie Löschen, um das Benutzerkonto samt Inhalt dauerhaft zu löschen. Bestellungen und Angebote des Nutzers sind weiterhin für den Händler sichtbar. Wählen Sie Inaktiv setzen, um den Benutzer vorübergehend zu sperren. Die Nutzerinhalte stehen den übergeordneten Benutzern weiter zur Verfügung."
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","Benutzer mit dieser E-Mail-Adresse existiert bereits im System. Geben Sie eine andere E-Mail-Adresse ein um weiterzumachen. Wenn Sie Ihr aktuelles Konto als ein Administratorkonto verwenden möchten, kontaktieren Sie den Verkäufer."
 "Enable Company","Unternehmen freischalten"
 "Company Configuration",Unternehmenskonfiguration
+"Allow Company Registration from the Storefront","Firmenregistrierung im Shop-Frontend erlauben"
+"Email Options - Company Registration","E-Mail-Optionen - Firmenregistrierung"
+"Company Registration Email Recipient","E-Mail-Empfänger für Firmenregistrierung"
+"Send Company Registration Email Copy To","Kopie der FIrmenregistrierungs-E-Mail senden an"
 Comma-separated,"Durch Kommata getrennt"
+"Send Email Copy Method","Versandmethode der E-Mail-Kopie"
+"Default Company Registration Email",Standard-FIrmenregistrierungs-E-Mail
+"Customer-Related Emails","Kundenbezogene E-Mails"
+"Default 'Sales Rep Assigned' Email","Standard-E-Mail für Verkaufsvertreter zugewiesen"
+"This email is sent to the company's Sales Rep and the Company Admin.","Diese E-Mail wird an den Verkaufsvertreter der Firma und den Firmen-Admin versendet."
+"Default 'Assign Company to Customer' Email","Standard-E-Mail für Firma zu Kunden zugewiesen"
+"This email is sent to the customer only.","Diese E-Mail wird nur an den Kunden gesendet."
+"Default 'Assign Company Admin' Email","Standard-E-Mail für Firmen-Admin zugewiesen"
+"Default 'Company Admin Inactive' Email","Standard-E-Mail für Firmen-Admin inaktiv"
+"Default 'Company Admin Changed To Member' Email","Standard-E-Mail für Firmen-Admin geändert zu Mitglied"
+"Default 'Customer Status Active' Email","Standard-E-Mail für Kundenstatus aktiv"
+"Default 'Customer Status Inactive' Email","Standard-E-Mail für Kundenstatus inaktiv"
+"Company Status Change","Firmenstatus Änderung"
+"Send Company Status Change Email Copy To","Kopie der Firmenstatus Änderung E-Mail versenden an"
+"Comma-separated. The recipient(s) will get a copy of an email which is by default sent to the Company Admin only.","Komma-getrennt. Die Empfänger erhalten eine Kopie der E-Mail, welche standardmäßig nur an den Firmen-Admin verschickt wird."
+"Default 'Company Status Change To Active 1"" Email","Standard 'Firmenstatus Änderung zu Aktiv 1"" E-Mail"
+"This email is sent when company status changes from Pending Approval to Active.","Diese E-Mail wird versendet, wenn der Status der Firma von ausstehende Genehmigung auf aktiv geändert wird."
+"Default 'Company Status Change To Active 2"" Email","Standard 'Firmenstatus Änderung zu Aktiv 2"" E-Mail"
+"This email is sent when company status changes from Rejected or Blocked to Active.","Diese E-Mail wird versendet, wenn der Status der Firma von abgelehnt oder blockiert auf aktiv geändert wird."
+"Default 'Company Status Change To Rejected"" Email","Standard-E-Mail für 'Firmenstatus Änderung zu abgelehnt‘"
+"This email is sent when company status changes to Rejected.","Diese E-Mail wird versendet, wenn der Status der Firma auf abgelehnt geändert wird."
+"Default 'Company Status Change To Blocked"" Email","Standard-E-Mail für Firmenstatus geändert zu blockiert"
+"This email is sent when company status changes Blocked.","Diese E-Mail wird versendet, wenn der Status der Firma auf blockiert geändert wird."
+"Default 'Company Status Change To Pending Approval"" Email","Standard-E-Mail für Firmenstatus geändert zu Genehmigung ausstehend"
+"This email is sent when company status changes to Pending Approval.","Diese E-Mail wird versendet, wenn der Status der Firma auf ausstehende Genehmigung geändert wird."
+"Account Information (View)","Kontoinformationen (ansehen)"
+"Legal Address (View)","Rechnungsadresse (ansehen)"
+"Contacts (View)","Kontakte (ansehen)"
+"Company User Management",Firmen-Nutzerverwaltung
+"View roles and permissions","Rollen und Berechtigungen ansehen"
+"Manage roles and permissions","Rollen und Berechtigungen verwalten"
+"View users and teams","Benutzer und Teams anzeigen"
+"Manage users and teams","Benutzer und Teams verwalten"
+"Checkout (place order)","Kasse (Bestellung aufgeben)"
+"Use Pay On Account method","Zahlungsart Kauf auf Rechnung nutzen"
+"View orders","Bestellungen einsehen"
+"View orders of subordinate users","Bestellungen von untergeordneten Benutzern anzeigen"
+"Are you sure you want to set the selected companies as active?","Sind Sie sicher, dass Sie die ausgewählten Firmen aktivieren?"
+"Set a Company as Active","Firma als aktiv setzen"
+"Set Active","Aktiv setzen"
+"Are you sure you want to block the selected companies?","Möchten Sie die ausgewählte Firmen wirklich blockieren?"
+"Block a Company","Firma blockieren"
+Block,Blockieren
+"This action cannot be undone. Are you sure you want to delete the selected companies? After the company is deleted, all the company members will be set to Inactive.","Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie die ausgewählten Unternehmen löschen möchten? Nachdem das Unternehmen gelöscht wurde, werden alle Firmenmitglieder auf inaktiv gesetzt."
+"Reseller ID","Wiederverkäufer ID"
 Comment,Kommentar
 ZIP,PLZ
+"Company Admin",Firmen-Admin
 Gender,Geschlecht
+"Customer Type",Kundentyp
+"Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.","Sind Sie sicher, dass Sie dieses Firmenkonto vorübergehend deaktivieren möchten? Wenn Sie bestätigen, wird der Login für Firmenmitglieder blockiert."
+"Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>","Sind Sie sicher, dass Sie dieses Unternehmen auf aktiv setzen möchten? Wenn Sie bestätigen, können die Firmenmitglieder innerhalb ihres Firmenkontos arbeiten.>"
+"Are you sure you want to reject this company? If you confirm, login for all company members will be blocked.","Sind Sie sicher, dass Sie diese Firma ablehnen möchten? Wenn Sie bestätigen, wird der Login für Firmenmitglieder blockiert."
+"Please specify the reason","Bitte geben Sie einen Grund an"
+"The reason will appear in the 'Rejected' email sent to the Company Admin. It will also be saved and displayed in Admin Panel (in the company profile).","Der Grund wird in der E-Mail ""Abgelehnt"" angezeigt, die dem Firmen-Admin gesendet wird. Es wird auch im Admin Panel (im Firmenprofil) gespeichert und angezeigt."
+"Are you sure you want to block this company? If you proceed, the company members will not be able to place orders.","Sind Sie sicher, dass Sie dieses Unternehmen blockieren möchten? Wenn Sie fortfahren, können die Firmenmitglieder keine Bestellungen tätigen."
+"Reason for Rejection","Grund der Ablehnung"
+"VAT / TAX ID",USt.-ID
 Prefix,Präfix
 "Middle Name/Initial","Zweiter Vorname"
+"Change Customer Group?","Kundengruppe ändern?"
+"This action will change the customer group for all members of this company. Would you like to proceed?","Diese Aktion wird die Kundengruppe für alle Mitglieder der Firma ändern. Möchten Sie fortfahren?"
+"The user <%- username %> is the company admin and cannot be set to inactive. You must set another user as the company admin first.","Der Benutzer <%- username %> ist der Firmen-Admin und kann nicht auf inaktiv gesetzt werden. Sie müssen zuerst einen anderen Benutzer als Firmen-Admin festlegen."
+"Customer Active","Kunde aktiv"
+"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Dieser Kunde ist ein Nutzer einer anderen Firma. Wenn Sie fortfahren, wird der Kunde von seiner aktuellen Firma entfernt und der ausgewählten Firma zugeordnet."
+"Change Company?","Firma ändern?"
+"Associate to Company","Firma zuweisen"
 "My Orders","Meine Bestellungen"
 "Create New Customer","Neuen Kunden erstellen"
+"Create New Company Account","Neues Unternehmenskonto erstellen"
 Users,Benutzer
 "%fieldName is a required field","%fieldName ist ein Pflichtfeld"
 "Consumer is not authorized to access resource","Der Benutzer hat keine Zugangsberechtigung für die Resource"
 "Your company account is blocked and you cannot place orders. If you have questions, please contact your company administrator.","Ihr Unternehmenskonto ist gesperrt und Sie können keine Bestellungen aufgeben. Wenn Sie Fragen haben, kontaktieren Sie bitte den Administrator Ihres Unternehmens."
+"History record no longer exists.","Historieneintrag existiert nicht mehr"
+"Unable to retrieve currency rates at this moment. Please try again later or contact store administrator.","Währungskurse können gerade nicht abgerufen werden. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Shop-Administrator."
+"Unable to convert company credit. Please try again later or contact store administrator.","Firmenkredit kann nicht konvertiert werden. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Shop-Administrator."
+"Company Credit",Firmenkredit
+"Order Payment should be provided","Bestellungszahlung sollte angegeben werden"
+"Order is canceled. We reverted %1 to the company credit.","Bestellung ist abgebrochen. Wir haben %1 zu Ihrem Firmenkredit zurückgebucht."
+"Order is canceled. The order amount is not reverted to the company credit.","Bestellung wird storniert. Der Auftragsbetrag wird nicht zum Firmenkredit zurückgebucht."
+"Order is cancelled. The order amount is not reverted to the company credit because the company to which this customer belongs does not exist.","Die Bestellung wird storniert. Der Auftragsbetrag wird nicht zum Firmenkredit zurückgebucht, da das Unternehmen, dem dieser Kunde angehört, nicht existiert."
 unavailable.,"Nicht verfügbar."
+"We can't save the credit memo because the company associated with this customer does not exist.","Wir können die Gutschrift nicht speichern, da das mit diesem Kunden verbundene Unternehmen nicht existiert."
+"We can't save the credit memo because the company associated with customer is not active.","Wir können die Gutschrift nicht speichern, da das mit diesem Kunden verbundene Unternehmen nicht aktiviert ist."
 "The requested Payment Method is not available.","Die angeforderte Zahlungsart ist nicht verfügbar."
+"Payment On Account cannot be used for this order because your order amount exceeds your credit amount.","Kauf auf Rechnung kann für diese Bestellung nicht genutzt werden, da die Bestellsumme Ihren Kreditrahmen übersteigt."
+"Cannot process the request. Please check the operation type and try again.","Die Anfrage kann nicht bearbeitet werden. Bitte überprüfen Sie den Vorgang und versuchen Sie es erneut."
+"Invalid attribute value. Row ID: %fieldName = %fieldValue.","Ungültiger Attributwert. Zeilen-ID: %fieldName = %fieldValue."
+"The selected currency is not available. Please select a different currency.","Die ausgewählte Währung ist nicht verfügbar. Bitte wählen Sie eine andere Währung."
+"Could not update history","Historie konnte nicht aktualisiert werden"
+"Requested company is not found. Row ID: %fieldName = %fieldValue.","Angefragtes Unternehmen wurde nicht gefunden. Zeile ID: %fieldName = %fieldValue."
+"Cannot delete credit limit with id %1","Kreditrahmen mit der ID %1 kann nicht gelöscht werden"
+Allocated,Zugewiesen
 Updated,Aktualisiert
 Purchased,Gekauft
+Reimbursed,Erstattet
 Reverted,"Rückgängig gemacht"
 "Could not save history","Verlauf konnte nicht gespeichert werden"
+"Cannot delete history with id %1","Historie mit ID %1 kann nicht gelöscht werden"
+"Could not save company credit limit","Firmenkreditrahmen konnte nicht gespeichert werden"
+"Please enter a valid %1/%2 currency rate.","Bitte geben Sie einen gültigen Wechselkurs %1/%2 ein."
 "Invoice created for %1","Rechnung für %1 erstellt"
-"Store Credit",Shop-Guthaben
+"The selected credit currency is not valid. 
+                        Customers will not be able to place orders until you update the credit currency.","Die ausgewählte Kreditwährung ist nicht gültig. 
+                        Kunden können keine Bestellungen tätigen, bis Sie die Kreditwährung aktualisieren."
+"Store Credit",Shop-Kredit
+"Refund to Company Credit","Dem Firmenkredit gutschreiben"
+"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","Eine Rechnung für Teilmengen kann für diese Bestellung nicht ausgestellt werden. Um fortzufahren, ändern Sie die angegebene Menge auf die volle Menge."
 "We refunded %1 online.","Es wurden %1 online erstattet."
 "We refunded %1 offline.","Es wurden %1 offline erstattet."
+"We refunded %1 to the company credit.","Wir haben %1 auf den Firmenkredit erstattet."
 "Exception message.",Fehlermeldung.
 "Exception Message",Fehlermeldung
 "No such entity","Keine solche Einheit:"
+"%1 made an update. %2 can exceed the Credit Limit.","%1 hat ein Update gemacht. %2 kann das Kreditlimit überschreiten."
+"%1 made an update. %2 cannot exceed the Credit Limit.","%1 hat ein Update gemacht. %2 kann das Kreditlimit nicht überschreiten."
 "Order # %1","Bestellung # %1"
+"%1 changed the credit currency from %2 to %3 at the conversion rate of %2/%3 %4.","%1 hat die Kreditwährung von %2 auf %3 zum Umrechnungskurs von %2/%3 %4 geändert."
+"Outstanding Balance:","Offener Betrag:"
+"Available Credit:","Verfügbarer Kredit:"
+"Credit Limit:",Kreditrahmen:
 "Purchase Order Number",Bestellnummer
+"Charged off the company credit: %1","Vom Firmenkredit wird abgerechnet: %1"
 "Purchase Order Number: %1","Auftragsnummer: %1"
+"The base currency for %1 has been updated. The currency %2 is still defined as the credit currency for one or more companies. Use the following <a href=""%3"" id=""update-credit-link"">link</a> to perform a bulk operation that updates the credit currency for those companies.","Die Basiswährung für %1 wurde aktualisiert. Die Währung %2 ist noch als Kreditwährung für ein oder mehrere Unternehmen definiert. Benutzen Sie den folgenden <a href=""%3"" id=""update-credit-link"">Link</a> , um eine Massenaktion durchzuführen, die die Kreditwährung für diese Unternehmen aktualisiert."
+"%1 has exceeded its credit limit (%2) by %3. Its outstanding balance, including this order, currently totals %4.","%1 hat den Kreditrahmen (%2) um %3 überzogen. Die ausstehende Summe, inklusive dieser Bestellung, beträgt aktuell %4."
+"The credit limit for %1 is %2. Its outstanding balance, including this order, currently totals %3","Der Kreditrahmen für %1 ist %2. Die ausstehende Summe, inklusive dieser Bestellung, beträgt aktuell %3"
+"Outstanding Balance","Offener Betrag"
+"Available Credit","Verfügbarer Kredit"
+"Credit Limit",Kreditrahmen
+"Charged off the company credit","Vom Firmenkredit abgerechnet"
+"The Company credit on all selected companies will be converted using the rate below. This operation cannot be undone.","Die Firmenkredite aller ausgewählten Firmen wird anhand dieses Kurses umgerechnet. Dieser Vorgang kann nicht rückgängig gemacht werden."
+"Credit allocated to %company_name","Kredit zugewiesen zu %company_name"
+"Your company has been allocated a credit of %available_credit.
+    You can now use the Payment On Account method to place you orders.","Ihrem Unternehmen wurde ein Kreditlimit von %available_credit zugewiesen.
+    Sie können nun die Zahlungsart Kauf auf Rechnung verwenden, um Ihre Bestellungen zu tätigen."
+"The history of your credit operations is available on the Company Credit page.","Die Historie Ihrer Kreditbuchungen ist auf der Firmenkredit-Seite verfügbar."
+"%company_name account reimbursed","%company_name Konto erstattet"
+"Your company credit account has been reimbursed by %reimbursed_amount.","Ihrem Firmenkreditkonto wurde der Betrag %reimbursed_amount gutgeschrieben."
+"%company_name credit limit updated","%company_name Kreditlimit aktualisiert"
+"Your credit limit has been updated and is now %available_credit.
+    Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.","Ihr Kreditlimit wurde aktualisiert und ist jetzt %available_credit.
+    Ihr offener Betrag beträgt derzeit %outstanding_balance. Sie sind %exceed_limit, um das Kreditlimit zu überschreiten."
+"Order %order_id refunded","Bestellung %order_id erstattet"
+"Available Credit ","Verfügbarer Kredit "
+"Company credit account will be charged: ","Firmenkreditkonto wird belastet: "
 "This is a required field.","Vervollständigen Sie bitte die notwendigen Angaben."
+"The credit limit for %s is %s. It will be exceeded by %s with this order.","Das Kreditlimit für %s ist %s. Es wird mit dieser Bestellung um %s überschritten."
+"Company Credit Change Email Sender","E-Mail-Absender für Änderungen des Firmenkredits"
+"Send Company Credit Change Email Copy To","Kopie der E-Mail zu Änderungen des Firmenkredits versenden an"
+"Credit Currency",Kreditwährung
+"Allow To Exceed Credit Limit","Überschreiten des Kreditlimits erlauben"
 Rate,Satz
+"Convert Credit","Kredit konvertieren"
 Date,Datum
 "Purchase Order","Kauf auf Rechnung"
 "All Payment Methods","Alle Zahlungsarten"
@@ -3939,6 +4197,7 @@ State,Bundesland
 "Are you sure you want to unsubscribe the selected customers from the newsletter?","Sind Sie sicher, dass Sie die ausgewählten Kunden vom Newsletter abmelden möchten?"
 "The customer does not have default billing address","Der Kunde hat keine Standard-Rechnungsanschrift"
 "The customer does not have default shipping address","Der Kunde hat keine Standard-Lieferanschrift"
+"Store Credit",Shop-Guthaben
 "Delete Orphan Balances","Die Guthabenzahlung wurde von Ihrem Warenkorb entfernt."
 "Balance Change",Benutzt
 Balance,Kontostand
