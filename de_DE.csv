@@ -1188,6 +1188,8 @@ YY,JJ
 "Cannot submit for settlement unless status is authorized.","Kann nur zur Verrechnung eingereicht werden, wenn der Status autorisiert ist."
 "Customer does not have any credit cards.","Der Kunde hat keine Kreditkarten."
 "Transaction has already been completely refunded.","Die Transaktion wurde bereits vollständig erstattet."
+"Payment instrument type is not accepted by this merchant account.","Dieser Kartentyp wird von diesem Händler-Konto nicht akzeptiert."
+"Processor authorization code cannot be set unless for a voice authorization.","Transaktionsprozessor-Autorisierungscode kann nicht gesetzt werden, es sei denn, für eine Sprachautorisierung."
 "Refund amount is too large.","Der zu erstattende Betrag ist zu groß."
 "Settlement amount is too large.","Der Betrag der Abrechnung ist zu groß."
 "Cannot provide a billing address unless also providing a credit card.","Eine Rechnungsadresse kann nur gemeinsam mit einer Kreditkarte angegeben werden."
@@ -1197,6 +1199,7 @@ YY,JJ
 "PayPal is not enabled for your merchant account.","PayPal ist für Ihr Händlerkonto nicht aktiviert."
 "Partial settlements are not supported by this processor.","Teilabwiklungen werden von Verarbeiter diesem nicht unterstützt."
 "Cannot submit for partial settlement.","Kann nicht zur Teilbuchung einreichen."
+"Transaction can not be voided if status of a PayPal partial settlement child transaction is settlement_pending.","Transaktion kann nicht aufgehoben werden, wenn der Status einer Teilzahlungs-Untertransaktion von PayPal settlement_pending ist."
 "Too many concurrent attempts to refund this transaction. Try again later.","Zu viele gleichzeitige Versuche, diese Transaktion zurückzuerstatten. Versuchen Sie es später erneut."
 "Too many concurrent attempts to void this transaction. Try again later.","Zu viele gleichzeitige Versuche, diese Transaktion zu stonieren. Versuchen Sie es später erneut."
 "Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Akzeptieren Sie Kreditkarten und PayPal in Ihrem Magento-Shop!<br />Keine Einrichtungsgebühren oder laufende Kosten und Ihre Kunden müssen Ihren Shop nie verlassen, um einen Kauf abzuschließen."
@@ -1357,10 +1360,21 @@ State/Province,Bundesland
 "Braintree Settlement","Braintree Abwicklung"
 "If you don't specify the merchant account to use to process a transaction, Braintree will process it using your default merchant account.","Wenn Sie kein Händlerkonto für die Abwicklung der Transaktion angeben, wird Braintree automatisch Ihr Standard-Händlerkonto verwenden."
 "Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","Achten Sie darauf, den erweiterten Betrugsschutz in Ihrem Braintree-Konto unter Einstellungen/Verarbeitungsbereich zu aktivieren"
+"Used for direct fraud tool integration. Make sure you also contact <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a> to setup your Kount account.","Wird für Fraud Tool Integration benutzt. Bitte kontaktieren Sie auch <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a>, um einen Kount Konto einzurichten."
 "Be sure to Enable AVS and/or CVV in Your Braintree Account in Settings/Processing Section.","Stellen Sie sicher, AVS und/oder CVV in Ihrem Braintree-Konto in der Einstellungen/Verarbeitung-Sektion zu aktivieren."
 "It is recommended to set this value to ""PayPal"" per store views.","Es wird empfohlen, diesen Wert auf ""PayPal"" pro Store View zu setzen."
 "This feature needs be enabled first for the merchant account through PayPal technical support.","Dieses Feature muss zunächst für das Händler-Konto über den technischen PayPal-Support aktiviert sein."
 "Also affects mini-shopping cart.","Dies betrifft auch den Mini-Warenkorb."
+"Dynamic descriptors are sent on a per-transaction basis and define what will appear on your customers credit card statements for a specific purchase.
+                            The clearer the description of your product, the less likely customers will issue chargebacks due to confusion or non-recognition.
+                            Dynamic descriptors are not enabled on all accounts by default. If you receive a validation error of 92203 or if your dynamic descriptors are not displaying as expected,
+                            please <a href=""mailto:support@getbraintree.com"">Braintree Support</a>.","Dynamische Beschreibungen werden individuell für jede Transaktion versandt und bestimmen, was in der Kreditkartenabrechnung Ihres Kunden für den jeweiligen Einkauf erscheint.
+                            Je genauer die Beschreibung Ihres Produkts, desto weniger wahrscheinlich ist es, dass ein Kunde wegen Verwechslung oder Nicht-Erkennung eine Rückbuchung veranlasst.
+                            Dynamische Beschreibungen sind nicht für alle Konten automatisch aktiv. Wenn Sie einen Validierungsfehler 92203 erhalten oder wenn Ihre dynamischen Beschreibungen nicht wie gewünscht dargestellt werden,
+                            kontaktieren Sie bitte den <a href=""mailto:support@getbraintree.com"">Braintree Support</a>."
+"The value in the business name field of a customer's statement. Company name/DBA section must be either 3, 7 or 12 characters
+                                and the product descriptor can be up to 18, 14, or 9 characters respectively (with an * in between for a total descriptor name of 22 characters).","Der Wert im Feld Geschäftsname der Abrechnung des Kunden. Der Abschnitt ""Firmenname/DBA"" muss entweder 3, 7 oder 12 Zeichen lang sein
+                                und die Produktbeschreibung kann bis zu 18, 14 oder 9 Zeichen lang sein (mit einem * dazwischen für eine Gesamtbeschreibung von 22 Zeichen)."
 "The value in the phone number field of a customer's statement. Phone must be 10-14 characters and can only contain numbers, dashes, parentheses and periods.","Der Wert im Telefonnummerfeld der Anweisung eines Kunden. Das Telefon muss 10-14 Zeichen lang sein und kann nur Zahlen, Bindestriche, Klammern und Zeitspannen enthalten."
 "The value in the URL/web address field of a customer's statement. The URL must be 13 characters or shorter.","Der Wert im URL/Web-Adressfeld der Anweisung eines Kunden. Die URL muss 13 Zeichen oder kürzer sein."
 "The Payment Token is not available to perform the request.","Der Zahlungs-Token ist nicht verfügbar, um die Anfrage auszuführen."
@@ -1844,6 +1858,12 @@ Category,Kategorie
 "Could not replace Tier Prices","Staffelpreise konnten nicht ersetzt werden"
 "Could not delete Tier Prices","Staffelpreise konnten nicht gelöscht werden"
 "Invalid attribute SKU = %SKU. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ungültiges Attribut SKU = %SKU. Zeile: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ungültiges Attribut Preis = %price. Zeilen ID: SKU = %SKU, Website ID: %websiteID, Kundengruppe: %customerGroup, Menge: %qty."
+"Invalid attribute Price Type = %priceType. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ungültiger Attribut-Preis-Typ = %priceType. Zeilen ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
+"Invalid attribute Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ungültiges Attribut Menge = %qty. Zeilen ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
+"Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ungültiges Attribut Website ID = %websiteId. Zeile ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
+"We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Wir haben eine Duplikat website gefunden, Staffelpreis, Kundengruppe und Menge: Kundengruppe = %customerGroup, Website ID = %websiteId, Menge = %qty. Zeilen ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
+"No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Keine Entität mit Kundengruppe Kundengruppe = %customerGroup. Zeile ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
 "This product doesn't have tier price","Das Produkt hat keine Preis-Staffeln"
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Artikel hat keinen Gruppenpreis mit solchen Daten: customerGroupId = '%1', website = %2, qty = %3"
 "Invalid data provided for tier_price","Ungültige Daten für tier_price"
@@ -1888,6 +1908,7 @@ Category,Kategorie
 Dropdown,Dropdown-Liste
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 erweitert nicht \Magento\Framework\Filter\Template"
 test,Test
+"Some text is here.","Hier ist Text."
 "Some exception","Eine Ausnahme"
 "Could not get extension attributes","Erweiterungsattribute konnten nicht abgerufen werden"
 message,Nachricht
@@ -2266,6 +2287,8 @@ Cost,Einkaufspreis
 "The ""%1"" file couldn't be moved.","Die Datei ""%1"" konnte nicht verschoben werden."
 "The ProductSku is empty. Set the ProductSku and try again.","Die Artikelnummer ist leer. Geben Sie eine Artikelnummer an und versuchen Sie es erneut."
 "The custom option couldn't be removed.","Die benutzerdefinierte Option konnte nicht entfernt werden."
+"The product's required option(s) weren't entered. Make sure the options are entered and try again.","Die benötigte(n) Option(en) des Produkts wurde nicht eingegeben. Stellen Sie sicher, dass die Optionen eingegeben sind und versuchen Sie es erneut."
+"The file options format is invalid. Use a correct format and try again.","Das Dateioptionsformat ist ungültig. Benutzen Sie ein korrektes Format und versuchen Sie es erneut."
 "The file was too big and couldn't be uploaded. Use a file smaller than %1 MBs and try to upload again.","Die Datei war zu groß und konnte nicht hochgeladen werden. Verwenden Sie eine Datei kleiner als %1 MBs und versuchen Sie es erneut."
 "The required option wasn't entered. Enter the option and try again.","Die erforderliche Option wurde nicht eingegeben. Geben Sie die Option an und versuchen Sie es erneut."
 "The file is empty. Select another file and try again.","Die Datei ist leer. Wählen Sie eine andere Datei und versuchen Sie es erneut."
@@ -2288,6 +2311,7 @@ Cost,Einkaufspreis
 "Product Name or SKU","Produktname oder Artikelnummer"
 "Start typing to find products","Eingabe starten, um Produkte zu finden"
 "Product with ID: %s doesn't exist","Produkt mit ID: %s ist nicht vorhanden"
+"Processor %1 doesn't implement WysiwygConfigDataProcessorInterface. It will be skipped","Prozessor %1 implementiert nicht WysiwygConfigDataProcessorInterface. Es wird übersprungen."
 "Use Static URLs for Media Content in WYSIWYG","Verwende Statische URLs für Medieninhalte im WYSIWYG"
 "Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Medien-Inhalte werden als statische URL in den Editor eingefügt. Diese werden nicht aktualisiert, wenn die Basis-URL in der Systemkonfiguration verändert wird."
 "Default Layouts",Standard-Layouts
@@ -2370,6 +2394,7 @@ End,Ende
 "'search' or 'filter' input argument is required.","Eingabeargument 'Suche' oder 'Filter' ist erforderlich."
 "SimpleProduct type not defined in schema.","SimpleProduct Typ nicht im Schema definiert."
 "'category_id' only supports 'eq' condition type.","'category_id' unterstützt nur Bedingungen vom Typ 'eq'."
+"Cannot resolve layered filter type","Kann den Typ des Layered Filter nicht bestimmen"
 "Cannot resolve type","Typ kann nicht aufgelöst werden"
 "Category doesn't exist","Kategorie existiert nicht"
 """image_type"" value should be specified","""image_type"" Wert sollte angegeben werden"
@@ -2398,7 +2423,7 @@ End,Ende
 "Value for multiselect attribute %s contains duplicated values","Wert für das Mehrfachauswahl-Attribut %s enthält doppelte Werte"
 "Invalid Stock data for insert","Ungültige Bestandsdaten zum Einfügen"
 "Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: %1","Wert für 'type'-Unterattribut in 'custom_options'-Attribut enthält ungültigen Wert, zulässige Werte sind: %1"
-"Minimum Qty","Der Lagerbestand des Artikels ist ungültig"
+"Minimum Qty",Mindestmenge
 "Add Minimum Qty","Mindestmenge hinzufügen"
 "Could not rebuild index for empty products array","Der Index für leere Produkte konnte nicht neu aufgebaut werden"
 "The stock item for Product is not valid.","Der Lagerartikel für das Produkt ist nicht gültig."
@@ -2458,6 +2483,8 @@ Stock,Lagerbestand
 "The stock with the ""%1"" ID wasn't found. Verify the ID and try again.","Der Lagerbestand mit der ID ""%1"" wurde nicht gefunden. Überprüfen Sie die ID und versuchen Sie es erneut."
 "The stock status was unable to be saved. Please try again.","Der Lagerstatus konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
 "The ""%1"" value is invalid for stock ID. Enter stock with a default value of %2 to try again.","Der Wert ""%1"" ist für die Lagernummer ungültig. Geben Sie einen Lagerbestand mit dem Standardwert %2 ein, um es erneut zu versuchen."
+"The ""%1"" value is invalid for stock item ID. Enter either zero or a number than zero to try again.","Der Wert ""%1"" für die Lagerbestands-ID ist ungültig. Geben Sie entweder Null ein oder eine Zahl größer als Null ein, um es erneut zu versuchen."
+"The ""%1"" value is invalid for stock item ID. Use the stock item ID's assigned ""%2"" value and try again.","Der Wert ""%1"" für die Lagerbestands-ID ist ungültig. Benutzen Sie Lagerbestands-IDs die den Wert ""%2"" zugewiesenen haben und versuchen Sie es erneut."
 "The requested qty is not available","Die gewünschte Menge ist nicht verfügbar"
 "Quantity increments can't use decimals. Enter a new increment and try again.","Mengenschritte können keine Dezimalzahlen sein. Geben Sie eine neue Menge ein und versuchen Sie es erneut."
 "New Permission",Verweigern
@@ -3302,6 +3329,9 @@ Users,Benutzer
 "%fieldName is a required field","%fieldName ist ein Pflichtfeld"
 "Consumer is not authorized to access resource","Der Benutzer hat keine Zugangsberechtigung für die Resource"
 "Your company account is blocked and you cannot place orders. If you have questions, please contact your company administrator.","Ihr Unternehmenskonto ist gesperrt und Sie können keine Bestellungen aufgeben. Wenn Sie Fragen haben, kontaktieren Sie bitte den Administrator Ihres Unternehmens."
+"Reimburse Balance",Rückerstattungssaldo
+"Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.","Sind Sie sicher, dass Sie diese Bestellung stornieren möchten? Der Bestellbetrag wird nicht zu %1 zurückgeführt, da das Unternehmen nicht aktiv ist."
+"Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company associated with this customer does not exist.","Sind Sie sicher, dass Sie diese Bestellung stornieren möchten? Der Bestellbetrag wird nicht zu %1 zurückgeführt, da das Unternehmen, das mit diesem Nutzer verknüpft ist, nicht existiert."
 "History record no longer exists.","Historieneintrag existiert nicht mehr"
 "Unable to retrieve currency rates at this moment. Please try again later or contact store administrator.","Währungskurse können gerade nicht abgerufen werden. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Shop-Administrator."
 "Unable to convert company credit. Please try again later or contact store administrator.","Firmenkredit kann nicht konvertiert werden. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Shop-Administrator."
@@ -3373,18 +3403,47 @@ Reverted,"Rückgängig gemacht"
     Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.","Ihr Kreditlimit wurde aktualisiert und ist jetzt %available_credit.
     Ihr offener Betrag beträgt derzeit %outstanding_balance. Sie sind %exceed_limit, um das Kreditlimit zu überschreiten."
 "Order %order_id refunded","Bestellung %order_id erstattet"
+"A refund of %refunded_amount has been issued on order #%order_id. This amount has been applied to the company credit.","Ein Betrag von %refunded_amount wurde für Bestellung #%order_id erstattet. Der Betrag wurde dem Firmenkredit hinzugefügt."
+"Order %order_id reverted","Bestellung %order_id rückabgewickelt"
+"Your order #%order_id has been cancelled. The order amount reverted to the company credit.","Ihre Bestellung #%order_id wurde storniert. Der Bestellbetrag wird wieder zum Firmenkredit gutgeschrieben."
 "Available Credit ","Verfügbarer Kredit "
+"The Payment on Account method is not available in the selected currency. Please contact the seller.","Die Zahlungsmethode Kauf auf Rechnung ist in der gewählten Währung nicht verfügbar. Bitte kontaktieren Sie den Verkäufer."
 "Company credit account will be charged: ","Firmenkreditkonto wird belastet: "
+"Cancel the Order","Bestellung abbrechen"
 "This is a required field.","Vervollständigen Sie bitte die notwendigen Angaben."
+"{oldCur}/{newCur} Rate","{oldCur}/{newCur} Kurs"
+Reimburse,Erstatten
+"Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.","Bitte benutzen Sie in diesem Feld nur Buchstaben (a-z oder A-Z), Zahlen (0-9), Strich (-) oder Schrägstrich (/)."
 "The credit limit for %s is %s. It will be exceeded by %s with this order.","Das Kreditlimit für %s ist %s. Es wird mit dieser Bestellung um %s überschritten."
+"Payment on Account","Kauf auf Rechnung"
 "Company Credit Change Email Sender","E-Mail-Absender für Änderungen des Firmenkredits"
 "Send Company Credit Change Email Copy To","Kopie der E-Mail zu Änderungen des Firmenkredits versenden an"
+"Allocated Email Template","Zugewiesene E-Mail-Vorlage"
+"This email is sent to the Company Admin.","Diese E-Mail wird an den Admin der Firma gesendet."
+"Updated Email Template","Aktualisierte E-Mail-Vorlage"
+"Reimbursed Email Template","Erstattungs Email Template"
+"Refunded Email Template","Verrechnungs Email Template"
+"Reverted Email Template","Rückabwicklungs Email Template"
 "Credit Currency",Kreditwährung
 "Allow To Exceed Credit Limit","Überschreiten des Kreditlimits erlauben"
+"Reason For Change","Grund der Änderung"
+"
+                            Limit one PO number per reimburse transaction
+                        ","
+Limit von einer Auftragsnummer pro Rückzahlungstransaktion
+                        "
+"
+                                Maximum 255 characters are allowed.
+                        ","
+                                Maximal 255 Zeichen sind erlaubt.
+                        "
 Rate,Satz
 "Convert Credit","Kredit konvertieren"
 Date,Datum
+Operation,Vorgang
+"Updated By","Aktualisiert von"
 "Purchase Order","Kauf auf Rechnung"
+"You will be charged for","Es wird Ihnen berechnet werden"
 "All Payment Methods","Alle Zahlungsarten"
 "Specific Payment Methods","Spezielle Zahlungsarten"
 "B2B Payment Methods","B2B Zahlungsarten"
@@ -3617,9 +3676,15 @@ save,Speichern
 "Please, select image(s) for your attribute","Bitte wählen Sie Bild(er) für die Attribute"
 "Please choose image(s)","Bitte Bild(er) auswählen"
 "Please, select attribute(s)","Bitte Eigenschaft(en) auswählen"
+"The product is already attached.","Das Produkt ist bereits angehängt."
+"The parent product doesn't have configurable product options.","Das übergeordnete Produkt hat keine konfigurierbaren Produktoptionen."
+"The child product doesn't have the ""%1"" attribute value. Verify the value and try again.","Das Kind-Produkt hat nicht den ""%1"" Attributwert. Überprüfen Sie den Wert und versuchen Sie es erneut."
 "The product with the ""%1"" SKU isn't a configurable product.","Das Produkt mit der Artikelnummer ""%1"" ist kein konfigurierbares Produkt."
+"The ""%1"" entity that was requested doesn't exist. Verify the entity and try again.","Das Objekt ""%1"", das angefordert wurde, existiert nicht. Überprüfen Sie das Objekt und versuchen Sie es erneut."
 "The variations from the ""%1"" product can't be deleted.","Die Variationen des Produkts ""%1"" können nicht gelöscht werden."
 "An error occurred while saving the option. Please try to save again.","Beim Speichern der Option ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+"This is implemented for the ""%1"" configurable product only.","Dies wurde nur für das konfigurierbare Produkt ""%1"" implementiert."
+"Contribution must have attributes specified. Enter attributes and try again.","Beitrag muss Attribute angegeben haben. Geben Sie Attribute ein und versuchen Sie es erneut."
 "Configurable product ""%1"" does not have sub-products","Das konfigurierbare Produkt ""%1"" hat keine Varianten"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Vielen Dank, dass Sie uns mit Ihren Kommentaren und Fragen kontaktieren. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen."
 "An error occurred while processing your form. Please try again later.","Während der Verarbeitung des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
@@ -4107,6 +4172,7 @@ Strong,Sicher
 "Online Customers Options","Online Kunden Optionen"
 "Online Minutes Interval","Online Minuten Intervall"
 "Leave empty for default (15 minutes).","Für Standard (15 Minuten) leer lassen."
+"Customer Data Lifetime","Kundendaten Lebensdauer"
 "Please specify value in minutes.","Bitte Wert in Minuten angeben."
 "Customer Notification",Kundenbenachrichtigung
 "Assign a Customer Group","Eine Kundengruppe zuweisen"
@@ -4157,6 +4223,7 @@ Addresses,Adressen
 "Please enter a date of birth.","Bitte geben Sie ihr Geburtsdatum an."
 "Please enter a TAX/VAT number.","Bitte geben Sie eine USt-ID-Nummer an."
 "Please enter a gender.","Bitte geben Sie ein Geschlecht an."
+"'%value%' looks like a DNS hostname but we cannot match the TLD against known list.","'%value%' sieht aus wie ein DNS-Hostname, aber wir können die TLD nicht in der Liste der bekannten TLDs finden."
 "You subscribe to ""General Subscription"".","Sie abonnieren ""Allgemeines Abo""."
 "The password for your account has been successfully changed.","Das Kennwort für Ihr Konto wurde erfolgreich geändert."
 "If you did not request this change, please contact us.","Sollten Sie diese Änderung nicht angefordert haben, kontaktieren Sie uns bitte."
@@ -4175,19 +4242,32 @@ Addresses,Adressen
 "The email address is incorrect. Verify the email address and try again.","Die E-Mail-Adresse ist falsch. Überprüfen Sie die E-Mail-Adresse und versuchen Sie es erneut."
 "The customer ID isn't defined.","Die Kunden-ID ist nicht angegeben."
 "The quote items are incorrect. Verify the quote items and try again.","Die Angebotspositionen sind nicht korrekt. Überprüfen Sie die Positionen und versuchen Sie es erneut."
+"The ""%1"" section source isn't supported.","Die Quelle ""%1"" des Abschnitts wird nicht unterstützt."
 "Confirmation isn't needed.","Bestätigung ist nicht erforderlich."
 "The account is already active.","Das Konto ist bereits aktiv."
 "The confirmation token is invalid. Verify the token and try again.","Das Bestätigungstoken ist ungültig. Überprüfen Sie den Token und versuchen Sie es erneut."
 "This account isn't confirmed. Verify and try again.","Dieses Konto ist nicht bestätigt. Überprüfen Sie das Konto und versuchen Sie es erneut."
 "The password needs at least %1 characters. Create a new password and try again.","Das Passwort benötigt mindestens %1 Zeichen. Erstelle ein neues Passwort und versuche es erneut."
+"The password can't begin or end with a space. Verify the password and try again.","Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden. Überprüfen Sie das Passwort und versuchen Sie es erneut."
 "The password can't be the same as the email address. Create a new password and try again.","Das Passwort kann nicht dieselbe wie die E-Mail-Adresse sein. Erstellen Sie ein neues Passwort und versuchen Sie es erneut."
+"The store view is not in the associated website.","Dieser Store-View gehört nicht zu dieser Website."
 "A customer with the same email address already exists in an associated website.","Ein Kunde mit der gleichen E-Mail-Adresse existiert bereits in einer zugeordneten Website."
+"The password token is mismatched. Reset and try again.","Das Passwort-Token ist inkorrekt. Setze es zurück und versuche es erneut."
+"The password token is expired. Reset and try again.","Das Passwort-Token ist abgelaufen. Setze es zurück und versuche es erneut."
+"The transactional account email type is incorrect. Verify and try again.","Der Typ der Kundenkonto-Transaktionsemail ist falsch. Überprüfen und erneut versuchen."
+"A valid password reset token is missing. Enter and try again.","Ein gültiges Passwort-Reset-Token fehlt. Gib es ein und versuch es erneut."
 "The customer email is missing. Enter and try again.","Die E-Mail des Kunden fehlt. Geben Sie diese ein und versuchen Sie es erneut."
+"A customer website ID wasn't specified. The ID must be specified to use the website scope.","Eine Kunden Webseiten-ID wurde nicht angegeben. Die ID muss angegeben werden, um den Webseiten-Scope zu nutzen."
+"""regionId"" is required. Enter and try again.","""regionId"" ist erforderlich. Bitte eingeben und erneut versuchen."
 "Customer not logged in","Kunde nicht eingeloggt"
+"There is no address id in setting default billing address.","Es gibt keine Adressen-ID in der Einstellung der Standard-Rechnungsadresse."
 "Default billing address has been changed.","Standard-Rechnungsadresse wurde geändert."
 "We can't change default billing address right now.","Wir können die Standard-Rechnungsadresse jetzt nicht ändern."
+"There is no address id in setting default shipping address.","Es gibt keine Adressen-ID in der Einstellung der Standard-Lieferadresse."
 "Default shipping address has been changed.","Standard-Lieferadresse wurde geändert."
 "We can't change default shipping address right now.","Wir können die Standard-Lieferadresse jetzt nicht ändern."
+"There is no such address entity to delete.","Es gibt keine solche Adressinstanz, die gelöscht werden könnte."
+"We can't mass delete the addresses right now.","Wir können die Adressen momentan nicht massenhaft löschen."
 "Customer address has been updated.","Kundenadresse wurde aktualisiert."
 "New customer address has been added.","Neue Kundenadresse wurde hinzugefügt."
 "There is no customer with such id.","Es gibt keinen Kunden mit dieser ID."
@@ -4264,6 +4344,8 @@ available,verfügbar
 "Refund Store Credit Automatically","Shop-Guthaben automatisch erstatten"
 "Store Credit Update Email Sender","Absender für Shop-Guthaben-Update-E-Mail"
 "Store Credit Update Email Template","Vorlage für Shop-Guthaben-Update-E-Mail"
+"A balance is needed to save a balance history.","Eine Buchung ist notwendig, um den Saldo anzuzeigen."
+"The balance history action code is unknown. Verify the code and try again.","Der Aktionscode für den Saldo ist unbekannt. Bitte überprüfen Sie den Code und versuchen Sie es erneut."
 "Customer Address Attributes",Kundenadressenattribute
 "Edit Customer Address Attribute ""%1""","Kunden Adresse Attribut ""%1"" bearbeiten"
 "New Customer Address Attribute","Neues Kunden-Adress-Attribut"
@@ -4343,14 +4425,23 @@ available,verfügbar
 "A row with this email, website, and finance website combination already exists.","Ein Datensatz mit dieser Email, Website und Finanz Website Kombination existiert bereits."
 "Data was imported by %1","Daten wurden von %1 importiert."
 "Reward Points",Belohnungspunkte
+"Current customer does not have access to the resource ""%1""","Aktueller Kunde hat keinen Zugriff auf die Ressource ""%1"""
+"Customer id %1 does not exist.","Kunde mit der ID %1 existiert nicht."
 "Required parameters are missing: %1","Erforderliche Parameter fehlen: %1"
+"Customer Address %1 is set as default billing address and can not be deleted","Die Kundenadresse %1 ist als Standardrechnungsadresse hinterlegt und kann nicht gelöscht werden"
+"Customer Address %1 is set as default shipping address and can not be deleted","Die Kundenadresse %1 ist als Standardversandadresse hinterlegt und kann nicht gelöscht werden"
+"Could not find a address with ID ""%address_id""","Konnte keine Adresse mit der ID ""%address_id"" finden"
+"Current customer does not have permission to address with ID ""%address_id""","Aktueller Kunde hat keine Berechtigung auf die Adresse mit der ID %address_id"""
+"The current customer isn't authorized.","Der aktuelle Kunde ist nicht autorisiert."
 "Customer with id ""%customer_id"" does not exist.","Kunde mit der ID ""%customer_id"" existiert nicht."
 "Provide the current ""password"" to change ""email"".","Geben Sie das aktuelle ""Passwort"" ein, um ""E-Mail"" zu ändern."
 "Specify the ""currentPassword"" value.","Geben Sie den Wert ""currentPassword"" an."
 "Specify the ""newPassword"" value.","Geben Sie den Wert ""newPassword"" an."
 """input"" value should be specified","""input"" Wert sollte angegeben werden"
+"Address ""id"" value should be specified","Adresswert ""id"" sollte angegeben werden"
 "Specify the ""email"" value.","Geben Sie den ""E-Mail""-Wert an."
 "Specify the ""password"" value.","Geben Sie den ""Passwort""-Wert an."
+"""Email should be specified","""E-Mail sollte definiert sein"
 "Please specify a website.","Bitte geben Sie eine Website an."
 "Please specify an email.","Bitte geben Sie eine E-Mail an."
 "We found an invalid value in a website column.","Es wurde ein ungültiger Wert in Ihrer Websitespalte gefunden."
@@ -4396,6 +4487,7 @@ Visitors,Besucher
 Reports,Berichte
 "Viewing combined ""%1"" report from segments: %2.","Betrachte ""%1""; zusammengelegter Report aus den Abschnitten: %2."
 "The Customer Segment data has been refreshed.","Die Daten des Kunden Abschnitts wurden aktualisiert."
+Union,Vereinigung
 Intersection,Schnittpunkt
 "Applies to All of the Specified Customer Segments","Gilt für alle angegebenen Kundensegmente"
 "Apply to the Selected Customer Segments","Auf die ausgewählten Kundensegmente anwenden"
@@ -4469,6 +4561,7 @@ matches,übereinstimmen
 "greater than","größer als"
 "less than","kleiner als"
 "Up To Date",Aktuell
+"Period %1 %2 Days Up To Date","Zeitraum %1 %2 Tage bis Datum"
 "Use in Customer Segment","Im Kundenabschnitt verwenden"
 "Please choose a condition to add.","Bitte wählen Sie eine Bedingung zum Hinzufügen"
 "Enable Customer Segment Functionality","Kundensegmentfunktionalität aktivieren"
@@ -4477,6 +4570,7 @@ matches,übereinstimmen
 "View Combined Report","Kombinierten Bericht anzeigen"
 "We're unable to delete the segement.","Wir sind nicht in der Lage, das Segment zu löschen."
 "Custom Condition","Benutzerdefinierte Bedingung"
+"The quote total specified is unknown. Verify the total and try again.","Die angegebene Quote-Gesamtsumme ist unbekannt. Überprüfen Sie die Gesamtsumme und versuchen Sie es erneut."
 "AVS result code",AVS-Ergebniscode
 "CVN result code","CVN Ergebnis-Abkürzung"
 "Card number",Kartennummer
@@ -4617,8 +4711,12 @@ Size,Größe
 "Break bulk economy","Breakbulk Economy"
 "Customer services",Kundenservice
 "Please, specify origin country","Bitte geben Sie das Herkunftsland an"
+"Ready time",Vorbereitungszeit
 "Package ready time after order submission (in hours)","Paket bereit nach der Auftragserteilung (in Stunden)"
 "The security validation of the XML document has failed.","Die Sicherheitsvalidierung des XML-Dokuments ist fehlgeschlagen."
+"Content Type (Non Domestic)","Inhaltstyp (international)"
+"Documents Allowed Methods","Dokumente zugelassene Methoden"
+"Non Documents Allowed Methods","Nicht Dokumente zugelassene Methoden"
 lbs,lb
 kgs,kg
 "Requested country is not available.","Ausgewähltes Land ist nicht verfügbar."
@@ -4783,6 +4881,7 @@ Letters,Buchstaben
 "Invalid entity_type specified: %1","Ungültiger Entity_type spezifiziert: %1"
 "Entity is not initialized","Datensatz ist nicht initialisiert"
 "Unknown parameter","Unbekannter Parameter"
+"Unique constraint violation found","Verletzung einer ""Unique"" Einschränkung gefunden"
 "The attribute code '%1' is reserved by system. Please try another attribute code","Der Attribut-Code ""%1"" ist vom System reserviert. Bitte versuchen Sie einen anderen Attributcode"
 "Invalid default decimal value","Ungültiger Standard-Dezimalwert"
 "Invalid default date","Ungültiges Standarddatum"
@@ -4858,25 +4957,42 @@ hello,Hallo
 "The attribute with a ""%1"" ID doesn't exist. Verify the attribute and try again.","Das Attribut mit der ID ""%1"" existiert nicht. Überprüfen Sie das Attribut und versuchen Sie es erneut."
 "The attribute set couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.","Das Attributset konnte aufgrund eines Fehlers nicht gespeichert werden. Überprüfen Sie Ihre Angaben und versuchen Sie es erneut. Falls der Fehler weiterhin besteht, versuchen Sie es bitte später erneut."
 "The default attribute set can't be deleted.","Das Standard-Attributset kann nicht gelöscht werden."
+"The attribute set couldn't be deleted due to an error. Try again — if the error persists, please try again later.","Das Attributset konnte aufgrund eines Fehlers nicht gelöscht werden. Versuchen Sie es erneut. Falls der Fehler weiterhin besteht, versuchen Sie es bitte später erneut."
 "This parameter is unknown. Verify and try again.","Dieser Parameter ist unbekannt. Überprüfen Sie ihn und versuchen Sie es erneut."
 "The default decimal value is invalid. Verify the value and try again.","Der Standard-Dezimalwert ist ungültig. Überprüfen Sie den Wert und versuchen Sie es erneut."
 "The default date is invalid. Verify the date and try again.","Das Default-Datum iust ungültig. Überprüfen Sie das Datum und versuchen Sie es erneut."
+"The entity supplied is invalid. Verify the entity and try again.","Die angegebene Instanz ist ungültig. Überprüfen Sie die Instanz und versuchen Sie es erneut."
 "The ""%1"" backend model is invalid. Verify the backend model and try again.","Das Backend-Modell ""%1"" ist ungültig. Überprüfen Sie das Backend-Modell und versuchen Sie es erneut."
 "The attribute code is empty. Enter the code and try again.","Der Attributcode ist leer. Geben Sie den Code ein und versuchen Sie es erneut."
 "The ""%1"" attribute doesn't work with options.","Das Attribut ""%1"" funktioniert nicht mit Optionen."
 "The ""%1"" attribute can't be saved.","Das Attribut ""%1"" konnte nicht gespeichert werden."
 "The ""%1"" attribute has no option.","Das Attribut ""%1"" hat keine Option."
 "The options for ""%1"" attribute can't be loaded.","Die Optionen für Attribut ""%1"" konnten nicht geladen werden."
+"The ""%1"" attribute doesn't include an option with ""%2"" ID.","Das Attribut ""%1"" enthält keine Option mit der ID ""%2""."
+"The entity attribute with the ""%1"" ID isn't found. Reset the attribute and try again.","Das Instanz-Attribut mit der ID ""%1"" wurde nicht gefunden. Setzen Sie das Attribut zurück und versuchen Sie es erneut."
 "The attribute set name is empty. Enter the name and try again.","Der Attributset-Name ist leer. Geben Sie den Namen ein und versuchen Sie es erneut."
 "A ""%1"" attribute set name already exists. Create a new name and try again.","Ein Attributset mit dem Namen ""%1"" existiert bereits. Erstellen Sie einen neuen Namen und versuchen Sie es erneut."
+"The ""%1"" entity supplied is invalid. Verify the entity and try again.","Die angegebene Instanz ""%1"" ist ungültig. Überprüfen Sie die Instanz und versuchen Sie es erneut."
+"The object wasn't added because it's invalid. To continue, enter a valid object and try again.","Das Objekt wurde nicht hinzugefügt, da es ungültig ist. Um fortzufahren, geben Sie ein gültiges Objekt ein und versuchen Sie es erneut."
 "The ""%1"" attribute requested is invalid. Verify the attribute and try again.","Das angeforderte Attribut ""%1"" ist ungültig. Überprüfen Sie das Attribut und versuchen Sie es erneut."
 "The foreign key is invalid. Verify the foreign key and try again.","Der Fremdschlüssel ist ungültig. Überprüfen Sie den Fremdschlüssel und versuchen Sie es erneut."
+"The entity type is invalid. Verify the entity type and try again.","Der Entitätstyp ist ungültig. Überprüfen Sie den Entitätstyp und versuchen Sie es erneut."
 "The attribute type is invalid. Verify the attribute type and try again.","Der Attributtyp ist ungültig. Überprüfen Sie den Attributtyp und versuchen Sie es erneut."
+"A joint field with a ""%1"" alias is already declared.","Ein Joint-Feld mit diesem Alias (%1) wurde bereits angelegt."
+"A header row is missing for an attribute. Verify the header row and try again.","Eine Kopfzeile fehlt für ein Attribut. Überprüfen Sie die Kopfzeile und versuchen Sie es erneut."
+"The ""%1"" attribute name is invalid. Reset the name and try again.","Der Attributname ""%1"" ist ungültig. Den Namen zurücksetzen und erneut versuchen."
+"The form type is invalid. Reset the type and try again.","Der Formulartyp ist ungültig. Bitte den Typ zurücksetzen und erneut versuchen."
+"The EAV attribute is invalid. Verify the attribute and try again.","Das EAV-Attribut ist ungültig. Überprüfen Sie das Attribut und versuchen Sie es erneut."
 "The default option isn't defined. Set the option and try again.","Die Standard-Option ist nicht definiert. Setzen Sie die Option und versuchen Sie es erneut."
+"The entity ID is incorrect. Verify the ID and try again.","Die Entitäts-ID ist falsch. Überprüfen Sie die ID und versuchen Sie es erneut."
 "The attribute group ID is incorrect. Verify the ID and try again.","Die Attributgruppen-ID ist nicht korrekt. Überprüfen Sie die ID und versuchen Sie es erneut."
 "These changes affect all related products.","Diese Änderungen betreffen alle verbundenen Artikel."
 "Text Editor",Text-Editor
+"""Entity type should be specified","""Typ der Entität sollte definiert sein"
 """Attribute code should be specified","""Attributcode sollte angegeben werden"
+"Attribute code %1 of entity type %2 not configured to have a type.","Attributcode %1 des Typs der Entität %2 nicht konfiguriert für einen Typ."
+"Missing %1 for the input %2.","%1 fehlt für die Eingabe %2."
+"Type %1 has no internal representation declared.","Für Typ %1 ist keine interne Repräsentanz angegeben."
 "Cannot resolve EAV type","EAV-Typ kann nicht aufgelöst werden"
 "The search failed because of a search engine misconfiguration.","Die Suche ist wegen einer Suchmaschinen-Fehlkonfiguration fehlgeschlagen."
 "There is no such data mapper ""%1"" for interface %2","Es gibt keinen Data Mapper ""%1"" für die Schnittstelle %2"
@@ -5002,11 +5118,14 @@ eWAY,eWay
 "Sandbox Mode","Sandbox Modus"
 "Live API Key","Live API-Schlüssel"
 "Live API Password","Live API Passwort"
+"Live Client-side Encryption Key","Live Client-seitiger Codierungsschlüssel"
 "Sandbox API Key","Sandbox API-Schlüssel"
 "Sandbox API Password","Sandbox API Passwort"
+"Sandbox Client-side Encryption Key","Sandbox Client-seitiger Codierungsschlüssel"
 "Transaction has been declined, please, try again later.","Transaktion wurde abgelehnt, bitte versuchen Sie es später erneut."
 "Switch/Solo/Maestro Only","Nur Switch/Solo/Maestro"
 "Issue Number",Ausstellungsnummer
+"The response type is incorrect. Verify the type and try again.","Der Rückgabetyp ist nicht korrekt. Verfizieren Sie den Typ und versuchen Sie es erneut."
 "Europe First Priority","Ihre Verpackung"
 "1 Day Freight","Lieferung am nächsten Tag"
 "2 Day Freight","Lieferung in 2 Tagen"
@@ -5056,7 +5175,9 @@ Packaging,Verpackung
 Dropoff,Zustellen
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Maximales Paketgewicht (Bitte konsultieren Sie Ihren Versandanbieter bzgl. des maximal unterstützten Versandgewichts)"
 "Residential Delivery",Wohnungslieferung
+"Hub ID",Hub-ID
 "The field is applicable if the Smart Post method is selected.","Das Feld ist anwendbar, wenn die Smart Post-Methode ausgewählt ist."
+"Expected Delivery:","Voraussichtlicher Liefertermin:"
 "Gift Card Information",Geschenk-Karteninformationen
 Virtual,Virtuell
 Physical,Physisch
@@ -5147,6 +5268,8 @@ History,Historie
 "You can't redeem a gift card now.","Sie können noch keine Geschenkkarten einlösen."
 "Gift Card ""%1"" was redeemed.","Geschenkkarte ""%1"" ist eingelöst."
 "We cannot redeem this gift card.","Wir können diese Geschenkekarte nicht einlösen."
+"Could not save the gift card account.","Geschenkgutscheinkonto konnte nicht gespeichert werden."
+"Could not delete the gift card account.","Geschenkgutscheinkonto konnte nicht gelöscht werden."
 "The expiration date must be set in the future.","Das Ablaufdatum muss auf einen Punkt in der Zukunft gesetzt werden."
 "The balance cannot be less than zero.","Das Guthaben kann nicht weniger als Null sein."
 "This gift card account is already in the quote.","Dieses Geschenkkartenkonto ist bereits im Angebot vorhanden."
@@ -5179,7 +5302,10 @@ Numeric,Numerisch
 "The maximum generated code length is 255. Please correct your settings.","Die maximale Codelänge für generierten Code ist 255. Bitte prüfen Sie Ihre Einstellungen."
 "test message",Testnachricht
 Generate,Erstellen
+"Code Pool used: ","Genutzter Code Pool: "
+" (free "," (kostenlos "
 " of "," von "
+" total)."," gesamt)."
 "Are you sure you want to continue without saving your changes?","Sind Sie sicher, dass Sie fortfahren möchten, ohne Ihre Änderungen zu speichern?"
 "Refund Gift Cards to Store Credit","Geschenkkarten zum Shopguthaben zurückerstatten"
 "Add Gift Card","Geschenkkarte hinzufügen"
@@ -5188,17 +5314,24 @@ Generate,Erstellen
 "Enter gift card code","Geschenkkarten-Code eingeben"
 "Redeem Gift Card","Geschenkkarte einlösen"
 "Check status and balance","Status und Saldo kontrollieren"
+"Have a gift card? ","Haben Sie einen Geschenkgutschein? "
+"Click here","Klicken Sie hier"
+" to redeem it."," um ihn einzulösen."
 "Enter the gift card code","Geben dein Geschenkkarten-Code ein"
 "Check Gift Card status and balance","Saldo und Status Geschenkkarte"
 "Gift Card: ","Geschenkkarte: "
 "Current Balance: ","Aktueller Saldo: "
 "Expires: ","Gültig bis: "
 "Please enter a valid gift card code.","Bitte geben Sie einen gültigen Geschenkkarten-Code ein."
+"Add or remove gift cards","Geschenkgutschein hinzufügen oder entfernen"
+"Gift Card amount applied to order:","Gutscheinbetrag wurde auf Bestellung angewendet:"
 "You've been sent a gift card for use at %store_name and it is now ready to be used for purchases.","Sie haben eine Geschenkkarte für %store_name erhalten. Diese kann nun für Ihre Einkäufe genutzt werden."
 "Gift Card Code: %code","Geschenkkartencode: %code"
+"The card has a balance of %balance and can be used at ","Der Geschenkgutschein hat ein Guthaben von %balance, welches verwendet werden kann bei "
 "Apply Gift Card","Geschenkkarte einlösen"
 "Gift Card:",Geschenkkarte:
 "See Balance","Saldo einsehen"
+"Gift Card amount applied to order: ","Gutscheinbetrag wurde auf Bestellung angewendet: "
 "Email Sent from Gift Card Account Management","Vom Geschenkkartenkonto-Management gesendete E-Mail"
 "Gift Card Email Sender","Absender für Geschenkkarten-E-Mails"
 "Gift Card Template","Vorlage für Geschenkkarten"
@@ -5214,8 +5347,19 @@ Generate,Erstellen
 "Low Code Pool Threshold","Grenzwert für niedrigen Code-Pool"
 "IMPORTANT: Be sure to save your configuration before running generation process.","WICHTIG: Stellen Sie sicher, dass Sie Ihre Konfiguration speichern, bevor Sie den Generierungsprozess starten."
 "Are you sure you want to delete these gift card accounts?","Sind Sie sicher, dass Sie die Geschenkkartenkonten löschen möchten?"
+"Invalid Request","Ungültige Anfrage"
 "Too many attempts, please try again later.","Zu viele Versuche. Bitte versuchen Sie es später erneut."
+"Amount can be returned to Store Credit.","Der Betrag kann an Shop-Guthaben zurückgebucht werden."
+"Code Pool used: <b>%1%</b> (free <b>%2</b> of <b>%3</b> total). Generate new code pool <a href=""#"" data-post=""%4"">here</a>.","Verwendeter Code Pool: <b>%1%</b> (kostenlose <b>%2</b> von <b>%3</b> insgesamt). Generieren Sie <a href=""#"" data-post=""%4"">hier</a> einen neuen Code Pool."
 "The ""%1"" Cart doesn't contain products.","Der Warenkorb ""%1"" enthält keine Produkte."
+"The gift card couldn't be deleted from the quote.","Der Geschenkgutschein konnte nicht aus dem Angebot gelöscht werden."
+"Requiring a composite gift card account.","Benötigt ein zusammengesetztes Geschenkgutscheinkonto."
+"The gift card code couldn't be added. Verify your information and try again.","Der Gutscheincode konnte nicht hinzugefügt werden. Überprüfen Sie Ihre Informationen und versuchen Sie es erneut."
+"The gift card code is either incorrect or expired. Verify and try again.","Der Gutscheincode ist entweder falsch oder abgelaufen. Überprüfen Sie ihn und versuchen Sie es erneut."
+"Gift Card %1 was removed.","Geschenkgutschein ""%1"" wurde entfernt."
+"Gift card not found","Geschenkkarte nicht gefunden"
+"Gift card account is not redeemable.","Geschenkkartenkonto kann nicht erstattet werden."
+"Cannot find the customer to update balance","Der Kunde zur Aktualisierung des Kontos konnte nicht gefunden werden"
 "Gift Messages are not applicable for empty cart","Geschenknachrichten sind bei einem leeren Warenkorb nicht anwendbar"
 "Gift Messages are not applicable for virtual products","Geschenknachrichten können bei virtuellen Produkten nicht verwendet werden"
 "Gift Message is not available","Geschenknachricht ist nicht verfügbar"
@@ -5256,10 +5400,16 @@ Generate,Erstellen
 "Gift messages can't be used for virtual products.","Geschenknachrichten können bei virtuellen Produkten nicht verwendet werden."
 "The gift message isn't available.","Die Geschenknachricht ist nicht verfügbar."
 "The gift message couldn't be added to Cart.","Die Geschenknachricht konnte nicht zum Warenkorb hinzugefügt werden."
+"No item with the provided ID was found in the Cart. Verify the ID and try again.","Es existiert kein Artikel mit der ID im Warenkorb. Überprüfen Sie die ID und versuchen Sie es erneut."
+"No product with the ""%1"" itemId exists in the Cart. Verify your information and try again.","Es existiert kein Produkt mit der ""%1"" Artikelnummer im Warenkorb. Überprüfen Sie die ID und versuchen Sie es erneut."
+"No item with the provided ID was found in the Order. Verify the ID and try again.","Es existiert kein Artikel mit der ID in der Bestellung. Überprüfen Sie die ID und versuchen Sie es erneut."
+"No item with the provided ID was found in the Order, or a gift message isn't allowed. Verify and try again.","Es existiert kein Artikel mit der ID in der Bestellung oder eine Geschenknachricht ist nicht erlaubt. Bitte überprüfen und versuchen Sie es erneut."
 "The gift message couldn't be added to the ""%1"" order.","Die Geschenknachricht konnte nicht zur Bestellung ""%1"" hinzugefügt werden."
+"Either no order exists with this ID or gift message isn't allowed.","Entweder es existiert keine Bestellung mit dieser ID oder Geschenknachricht ist nicht erlaubt."
+"No order exists with this ID. Verify your information and try again.","Es existiert keine Bestellung mit dieser ID. Bitte überprüfen Sie die Information und versuchen Sie es erneut."
 "Gift messages can't be used for an empty order. Create an order, add an item, and try again.","Geschenknachrichten können nicht für eine leere Bestellung verwendet werden. Erstellen Sie eine Bestellung, fügen Sie einen Artikel hinzu und versuchen Sie es erneut."
 "The gift message couldn't be added to the ""%1"" order item.","Die Geschenknachricht konnte nicht zur ""%1"" Bestellposition hinzugefügt werden."
-"Are you sure you want to delete this gift registry?",Art:
+"Are you sure you want to delete this gift registry?","Sind Sie sicher, dass Sie die Geschenkliste löschen möchten?"
 "Delete Registry","Löschen der Registry"
 "Gift Registry Entity",Geschenk-Registrierungs-Entität
 "Product ID",Artikelnummer
@@ -5351,6 +5501,8 @@ Full,Voll
 "Static Types","Statische Typen"
 "Product has required options.","Produkt hat erforderliche Optionen."
 "You need to enter sender data.","Sie müssen die Absenderdaten eingeben."
+"Please add invitees.","Bitte fügen Sie jemanden hinzu, den Sie einladen möchten."
+"You cannot send emails to more than %1 recipients at once","Sie können Emails nicht an mehr als %1 Empfänger gleichzeitig schicken."
 "Please enter a valid invitee email address.","Bitte geben Sie eine gültige Empfänger-E-Mail-Adresse ein."
 "Please enter an invitee name.","Bitte geben Sie einen Namen des Empfänger ein."
 "You shared the gift registry for %1 emails.","Sie haben die Geschenkeliste mit %1 E-Mails geteilt."
@@ -5426,6 +5578,7 @@ Location,Ort
 "Search By","Suche nach"
 "Please enter at least two letters.","Bitte geben Sie mindestens zwei Buchstaben ein."
 "Unit Price",Einzelpreis
+"Gift Registry created at %store_name","Geschenkliste erstellt in %store_name"
 "You have successfully created the new gift registry ""%registry_name"".","Sie haben die Geschenkliste ""%registry_name"" erfolgreich erstellt."
 "Your Gift Registry Message","Ihre Geschenkeliste Nachricht"
 "Now you can add products to your gift registry.","Jetzt können Sie Produkte zur Ihrer Geschenkeliste hinzufügen."
@@ -5435,18 +5588,25 @@ Location,Ort
 "Or you can email the following link and gift registry ID to them:","Oder Sie können eine E-Mail mit folgendem Link und Geschenklistenummer an sie senden:"
 "Registry Location:",Registry-Ort:
 "Registry ID:",Registry-ID:
+"Gift Registry shared at %store_name","Geschenkliste geteilt in %store_name"
+"You can view and purchase items from this gift registry at <a href='%account_url'>%store_name</a>.","Für diese Geschenkliste können Sie im <a href='%account_url'>%store_name</a> Produkte anschauen und kaufen."
 "Gift Registry:",Geschenkeliste:
 "Created For:","Erstellt für:"
+"You can create your own gift registry on <a href='%account_url'>%store_name</a> and share it with friends and family.","Sie können für <a href='%account_url'>%store_name</a> Ihre eigene Geschenkliste erstellen und mit Freunden und Familie teilen."
+"Gift Registry updated at %store_name","Geschenkliste aktualisiert für %store_name"
 "The following items have been purchased from your gift registry ""%registry_name"":","Die folgenden Artikel von Ihrer Geschenkliste ""%registry_name"" wurden gekauft:"
 "You can sign in to your account to view more details about this gift registry.","Loggen Sie sich ein, um mehr über diese Geschenkeliste zu erfahren."
+"Ship to Recipient Address","Sende an die Empfängeradresse"
 "Recipient Address",Empfänger-Adresse
 "Use gift registry shipping address","Die Geschenkelisten Versandadresse verwenden"
 "The only place to change the number of gift registry items is on the Gift Registry Info page or directly in your cart.","Der einzige Platz um die Nummer Ihrer Geschenkeliste-Artikel zu ändern ist in der Geschenkeliste Informationsseite oder direkt in Ihrem Einkaufswagen."
+"Gift Registry Details",Geschenklistendetails
 "Event Data",Ereignisdaten
 "Event Information",Ereignisinformationen
 "Event Country",Ereignisland
 "My event special","Mein Spezialevent"
 "My special attribute","Mein Spezialattribut"
+"Gift Registry Section",Geschenklisten-Bereich
 "General Options","Allgemeine Optionen"
 "Enable Gift Registry","Geschenkeliste aktivieren"
 "Maximum Registrants","Maximale Anzahl an Registranten"
@@ -5464,6 +5624,16 @@ Listed,Aufgelistet
 "You can view and purchase items from this gift registry at <a href=""%account_url"">%store_name</a>.","Die Einträge der Geschenkliste können Sie unter <a href=""%account_url"">%store_name</a> ansehen und kaufen."
 "You can create your own gift registry on <a href=""%account_url"">%store_name</a> and share it with friends and family.","Ihre eigene Geschenkliste können Sie bei <a href=""%account_url"">%store_name</a> erstellen und sie anschließend mit Ihrer Familie und Ihren Freunden teilen."
 "some name","Irgendein Name"
+"The gift registry ID is incorrect. Verify the ID and try again.","Die Geschenklisten-ID ist nicht korrekt. Bitte überprüfen Sie die ID und versuchen es erneut."
+"The gift registry entity is incorrect. Verify the entity and try again.","Der Geschenklisteneintrag ist nicht korrekt. Bitte überprüfen Sie den Eintrag und versuchen es erneut."
+"At least one email address is needed. Enter an email address and try again.","Mindestens eine Email-Adresse wird benötigt. Bitte fügen Sie eine Email-Adresse hinzu und versuchen es erneut."
+"The type is incorrect. Verify and try again.","Der Typ ist nicht korrekt. Bitte überprüfen und erneut versuchen."
+"The registrant data is incorrect. Verify and try again.","Die Registrierungsdaten sind nicht korrekt. Bitte überprüfen und erneut versuchen."
+"The address can't be empty. Enter and try again.","Die Adresse kann nicht leer sein. Bitte einfügen und erneut versuchen."
+"An address needs to be selected. Select and try again.","Eine Adresse muss ausgewählt sein. Bitte auswählen und erneut versuchen."
+"The address is incorrect. Verify and try again.","Die Adresse ist nicht korrekt. Bitte überprüfen und erneut versuchen."
+"The gift registry item quantity is incorrect. Verify the item quantity and try again.","Die Anzahl der Artikel in der Geschenkliste sind nicht korrekt. Überprüfen Sie die Anzahl und versuchen es erneut."
+"The gift registry item ID is incorrect. Verify the gift registry item ID and try again.","Die Artikel-ID der Geschenkliste ist nicht korrekt. Bitte überprüfen Sie die Artikel-ID und versuchen es erneut."
 "Gift Wrapping","Geschenkverpackung für die gesamte Bestellung"
 "Add Gift Wrapping","Geschenkpapier hinzufügen"
 "Are you sure you want to delete this gift wrapping?","Sind Sie sicher, dass Sie diese Geschenkverpackung entfernen wollen?"
@@ -5514,6 +5684,9 @@ Listed,Aufgelistet
 "Are you sure you want to delete the selected gift wrappings?","Sind Sie sicher, dass Sie die gewählten Geschenkverpackungen entfernen wollen?"
 "Gift Wrap Design",Geschenkverpackungs-Design
 "Custom Price",Sonderpreis
+"Gift wrapping with the %1 ID wasn't found. Verify the ID and try again.","Geschenkverpackung mit der ID %1 wurde nicht gefunden. Überprüfen Sie die ID und versuchen Sie es erneut."
+"A valid currency code wasn't entered. Enter a valid %1 currency code and try again.","Ein gültiger Währungscode wurde nicht eingegeben. Geben Sie einen gültigen %1 -Währungscode ein und versuchen Sie es erneut."
+"The ""%1"" gift wrapping couldn't be removed.","Die Geschenkverpackung ""%1"" konnte nicht entfernt werden."
 Constant,Konstante
 "Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","Farbton-Wert ""%1"" ist ungültig. Bitte geben Sie einen sechsstelligen Hexadezimalwert ein."
 "Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","Conversion ID Wert ""%1"" ist ungültig. Conversion ID muss eine Ganzzahl sein."
@@ -5565,6 +5738,7 @@ Creative,Kreativ
 "Export File Format","in Zeilen:"
 "Fields Enclosure","Felder einschließen"
 "We can't filter an attribute with no attribute options.","Ein Attribut ohne Attribut-Optionen kann nicht gefiltert werden."
+"Fixed Price: From","Fester Preis: Ab"
 Filter,Filtern
 "Unknown attribute filter type","Unbekannter Attribut-Filter-Typ"
 "Check Data","Daten prüfen"
@@ -5670,9 +5844,20 @@ User,Benutzer
 "'Error in CSV: ' .","'Fehler in CSV: ' ."
 "File must be saved in UTF-8 encoding for proper import","Für einen korrekten Import muss die Datei in UTF-8-Kodierung gespeichert werden"
 "There is no file: %file","Es gibt keine Datei: %file"
+"Empty attribute value constant","Leere Attributwert-Konstante"
 "Incorrect entity name.","Falscher Entitätsname."
 "-- Not Selected --","-- Nicht ausgewählt --"
+"Validation Strategy",Validierungsstrategie
+"Message is added to queue, wait to get your file soon","Nachricht wird zur Warteschlange hinzugefügt, warten Sie, um Ihre Datei bald zu erhalten"
 "Please provide export file name","Bitte geben Sie den Exportdateinamen an"
+"There are no export file with such name %1","Es gibt keine Exportdatei mit diesem Namen: %1"
+"Your export file is ready","Ihre Exportdatei ist fertig"
+"You can pick up your file at export main page","Sie können Ihre Datei auf der Export-Hauptseite herunterladen"
+"Error during export process occurred","Fehler beim Exportprozess"
+"Error during export process occurred. Please check logs for detail","Fehler beim Exportprozess. Bitte überprüfen Sie die Logs für Details"
+"New product data is added to the existing product data for the existing entries in the database. All fields except sku can be updated.","Neue Produktdaten werden zu den vorhandenen Einträgen in der Datenbank hinzugefügt. Alle Felder außer sku können geändert werden."
+"The existing product data is replaced with new data. <b>Exercise caution when replacing data because the existing product data will be completely cleared and all references in the system will be lost.</b>","Die vorhandenen Produktdaten werden durch neue Daten ersetzt. <b>Vorsicht beim Ersetzen von Daten, da die vorhandenen Produktdaten vollständig gelöscht werden und alle Referenzen im System verloren gehen.</b>"
+"Any entities in the import data that already exist in the database are deleted from the database.","Alle Instanzen in den Import-Daten, die in der Datenbank bereits vorhandenen sind, werden aus der Datenbank gelöscht."
 "Are you sure you wan't to delete a file?","Sind Sie sicher, dass Sie eine Datei löschen möchten?"
 "File name",Dateiname
 "Indexer Management","Update beim Speichern"
@@ -5702,6 +5887,7 @@ Mode,Modus
 "Shipping method is not defined for instance purchase.","Versandart ist nicht für den Sofortkauf definiert."
 "Specified payment method is not available now.","Angegebene Zahlungsart ist nicht verfügbar."
 "Specified shipping method is not available.","Angegebene Versandart ist nicht verfügbar."
+"Appropriate shipping method is not available.","Eine angemessene Versandart ist nicht verfügbar."
 "Cheapest price","Günstigster Preis"
 "Instant purchase integration not available for token.","Sofortkauf-Integration ist für Token nicht verfügbar."
 "Instant Purchase",Sofortkauf
@@ -5709,6 +5895,7 @@ Mode,Modus
 "Are you sure you want to place order and pay?","Sind Sie sicher, dass Sie bestellen und bezahlen möchten?"
 "Shipping Method",Versandart
 "Button Text",Schaltflächentext
+"Payment method with vault and instant purchase support should be enabled.","Zahlungsmethode mit Vault und Sofortkaufunterstützung sollte aktiviert sein."
 "A payment method isn't defined for instance purchase. Verify and try again.","Für den Sofortkauf ist keine Zahlungsart festgelegt. Überprüfen Sie die Zahlungsart und versuchen Sie es erneut."
 Integrations,Integrationen
 "Add New Integration","Neue Integration hinzufügen"
@@ -5729,6 +5916,7 @@ Integrations,Integrationen
 "Uninstall the extension to remove this integration","Deinstallieren Sie die Extension um diese Integration zu entfernen"
 Activate,Aktivieren
 Reauthorize,"Nochmals genehmigen"
+"Integration not secure","Integration nicht sicher"
 "Uninstall the extension to remove integration '%1'.","Deinstallieren Sie die Extension, um die Integration '%1' zu entfernen."
 "This integration no longer exists.","Diese Integration ist nicht mehr vorhanden."
 "The integration '%1' has been deleted.","Die Integration '%1' wurde gelöscht."
@@ -5797,12 +5985,18 @@ Resources,Ressourcen
 "System Extensions",Systemerweiterungen
 "System Integrations",Systemintegrationen
 Extensions,Erweiterungen
+"Access Token Expiration",Zugriffs-Token-Ablaufdatum
+"Customer Token Lifetime (hours)","Kunden-Token Lebenszeit (Stunden)"
+"Admin Token Lifetime (hours)","Admin-Token Lebenszeit (Stunden)"
 "Cleanup Settings",Cleanup-Einstellungen
 "Cleanup Probability",Cleanup-Wahrscheinlichkeit
 "Expiration Period",Ablaufzeitraum
 "Consumer Settings",Benutzereinstellungen
 "OAuth consumer credentials HTTP Post maxredirects","OAuth-Kundenanmeldedaten HTTP Post-Maxredirects"
 "OAuth consumer credentials HTTP Post timeout","OAuth-Kundenanmeldedaten HTTP Post-Timeout"
+"Authentication Locks",Authentifizierungs-Locks
+"Maximum Login Failures to Lock Out Account","Maximale Anmeldefehler zum Sperren des Kontos"
+"Lockout Time (seconds)","Sperrzeit (Sekunden)"
 "Integrations Configuration",Integrations-Konfiguration
 "Integration configuration file",Integration-Konfigurationsdatei.
 "Integrations API Configuration",Integrationen-API-Konfiguration
@@ -5816,7 +6010,21 @@ Extensions,Erweiterungen
 "Consumer key/secret will expire if not used within X seconds after Oauth token exchange starts.","Verbraucher Schlüssel/Geheimnis verfallen, wenn sie nicht innerhalb von X Sekunden nach dem Beginn des Oauth-Token-Austauschs verwendet werden."
 "Number of maximum redirects for OAuth consumer credentials Post request.","Maximale Anzahl der Umleitungen für OAuth Verbraucher-Anmeldeinformationen Post-Request."
 "Timeout for OAuth consumer credentials Post request within X seconds.","Timeout für OAuth Verbraucher-Anmeldeinformationen Post-Request innerhalb von X Sekunden."
+"Maximum Number of authentication failures to lock out account.","Maximale Anzahl an Authentifizierungsfehlern, um Konto zu sperren."
+"Period of time in seconds after which account will be unlocked.","Zeitspanne in Sekunden, nach dem das Konto wieder freigeschaltet wird."
+"The integrations created in the config file can't be edited.","Die in der Konfigurationsdatei erstellten Integrationen können nicht bearbeitet werden."
+"A consumer with ""%1"" ID doesn't exist. Verify the ID and try again.","Ein Verbraucher mit der ID ""%1"" existiert nicht. Überprüfen Sie die ID und versuchen Sie es erneut."
+"The tokens couldn't be revoked.","Die Token konnten nicht widerrufen werden."
+"An error occurred during the attempt to grant permissions. For details, see the exceptions log.","Beim Versuch, Berechtigungen zu gewähren, ist ein Fehler aufgetreten. Für Details siehe das exceptions Log."
+"The integration with name ""%1"" exists.","Die Integration mit dem Namen '%1' existiert schon."
+"The integration with ID ""%1"" doesn't exist.","Die Integration mit ID ""%1"" existiert nicht."
+"The token length is invalid. Check the length and try again.","Die Token-Länge ist ungültig. Überprüfen Sie die Länge und versuchen Sie es erneut."
+"The oAuth consumer account couldn't be created due to an unexpected error. Please try again later.","Das oAuth-Consumer-Konto konnte aufgrund eines unerwarteten Fehlers nicht erstellt werden. Bitte versuchen Sie es später erneut."
+"The oAuth consumer account couldn't be loaded due to an unexpected error. Please try again later.","Das oAuth-Consumer-Konto konnte aufgrund eines unerwarteten Fehlers nicht geladen werden. Bitte versuchen Sie es später erneut."
+"The attempt to post data to consumer failed due to an unexpected error. Please try again later.","Der Versuch, Daten an den Consumer zu senden, ist wegen eines unerwarteten Fehlers fehlgeschlagen. Bitte versuchen Sie es später erneut."
+"A consumer with ID ""%1"" doesn't exist. Verify the ID and try again.","Ein Consumer mit der ID ""%1"" existiert nicht. Überprüfen Sie die ID und versuchen Sie es erneut."
 "Your account is temporarily disabled. Please try again later.","Ihr Konto ist vorübergehend deaktiviert. Bitte versuchen Sie es später erneut."
+"The password entered for the current user is invalid. Verify the password and try again.","Das eingegebene Passwort für den aktuellen Benutzer ist ungültig. Überprüfen Sie das Passwort und versuchen Sie es erneut."
 Invitations,Kundennummer
 "Add Invitations","Einladungen hinzufügen"
 "New Invitations","Neue Einladungen"
@@ -5879,6 +6087,7 @@ Invitations,Kundennummer
 "This invitation is addressed to a current customer: ""%1"".","Diese Einladung ist an einen Kunden adressiert. ""%1"""
 "This invitation is not valid.","Diese Einladung ist nicht gültig."
 "Please correct the invitation email.","Bitte die Einladungs-E-Mail korrigieren"
+"Invitation for same email address","Einladung für dieselbe E-Mail-Adresse"
 Accepted,Akzeptiert
 Discarded,Verworfen
 "Invitation Information",Einladungsinformation
@@ -5886,17 +6095,25 @@ Discarded,Verworfen
 "Invitation Message",Einladungstext
 "Signed Up At","Angemeldet am"
 "Invitation URL","Einladungs URL"
+"Invitee Information","Information Eingeladener"
 "Customer ID",Kunden-ID
 "Sign Up At","Anmelden bei"
+"Inviter Information","Information Einladender"
 "Invite your friends by entering their email addresses","Laden Sie Ihre Freunde ein, indem Sie ihre E-Mail-Adressen eingeben"
 "Maximum %1 email addresses allowed.","Maximal %1 E-Mail-Adressen erlaubt."
 "Back to Invitations","Zurück zu Einladungen"
 "Enter Email","E-Mail eingeben"
 "You cannot send more invitations","Sie können keine weiteren Einladungen senden"
 "There are no sent invitations.","Es gibt keine gesendeten Einladungen."
+"%inviter_name invites you to join Private Sales Site","%inviter_name läd Sie zur privaten Verkaufsseite ein"
+"Invite to join Private Sales Site","Einladung zur privaten Verkaufs-Seite"
+"Please accept this invitation to join %store_name.","Bitte akzeptieren Sie die Einladung, um %store_name beizutreten."
 "%store_name offers limited time sales of products only to members.","%store_name bietet einen zeitlich begrenzten Ausverkauf für seine Kunden an"
 "Please use the following link to create an account and view the deals:","Bitte verwenden Sie den folgenden Link, um ein Konto zu erstellen und die Deals zu sehen:"
 "Invited Customers","Eingeladene Kunden"
+Conversion,Konversion
+"Invitation Section",Einladungsbereich
+Conversions,Konversionen
 "Customer Invitation Email Sender","Absender für Kundeneinladungs-E-Mail"
 "Customer Invitation Email Template","Vorlage für Kundeneinladungs-E-Mail"
 "Enable Invitations Functionality","Einladungsfunktionalität aktivieren"
@@ -5919,7 +6136,13 @@ Invitation,Einladung
 "The invitation code is incorrect. Verify the code and try again.","Der Einladungs-Code ist ungültig. Bitte überprüfen Sie den Code und versuchen Sie es erneut."
 "A customer ID group is missing. Enter a group and try again.","Eine Kunden-ID Gruppe fehlt. Geben Sie eine Gruppe an und versuchen Sie es erneut."
 "The incorrect store is specified. Verify the store and try again.","Der falsche Store wurde angegeben. Überprüfen Sie den Store und versuchen Sie es erneut."
+"The store credit entered was invalid. Store credit must be less than the order amount. Verify and try again.","Das eingegebene Shop-Guthaben war ungültig. Das Shop-Guthaben muss kleiner sein als der Bestellbetrag. Überprüfen Sie dies und versuchen Sie es erneut."
+"The encrypted code couldn't be generated.","Der entschlüsselte Code konnte nicht generiert werden."
+"An ID wasn't found for this invitation. Verify the invitation and try again.","Es wurde keine ID für diese Einladung gefunden. Überprüfen Sie die Einladung und versuchen es erneut."
 "The invitation with the ""%1"" status can't be sent.","Die Einladung mit dem Status ""%1"" kann nicht gesendet werden."
+"A valid invitation email is missing. Enter and try again.","Es fehlt eine gültige Einladungsemail. Bitte eingeben und erneut versuchen."
+"The proper website couldn't be identified","Die korrekte Website konnte nicht identifiziert werden."
+"This invitation is addressed to current customer ""%1"".","Diese Einladung ist an den aktuellen Kunden ""%1"" adressiert."
 "Filterable (with results)","Filterbar (mit Ergebnissen)"
 "Filterable (no results)","Filterbar (keine Ergebnisse)"
 "Use in Layered Navigation","In Filternavigation verwenden"
@@ -6194,10 +6417,13 @@ Wishlist,Wunschzettel
 "Please check shipping addresses information.","Bitte überprüfen Sie die Lieferadressinformationen."
 "Please specify shipping methods for all addresses.","Bitte geben Sie Versandmethoden für alle Adressen an."
 "Some addresses cannot be used due to country-specific configurations.","Einige Adressen konnten aufgrund länderspezifischer Konfigurationen nicht verwendet werden."
+"Quote address for failed order not found.","Angebotsadresse für fehlgeschlagene Bestellung nicht gefunden."
+"Exception for failed order not found.","Ausnahme für fehlgeschlagene Bestellung nicht gefunden."
 "Select Addresses","Adressen wählen"
 "Shipping Information",Versandinformation
 "Billing Information",Bestellübersicht
 "Order Success",Bestell-Erfolg
+"Order Results",Bestellungs-Suchergebnisse
 "Default Billing",Standardrechnung
 "Default Shipping",Standard-Versand
 "Select Address","Adresse auswählen"
@@ -6221,15 +6447,21 @@ Wishlist,Wunschzettel
 "Order Review",Bestellübersicht
 "Grand Total:",Gesamtsumme:
 "Submitting order information...","Bestellung wird übermittelt …"
+"Not all items were included.","Nicht alle Elemente wurden einbezogen."
 "For details, see","Für Details siehe"
+"Failed to Order","Bestellung fehlgeschlagen"
+"section below","Bereich unten"
+"For successfully ordered items, you'll receive a confirmation email including order numbers, tracking information, and more details.","Für erfolgreich bestellte Artikel erhalten Sie eine Bestätigungs-E-Mail mit Bestellnummern, Tracking-Informationen und weiteren Details."
 "Successfully Ordered","Erfolgreich bestellt"
 "No shipping required.","Kein Versand erforderlich."
+"To purchase these items: Return to the","Um diese Artikel zu kaufen: Zurück zu"
 "Review page in Checkout","Überprüfungsseite im Bestellablauf"
 "resolve any errors, and place a new order.","Beheben Sie alle Fehler und geben Sie eine neue Bestellung auf."
 "Address %1 <span>of %2</span>","Adresse %1 <span>von %2</span>"
 "Sorry, no quotes are available for this order right now.","Zur Zeit sind leider keine Angebote für diese Bestellung verfügbar."
 "Continue to Billing Information","Weiter zu Rechnungsinformationen"
 "Back to Select Addresses","Zurück zur Adressenauswahl"
+"For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details.","Für erfolgreich bestellte Artikel erhalten Sie eine Bestätigungs-E-Mail mit Bestellnummern, Tracking-Informationen und weiteren Details."
 "Successfully ordered","Erfolgreich bestellt"
 "We can't complete your order because you don't have a payment method set up.","Ihre Bestellung kann nicht abgeschlossen werden, weil Sie keine Zahlungsart eingerichtet haben."
 "Multishipping Settings Section","Abschnitt Multishipping Einstellungen"
@@ -6243,8 +6475,14 @@ Wishlist,Wunschzettel
 "Thanks for your order. We'll email you order details and tracking information.","Vielen Dank für Ihre Bestellung. Wir schicken Ihnen Bestelldetails und Sendeverfolgungs-Informationen per E-Mail."
 "Your order numbers are: ","Ihre Bestellnummern lauten:"
 "Your order number is: ","Ihre Bestellnummer lautet:"
+"We are unable to process your request. Please, try again later.","Wir können Ihre Anfrage nicht bearbeiten. Bitte versuchen Sie es später erneut."
 "Ship to:","Versand an:"
 Error:,Fehler:
+"The maximum quantity can't be more than %1 when shipping to multiple addresses. Change the quantity and try again.","Die maximale Menge kann nicht mehr als %1 sein, wenn der Versand an mehrere Adressen erfolgt. Ändern Sie die Menge und versuchen Sie es erneut."
+"Verify the shipping address information and continue.","Überprüfen Sie die Lieferadressen-Informationen und fahren Sie fort."
+"Verify the billing address information and continue.","Überprüfen Sie die Rechnungsadressen-Informationen und fahren Sie fort."
+"Set shipping methods for all addresses. Verify the shipping methods and try again.","Legen Sie Versandarten für alle Adressen fest. Überprüfen Sie die Versandarten und versuchen Sie es erneut."
+"A payment method isn't defined. Verify and try again.","Eine Zahlungsmethode wurde nicht definiert. Überprüfen und erneut versuchen."
 "Some addresses can't be used due to the configurations for specific countries.","Einige Adressen können aufgrund der Konfigurationen für bestimmte Länder nicht verwendet werden."
 "MySQL Message Queue Cleanup","MySQL Message Queue aufräumen"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Alle Zeiten sind in Minuten angegeben. Verwenden Sie ""0"", wenn Sie die automatische Freigabe überspringen wollen."
@@ -6253,15 +6491,36 @@ Error:,Fehler:
 "Failed Messages Lifetime","Gültigkeit für fehlgeschlagene Nachrichten"
 "New Messages Lifetime","Gültigkeit für neue Nachrichten"
 "MySQL Message Queue Cleanup - all the times are in minutes. Use ""0"" if you want to skip automatic clearance","MySQL Message Queue Cleanup - alle Zeiten in Minuten. Verwenden Sie ""0"", wenn Sie das automatische Aufräumen überspringen möchten"
+"Catalog Total Price (Excl. Tax)","Katalog Gesamtpreis (zzgl. Steuern)"
+"Catalog Total Price (Incl. Tax)","Katalog Gesamtpreis (inkl. Steuern)"
+"Catalog Total Price","Katalog Gesamtpreis"
+"Negotiated Discount","Ausgehandelter Rabatt"
+"Save as Draft","Als Entwurf speichern"
+Decline,Ablehnen
+"This action cannot be performed because you have products requiring attention. You must resolve these issues before you can continue.","Diese Aktion kann nicht ausgeführt werden, da Sie Produkte haben, die eine Bearbeitung erfordern. Sie müssen diese Probleme lösen, bevor Sie fortfahren können."
+"Cannot Perform the Requested Action","Kann die gewünschte Aktion nicht ausführen"
+"Items Quoted","Im Preisangebot enthaltene Artikel"
 "Subtotal (Incl. Tax)","Zwischensumme (inkl. MwSt.)"
 "Subtotal (Excl. Tax)","Zwischensumme (zzgl. Steuern)"
+"Add to Quote by SKU","Per Artikelnummer zum Preisangebot hinzufügen"
 "Add to Quote","Zum Angebot hinzufügen"
+"Total Cost",Gesamtkosten
+"Negotiated Price","Ausgehandelter Preis"
 "Shipping & Handling","Versand & Bearbeitung"
+"Quote Subtotal (Incl. Tax)","Angebotszwischensumme (inkl. Steuern)"
+"Percentage Discount","Prozent Rabatt"
+"Amount Discount",Rabattbetrag
+"Proposed Price","Vorgeschlagener Preis"
+"Quote Subtotal","Preisangebot Zwischensumme"
 "My Quotes","Meine Angebote"
 Qty:,Menge:
 "Qty: ","Menge: "
 (Removed),(Entfernt)
 deleted,gelöscht
+"This quote is currently locked for editing. It will become available once released by the Merchant.","Dieses Preisangebot ist derzeit für das Bearbeiten gesperrt. Es wird zugänglich, sobald es vom Händler freigegeben wurde."
+"Your quote has expired and the product prices have been updated as per the latest prices in your catalog. You can either re-submit the quote to seller for further negotiation or go to checkout.","Ihr Preisangebot ist abgelaufen und die Produktpreise wurden entsprechend den aktuellen Preisen in Ihrem Katalog aktualisiert. Sie können das Angebot entweder für weitere Verhandlungen erneut an den Verkäufer senden oder zur Kasse gehen."
+"You are not an owner of this quote. You cannot edit it or take any actions on it.","Sie sind kein Inhaber dieses Preisangebots. Sie können es nicht bearbeiten und keine Schritte auf Grundlage des Angebots ergreifen."
+"Estimated Tax","Voraussichtliche Steuern"
 Quotes,Angebote
 Quote,Angebot
 "Cannot save comment:\n%1","Kann Hinweis:\n%1 nicht speichern"
@@ -7271,6 +7530,32 @@ error123,Fehler123
 "What’s new with Magento 2.2.4","Was ist neu in Magento 2.2.4"
 "Trusted Payment Options","Vertrauenswürdige Zahlungsoptionen"
 "What's new with Magento 2.2.2","Was ist neu in Magento 2.2.2"
+"
+                        <p>Now you can deliver an Amazon-like experience with a new, streamlined checkout option.
+                        Logged-in customers can use previously-stored payment credentials and shipping information
+                        to skip steps, making the process faster and easier, especially for mobile shoppers. Key
+                        features include:
+                        </p>
+                        <ul>
+                        <li><span>Configurable “Instant Purchase” button to place orders.</span></li>
+                        <li><span>Support for all payment solutions using Braintree Vault, including Braintree Credit
+                        Card, Braintree PayPal, and PayPal Payflow Pro.</span></li>
+                        <li><span>Shipping to the customer’s default address using the lowest cost, available shipping
+                        method.</span></li>
+                        <li><span>Ability for developers to customize the Instant Purchase business logic to meet
+                        merchant needs.</span></li>
+                        </ul>
+                        ","
+                        <p>Nun können Sie einen Amazon-ähnlichen schnellen Checkout anbieten.
+                        Registrierte Kunden können vorab gespeicherte Daten und Versandinformationen nutzen, um Schritte zu überspringen und dadurch den Bestellablauf einfacher zu machen - besonders für mobile Nutzer. Die Hauptfunktionen sind:
+                        </p>
+                        <ul>
+                        <li><span>Konfigurierbarer “Instant Purchase” Button zum Bestellen.</span></li>
+                        <li><span>Support aller Zahlungsarten von Braintree Vault, inklusive Braintree Kredtikarte, Braintree PayPal, und PayPal Payflow Pro.</span></li>
+                        <li><span>Versand an die Standardadresse des Kunden mit der günstigsten verfügbaren Versandmethode.</span></li>
+                        <li><span>Möglichkeit für Entwickler die Anwendungslogik von Instant Purchase an die Anforderungen des Händlers anzupassen.</span></li>
+                        </ul>
+                        "
 "Email Marketing Automation","E-Mail-Marketing Automatisierung"
 "Sorry, we had a problem loading our “What’s new” content.","Leider hatten wir ein Problem beim Laden unseres „Was ist neu“ Inhalts."
 "
@@ -9441,6 +9726,7 @@ less,weniger
 "Something went wrong deleting this rate.","Beim Löschen dieses Satzes ist ein Fehler aufgetreten."
 "Edit Tax Rate","Steuersatz bearbeiten"
 "You saved the tax rate.","Sie haben den Steuersatz gespeichert."
+"An error occurred while loading tax rates.","Beim Laden der Steuersätzes ist ein Fehler aufgetreten."
 "The tax rule has been deleted.","Die Steuerregel wurde wurde gelöscht."
 "Something went wrong deleting this tax rule.","Beim Löschen der Steuerregel ist ein Fehler aufgetreten."
 "New Tax Rule","Neue Steuerregel"
@@ -9475,6 +9761,7 @@ less,weniger
 "To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”. ","Um den Rabatt auf Preise inklusive Steuern und die Steuer nach Rabatt anzuwenden, setzen Sie Katalogpreise auf ""Inklusive Steuern"". "
 "Store(s) affected: ","Betroffene(r) Shop(s):"
 "Click on the link to <a href=""%1"">ignore this notification</a>","Klicken Sie auf den Link, um <a href=""%1"">diese Benachrichtung zu ignorieren</a>"
+"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations. ","Wird die Kundensteuerklasse ""Vor Rabatt"" angewendet, kann die tatsächliche Rabattberechnung anders ausfallen, als von den Kunden erwartet. "
 "Your current tax configuration may result in rounding errors. ","Ihre aktuelle Steuerkonfiguration kann auf Rundungsfehler hinauslaufen."
 "Please see <a href=""%1"">documentation</a> for more details. ","Bitte klicken Sie auf <a href=""%1"">Dokumentation</a> für weitere Details."
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Klicken Sie hier, um zur <a href=""%1"">Steuer-Konfiguration</a> zu gelangen und Ihre Einstellungen zu ändern."
@@ -9530,11 +9817,17 @@ State/Region,"Bundesland / Region"
 "(Incl. Tax)","(Inkl. MwSt.)"
 "Order Total Excl. Tax","Gesamtbetrag exkl. Steuern"
 "Order Total Incl. Tax","Bestellsumme inkl. MwSt."
+"Warning tax configuration can result in rounding errors. ","Achtung: Die Steuerkonfigurationen kann Rundungsfehlern verursachen. "
 "Warning tax discount configuration might result in different discounts
                                 than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen
                                 als der Kunde erwarten würde. "
 "Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","Der Rabatt auf den Preis inklusive Steuern wird auf Basis des Steuersatzes des Stores berechnet, wenn ""Steuer nach Rabatt anwenden"" gewählt ist."
 "With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations.","Wird die Kundensteuerklasse ""Vor Rabatt"" angewenet, kann die finale Rabattkalkulation eventuell von den Erwartungen der Kunden abweichen."
+"The required information is invalid. Verify the information and try again.","Die erforderlichen Informationen sind ungültig. Überprüfen Sie die Informationen und versuchen Sie es erneut."
+"The Rate Percent is invalid. Enter a positive number and try again.","Der Prozentsatz ist ungültig. Geben Sie eine positive Zahl ein und versuchen Sie es erneut."
+"The ZIP Code length is invalid. Verify that the length is nine characters or fewer and try again.","Die Länge der Postleitzahl ist nicht korrekt. Überprüfen Sie bitte, ob Sie neun Zeichen oder weniger verwenden und versuchen Sie es erneut."
+"The ZIP Code is invalid. Use numbers only.","Die Postleitzahl ist ungültig. Verwende ausschließlich Zahlen."
+"The tax rate can't be removed because it exists in a tax rule.","Steuersatz kann nicht entfernt werden, da er in einer Steuerregel verwendet wird."
 "Import and Export Tax Rates","Import und Export für Steuersätze"
 "The tax rate has been imported.","Der Steuersatz wurde importiert."
 "Invalid file upload attempt","Ungültiger Datei-Upload-Versuch"
