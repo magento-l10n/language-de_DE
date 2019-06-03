@@ -4590,12 +4590,15 @@ Decision,Entscheidung
 "Internet inconsistencies. The IP address  nd email domain are not consistent with the billing address","Internetwidersprüche. Die IP-Adresse und E-Mail-Domain stimmen nicht mit der Rechnungsadresse überein."
 "Nonsensical input. The customer name and address fields contain meaningless words or language","Eingaben ohne Sinn. Die Felder für den Kundennamen und die Adresse enthalten bedeutungslose Wörter oder Sprachen"
 "Obscenities. The customer’s input contains obscene words","Obszönitäten. Die Eingabe des Kunden enthält obszöne Worte."
+"Identity morphing. Multiple values of an  dentity element are linked to a value of a different identity element. For example, m ltiple phone numbers are linked to a single account number","Identitätszusammenführung. Mehrere Werte eines Identitätselements sind mit einem Wert eines anderen Identitätselements verknüpft. Zum Beispiel sind mehrere Telefonnummern mit einer einzigen Kontonummer verknüpft"
+"Phone inconsistencies. The customer’s phone number is suspicious","Konflikt bei der Telefonnummer. Die Telefonnummer des Kunden ist verdächtig"
 "Risky order. The transaction, customer, and merchant information show multiple high-risk correlations","Riskante Bestellung. Transaktion, Kunde und Händlerinformationen weisen mehrere Korrelationen hohen Risikos auf."
 "Time hedge. The customer is attempting a purchase outside of the expected hours","Zeitabsicherung. Der Kunde versucht außerhalb der erwarteten Stunden einzukaufen."
 "Unverifiable address. The billing or shipping address cannot be verified","Nicht verifizierbare Adresse. Die Rechnungs- oder Versandadresse kann nicht verifiziert werden."
 "Velocity. The account number was use  many times in the past 15 minutes","Geschwindigkeit. Die Kontonummer wurde mehrfach in den letzen 15 Minuten benutzt."
 "Marked as suspect. The billing or shipping address is similar to an address previously marked as suspect","Als verdächtig markiert. Die Rechnungs- oder Versandadresse ähnelt einer kürzlich als verdächtig markierten Adresse."
 "Gift Order. The street address, city, state, or country of the billing and shipping addresses do not correlate","Geschenkbestellung. Adresse, Stadt, Bundesland oder Land der Rechnungs- und Versandadressen hängen nicht zusammen."
+"Invalid value. Because the request contains an unexpected value, a default value was substituted. Although the transact on can still be processed, examine the request carefully for abnormalities in the order","Ungültiger Wert. Da die Anfrage einen unerwarteten Wert enthält, wurde er durch einen Standardwert ersetzt. Obwohl die Transaktion noch verarbeitet werden kann, prüfen Sie die Anfrage sorgfältig nach Auffälligkeiten in der Bestellung"
 "Unknown factor. Please contact Cybersource customer service","Unbekannter Faktor. Bitte kontaktieren Sie den Cybersource Kundenservice."
 "Payment Token Build Error.",Zahlungstoken-Buildfehler
 "Your payment has been declined. Please try again.","Ihre Zahlung wurde abgelehnt. Bitte versuchen Sie es erneut."
@@ -4606,10 +4609,19 @@ Decision,Entscheidung
 "Profile ID",Profil-ID
 "Access Key",Zugriffsschlüssel
 "Secret Key",Geheimschlüssel
+"Webhook URL",Webhook-URL
+"Webhook URL should be set in your Cybersource account as Transaction Response Page.","Der Webhook-URL sollte in Ihrem Cybersource-Konto als Transaktions-Response-Seite gesetzt werden."
+"Is admin panel works on the different domain?","Ist das Admin Panel auf der anderen Domain?"
+"Admin Profile ID",Admin-Profil-ID
+"Admin Access Key",Admin-Zugangsschlüssel
+"Admin Webhook URL","Admin Webhook-URL"
+"The credit card type field needs to be provided. Select the field and try again.","Das Feld für den Kreditkartentyp muss angegeben werden. Wählen Sie das Feld aus und versuchen Sie es erneut."
 "Import failed: %1","Import fehlgeschlagen: %1"
 "%1 does not implement %2","%1 implementiert nicht %2"
 "File app/etc/%1 can't be read. Please check if it exists and has read permissions.","Die Datei app/etc/%1 kann nicht gelesen werden. Bitte überprüfen Sie, ob die Datei existiert und die Leseberechtigung richtig gesetzt sind."
+"There are no sensitive configurations to fill","Es gibt keine sensiblen Konfigurationen zum Ausfüllen"
 "Value can't be empty","Wert darf nicht leer sein"
+"A configuration with this path does not exist or is not sensitive","Eine Konfiguration mit diesem Pfad existiert nicht oder ist nicht sensibel"
 "Cannot switch into given mode ""%1""","Kann nicht in den angegebenen Modus ""%1"" wechseln"
 "Wrong logger interface specified.","Falsche Logging-Schnittstelle angegeben."
 "Hash has not been saved.","Hash wurde nicht gespeichert."
@@ -6483,6 +6495,9 @@ Error:,Fehler:
 "Verify the billing address information and continue.","Überprüfen Sie die Rechnungsadressen-Informationen und fahren Sie fort."
 "Set shipping methods for all addresses. Verify the shipping methods and try again.","Legen Sie Versandarten für alle Adressen fest. Überprüfen Sie die Versandarten und versuchen Sie es erneut."
 "A payment method isn't defined. Verify and try again.","Eine Zahlungsmethode wurde nicht definiert. Überprüfen und erneut versuchen."
+"This payment method can't be used for shipping to multiple addresses. Change the payment method and try again.","Diese Zahlungsmethode kann nicht für die Versand an mehrere Adressen verwandt werden. Ändern Sie die Zahlungsmethode und versuchen Sie es erneut."
+"The item isn't found, or it's already ordered.","Das Element wird nicht gefunden oder ist bereits bestellt."
+"The payment method isn't selected. Enter the payment method and try again.","Die Zahlungsmethode ist nicht ausgewählt. Geben Sie eine Zahlungsmethode ein und versuchen Sie es erneut."
 "Some addresses can't be used due to the configurations for specific countries.","Einige Adressen können aufgrund der Konfigurationen für bestimmte Länder nicht verwendet werden."
 "MySQL Message Queue Cleanup","MySQL Message Queue aufräumen"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Alle Zeiten sind in Minuten angegeben. Verwenden Sie ""0"", wenn Sie die automatische Freigabe überspringen wollen."
@@ -6499,6 +6514,7 @@ Error:,Fehler:
 Decline,Ablehnen
 "This action cannot be performed because you have products requiring attention. You must resolve these issues before you can continue.","Diese Aktion kann nicht ausgeführt werden, da Sie Produkte haben, die eine Bearbeitung erfordern. Sie müssen diese Probleme lösen, bevor Sie fortfahren können."
 "Cannot Perform the Requested Action","Kann die gewünschte Aktion nicht ausführen"
+"%creator (for %customer)","%creator (für %customer)"
 "Items Quoted","Im Preisangebot enthaltene Artikel"
 "Subtotal (Incl. Tax)","Zwischensumme (inkl. MwSt.)"
 "Subtotal (Excl. Tax)","Zwischensumme (zzgl. Steuern)"
@@ -6508,27 +6524,125 @@ Decline,Ablehnen
 "Negotiated Price","Ausgehandelter Preis"
 "Shipping & Handling","Versand & Bearbeitung"
 "Quote Subtotal (Incl. Tax)","Angebotszwischensumme (inkl. Steuern)"
-"Percentage Discount","Prozent Rabatt"
+"Percentage Discount","Prozentsatz Rabatt"
 "Amount Discount",Rabattbetrag
 "Proposed Price","Vorgeschlagener Preis"
-"Quote Subtotal","Preisangebot Zwischensumme"
+"Quote Subtotal",Angebotszwischensumme
 "My Quotes","Meine Angebote"
+"created quote","Preisangebot erstellt"
+"closed quote","Preisangebot geschlossen"
+"updated quote","Preisangebot aktualisiert"
+"Percentage Discount - %1%","Prozentsatz Rabatt - %1%"
+"Amount Discount - %1","Rabattbetrag - %1"
+"Proposed Price - %1","Vorgeschlagener Preis - %1"
 Qty:,Menge:
 "Qty: ","Menge: "
+" - deleted from catalog"," - aus dem Katalog gelöscht"
 (Removed),(Entfernt)
 deleted,gelöscht
+"Renderer list for block ""%1"" is not defined","Renderer-Liste für Block ""%1"" ist nicht definiert"
 "This quote is currently locked for editing. It will become available once released by the Merchant.","Dieses Preisangebot ist derzeit für das Bearbeiten gesperrt. Es wird zugänglich, sobald es vom Händler freigegeben wurde."
 "Your quote has expired and the product prices have been updated as per the latest prices in your catalog. You can either re-submit the quote to seller for further negotiation or go to checkout.","Ihr Preisangebot ist abgelaufen und die Produktpreise wurden entsprechend den aktuellen Preisen in Ihrem Katalog aktualisiert. Sie können das Angebot entweder für weitere Verhandlungen erneut an den Verkäufer senden oder zur Kasse gehen."
 "You are not an owner of this quote. You cannot edit it or take any actions on it.","Sie sind kein Inhaber dieses Preisangebots. Sie können es nicht bearbeiten und keine Schritte auf Grundlage des Angebots ergreifen."
 "Estimated Tax","Voraussichtliche Steuern"
+"Quote Subtotal (Excl. Tax)","Angebotszwischensumme (zzgl. Steuern)"
+"Quote Grand Total (Incl. Tax)","Gesamtsumme des Angebots (inkl. Steuern)"
+"Grand Total to Be Charged","Gesamtsumme zu zahlen"
+"Requested quote was not found","Angefordertes Anbebot wurde nicht gefunden"
 Quotes,Angebote
+"Something went wrong during quote declining","Etwas ist beim Ablehnen des Angebots schiefgelaufen"
+"Attachment not found.","Anhang nicht gefunden."
+"Quote #%1","Angebot Nr. %1"
+"Exception occurred during quote print: %1","Eine Ausnahme ist während des Druckens des Angebots aufgetreten: %1"
+"Exception occurred during update quote","Eine Ausnahme ist während des Aktualisierens des Angebots aufgetreten"
+"Exception occurred during quote saving","Eine Ausnahme ist während des Speicherns des Angebots aufgetreten"
+"The changes have been saved.","Die Änderungen wurden gespeichert."
+"The quote has been sent to the buyer.","Das Angebot wurde an den Käufer gesendet."
+"Exception occurred during quote sending","Eine Ausnahme ist während des Versendens des Angebots aufgetreten"
+"Exception occurred during quote view %1","Eine Ausnahme ist während des Darstellens des Angebots aufgetreten: %1"
+"Requested quote was not found.","Angefordertes Anbebot wurde nicht gefunden."
+"An error occurred on the server. %1","Ein Fehler ist auf dem Server aufgetreten. %1"
+"This quote is currently locked for editing. It will become available once released by the buyer.","Dieses Angebot ist derzeit zum Bearbeiten gesperrt. Es wird zugänglich, sobald es vom Käufer freigegeben wurde."
+"An error occurred while quote creation.","Beim Erstellen von Angeboten ist ein Fehler aufgetreten."
+"%1 products require your attention. Please contact the Seller if you have any questions.","%1 Produkte benötigen Ihre Aufmerksamkeit. Bitte kontaktieren Sie den Verkäufer, wenn Sie Fragen haben."
+"You closed the quote.","Sie haben das Angebot geschlossen."
+"We can't close the quote right now because of an error: %1.","Wir können das Angebot jetzt nicht schließen, weil es Fehler gibt: %1."
+"We can't close the quote right now.","Wir können das Angebot jetzt nicht schließen."
+"An error occurred while creating quote.","Beim Erstellen des Angebots ist ein Fehler aufgetreten."
+"Quote with ID %1 was successfully created.","Das Angebot mit der ID %1 wurde erfolgreich erstellt."
+"The quote could not be created. Please try again later.","Das Angebot konnte nicht erstellt werden. Bitte versuchen Sie es später erneut."
+"You have deleted the quote.","Sie haben das Angebot gelöscht."
+"We can't delete the quote right now.","Wir können das Angebot momentan nicht löschen."
+"You've removed the item from quote.","Sie haben das Element aus dem Angebot entfernt."
+"We can't delete the quote item right now.","Wir können das Angebotselement jetzt nicht löschen."
+"You have updated the items in the quote.","Sie haben die Artikel im Angebot aktualisiert."
+"We can't update the items right now.","Wir können die Elemente jetzt nicht aktualisieren."
+"We can't order the quote right now because of an error: %1.","Wir können das Angebot momentan nicht bestellen, weil es Fehler gibt: %1."
+"We can't order the quote right now.","Wir können das Angebot jetzt nicht bestellen."
 Quote,Angebot
+"This quote will be charged in %1. The prices are given in %2 as reference only.","Dieses Angebot wird in %1 berechnet. Die Preise werden in %2 nur als Referenz angegeben."
+"We can't send the quote right now because of an error: %1.","Wir können das Angebot momentan nicht senden, weil es Fehler gibt: %1."
+"We can't send the quote right now.","Wir können das Angebot momentan nicht senden."
+"Cannot obtain the requested data. You must fix the errors listed below first.","Die angeforderten Daten können nicht abgerufen werden. Sie müssen die unten aufgeführten Fehler beheben."
+"Requested attachment is not found. Row ID: %fieldName = %fieldValue","Angeforderter Anhang wurde nicht gefunden. Zeilen-ID: %fieldName = %fieldValue"
+"Requested quote is not found. Row ID: %fieldName = %fieldValue","Angefordertes Angebot wurde nicht gefunden. Zeilen-ID: %fieldName = %fieldValue"
+"There was an error saving comment.","Es gab einen Fehler beim Speichern eines Kommentars."
+"Cannot delete comment with id %1","Kommentar mit der ID %1 kann nicht gelöscht werden"
+"There was an error saving company quote config.","Es gab einen Fehler beim Speichern der Unternehmens-Angebote-Konfiguration."
+" - deleted"," - gelöscht"
+"Product with ID #%1 is deleted","Produkt mit ID #%1 wurde gelöscht"
+"There was an error saving history log.","Beim Speichern des Historie-Logs ist ein Fehler aufgetreten."
+"There was an error during updating history log.","Beim Aktualisieren des Historie-Logs ist ein Fehler aufgetreten."
+"Could not save history log","Historie-Log konnte nicht gespeichert werden"
+"Cannot delete history log with id %1","Historie-Log mit ID %1 kann nicht gelöscht werden"
+"There was an error saving negotiable quote item.","Es gab einen Fehler beim Speichern des verhandelbaren Angebots-Artikels."
+"Cannot send a B2B quote.","Ein B2B-Angebot kann nicht gesendet werden."
+"Cannot create a B2B quote.","Ein B2B-Angebot kann nicht erstellt werden."
+"Changes to the negotiated quote were not saved. Please try again.","Änderungen am ausgehandelten Angebot wurden nicht gespeichert. Bitte versuchen Sie es erneut."
+"Product with SKU %1 not found","Produkt mit SKU %1 nicht gefunden"
+"Negotiated quote not found.","Verhandeltes Angebot nicht gefunden."
+"Catalog Price: ","Katalogpreis: "
+"Quote Discount",Angebotsrabatt
+"Discount amount: ","Rabattbetrag: "
+"Cart Price: ","Warenkorbpreis: "
 "Cannot save comment:\n%1","Kann Hinweis:\n%1 nicht speichern"
+discount,Rabatt
+"%1 - deleted","%1 - gelöscht"
+"Cart rule deleted.","Warenkorb-Regel gelöscht."
+"Products %1","Produkte %1"
+Submitted,Übermittelt
+Declined,Abgelehnt
+"Catalog prices have changed, and you may want to review the offer. Details about the changes are available in the History Log.","Katalogpreise haben sich geändert, weshalb Sie eventuell das Angebot überprüfen möchten. Details über die Änderungen sind im Protokoll verfügbar."
+"Message 1","Nachricht 1"
+"Message 2","Nachricht 2"
+"exception message",Fehlermeldung
 Comments,Kommentare
+"Request Declined. Reason: ","Anfrage abgelehnt. Grund: "
+"Created By","Erstellt von"
 Expires,"Gültig bis"
+"Catalog Price",Katalogpreis
+"History Log",Änderungsprotokoll
+"Add your comment","Fügen Sie Ihren Kommentar hinzu"
+"Attach file","Datei anhängen"
+"Quote # %1","Angebot Nr. %1"
+"Edit Company","Firma bearbeiten"
+"Add Product By SKU","Produkt per SKU hinzufügen"
 "Name & SKU","Name & Artikelnummer"
+"Cart Price",Warenkorbpreis
+"Update Prices","Preise aktualisieren"
+"Delete Action","Aktion löschen"
+Negotiation,Verhandlung
+"Shipping Methods & Price","Versandart & -preis"
+"You have no shipping address for this quote.","Sie haben keine Lieferadresse für dieses Angebot."
 "Click to change shipping method","Hier klicken, um die Versandsart zu ändern"
 "Get shipping methods and rates","Versandmethoden und -Preise holen"
+"Enter SKU","SKU eingeben"
+"The negotiated price cannot be higher than the catalog total price.","Der ausgehandelte Preis darf nicht höher sein als der Gesamtpreis laut Katalog."
+"Negotiated Price cannot be less than 0","Verhandelter Preis darf nicht weniger als 0 sein"
+(Updated),(Aktualisiert)
+(Added),(Hinzugefügt)
+"Shipping address",Versandadresse
+"Proposed shipping price","Vorgeschlagener Versandpreis"
 "Quote name",Angebotsname
 Created:,Erstellt:
 "No shipping information available","Keine Versandinformationen verfügbar"
@@ -6549,6 +6663,8 @@ Created:,Erstellt:
 "Created Date",Erstellungsdatum
 "Last Updated","Zuletzt aktualisiert"
 "Quote Name",Angebotsname
+"No such public catalog entity","Kein solche öffentliche Kataloginstanz"
+"Shared Catalog (or Customer Group)","Geteilter Katalog (oder Kundengruppe)"
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Keine ""New Relic"" Application ID konfiguriert, kann nicht mit dem Cron Event Reporting fortfahren"
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die ""New Relic"" Integration erfordert den newrelic-php5 Agent, der nicht installiert ist. Weitere Informationen zur Installation des Agents siehe <a target=""_blank"" href=""%1"">hier</a>."
@@ -6734,9 +6850,8 @@ Instructions,Anweisungen
 "Built-in Cache","Integrierter Cache"
 "Varnish Cache (Recommended)","Varnish Cache (empfohlen)"
 "Unsupported varnish version","Nicht unterstützte Varnish-Version"
-"Full Page Cache","Full page Cache"
 "Caching Application",Caching-Anwendung
-"Varnish Configuration","Varnish Konfiguration"
+"Varnish Configuration",Varnish-Konfiguration
 "Access list",Zugriffsliste
 "IPs access list separated with ',' that can purge Varnish configuration for config file generation.
                             If field is empty default value localhost will be saved.","Durch \',\' getrennte IP-Zugriffsliste, welche die Varnish Konfiguration für die Generierung der Konfigurationsdatei bereinigen kann.                             Wenn das Feld leer ist, wird localhost gespeichert."
@@ -6745,15 +6860,17 @@ Instructions,Anweisungen
 "Backend port",Backend-Port
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Geben Sie den Backend-Port für die Generierung der Konfigurationsdatei an. Wenn das Feld leer ist, wird der Wert 8080 gespeichert."
 "Grace period",Ablaufzeit
+"Specify grace period in seconds for config file generation. If field is empty default value 300 will be saved. This grace period will be used to serve cached content when the server is healthy. If the server is not healthy, cached content will be served for 3 days before failing.","Geben Sie für die Config-File-Generierung die Ablaufzeit in Sekunden an. Wenn das Feld leer ist, wird der Wert 300 gespeichert. Diese Ablaufzeit wird verwendet, um gecachte Inhalte bereitzustellen, wenn der Server gesund ist. Wenn der Server nicht gesund ist, wird gecachter Inhalt 3 Tage lang bereitgestellt, bevor es zu einem Ausfall kommt."
 "TTL for public content","TTL für öffentliche Inhalte"
 "Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.","Cache-Lebensdauer für öffentlichen Inhalt in Sekunden. Wenn das Feld leer ist, wird der Standardwert 86400 gespeichert."
 "Page Cache",Seiten-Cache
-"Full page caching",Seiten-Caching
+"Full page caching","Full Page Caching"
 "Export VCL for Varnish ","VCL für Varnish exportieren "
 "Built-in Application (Not Recommended for Production Use)","Integrierte Anwendung (Nicht für den Produktiv-Einsatz empfohlen)"
 "Full page caching.","Full Page Caching."
+"Access List value ""%1"" is not valid. Please use only IP addresses and host names.","Der Zugriffsliste-Wert ""%1"" ist nicht gültig. Bitte verwenden Sie nur IP-Adressen und Hostnamen."
 "Export Configuration","Konfigurationen exportieren"
-"We cannot retrieve the payment method model object.","Die Zahlungsbewertungsaktion ist nicht verfügbar."
+"We cannot retrieve the payment method model object.","Wir können das Model Object für die Zahlungsmethode nicht abrufen."
 "We cannot retrieve the payment info model object.","Wir können das Info Model Objekt zur Zahlung nicht abrufen."
 "Switch/Solo/Maestro Issue Number","Switch/Solo/Maestro Ausgabenummer"
 "Switch/Solo/Maestro Start Date","Switch/Solo/Maestro Startdatum"
@@ -6793,13 +6910,16 @@ Instructions,Anweisungen
 "Payment Methods Section","Abschnitt Zahlungsmethoden"
 "Payment Services",Zahlungsdienste
 "Please provide payment for the order.","Bitte geben Sie die Zahlung für die Bestellung an."
+"The ""%1"" command executor isn't defined. Verify the executor and try again.","Der Command Executor ""%1"" ist nicht definiert. Überprüfen Sie den Befehl und versuchen Sie es erneut."
 "The ""%1"" command doesn't exist. Verify the command and try again.","Der Befehl ""%1"" existiert nicht. Überprüfen Sie den Befehl und versuchen Sie es erneut."
+"The gateway response format was incorrect. Verify the format and try again.","Das Gateway-Antwortformat war nicht korrekt. Überprüfen Sie das Format und versuchen Sie es erneut."
 "The validator for the ""%1"" field doesn't exist.","Der Validator für das Feld ""%1"" existiert nicht."
 "Billing Agreements","Paypal Zahlungsfreigaben"
 "Reference ID","Referenz ID"
 "Billing Agreement #%1","Zahlungsvereinbarung #%1"
 "Related Orders","Zugehörige Bestellungen"
 "Billing Agreement View","Abrechnungsvereinbarung ansehen"
+"Are you sure you want to authorize full order amount?","Sind Sie sicher, dass Sie die Gesamtauftragssumme genehmigen möchten?"
 "View Transaction Details","Transaktionsdetails anzeigen"
 "Reference Information",Referenzinformationen
 "Transaction Information",Transaktionsinformationen
@@ -6817,6 +6937,8 @@ Help,Hilfe
 "We can't cancel the billing agreement.","Wir konnten die Abrechnungsvereinbarung nicht abbrechen."
 "You deleted the billing agreement.","Sie haben die Abrechnungsvereinbarung gelöscht."
 "We can't delete the billing agreement.","Wir konnten die Abrechnungsvereinbarung nicht löschen."
+"Payment authorization has been successfully created.","Die Zahlungsautorisierung wurde erfolgreich erstellt."
+"Unable to make payment authorization.","Zahlungsautorisierung nicht möglich."
 "View Transaction","Transaktion anzeigen"
 "We found nothing to fetch because of an empty configuration.","Wir konnten aufgrund einer leeren Konfiguration nichts abrufen."
 "We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2@%3."" abgerufen."
@@ -7527,6 +7649,8 @@ error123,Fehler123
 "Required parameter ""shipping_addresses"" is missing","Erforderlicher Parameter ""shipping_address"" fehlt"
 "Required parameter ""shipping_methods"" is missing","Erforderlicher Parameter ""shipping_methods"" fehlt"
 "It is impossible to log user action","Benutzeraktion kann nicht protokolliert werden"
+"An error occurred while logging process.","Während des Protokollierungsprozesses ist ein Fehler aufgetreten."
+"Release Notification",Release-Benachrichtigung
 "What’s new with Magento 2.2.4","Was ist neu in Magento 2.2.4"
 "Trusted Payment Options","Vertrauenswürdige Zahlungsoptionen"
 "What's new with Magento 2.2.2","Was ist neu in Magento 2.2.2"
