@@ -6599,6 +6599,10 @@ Quote,Angebot
 "Cannot send a B2B quote.","Ein B2B-Angebot kann nicht gesendet werden."
 "Cannot create a B2B quote.","Ein B2B-Angebot kann nicht erstellt werden."
 "Changes to the negotiated quote were not saved. Please try again.","Änderungen am ausgehandelten Angebot wurden nicht gespeichert. Bitte versuchen Sie es erneut."
+"Cannot delete negotiable quote","Konnte verhandelbares Angebot nicht löschen"
+"Shipping method cannot be set for a virtual quote.","Versandart kann nicht für ein virtuelles Angebot gesetzt werden."
+"Cannot add the shipping method. You must add a shipping address into the quote first.","Die Versandart kann nicht hinzugefügt werden. Sie müssen zuerst eine Lieferadresse in das Angebot einfügen."
+"Requested shipping method is not found. Row ID: ShippingMethodID = %ShippingMethodID.","Angeforderte Versandart wurde nicht gefunden. Zeilen-ID: Versandmethode ID = %ShippingMethodID."
 "Product with SKU %1 not found","Produkt mit SKU %1 nicht gefunden"
 "Negotiated quote not found.","Verhandeltes Angebot nicht gefunden."
 "Catalog Price: ","Katalogpreis: "
@@ -6613,53 +6617,138 @@ discount,Rabatt
 Submitted,Übermittelt
 Declined,Abgelehnt
 "Catalog prices have changed, and you may want to review the offer. Details about the changes are available in the History Log.","Katalogpreise haben sich geändert, weshalb Sie eventuell das Angebot überprüfen möchten. Details über die Änderungen sind im Protokoll verfügbar."
+"Validation error message","Fehlermeldung zum Validierungsfehler"
 "Message 1","Nachricht 1"
 "Message 2","Nachricht 2"
 "exception message",Fehlermeldung
+"Order Placed From Quote","Vom Angebot ausgeführte Bestellung"
 Comments,Kommentare
 "Request Declined. Reason: ","Anfrage abgelehnt. Grund: "
 "Created By","Erstellt von"
+rate,Preis
 Expires,"Gültig bis"
+"Company Admin Email","Admin-E-Mail Unternehmen"
+Seller,Verkäufer
 "Catalog Price",Katalogpreis
 "History Log",Änderungsprotokoll
 "Add your comment","Fügen Sie Ihren Kommentar hinzu"
 "Attach file","Datei anhängen"
+"Quote & Account Information","Angebots- und Kontoinformationen"
 "Quote # %1","Angebot Nr. %1"
 "Edit Company","Firma bearbeiten"
+"Sales Rep",Außendienstler
 "Add Product By SKU","Produkt per SKU hinzufügen"
 "Name & SKU","Name & Artikelnummer"
 "Cart Price",Warenkorbpreis
+"Recalculate Quote","Angebot neu berechnen"
 "Update Prices","Preise aktualisieren"
 "Delete Action","Aktion löschen"
+"The quote list has changed. Please update the negotiated price.","Die Angebotsliste hat sich geändert. Bitte aktualisieren Sie den ausgehandelten Preis."
 Negotiation,Verhandlung
+"Quote Totals","Angebot Gesamtsummen"
 "Shipping Methods & Price","Versandart & -preis"
+"Sorry, rates are not available for this quote.","Preise sind für dieses Angebot leider nicht verfügbar."
 "You have no shipping address for this quote.","Sie haben keine Lieferadresse für dieses Angebot."
+"Proposed Shipping Price","Vorgeschlagener Versandpreis"
 "Click to change shipping method","Hier klicken, um die Versandsart zu ändern"
+"Sorry, rates are not available for this quote..","Preise sind für dieses Angebot leider nicht verfügbar.."
 "Get shipping methods and rates","Versandmethoden und -Preise holen"
 "Enter SKU","SKU eingeben"
 "The negotiated price cannot be higher than the catalog total price.","Der ausgehandelte Preis darf nicht höher sein als der Gesamtpreis laut Katalog."
 "Negotiated Price cannot be less than 0","Verhandelter Preis darf nicht weniger als 0 sein"
+"Products Not Added to the Quote","Produkte nicht zum Angebot hinzugefügt"
+"Add Products to Quote","Produkte dem Angebot hinzufügen"
 (Updated),(Aktualisiert)
 (Added),(Hinzugefügt)
 "Shipping address",Versandadresse
 "Proposed shipping price","Vorgeschlagener Versandpreis"
+"Shipping method",Versandart
+removed,entfernt
+" - removed"," - entfernt"
+"Request a Quote","Angebot anfordern"
 "Quote name",Angebotsname
+"Send Request","Anfrage senden"
+"Order Placed From Quote:","Vom Angebot ausgeführte Bestellung:"
+"Cannot Open the Quote","Angebot kann nicht geöffnet werden"
+"This quote cannot be viewed at the current website. Would you like to navigate to the website where you created this quote?","Dieses Angebot kann nicht auf der aktuellen Website angezeigt werden. Möchten Sie auf der Website navigieren, auf der Sie dieses Angebot erstellt haben?"
+"Show My Orders","Meine Bestellungen anzeigen"
+"Show All Orders","Alle Bestellungen anzeigen"
+Merge,Zusammenführen
+"Quote Comments",Angebotskommentare
 Created:,Erstellt:
+Expires:,"Gültig bis:"
+"Sales Rep.:",Außendienstmitarbeiter:
+"Select Existing Address","Vorhandene Adresse auswählen"
 "No shipping information available","Keine Versandinformationen verfügbar"
+"Select a shipping address from your address book.","Wählen Sie eine Lieferadresse aus Ihrem Adressbuch."
+"Send for Review","Zur Überprüfung senden"
+"Close quote","Angebot schließen"
+"Quote Items",Angebotsartikel
+"No shipping information available.","Keine Versandinformationen verfügbar."
+"Your quote number is: %1.","Ihre Angebotsnummer lautet: %1."
+"The quote has been sent to the merchant.","Das Angebot wurde an den Händler geschickt."
+"Please specify the reason","Bitte geben Sie den Grund an"
 "Dear %merchant_name,","Hallo %merchant_name,"
+"New quote ","Neues Angebot "
+" submitted by buyer"," vom Käufer eingereicht"
 "Thank you,","Vielen Dank,"
 "Dear %customer_name,","Hallo %customer_name,"
 "Your quote ","Ihr Angebot "
+" has been declined by the seller."," wurde vom Verkäufer abgelehnt."
+"Reason: %reason.","Grund: %reason."
+" expires on "," gültig bis "
+" after which time you can’t order the items in the quote. After the expiration,
+    you’ll have to negotiate the price with the seller again."," Zeit, nach der Sie die Artikel im Angebot nicht mehr bestellen können. Nach dem Ablauf
+    müssen Sie den Preis mit dem Händler neu aushandeln."
 "Dear %merchantName,","Hallo %merchantName,"
 "The quote ","Das Angebot "
+" after which time it will be reset to its default expiration period. To extend the
+    lifetime of the quote, update its expiration date."," Zeit, nach der es auf das Standard-Ablaufdatum zurückgesetzt wird. Um die Gültigkeit
+    des Angebots zu erhöhen, bearbeiten Sie das Ablaufdatum."
+"Expiration date for the Quote %quoteName has been reset so you can keep working on the quote.
+    You can set a new expiration date if you wish.","Ablaufdatum für das Angebot %quoteName wurde zurückgesetzt, damit Sie weiterhin an dem Angebot arbeiten können.
+    Sie können ein neues Ablaufdatum festlegen, wenn Sie es wünschen."
 "Quote ","Angebot "
+" updated by buyer"," vom Käufer aktualisiert"
+"The seller responded to your quote ","Der Verkäufer hat auf Ihr Angebot geantwortet "
+"The Quote expires after ","Das Angebot ist gültig bis "
 "Item in Quote","Artikel im Angebot"
 "Items in Quote","Artikel im Angebot"
 "Cancel coupon","Rabattcode stornieren"
+"Update Catalog Prices","Katalog-Preise aktualisieren"
+"If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.","Wenn Sie fortfahren, werden Katalog-Preise und Warenkorb Rabatte für dieses Angebot aktualisiert, nach den neuesten Änderungen im Katalog und die Preisregeln."
+"Please enter a number greater than 0 in this field","Bitte geben Sie eine Zahl größer als 0 in diesem Feld ein"
+"Please enter a non-decimal number please","Bitte geben Sie eine Zahl ohne Nachkommastellen ein"
+"Maximum length of the message is ","Maximale Länge der Nachricht ist "
+"Decline Quote?","Angebot ablehnen?"
+"If you click [Confirm], all custom pricing from the selected quotes will be removed. The buyers will be able to place orders using their standard catalog prices.","Wenn Sie auf [Bestätigen] klicken, werden alle individuellen Preise aus den ausgewählten Angeboten entfernt. Die Käufer können Bestellungen mit ihren Standard-Katalog-Preisen durchführen."
+"Decline Quotes?","Angebote ablehnen?"
+"Cannot Decline the Selected Quotes","Die ausgewählten Angebote können nicht abgelehnt werden"
+"Only the quotes that are currently in status 'Open' can be declined","Nur die sich aktuell im Status 'Offen' befindenden Angebote können abgelehnt werden"
+"If you decline this quote, all custom pricing from this quote will be removed. The buyer will be able to place an order using their standard catalog prices and discounts.","Wenn Sie dieses Angebot ablehnen, werden alle individuellen Preise aus diesem Angebot entfernt. Der Käufer kann eine Bestellung mit seinen Standard-Katalog-Preisen und Rabatten durchführen."
+"Your file could not be uploaded. Please try again.","Ihre Datei konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut."
+"You cannot attach more than ten files per comment.","Sie können nicht mehr als zehn Dateien pro Kommentar anhängen."
 "Cannot Upload File","Datei kann nicht hochgeladen werden"
+"Quote request rules",Angebotsanfrageregeln
+"Coupon codes and gift cards are not allowed on quotes. Choose whether you'd like to keep the coupon code/gift card without requesting a quote, or request a quote without the coupon code/gift card.","Gutscheincodes und Geschenkkarten sind nicht für Angebote erlaubt. Wählen Sie, ob Sie den Gutscheincode/Geschenkgutschein behalten möchten, ohne ein Angebot zu verlangen oder ein Angebot ohne Gutscheincode/Geschenkkarte anfordern."
+"The shopping cart isn't empty","Der Warenkorb ist nicht leer"
+"You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?","Sie haben Artikel in Ihrem Warenkorb. Möchten Sie Artikel in dieser Bestellung mit Artikeln dieses Warenkorbs zusammenführen oder sie ersetzen?"
+"Select Cancel to stay on the current page.","Wählen Sie Abbrechen, um auf der aktuellen Seite zu bleiben."
+"Are you sure you want to delete this quote?","Sind Sie sicher, dass Sie dieses Angebot löschen möchten?"
 "Go to Checkout?","Zur Kasse gehen?"
+"Enable B2B Quote","B2B Angebot aktivieren"
 "Minimum Amount",Mindestbetrag
+"Minimum order total for quote request.","Mindestbestellsumme für Angebotsanfrage."
+"Minimum Amount Message","Nachricht Minimale Anzahl"
 "This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","Diese Meldung wird im Warenkorb angezeigt, wenn die Zwischensumme (nach Rabatt) niedriger ist als der minimal zulässige Betrag."
+"Default Expiration Period","Standard Gültigkeit"
+"This period will be used as the default expiration time period for quotes. It can be changed for any quote.","Dieser Zeitraum wird als Standard-Ablaufzeitraum für Angebote verwendet. Er kann für jedes Angebot geändert werden."
+"Attached files","Angehängte Dateien"
+"File formats for upload","Dateiformate zum Hochladen"
+"Separate each file extension with a comma. Special symboles like dots, converted commas, asterisk, etc. are not allowed.","Trennen Sie jede Dateierweiterung mit einem Komma. Sonderzeichen wie Punkte, umgewandelte Kommas, Sternchen usw. sind nicht erlaubt."
+"Maximum file size","Maximale Dateigröße"
+"File size in MB. Note that this setting can be overridden by the server settings.","Dateigröße in MB. Beachten Sie, dass diese Einstellung durch die Servereinstellungen überschrieben werden kann."
+"Updated Quote Template (to Buyer)","Vorlage Angebot aktualisiert (an Käufer)"
 "Created Date",Erstellungsdatum
 "Last Updated","Zuletzt aktualisiert"
 "Quote Name",Angebotsname
