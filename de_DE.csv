@@ -6636,8 +6636,12 @@ Declined,Abgelehnt
 "The discount for this quote has been removed because the buyer has reached the maximum number of attempts to request a discount. You may want to review the offer amount.","Der Rabatt für dieses Angebot wurde entfernt, da der Käufer die maximale Anzahl von Versuchen erreicht hat, einen Rabatt zu beantragen. Sie sollten den Angebotsbetrag überprüfen."
 "The discount for this quote has been removed because the cart rule has been deleted. You may want to review the offer amount.","Der Rabatt für dieses Angebot wurde entfernt, weil die Warenkorb-Regel gelöscht wurde. Sie sollten den Angebotsbetrag möglicherweise überprüfen."
 "Quote taxes have been recalculated because the buyer added or changed the shipping address. You may want to review the offer amount.","Die Angebotssteuern wurden neu berechnet, weil der Käufer die Lieferadresse hinzugefügt oder geändert hat. Sie sollten den Angebotsbetrag überprüfen."
+"Buyer added or changed the shipping address. You may want to offer the shipping price or / and review the offer amount.","Der Käufer hat die Lieferadresse hinzugefügt oder geändert. Sie können den Versandpreis anbieten oder/und den Angebotsbetrag überprüfen."
 "has been deleted from the catalog, so the items quoted list has been updated.","wurde aus dem Katalog gelöscht, so dass die Liste der aufgeführten Elemente aktualisiert wurde."
 "have been deleted from the catalog, so the items quoted list has been updated.","wurden aus dem Katalog gelöscht, so dass die Liste der zitierten Elemente aktualisiert wurde."
+"has been deleted from the quote. You may want to review the offer amount.","wurde aus dem Angebot gelöscht. Sie sollten den Angebotsbetrag möglicherweise überprüfen."
+"has been deleted from the catalog. The items quoted list has been updated.","wurde aus dem Katalog gelöscht. Die Liste der angebotenen Artikel wurde aktualisiert."
+"have been deleted from the quote. You may want to review the offer amount.","wurde aus dem Angebot gelöscht. Sie sollten den Angebotsbetrag möglicherweise überprüfen."
 "Validation error message","Fehlermeldung zum Validierungsfehler"
 "Message 1","Nachricht 1"
 "Message 2","Nachricht 2"
@@ -8405,6 +8409,7 @@ RMA,Rücksendung
 "Could not save the RMA comment.","Der RMA-Kommentar konnte nicht gespeichert werden."
 "Could not delete the RMA comment.","Der RMA-Kommentar konnte nicht gelöscht werden."
 "Only one RMA is available for printing","Nur eine RMA ist fürs Drucken verfügbar"
+"Return Date: ","Rückgabedatum: "
 "Order # ","Bestellung # "
 "Ordered: ","Bestellt: "
 "Return Address:",Rücksendungsadresse:
@@ -8439,6 +8444,7 @@ Denied,Verweigert
 "We processed and closed your Return request.","Wir haben Ihren Rückgabeantrag bearbeitet und geschlossen."
 "ID cannot be an empty","ID darf nicht leer sein."
 "Requested entity doesn't exist","Die angeforderte Einheit existiert nicht"
+"Could not save the RMA entity.","Das RMA-Element konnte nicht gespeichert werden."
 "Could not delete the RMA entity.","Das RMA-Element konnte nicht gelöscht werden."
 "Please enter a valid comment.","Bitte geben Sie einen gültigen Kommentar ein."
 "Invalid carrier: %1","Ungültiger Beförderer: %1"
@@ -8464,6 +8470,7 @@ Denied,Verweigert
 "Delete Line","Zeile löschen"
 "Customs Value",Zollwerte
 "Qty Ordered","Bestellte Menge"
+"Change shipping method.","Versandart ändern."
 "No authorized items or allowed shipping methods","Keine autorisierten Artikel oder erlaubte Versandmethoden"
 Carrier,Anbieter
 Number,Nummer
