@@ -2161,6 +2161,7 @@ Image,Bild
 "Add to Wishlist","Zur Wunschliste hinzufügen"
 "Viewed Products Grid Template",Angesehene-Artikel-Gittervorlage
 "Viewed Products List Template",Angesehene-Artikel-Listenvorlage
+"Viewed Products Sidebar Template",Angesehene-Artikel-Gittervorlage
 "Recently Compared Products","Zuletzt verglichene Artikel"
 "List of Products Recently Compared by Visitor","Liste von Artikeln, die kürzlich vom Besucher verglichen wurden"
 "Compared Products Grid Template",Verglichene-Artikel-Gittervorlage
@@ -2306,6 +2307,7 @@ Cost,Einkaufspreis
 "The text is too long. Shorten the text and try again.","Der Text ist zu lang. Kürzen Sie den Text und versuchen Sie es erneut."
 "The product that was requested doesn't exist. Verify the product and try again. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Das angeforderte Produkt existiert nicht. Überprüfen Sie das Produkt und versuchen Sie es erneut. Zeile ID: SKU = %SKU, Shop ID: %storeId, Preis von: %priceFrom, Preis zu: %priceTo."
 "Tier price is unavailable for this product.","Staffelpreise sind für dieses Produkt nicht verfügbar."
+"The tier_price data is invalid. Verify the data and try again.","Die verknüpften Produktdaten sind ungültig. Überprüfen Sie die Daten und versuchen Sie es erneut."
 "The group price couldn't be saved.","Der Gruppenpreis konnte nicht gespeichert werden."
 "The data was invalid. Verify the data and try again.","Die Daten waren ungültig. Überprüfen Sie die Daten und versuchen Sie es erneut."
 "Values in the %1 attributes are invalid. Verify the values and try again.","Werte in den Attributen %1 sind ungültig. Überprüfen Sie die Werte und versuchen Sie es erneut."
@@ -2314,6 +2316,7 @@ Cost,Einkaufspreis
 "The product has required options. Enter the options and try again.","Das Produkt hat die erforderlichen Optionen. Geben Sie die Optionen ein und versuchen Sie es erneut."
 "The group with the ""%1"" ID doesn't exist. Verify the ID and try again.","Die Gruppe mit der ID ""%1"" existiert nicht. Überprüfen Sie die ID und versuchen Sie es erneut."
 "The attribute group can't be deleted because it contains system attributes.","Die Attributgruppe kann nicht gelöscht werden, da sie Systemattribute enthält."
+"The collection provider isn't registered.","Collection-Provider nicht registriert."
 "The ""%1"" link type is unknown. Verify the type and try again.","Der Linktyp ""%1"" ist unbekannt. Überprüfen Sie den Typ und versuchen Sie es erneut."
 "The ""%1"" link type wasn't found. Verify the type and try again.","Der Linktyp ""%1"" wurde nicht gefunden. Überprüfen Sie den Typ und versuchen Sie es erneut."
 "The linked products data is invalid. Verify the data and try again.","Die verknüpften Produktdaten sind ungültig. Überprüfen Sie die Daten und versuchen Sie es erneut."
@@ -7623,6 +7626,11 @@ Vendor,Verkäufer
 "Accept credit card and PayPal payments securely.","Akzeptieren Sie Kreditkarten und PayPal-Zahlungen sicher."
 "Basic Settings - PayPal Website Payments Standard","Grundeinstellungen - PayPal Website Payments Standard"
 "The payment couldn't be processed at this time. Please try again later.","Ihre Zahlungsanfrage konnte zu diesem Zeitpunkt nicht bearbeitet werden. Bitte versuchen Sie es später noch einmal."
+"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
+                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
+                        <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","PayPal Express Checkout ermöglicht es Kunden, über PayPal Credit&#174; zu finanzieren - ohne zusätzliche Kosten für Sie.
+                        Sie werden vorab bezahlt, obwohl Kunden mehr Zeit haben zu bezahlen. Eine vorintegrierte Zahlungsbutton ermöglicht es Kunden, schnell mit PayPal-Guthaben&#174;zu bezahlen.
+                        <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Mehr erfahren</a>"
 "<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
                         <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
                         from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
@@ -7667,11 +7675,29 @@ Large,Groß
 Responsive,Bearbeiter(in)
 Pay,Bezahlen
 "Buy Now","Jetzt kaufen"
+Installment,Installation
 "PayPal Credit",PayPal-Guthaben
+"PayPal Guest Checkout Credit Card Icons","PayPal Gast Checkout Kreditkarten Icons"
 "Elektronisches Lastschriftverfahren - German ELV","Elektronisches Lastschriftverfahren - Deutsche ELV"
+"Customize Smart Buttons","Smart Buttons anpassen"
 "Checkout Page",Checkout-Seite
+"Customize Button","Button anpassen"
+"The installment feature is available only in these locales: en_MX, es_MX, en_BR, pt_BR.","Die Installationsfunktion ist nur in diesen Locales verfügbar: de_MX, es_MX, en_BR, pt_BR."
+"Mexico Installment Period",Mexiko-Installationszeitraum
+"Brazil Installment Period","Brasiliens Installationszeitraum"
+"Select Responsive to ensure the PayPal button renders correctly on mobile devices.","Wählen Sie Responsive, um sicherzustellen, dass die PayPal-Taste korrekt auf mobilen Geräten Rendern."
 Shape,Form
 Color,Farbe
+"Product Pages",Produkt-Seiten
+"Cart Page",Warenkorbseite
+"Mini Cart",Miniwarenkorb
+Features,Funktionen
+"Disable Funding Options","Finanzierungsoptionen deaktivieren"
+"PayPal will automatically display each enabled funding option to eligible buyers.
+                                For example, PayPal Credit is only shown to buyers in countries where PayPal Credit is
+                                offered and the currency offered by the merchant is USD.","PayPal wird automatisch jede Option für die Finanzierung für Käufer anzeigen.
+                                Zum Beispiel wird PayPal-Guthaben nur an Käufer in Ländern angezeigt, in denen PayPal-Guthaben
+                                angeboten wird und die vom Händler angebotene Währung USD ist."
 "Not you?","Nicht Sie?"
 "Your shopping cart has been updated with new prices.","Ihr Warenkorb wurde mit neuen Preisen aktualisiert."
 "Welcome, %1!","Willkommen, %1!"
@@ -7846,8 +7872,34 @@ error123,Fehler123
 "The Cart includes virtual product(s) only, so a shipping address is not used.","Der Warenkorb enthält nur virtuelle Produkte. Somit wird keine Lieferadresse verwendet."
 "The shipping method can't be set. %1","Die Versandart konnte nicht gesetzt werden. %1"
 "Current customer does not have an active cart.","Aktueller Kunde hat keinen aktiven Warenkorb."
+"Shopping cart error: %message","Warenkorb Fehler: %message"
+"Could not find a product with SKU ""%sku""","Konnte kein Produkt mit SKU ""%sku"" finden"
+"Could not add the product with SKU %sku to the shopping cart: %message","Konnte das Produkt mit SKU %sku nicht in den Warenkorb legen: %message"
+"Missing key ""sku"" in cart item data","Fehlende Taste ""sku"" in Warenkorb-Artikeldaten"
+"Missing key ""qty"" in cart item data","Fehlende Taste ""sku"" in Warenkorb-Artikeldaten"
+"Could not find a cart with ID ""%masked_cart_id""","Kann keinen Warenkorb mit der ID ""%masked_cart_id"" finden"
+"Current user does not have an active cart.","Aktueller Kunde hat keinen aktiven Warenkorb."
+"The current user cannot perform operations on cart ""%masked_cart_id""","Der aktuelle Benutzer kann keine Operationen auf dem Warenkorb ""%masked_cart_id"" ausführen"
+"Could not find a cart address with ID ""%cart_address_id""","Konnte keine Adresse mit der ID ""%address_id"" finden"
+"The current user cannot use cart address with ID ""%cart_address_id""","Der aktuelle Benutzer kann keine Warenkorb-Adresse mit ID ""%cart_address_id"" verwenden"
+"The billing address must contain either ""customer_address_id"" or ""address"".","Die Rechnungsadresse muss entweder ""customer_address_id"" oder ""address"" enthalten."
+"The billing address cannot contain ""customer_address_id"" and ""address"" at the same time.","Die Rechnungsadresse darf nicht gleichzeitig ""customer_address_id"" und ""address"" enthalten."
+"Using the ""use_for_shipping"" option with multishipping is not possible.","Die Verwendung der Option ""use_for_shipping"" mit Multishipping ist nicht möglich."
+"You cannot specify multiple shipping addresses.","Sie können keine mehreren Lieferadressen angeben."
+"The shipping address must contain either ""customer_address_id"" or ""address"".","Die Lieferadresse muss entweder ""customer_address_id"" oder ""address"" enthalten."
+"The shipping address cannot contain ""customer_address_id"" and ""address"" at the same time.","Die Rechnungsadresse darf nicht gleichzeitig ""customer_address_id"" und ""address"" enthalten."
+"You cannot specify multiple shipping methods.","Sie können nicht mehrere Lieferadressen angeben."
+"Required parameter ""cart_address_id"" is missing.","Erforderlicher Parameter ""cart_address_id"" fehlt."
+"Required parameter ""carrier_code"" is missing.","Erforderlicher Parameter ""shipping_carrier_code"" fehlt."
+"Required parameter ""method_code"" is missing.","Benötigter Parameter ""method_code"" fehlt."
 "Option type ""%1"" is not supported","Optionstyp ""%1"" wird nicht unterstützt"
+"%1 doesn't implement CustomizableOptionValueInterface","%1 implementiert keine CustomizableOptionValueInterface"
 "Required parameter ""cart_id"" is missing","Erforderlicher Parameter ""cart_id"" fehlt"
+"Required parameter ""cartItems"" is missing","Erforderlicher Parameter ""cart_id"" fehlt"
+"Required parameter ""coupon_code"" is missing","Benötigter Parameter ""coupon_code"" fehlt"
+"A coupon is already applied to the cart. Please remove it to apply another","Ein Gutschein ist bereits auf den Warenkorb angewendet. Bitte entfernen Sie ihn, um einen anderen zu verwenden"
+"Missing key ""product"" in cart data","Fehlender Schlüssel ""Produkt"" in Warenkorb-Daten"
+"Missing key ""type_id"" in product data","Fehlender Schlüssel ""type_id"" in Produktdaten"
 "Required parameter ""shipping_addresses"" is missing","Erforderlicher Parameter ""shipping_address"" fehlt"
 "Required parameter ""shipping_methods"" is missing","Erforderlicher Parameter ""shipping_methods"" fehlt"
 "It is impossible to log user action","Benutzeraktion kann nicht protokolliert werden"
@@ -8151,14 +8203,52 @@ undefined,"nicht definiert"
 "Enable Reports","Berichte aktivieren"
 "Enable ""Share WishList"" Report","""Wunschliste teilen"" Bericht aktivieren"
 "We can't specify a product.","Es konnte kein Produkt angegeben werden."
+"You added %1 item(s) to your shopping cart.","Sie haben den Artikel %1 zum Warenkorb hinzugefügt."
 "We can't configure the product right now.","Das Produkt kann momentan nicht konfiguriert werden."
+"%1 item(s) were copied to %2","%1 Element(en) wurden zu %2 kopiert"
+"%1 item(s) were added to the ""%2""","%1 Element(en) wurden zur ""%2"" hinzugefügt"
+"%1 item(s) were moved to %2","%1 Element(en) wurden zu %2 verschoben"
+"Requisition Lists",Anfragenlisten
+"Requisition List",Anfragenliste
 "Invalid item option format.","Ungültiges Artikel-Option-Format."
+"Could not save Requisition List","Konnte die Anfrageliste nicht speichern"
+"Cannot delete Requisition List with id %1","Die Anfrageliste kann nicht mit Id %1 gelöscht werden"
 "Cannot specify product.","Produkt kann nicht angegeben werden."
+"%1 has been updated in your requisition list.","%1 wurde in Ihrer Anforderungsliste aktualisiert."
+"Product %1 has been added to the requisition list %2.","Produkt %1 wurde zur Anforderungsliste %2 hinzugefügt."
+"Options were updated. Please review available configurations.","Optionen wurden aktualisiert. Bitte überprüfen Sie die verfügbaren Konfigurationen."
+"Could not save Requisition List. Maximum number of requisition lists was exceeded.","Konnte die Anfrageliste nicht speichern. Maximale Anzahl der Abfragelisten wurde überschritten."
+"Warning message.",Warnmeldung.
 "Could not save","Konnte nicht gespeichert werden."
+"Add to Requisition List","Zur Anforderungsliste hinzufügen"
+"Update Requisition List","Anfragenliste aktualisieren"
+"Create Requisition List","Anfrageliste erstellen"
+"Create New Requisition List","Neue Anfrageliste erstellen"
 Rename,Umbenennen
+"Rename Requisition List","Requisition List umbenennen"
+"in requisition list","in der Anforderungsliste"
+"Update List",Update-Liste
+"Delete Requisition List","Abfrageliste löschen"
+"You have no items in this requisition list.","Sie haben keine Artikel in dieser Anforderungsliste."
 "Edit item","Artikel bearbeiten"
+"With Selected","Mit Auswahl"
+"Copy Selected","Ausgewählte kopieren"
 Copy,Kopie
+"Move Selected","Ausgewählte verschieben"
+"Remove Selected","Ausgewählte entfernen"
+"product(s) require your attention","Produkt(e) benötigen Ihre Aufmerksamkeit"
+"Requisition List Name","Name der Anfragenliste"
+Merge,Zusammenfügen
+"This action cannot be performed because the selected product(s) require attention. You must resolve these issues before you can continue.","Diese Aktion kann nicht durchgeführt werden, da die ausgewählten Produkte(n) Aufmerksamkeit erfordern. Sie müssen diese Probleme lösen, bevor Sie fortfahren können."
+"Please Select Product","Bitte Produkt auswählen"
+"Please select at least one product to proceed.","Bitte wählen Sie mindestens ein Produkt aus, um fortzufahren."
+"B2B Requisition List",B2B-Abfrageliste
+"Enable Requisition List","Abfrageliste aktivieren"
+"Number of Requisition Lists","Anzahl der Abfragelisten"
+"The number of requisition lists should be equal or more than 2.","Die Anzahl der Anforderungslisten sollte gleich oder mehr als 2 sein."
 "Name & Description","Name & Beschreibung"
+"Latest Activity","Letzte Aktivität"
+"You must choose options for your item.","Sie müssen Optionen für Ihr Element auswählen."
 "Save Review","Sie bewerten den Artikel:"
 "New Review","Neue Rezension"
 "Review Details","Details überprüfen"
@@ -8319,6 +8409,7 @@ First,Erstes
 "Customer earned promotion extra %1.","Vom Kunden erhaltene Promotion %1"
 "The customer earned %1 for this order.","Der Kunde verdiente %1 für diese Bestellung."
 "Reward Points Balance",Belohnungspunktesaldo
+"upper boundary","obere Grenze"
 "Refund Reward Points","Belohnungspunkte zurückerstatten"
 "Reward Points refunded to customer","Bonuspunkte an Kunde zurückerstattet"
 Points,Punkte
@@ -8336,13 +8427,18 @@ Points,Punkte
 "Refer to reward points history to see when a specific record expires.","Beziehen Sie sich auf die Belohnungspunktehistorie, um zu sehen, wann ein bestimmter Eintrag abläuft."
 "Email Notification Settings","E-Mail Benachrichtigungseinstellungen"
 "Save Subscription Settings","Abonnementeinstellungen speichern"
+"Reward Points Balance Updated at %store_name","Belohnungspunkt-Guthaben aktualisiert bei %store_name"
 "You have %points_balance points that may be used in our store:","Sie haben %points_balance Punkte die Sie in unserem Shop benutzen können."
 "<a href=""%unsubscription_url"">Unsubscribe</a> from these notifications.","Diese Benachrichtigungen <a href=""%unsubscription_url"">abbestellen</a>"
+"Reward Points Expiry Warning at %store_name","Belohnungspunkte sind abgelaufen Warnung bei %store_name"
 "There are %remaining_days day(s) remaining to use %points_expiring of your reward points.","Es verbleiben noch %remaining_days Tag(e) um %points_expiring Ihrer Belohnungspunkte zu nutzen."
 "After %remaining_days day(s) these points will expire.","Diese Punkte laufen nach %remaining_days Tag(en) ab."
 "You have a total of %points_balance points that may be used in our store:","Sie haben %points_balance Punkte die Sie in unserem Shop benutzen können."
 "Reward points",Bonuspunkte
 "Use reward points","Bonuspunkte verwenden"
+"Your reward point was successfully applied","Ihr Belohnungspunkt wurde erfolgreich angewendet"
+"Manage Reward Points Balances","Bonuspunkte Guthaben verwalten"
+"Can Spend Reward Points","Du kannst Belohnungspunkte ausgeben"
 "Enable Reward Points Functionality","Belohnungspunktefunktionalität aktivieren"
 "Enable Reward Points Functionality on Storefront","Belohnungspunktefunktionalität im Frontend aktivieren"
 "Customers May See Reward Points History","Kunden können Belohnungspunktehistorie sehen"
@@ -8361,6 +8457,7 @@ Registration,Registrierung
 "Newsletter Signup",Newsletter-Anmeldung
 "Only for customers who subscribe for the first time.","Nur für Kunden, die zum ersten Mal abonnieren."
 "Converting Invitation to Customer","Konvertiert Einladung zum Kunden"
+"Invitation to Customer Conversions Quantity Limit","Einladung zu Kundenumrechnungsmengenlimit"
 "Converting Invitation to Order","Konvertiert Einladung zur Bestellung"
 "Review Submission","Absendung einer Bewertung"
 "After approval by administrator.","Nach Genehmigung eines Administrators"
@@ -9240,8 +9337,16 @@ Operations,Aktionen
 "Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Autorisierter Betrag von %1. Bestellung wurde zurückgestellt, da der autorisierte Betrag %1 als Betrugsversuch gewertet wurde."
 "Captured amount of %1 online.","Erfasster Betrag von %1 online."
 "Product is not salable.","Produkt ist nicht verkäuflich."
+"The credit memo couldn't be deleted.","Die Kredit-Memo konnte nicht gelöscht werden."
+"The credit memo couldn't be saved.","Die Kredit-Memo konnte nicht gespeichert werden."
 "The shipment couldn't be deleted.","Die Sendung konnte nicht gelöscht werden."
 "The shipment couldn't be saved.","Die Sendung konnte nicht gelöscht werden."
+"The last status can't be changed and needs to stay assigned to its current state.","Der letzte Status kann nicht geändert werden und muss seinem aktuellen Status zugeordnet bleiben."
+"The status can't be unassigned because the status is currently used by an order.","Der Status kann nicht zugewiesen werden, da der Status derzeit von einer Bestellung verwendet wird."
+"The status needs to remain assigned to its state.","Der Status muss seinem Zustand zugeordnet bleiben."
+"The ""%1"" validator is not an instance of the general validator interface.","Der ""%1"" Validator ist keine Instanz der allgemeinen Validator-Schnittstelle."
+"The creditmemo contains incorrect product items.","Die Creditmemo enthält falsche Artikel."
+"You can not refund shipping if there is no shipping amount.","Sie können den Versand nicht zurückerstatten, wenn es keinen Versandbetrag gibt."
 "Move to Archive","Wir konnten die ausgewählten Bestellungen nicht archivieren."
 "Move to Order Management","Ins Bestellmanagement verschieben"
 "We have archived the order.","Die Bestellung wurde archiviert."
@@ -9342,6 +9447,8 @@ Wenn Sie dies aktivieren und die Regel speichern, können Sie im nächsten Schri
 "Coupons Information",Gutscheininformationen
 "If you select and save the rule you will be able to generate multiple coupon codes.","Wenn Sie dies aktivieren und die Regel speichern, können Sie im nächsten Schritt den Assistent für mehrere Rabattcodes nutzen."
 "Usage limit enforced for logged in customers only.","Nutzungslimit wird nur für angemeldete Kunden erzwungen."
+"Your coupon was successfully removed","Ihr Rabattcode wurde erfolgreich entfernt"
+"Your coupon was successfully applied","Ihr Rabattcode wurde erfolgreich angewendet"
 "
                         If you select and save the rule you will be able to generate multiple coupon codes.
                     ","
@@ -9353,12 +9460,18 @@ Wenn Sie dies aktivieren und die Regel speichern, können Sie im nächsten Schri
 "Category (Children Only)","Kategorie (nur Kinder)"
 "(Parent Only)","(Nur Eltern)"
 "(Children Only)","(Nur Kinder)"
+"Message is added to queue, wait to get your coupons soon","Nachricht wird zur Warteschlange hinzugefügt, warten Sie, um Ihre Datei bald zu erhalten"
+"Your coupons are ready","Ihre Gutscheine sind bereit"
+"You can check your coupons at sales rule page","Sie können Ihre Gutscheine auf der Verkaufsregelseite überprüfen"
+"Error during coupons generator process occurred","Fehler beim Generieren von Gutscheinen ist aufgetreten"
+"Error during coupons generator process occurred. Please check logs for detail","Fehler beim Generieren von Gutscheinen. Bitte überprüfen Sie die Protokolle für Details"
 "An error occurred during processing; coupon with id %1 expiration date wasn't updated. The error message was: %2","Während der Verarbeitung ist ein Fehler aufgetreten; Ablaufdatum des Gutschein mit Id %1 wurde nicht aktualisiert. Die Fehlermeldung war: %2"
 "The cart price rule will be removed from the update and all scheduled changes will be lost.","Die Warenkorb Preisregel wird aus der Aktualisierung entfernt und alle geplanten Änderungen gehen verloren."
 "Remove Cart Price Rule from Campaign","Warenkorb-Preisregel aus Kampagne entfernen"
 "Deleting the update will remove the cart price rule from this campaign and all scheduled changes will be lost.","Löschen des Updates wird die Warenkorb Preisregel aus dieser Kampagne entfernen und alle geplante Änderungen gehen verloren."
 "Entity Sequence profile not added to meta active profile","Einheits-Sequenzprofil nicht zum Meta-aktiven Profil hinzugefügt"
 "Not enough arguments","Nicht genug Argumente"
+"The entity sequence profile wasn't added to the meta active profile. Verify the profile and try again.","Das Entitätssequenzprofil wurde nicht zum Meta-aktiven Profil hinzugefügt. Überprüfen Sie das Profil und versuchen Sie es erneut."
 "File not found","Datei wurde nicht gefunden"
 "Fatal Error","Schwerwiegender Fehler"
 "Use deferred Stock update","Verzögerte Lageraktualisierung verwenden"
@@ -9433,6 +9546,7 @@ Binary,Binär
 "Continue Processing","Bearbeitung fortfahren"
 Successful,Erfolgreich
 "Can not open file","Datei kann nicht geöffnet werden"
+"%store_name - Scheduled Export Failed","%store_name - Geplanter Export fehlgeschlagen"
 "%operation_name - Scheduled Export Failed","%operation_name - geplanter Export fehlgeschlagen"
 "Operation name:",Operationname
 "Entity type:",Entity-Typ:
@@ -9440,6 +9554,7 @@ Successful,Erfolgreich
 "Date & Time:","Datum und Zeit"
 "Log trace:",Log-Trace:
 "Scheduled Import/Export File History Cleanup Warnings","Geplanter Import-Export - Dateihistoriebereinigungswarnungen"
+"%store_name  - Scheduled Import Failed","%store_name  - Geplanter Import fehlgeschlagen"
 "%operation_name - Scheduled Import Failed","%operation_name - geplanter Import fehlgeschlagen"
 "Scheduled Import/Export File History Cleaning","Geplanter Import-Export - Dateihistoriebereinigung"
 "Save Files, Days","Dateien speichern, Tage"
@@ -9447,6 +9562,7 @@ Successful,Erfolgreich
 "Are you sure you want to delete the selected scheduled imports/exports?","Sind Sie sicher, dass Sie die ausgewählten geplanten Importe/Exporte löschen möchten?"
 "Last Run","Letzte Ausführung"
 "Last Outcome","Letztes Ergebnis"
+"For Type ""Local Server"" use relative path to Magento installation,  e.g. var/export, var/import, var/export/some/dir","Für den Typ ""Local Server"" verwenden Sie den relativen Pfad zur Magento-Installation, z.B. var/export, var/import, var/export/some/dir"
 "Search Term",Suchbegriff
 "Search Synonyms","Synonyme suchen"
 "New Synonym Group","Neue Synonymgruppe"
@@ -9565,6 +9681,34 @@ Exception.,Ausnahme.
 "Please provide Name of sender.","Bitte geben Sie den Name des Absenders an."
 "Please provide Email of sender.","Bitte geben Sie die E-Mail-Adresse des Absenders an."
 "Please provide Message.","Bitte geben Sie eine Nachricht an."
+"Catalog Structure","Katalog Struktur"
+"Catalog Id",Katalog-Id
+"Store Id",Shop-Id
+"This action cannot be undone. Are you sure you want to delete this catalog?","Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie diesen Katalog löschen möchten?"
+"Linked Products","Verknüpfte Produkte"
+Pricing,Preisgestaltung
+"Shared Catalogs","Gemeinsame Kataloge"
+"The companies have been reassigned.","Die Unternehmen wurden neu unterzeichnet."
+"Error while reassigning the company.","Fehler beim erneuten Betrieb."
+"Discount value cannot be outside the range 0-100","Rabattwert darf nicht außerhalb des Bereichs 0-100 sein"
+"We found a duplicate website, tier price or quantity.","Wir fanden Webseite, Staffelpreis, Kundengruppe und Menge als Dublette."
+"The selected items are being processed. You can continue to work in the meantime.","Die ausgewählten Elemente werden verarbeitet. Sie können in der Zwischenzeit weiter arbeiten."
+"The selected changes have been applied to the shared catalog.","Die ausgewählten Änderungen wurden auf den gemeinsamen Katalog angewendet."
+"New Shared Catalog","Neuer gemeinsamer Katalog"
+"The shared catalog was deleted successfully.","Der gemeinsame Katalog wurde erfolgreich gelöscht."
+"Duplicate of %1","Duplikat von:"
+"You saved the shared catalog.","Sie haben den gemeinsamen Katalog gespeichert."
+"Something went wrong while saving the shared catalog.","Beim Speichern des gemeinsamen Katalogs ist etwas schief gelaufen."
+"No shared catalog name is specified in request.","Es wurde kein gemeinsamer Katalog-Name in Anfrage angegeben."
+"Requested categories don't exist: %categoriesIds.","Angeforderte Kategorien existieren nicht: %categoriesIds."
+"You cannot unassign a company from the public shared catalog.","Sie können kein Unternehmen aus dem öffentlich-teilten Katalog entfernen."
+"Could not set default customer group","Standard Kundengruppe konnte nicht gesetzt werden"
+"A customer group with this name already exists. Enter a different name to create a shared catalog.","Eine Kundengruppe mit diesem Namen existiert bereits. Geben Sie einen anderen Namen ein, um einen gemeinsamen Katalog zu erstellen."
+"Could not save customer group.","Kundengruppe konnte nicht gespeichert werden."
+"Could not update shared catalog customer group","Konnte die gemeinsame Katalog Kundengruppe nicht aktualisieren"
+"Cannot load product items for shared catalog","Artikel kann nicht für den gemeinsamen Katalog geladen werden"
+"Could not save ProductItem","Konnte ProductItem nicht speichern"
+"Cannot delete product with id %1","Produkt mit ID %1 kann nicht gelöscht werden"
 Assign,Zuordnen
 Assigned,Zugewiesen
 "To select No, please <a href=""%s"">create</a> the Public Catalog first.","Um Nein auszuwählen, <a href=""%s"">erstellen Sie bitte zuerst den öffentlichen Katalog</a>."
