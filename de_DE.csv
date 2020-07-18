@@ -1585,7 +1585,7 @@ Integer,Ganzzahl
 "Attribute Information",Attributinformation
 Properties,Eigenschaften
 "Manage Labels","Feldnamen verwalten"
-Visible,Suchbar
+Visible,Sichtbar
 Searchable,Durchsuchbar
 Comparable,Vergleichbar
 "Delete Selected Group","Ausgewählte Gruppe löschen"
