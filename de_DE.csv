@@ -3204,6 +3204,7 @@ Unlock,Entsperren
 "There was an error detecting Customer Group.","Beim ermitteln der Kundengruppe ist ein Fehler aufgetreten."
 "Validate VAT Number","Umsatzsteuer-Identifikationsnummer überprüfen"
 "Date of Birth",Geburtsdatum
+Prev,Vor
 "Bad request.","Fehlerhafte Anfrage."
 "This confirmation key is invalid or has expired.","Der Bestätungslink ist ungültig oder bereits abgelaufen."
 "There was an error confirming the account","Während der Bestätigung des Accounts ist ein Fehler aufgetreten"
@@ -3266,6 +3267,8 @@ Unlock,Entsperren
 "This customer already exists in this store.","Dieser Kunde ist bereits in diesem Store vorhanden."
 "The store view is not in the associated website.","Dieser Store-View gehört nicht zu dieser Website."
 "Invalid value of ""%value"" provided for the %fieldName field.","Ungültiger Wert ""%Wert"" für Feld %FeldName."
+"The password token is mismatched. Reset and try again.","Das Passwort-Token ist falsch. Zurücksetzen und erneut versuchen."
+"The password token is expired. Reset and try again.","Das Passwort-Token ist abgelaufen. Zurücksetzen und erneut versuchen."
 """%1"" is a required value.","""%1"" ist ein erforderlicher Wert."
 "Per Website","Pro Website"
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","Wir können Kundenkonten nicht global verwenden, wenn die Konten identische e-Mail-Adressen auf mehr als einer Website haben."
