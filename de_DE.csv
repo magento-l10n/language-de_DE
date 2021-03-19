@@ -2028,7 +2028,7 @@ End,Ende
 "You can buy %1 only in quantities of %2 at a time.","Sie können %1 nur in einer Menge von %2 zu diesem Zeitpunkt kaufen."
 "You can buy this product only in quantities of %1 at a time.","Du kannst dieses Produkt pro Bestellvorgang nur in der Menge von %1 kaufen."
 "Stock Status",Lagerstatus
-"%1 is available to buy in increments of %2","%1 kann in Schritten von %2 gekauft werden"
+"%1 is available to buy in increments of %2","%1 kann in einheiten von %2 gekauft werden"
 "Only %1 left","Nur noch %1 verfügbar"
 "Product availability",Produktverfügbarkeit
 "Inventory Section",Inventar
@@ -2062,6 +2062,7 @@ Allow,Erlauben
 Deny,Verbieten
 "Use parent","übergeordnete Berechtigungen verwenden"
 "Category Permissions Section",Kategorieberechtigungenbereich
+"Allow Browsing Category","Durchsuchen der Kategorie erlauben"
 "Landing Page",Landing-Page
 "Allow Adding to Cart","Hinzufügen zum Warenkorb erlauben"
 "Disallow Catalog Search By","Katalogsuche nach verbieten"
@@ -3261,6 +3262,7 @@ Prev,Vor
 "Please load Wish List item.","Bitte laden Sie die den Wunschlisten Eintrag."
 "Login successful.","Login erfolgreich."
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 erweitert nicht \Magento\Customer\CustomerData\SectionSourceInterface"
+"Confirmation isn't needed.","Bestätigung ist nicht erforderlich."
 "The account is locked.","Dieses Konto ist gesperrt."
 "Please enter a password with at most %1 characters.","Bitte geben Sie ein Passwort mit höchstens %1 Zeichen ein."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum der verschiedenen Zeichenklassen im Passwort ist %1. Zeichenklassen: Kleinbuchstaben, Großbuchstaben, Ziffern, Sonderzeichen."
