@@ -220,6 +220,8 @@ Yes,Ja
 "There was an error save new configuration value.","Beim Speichern der Konfigurationswerte ist ein Fehler aufgetreten."
 "Please select an industry.","Bitte wählen Sie eine Branche aus."
 "--Please Select--","-- Bitte wählen --"
+"Command ""%1"" was not found.","Befehl ""%1"" wurde nicht gefunden."
+"The data is invalid. Enter the data as a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein, und versuchen Sie es erneut."
 "These arguments can't be empty ""%1""","Diese Argumente dürfen nicht leer sein ""%1"""
 "Cannot find predefined integration user!","Vordefinierter Integrationsbenutzer konnte nicht gefunden werden!"
 "File is not ready yet.","Die Datei ist noch nicht bereit."
@@ -257,6 +259,7 @@ Industry,Branche
 "Pet Goods",Heimtierbedarf
 "Pharma and Medical Devices","Pharma- und Medizinprodukte"
 "Technology B2B","Technologie B2B"
+Other,Andere
 Done,Fertig
 Retry,"Erneut versuchen"
 "'Action Details - #' .","'Aktionsdetails - #'."
@@ -6295,7 +6298,9 @@ Vendor,Verkäufer
 "Default Product Price",Standardproduktpreis
 "You saved the alert subscription.","Sie werden keine Verfügbarkeitsbenachrichtigungen mehr erhalten."
 "There are not enough parameters.","Es gibt nicht genügend Parameter."
+"The alert subscription couldn't update at this time. Please try again later.","Das Alarm-Abonnement konnte nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
 "Alert subscription has been saved.","Alarm-Abonnierung wurde gespeichert."
+"The product wasn't found. Verify the product and try again.","Das Produkt wurde nicht gefunden. Überprüfen Sie das Produkt und versuchen Sie es erneut."
 "You deleted the alert subscription.","Sie haben das Alarm-Abo gelöscht."
 "You will no longer receive price alerts for this product.","Sie erhalten künftig keine Preis-Alarme mehr für dieses Produkt."
 "Unable to update the alert subscription.","Das Alarm-Abo konnte nicht aktualisiert werden."
@@ -9221,7 +9226,6 @@ track_summary,Verfolgungskurzfassung
 "Service type does not match","Service-Typ stimmt nicht überein"
 Merchandise,Ware
 Gift,Geschenk
-Other,Andere
 "Secure Gateway URL","Sichere Gateway URL"
 Machinable,"Autom. Verarbeitbar"
 "Add New Variable","Neue Variable hinzufügen"
