@@ -1,9 +1,23 @@
 All,Alle
 None,Keine
 "Allowed Scopes","Zulässige Bereiche"
+"More permissions are needed to delete the ""%1"" item.","Sie haben keine ausreichenden Berechtigungen, um das Element ""%1"" zu löschen."
 "You need more permissions to apply some of the rule updates.","Sie benötigen weitere Berechtigungen, um diese Regel-Änderungen anzuwenden."
+"More permissions are needed to view this item.","Weitere Berechtigungen sind erforderlich, um dieses Element anzuzeigen."
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Die Entität muss einer Store View zugeordnet werden. Überprüfen Sie die Zuordnung und versuchen Sie es erneut."
+"This item needs to be assigned to a store view.
+                Please select a website for this product in ""Product in Websites"".","Dieser Artikel muss einer Shopansicht zugewiesen werden.
+                Bitte wählen Sie eine Website für dieses Produkt unter ""Produkt in Websites"" aus."
+"Orders can only be completed in an active store. Verify the store and try again.","Bestellungen können nur in einer aktiven Shop-Ansicht abgeschlossen werden. Überprüfen Sie die Shop-Ansicht und versuchen Sie es erneut."
+"This item needs to be assigned to a store view. Assign item and try again.","Dieses Element muss ein Shop-Ansicht zugeordnet werden. Weisen Sie den Artikel zu und versuchen Sie es erneut."
 "More permissions are needed to save this item.","Weitere Berechtigungen sind erforderlich, um dieses Element zu speichern."
+"More permissions are needed to delete this item.","Sie haben keine ausreichenden Berechtigungen, um dieses Element zu löschen."
+"At least one website or store group needs to be selected. Select and try again.","Mindestens eine Webseite oder Shop-Gruppe muss ausgewählt werden. Wählen Sie und versuchen Sie es erneut."
+"More permissions are needed to set All Scopes to a Role.","Weitere Berechtigungen werden benötigt, um alle Bereiche auf eine Rolle zu setzen."
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","Die ""%1"" Website-ID ist nicht korrekt. Überprüfen Sie die Website-ID und wiederholen Sie den Vorgang."
 "You need more permissions to access website ""%1"".","Sie benötigen weitere Berechtigungen, um auf die Website ""%1"" zugreifen zu können."
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","Die ""%1"" Store-ID ist nicht korrekt. Überprüfen Sie die Store-ID und versuchen Sie es erneut."
+"More permissions are needed to save this setting.","Sie haben keine ausreichenden Berechtigungen, um dieses Element zu speichern."
 "Role Scopes","Bereich der Rolle"
 Custom,Benutzerdefiniert
 "Read Details","Details anzeigen"
@@ -95,10 +109,16 @@ Configure,Konfigurieren
 "You must buy at least %1 of these per purchase.","Du musst mindestens %1 dieser Produkte dieser pro Einkauf kaufen."
 "Specify the product's options.","Bitte geben sie Produkt Optionen an."
 "Alert me when this item is available.","Benachrichtigen Sie mich, wenn dieser Artikel verfügbar ist."
+"This customer couldn't be found. Verify the customer and try again.","Dieser Kunde konnte nicht gefunden werden. Überprüfen Sie den Kunden und versuchen Sie es erneut."
 "Shopping cart management is disabled for this customer.","Warenkorb Verwaltung ist für diesen Kunden deaktiviert."
+"This store couldn't be found. Verify the store and try again.","Dieser Shop konnte nicht gefunden werden. Überprüfen Sie den Shop und versuchen Sie es erneut."
 Customers,Kunden
 "Shopping Cart",Warenkorb
+"An error occurred. For details, see the error log.","Ein Fehler ist aufgetreten. Für Details schauen Sie bitte in das Fehlerprotokoll."
 "You do not have access to this.","Sie haben darauf keinen Zugriff."
+"The ordered item needs to be loaded. Load the item and try again.","Der zu kaufen gewünschte Artikel muss geladen werden. Wählen Sie den Artikel und versuchen Sie es erneut."
+"The wish list item ID needs to be received. Set the ID and try again.","Die Wunschlisten-Artikel-ID muss empfangen worden sein. Setzen Sie die ID und versuchen Sie es erneut."
+"The wish list item needs to be loaded. Load the item and try again.","Der Wunschlisten Artikel muss geladen worden sein. Laden Sie den Artikel und versuchen Sie es erneut."
 "An error has occurred. See error log for details.","Ein Fehler ist aufgetreten. Details sind in der Fehlerlogdatei sichtbar."
 "You cannot configure a product.","Sie können kein Produkt konfigurieren."
 "You removed the items.","Sie haben die Artikel entfernt."
@@ -129,6 +149,7 @@ Customers,Kunden
 "Yes, for Specified Customer Groups","Ja, für angegebene Kundengruppen"
 "Yes, for Everyone","Ja, für alle"
 No,Nein
+"The file is corrupt and can't be used.","Die Datei ist beschädigt und kann nicht verwendet werden."
 "Please upload the file in .csv format.","Bitte laden Sie die Datei im CSV-Format hoch."
 "%1 item(s) need your attention.","%1 Artikel benötigen ihre Aufmerksamkeit."
 "Apply Coupon Code","Gutscheincode anwenden"
@@ -216,12 +237,17 @@ Yes,Ja
 "Error while checking if topic is synchronous","Fehler beim Überprüfen, wenn das Thema synchron ist"
 "Subscription status",Abonnementstatus
 "Sorry, there has been an error processing your request. Please try again later.","Es tut uns leid, bei der Bearbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+"The time value is using an unsupported format. Enter a supported format and try again.","Der Zeitwert verwendet ein nicht unterstütztes Format. Geben Sie ein unterstütztes Format ein und versuchen Sie es erneut."
 "Cron settings can't be saved","Cron-Einstellungen konnten nicht gespeichert werden"
 "There was an error save new configuration value.","Beim Speichern der Konfigurationswerte ist ein Fehler aufgetreten."
 "Please select an industry.","Bitte wählen Sie eine Branche aus."
 "--Please Select--","-- Bitte wählen --"
 "Command ""%1"" was not found.","Befehl ""%1"" wurde nicht gefunden."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein oder als Daten, die in einen String umgewandelt werden können, und versuchen Sie es erneut."
 "The data is invalid. Enter the data as a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein, und versuchen Sie es erneut."
+"The data is invalid. Use a valid cipher method and try again.","Die Daten sind ungültig. Verwenden Sie eine gültige Chiffrierungsmethode und versuchen Sie es erneut."
+"Enter the encryption key and try again.","Geben Sie den Kodierungsschlüssel ein und versuchen Sie es erneut."
+"The ""%1"" source doesn't exist.","Die Quelle ""%1"" existiert nicht."
 "These arguments can't be empty ""%1""","Diese Argumente dürfen nicht leer sein ""%1"""
 "Cannot find predefined integration user!","Vordefinierter Integrationsbenutzer konnte nicht gefunden werden!"
 "File is not ready yet.","Die Datei ist noch nicht bereit."
@@ -292,6 +318,7 @@ Error,Fehler
 "Dismiss All Completed Tasks","Alle erledigten Aufgaben schließen"
 "Action Details - #","Aktionsdetails - #"
 "Number of Records Affected","Anzahl der betroffenen Datensätze"
+"The role wasn't found for the user. Verify the role and try again.","Für den Benutzer wurde diese Rolle nicht gefunden. Bitte überprüfen Sie die Benutzerrolle und versuchen Sie es erneut."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Beim kompilieren einer Liste von erlaubten Resourcen ist ein Fehler aufgetreten. Weitere Informationen finden Sie im Exception-Log."
 "You created the order.","Sie haben die Bestellung erstellt."
 "Order saving error: %1","Fehler beim Speichern der Bestellung: %1"
@@ -385,7 +412,10 @@ options,Optionen
 "Select all","Alle auswählen"
 "Deselect all","Alle abwählen"
 "We couldn't find any records.","Es wurden keine Einträge gefunden."
+Show,Anzeigen
+"per page","pro Seite"
 "%s of %s selected","%s von %s ausgewählt"
+"Search by keyword","Suche nach Schlagwort"
 "This is a required field.","Dies ist ein Pflichtfeld."
 "B2B Features","B2B Funktionen"
 "Invalid Form Key. Please refresh the page.","Ungültiger Formularschlüssel. Bitte aktualisieren Sie die Seite."
@@ -507,11 +537,13 @@ To,Bis
 "Add New",Neu
 "Invalid export type supplied for grid export block","Ungültiger Exporttyp für Grid Export Block"
 "Please correct the column format and try again.","Korrigieren Sie das Spalten-Format und versuchen Sie es erneut."
+"An item needs to be selected. Select and try again.","Ein Element muss ausgewählt werden. Wählen Sie ein Element und versuchen Sie es erneut."
 Submit,Absenden
 "Unknown block type","Unbekannter Blocktyp"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Bitte korrigieren Sie die Tab-Konfiguration und versuchen Sie es erneut. Die Tab-ID darf nicht leer sein."
 "Please correct the tab configuration and try again.","Bitte korrigiere die Tab-Konfiguration und versuche es noch einmal."
 "You have logged out.","Sie haben sich abgemeldet."
+"These cache type(s) don't exist: %1","Diese Cache-Typ(en) existieren nicht: %1"
 "The image cache was cleaned.","Bildcache wurde geleert."
 "An error occurred while clearing the image cache.","Ein Fehler ist beim Leeren des Bildcaches aufgetreten."
 "The JavaScript/CSS cache has been cleaned.","JavaScript/CSS Caches wurde geleert."
@@ -565,6 +597,7 @@ Dashboard,Übersicht
 "Before modifying the store view code please make sure it is not used in index.php.","Bevor Sie den Code des Store Views bearbeiten, stellen Sie sicher, dass dieser nicht in der index.php verwendet wird."
 "New ","Neu "
 "All Stores","Alle Shops"
+"Please enable your Store View before using this Web Site as Default","Bitte aktivieren Sie Ihre Shop-Ansicht, bevor Sie diese Website als Standard verwenden"
 "You saved the website.","Sie haben die Website gespeichert."
 "The default store cannot be disabled","Der Standardsshop kann nicht deaktiviert werden"
 "You saved the store view.","Sie haben den Store View gespeichert."
@@ -572,6 +605,7 @@ Dashboard,Übersicht
 "You saved the store.","Sie haben den Store gespeichert."
 "Something went wrong while saving. Please review the error log.","Beim Speichern ist etwas schief gegangen. Bitte überprüfen Sie das Fehlerprotokoll."
 "Authentication storage is incorrect.","Authentifizierung-Speicher ist nicht korrekt."
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Die Konto-Anmeldung war nicht korrekt oder Ihr Konto ist vorübergehend deaktiviert. Bitte warten Sie und versuchen Sie es später erneut."
 "Last 24 Hours","Letzte 24 Stunden"
 "Last 7 Days","Letzte 7 Tage"
 "Current Month","Aktueller Monat"
@@ -579,11 +613,14 @@ YTD,Jahresverlauf
 2YTD,Zweijahresverlauf
 Order,Bestellung
 "Order #%1","Bestellung #%1"
+"Save &amp; Continue","Speichern &amp; Fortfahren"
 "Save &amp; Close","Speichern &amp; Schließen"
+"Save &amp; New","Speichern &amp; Neu"
 "Sorry, you need permissions to view this content.","Bitte entschuldigen Sie, Sie benötigen Berechtigungen, um diesen Inhalt zu sehen."
 "Next steps","Nächste Schritte"
 "If you think this is an error, try signing out and signing in again.","Wenn Sie der Meinung sind, dass dies ein Fehler ist, versuchen Sie, sich abzumelden und sich erneut anzumelden."
 "Contact a system administrator or store owner to gain permissions.","Wenden Sie sich an einen Systemadministrator oder einen Geschäftsinhaber, um Berechtigungen zu erhalten."
+"Return to ","Zurück zu "
 "previous page","vorherige Seite"
 "Welcome, please sign in","Willkommen, bitte melden Sie sich an"
 Username,Benutzername
@@ -619,6 +656,7 @@ Hour,Stunde
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Dies ist eine Demo-Installation. Jegliche Bestellung in diesem Shop wird weder beachtet noch ausgeführt."
 "Privacy Policy",Datenschutzerklärung
 "Report an Issue","Ein Problem melden"
+Scope:,Gültigkeitsbereich:
 "Stores Configuration","Stores Konfiguration"
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren."
 "Additional Cache Management","Zusätzliche Cache-Verwaltung"
@@ -638,7 +676,6 @@ Thumbnail,Vorschaubild
 "Additional Settings","Zusätzliche Einstellungen"
 "records found","Einträge gefunden"
 selected,ausgewählt
-"per page","pro Seite"
 "Previous page","Vorherige Seite"
 "of %1","von %1"
 "Next page","Nächste Seite"
@@ -652,7 +689,13 @@ selected,ausgewählt
 "The information in this tab has been changed.","Die Informationen in diesem Tab wurden geändert."
 Loading...,"Wird geladen …"
 "User Agent Rules",User-Agent-Regeln
+"User agent exceptions override product and CMS pages rules.","Ausnahmen von User-Agenten überschreiben Produkt- und CMS-Seitenregeln."
+"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Suchzeichenketten sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE) und werden in derselben Reihenfolge wie angegebene validiert."
+Examples,Beispiele
+"Use Default Value","Standardwert verwenden"
 "We could not detect a size.","Wir konnten keine Größe erkennen."
+"Warning message",Warnmeldung
+"This operation can take a long time","Dieser Vorgang kann lange dauern"
 "Allow everything","Alles erlauben"
 "Magento Admin","Magento Administration"
 "Global Search","Globale Suche"
@@ -661,12 +704,19 @@ Loading...,"Wird geladen …"
 Content,Inhalt
 Elements,Elemente
 Schedule,Zeitplan
+"Content translation",Inhaltsübersetzung
 Settings,Einstellungen
 Attributes,Attribute
 "Other Settings","Andere Einstellungen"
 "Data Transfer",Datenübertragung
 "Package Extensions",Paketerweiterungen
 Tools,Werkzeuge
+"Clean Cache Actions","Cache-Aktionen löschen"
+"Cache Types Management",Cache-Typen-Verwaltung
+"Toggle Cache Type","Cache-Typ umschalten"
+"Refresh Cache Type","Cache-Typ aktualisieren"
+"Catalog Images Cache",Katalogbilder-Cache
+"Flush Static Files","Statische Dateien leeren"
 Currency,Währung
 Communications,Kommunikationen
 Services,Dienste
@@ -1198,7 +1248,6 @@ Fixed,Festkosten
 "Add Products to Option","Produkte zur Option hinzufügen"
 "Delete Option",Menge:
 "What are you looking for?","Was suchen Sie?"
-"Use Default Value","Standardwert verwenden"
 "There is no defined renderer for ""%1"" option type.","Es ist kein Renderer für ""%1"" Optionstyp definiert."
 "Could not save child: ""%1""","Untergeordnetes Element konnte nicht gespeichert werden: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Produkt mit der angegebenen Artikelnummer: ""%1"" enthält keine Option: ""%2"""
@@ -1756,7 +1805,6 @@ Show,Zeige
 "View as","Anzeigen als"
 "More Information","Weitere Informationen"
 "Maximum %1 characters","Maximal %1 Zeichen"
-"Warning message",Warnmeldung
 "We don't recognize or support this file extension type.","Wir erkennen oder unterstützen diesen Dateierweiterungstyp nicht."
 "Configure Product","Konfiguriere Produkt"
 "This value does not follow the specified format (for example, 200X300).","Dieser Wert entspricht nicht der vorgegebenen Formatierung (zum Beispiel 200x300)."
@@ -3224,7 +3272,6 @@ Prev,Vor
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Wenn Sie ein registrierter MwSt-Kunde sind, <a href=""%1"">klicken Sie bitte hier</a>, um Ihre Versandadresse für eine korrekte Mehrwehrtsteuerkalkulation einzugeben."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Wenn Sie ein registrierter MwSt-Kunde sind, <a href=""%1"">klicken Sie bitte hier</a>, um Ihre Rechnungsadresse für eine korrekte Mehrwehrtsteuerkalkulation einzugeben."
 "You saved the account information.","Konto-Informationen wurden gespeichert."
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Die Konto-Anmeldung war nicht korrekt oder Ihr Konto ist vorübergehend deaktiviert. Bitte warten Sie und versuchen Sie es später erneut."
 "Password confirmation doesn't match entered password.","Passwortbestätigung stimmt nicht mit dem eingegebenen Passwort überein."
 "We're unable to send the password reset email.","Die E-Mail zum Zurücksetzen des Passworts konnte nicht gesendet werden."
 "Please enter your email.","Bitte geben Sie Ihre E-Mail Adresse ein."
@@ -8925,7 +8972,6 @@ Off,Aus
 "You have successfully saved your edits.","Ihre Änderungen wurden erfolgreich gespeichert."
 "There are {placeholder} messages requires your attention.","Es gibt {placeholder} Nachrichten, die Ihre Aufmerksamkeit erfordern."
 "You haven't selected any items!","Sie haben keine Einträge ausgewählt!"
-"Search by keyword","Suche nach Schlagwort"
 Keyword,Stichwort
 "Please enter more or equal than {0} symbols.","Bitte geben Sie mehr als oder genau {0} Zeichen ein."
 "Please enter less or equal than {0} symbols.","Bitte geben Sie weniger als oder genau {0} Zeichen ein."
