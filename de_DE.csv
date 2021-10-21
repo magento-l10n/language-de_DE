@@ -660,7 +660,6 @@ Hour,Stunde
 "Report an Issue","Ein Problem melden"
 Scope:,Gültigkeitsbereich:
 "Stores Configuration","Stores Konfiguration"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren."
 "Additional Cache Management","Zusätzliche Cache-Verwaltung"
 "Flush Catalog Images Cache","Leere Katalog-Bilder-Cache"
 "Pregenerated product images files","Vorgenerierte Produktbilder"
@@ -696,6 +695,7 @@ Loading...,"Wird geladen …"
 Examples,Beispiele
 "Use Default Value","Standardwert verwenden"
 "We could not detect a size.","Wir konnten keine Größe erkennen."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren."
 "Warning message",Warnmeldung
 "This operation can take a long time","Dieser Vorgang kann lange dauern"
 "Allow everything","Alles erlauben"
@@ -2072,10 +2072,8 @@ End,Ende
 "Allow Qty Below 0 and Notify Customer","Menge unter 0 zulassen und Kunden informieren"
 "Unable to remove Stock with id ""%1""","Lagerbestand von ID ""%1"" konnte nicht gelöscht werden"
 "Unable to remove Stock Status for product %1","Lagerstatus von Produkt %1 konnte nicht entfernt werden"
-"Not all of your products are available in the requested quantity.","Nicht alle Ihrer ausgewählten Produkte sind in der gewünschten Menge verfügbar."
-"The fewest you may purchase is %1.","Das Minimum, welches Sie kaufen können ist %1."
 "Please correct the quantity for some products.","Bitte korrigieren Sie die Menge bei einigen Produkten."
-"The most you may purchase is %1.","Das Maximum, welches Sie kaufen können ist %1."
+"The fewest you may purchase is %1.","Das Minimum, welches Sie kaufen können ist %1."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Wir haben nicht so viele ""%1"" wie angefragt, aber wir werden die übrigen %2 bestellen."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Wir haben ""%1"" nicht in der angeforderten Menge, sodass wir die übrigen %2 bestellen werden."
 "You can buy %1 only in quantities of %2 at a time.","Sie können %1 nur in einer Menge von %2 zu diesem Zeitpunkt kaufen."
@@ -2229,7 +2227,6 @@ Path,Pfad
 "Catalog Products List","Liste Katalogartikel"
 "List of Products","Liste der Produkte"
 "Products Grid Template","Produkt-Raster Vorlage"
-"Invalid method: %1","Ihre Kreditkarte wird belastet für"
 "My Cart (1 item)","Mein Warenkorb (1 Artikel)"
 "My Cart (%1 items)","Mein Warenkorb (%1 Artikel)"
 "My Cart","Mein Warenkorb"
@@ -2275,6 +2272,7 @@ Checkout,Kasse
 "Sorry, guest checkout is not available.","Abmelden für Gäste ist nicht verfügbar."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sie müssen Ihr Konto bestätigen. Bitte überprüfen Sie Ihre E-Mail-Adresse für den Bestätigungslink oder <a href=""%1"">Klicken Sie hier</a> für einen neuen Link."
 "Load customer quote error","Fehler beim Laden des Kundenangebots"
+"Invalid method: %1","Ihre Kreditkarte wird belastet für"
 Error!,Fehler!
 "DB exception","Fehler in der Datenbank"
 "Print receipt","Beleg drucken"
@@ -2852,7 +2850,6 @@ Reverted,"Rückgängig gemacht"
                         Kunden können keine Bestellungen tätigen, bis Sie die Kreditwährung aktualisieren."
 "Store Credit",Shop-Kredit
 "Refund to Company Credit","Dem Firmenkredit gutschreiben"
-"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","Eine Rechnung für Teilmengen kann für diese Bestellung nicht ausgestellt werden. Um fortzufahren, ändern Sie die angegebene Menge auf die volle Menge."
 "We refunded %1 online.","Es wurden %1 online erstattet."
 "We refunded %1 offline.","Es wurden %1 offline erstattet."
 "We refunded %1 to the company credit.","Wir haben %1 auf den Firmenkredit erstattet."
@@ -3095,13 +3092,13 @@ Select,Auswählen
 "Create Product Configurations","Produkt-Konfigurationen erstellen"
 "Buy %1 for %2 each and","Kaufe %1 zu jeweils %2 und"
 save,Speichern
+"Disable Product","Produkt deaktivieren"
+"Enable Product","Produkt aktivieren"
 "New Product Review","Neue Produktbewertung"
 "Here are the products you're about to create.","Hier sind die Produkte, die Sie gerade erstellen."
 "You created these products for this configuration.","Sie haben diese Produkte für diese Konfiguration erstellt."
 "Disassociated Products","Nicht verbunden Produkte"
 "These products are not associated.","Diese Produkte sind nicht miteinander verbunden."
-"Disable Product","Produkt deaktivieren"
-"Enable Product","Produkt aktivieren"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Ein Attribut wurde entfernt. Dieses Attribut wird nicht mehr in Ihrer Konfiguration angezeigt."
 "Select options for all attributes or remove unused attributes.","Wählen Sie Optionen für alle Attribute oder entfernen Sie nicht verwendete Attribute."
 "Choose this option to delete and replace extension data for all past configurations.","Wählen Sie diese Option, um Extension-Daten für alle bisherigen Konfigurationen zu löschen und zu ersetzen ."
@@ -4894,7 +4891,6 @@ Reauthorize,"Nochmals genehmigen"
 "Integration '%1' has been sent for re-authorization.","Integration '%1' wurde für die Wiederzulassung versendet."
 "Integration '%1' has been sent for activation.","Integration '%1' wurde für die Aktivierung versendet."
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Entschuldigung, beim Löschen der Rollen und Berechtigungen ist ein Fehler aufgetreten. Sie können im Ausnahme-Protokoll mehr erfahren."
-"This customer has no tokens.","Dieser Kunde hat keine Token."
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Eine oder mehrere <a href=""%1"">Integrationen</a> wurden aufgrund einer Änderung ihrer xml-Konfigurationen zurückgesetzt."
 "Invalid Callback URL","Ungültige Callback-URL zurückgewiesen"
 "Invalid Rejected Callback URL","Ungültige Callback-URL zurückgewiesen"
@@ -6173,7 +6169,6 @@ Create...,Erstellen...
 "Your credit card will be charged for","Ihre Kreditkarte wird belastet für"
 "Your billing agreement # is: ","Ihre Rechnungsvereinbarungsnummer # ist:"
 "Please select a shipping method...","Bitte wählen Sie eine Versandart..."
-"Update Shipping Method","Versandart aktualisieren"
 "Buy now with PayPal","Jetzt mit PayPal kaufen"
 "Edit Payment Information","Zahlungsinformationen bearbeiten"
 "Items in Your Shopping Cart","Artikel in Ihrem Warenkorb"
@@ -6232,6 +6227,7 @@ Display,Anzeigen
 "Catalog Category Page",Kategorieseite
 "Catalog Product Page",Produktseite
 "Checkout Cart Page",Warenkorb-Seite
+Color,Farbe
 "Basic Settings - PayPal Express Checkout","Grundeinstellungen - PayPal Express Checkout"
 "Display on Product Details Page","Auf Produktdetail-Seite anzeigen"
 "Authorization Honor Period (days)","Autorisierungs-Honorierungs-Zeitraum (Tage)"
@@ -6282,7 +6278,6 @@ Display,Anzeigen
 "Mexico Installment Period",Mexiko-Installationszeitraum
 "Brazil Installment Period","Brasiliens Installationszeitraum"
 Shape,Form
-Color,Farbe
 "Product Pages",Produkt-Seiten
 "Cart Page",Warenkorbseite
 "Mini Cart",Miniwarenkorb
@@ -7611,7 +7606,6 @@ Complete,Vollständig
 "Payment Review",Zahlungsprüfung
 "Email has not been sent","E-Mail wurde nicht versandt"
 "Authorized amount of %1","Autorisierter Betrag von %1"
-" Transaction ID: ""%1"""," Transaktions ID: ""%1"""
 "Group was removed","Gruppe wurde entfernt"
 "Changing address information will not recalculate shipping, tax or other order amount.","Bei Änderung der Adressinformationen werden Versandkosten, Steuern oder andere Bestellwerte nicht neu berechnet."
 "No Payment Methods","Keine Zahlungsarten"
@@ -8305,7 +8299,6 @@ Track:,Verfolgung:
 "See our Shipping Policy","Beachten Sie unsere Versandbedingungen"
 "Shipping Settings Section","Einstellungen für den Versand"
 "Shipping Policy Parameters Section","Abschnitt für Versandbedingungsparameter"
-"Shipping Methods Section","Abschnitt für Versandarten"
 "Shipping Settings",Versand-Einstellungen
 Origin,Herkunft
 "Shipping Policy Parameters",Versandbedingungsparameter
@@ -8429,11 +8422,11 @@ Includes,Umfasst
 "Store with the same code","Mit dem gleichen Code speichern"
 "Website with the same code","Webseite mit dem gleichen Code"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Der Website Code darf nur Buchstaben (a-z), Ziffern (0-9) oder Tiefstrich (_) enthalten, und das erste Zeichen muss ein Buchstabe sein."
-"Name is required","Bitte gib einen Namen an"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Der Store Code darf nur Buchstaben (a-z), Ziffern (0-9) oder Tiefstrich (_) enthalten, und das erste Zeichen muss ein Buchstabe sein."
 "Store is inactive","Store ist inaktiv"
 "Invalid store parameter.","Ungültiger Store-Parameter."
 "Default store is inactive","Standard Shop ist inaktiv"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Der Store Code darf nur Buchstaben (a-z), Ziffern (0-9) oder Tiefstrich (_) enthalten, und das erste Zeichen muss ein Buchstabe sein."
+"Name is required","Bitte gib einen Namen an"
 "no such entity exception","keine solche Ausnahme"
 "Your Language:","Ihre Sprache:"
 "Your Language","Ihre Sprache"
@@ -8866,6 +8859,7 @@ Themes,Themen
 "Insert File","Datei einfügen"
 welcome,willkommen
 "Design Configuration",Design-Konfiguration
+"We cannot find a theme with id ""%1"".","Das Thema mit der ID ""%1"" konnte nicht gefunden werden."
 "You deleted the theme.","Sie haben das Thema gelöscht."
 "We cannot delete the theme.","Das Thema kann nicht gelöscht werden."
 "File not found: ""%1"".","Datei wurde nicht gefunden: ""%1""."
@@ -8875,7 +8869,6 @@ welcome,willkommen
 "This theme is not editable.","Das Thema kann nicht bearbeitet werden."
 "You saved the theme.","Das Thema wurde gespeichert."
 "We can't upload the CSS file right now.","Die CSS-Datei kann nicht hochgeladen werden."
-"We cannot find a theme with id ""%1"".","Das Thema mit der ID ""%1"" konnte nicht gefunden werden."
 "We can't upload the JS file right now.","Die JS-Datei kann nicht hochgeladen werden."
 "Sorry, something went wrong. That's all we know.","Entschuldigung, es ist ein Fehler aufgetreten. Das ist alles, was wir wissen."
 "Invalid type","Ungültiger Typ"
@@ -9027,8 +9020,6 @@ Keyword,Stichwort
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Bitte verwenden sie einen gültigen URL Schlüssel (Bsp: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"")."
 "Please enter a valid zip code.","Bitte geben Sie eine gültige Postleitzahl ein."
 "Please select State/Province.","Bitte wählen Sie ein Bundesland/Kanton."
-"Please enter a value less than or equal to {0}.","Bitte geben Sie einen Wert ein, der kleiner oder gleich {0} ist."
-"Please enter a value greater than or equal to {0}.","Bitte geben Sie einen Wert ein, der größer oder gleich {0} ist."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Bitte geben Sie gültige E-Mail-Adressen durch Komma getrennt ein. Zum Beispiel johndoe@domain.com, johnsmith@domain.com."
 "Please enter issue number or start date for switch/solo card type.","Bitte geben Sie Ausgabenummer oder Startdatum für Switch- / Solo-Kartentyp ein."
 "Please enter positive number in this field.","Bitte geben Sie eine positive Zahl in diesem Feld ein."
@@ -9701,6 +9692,8 @@ Translate,Übersetzen
 "Please enter at least {0} characters.","Bitte geben Sie mindestens {0} Zeichen ein."
 "Please enter a value between {0} and {1} characters long.","Bitte geben Sie einen Wert ein, der zwischen {0} und {1} Zeichen lang ist."
 "Please enter a value between {0} and {1}.","Bitte geben Sie einen Wert zwischen {0} und {1} ein."
+"Please enter a value less than or equal to {0}.","Bitte geben Sie einen Wert ein, der kleiner oder gleich {0} ist."
+"Please enter a value greater than or equal to {0}.","Bitte geben Sie einen Wert ein, der größer oder gleich {0} ist."
 "Please enter a date between %min and %max.","Bitte geben Sie ein Datum zwischen %min und %max ein."
 "Please enter a valid full date.","Bitte geben Sie ein gültiges, vollständiges Datum an."
 "Please enter a valid month (1-12).","Bitte geben Sie eine gültige Monatszahl an (1-12)."
