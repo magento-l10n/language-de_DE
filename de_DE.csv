@@ -1412,7 +1412,7 @@ Empty,Zeige
 "Add New Group","Neue Gruppe"
 "Add Group","Gruppe hinzufügen"
 "For internal use","Intern verwendet"
-"Based On","Bitte bestätigen Sie, dass Sie die Seite wechseln möchten. Dadurch gehen alle nicht gespeicherten Informationen verloren!"
+"Based On","Basiert auf"
 "Edit Attribute Set Name","Name des Attribut-Sets bearbeiten"
 "Add New Attribute Set","Neues Attribut-Set hinzufügen"
 "Add Attribute Set","Attribut-Set hinzufügen"
@@ -2311,6 +2311,7 @@ Total:,Gesamtsumme:
 "My billing and shipping address are the same","Meine Rechnungs- und Lieferanschrift sind identisch"
 Update,Aktualisieren
 "Save in address book","Im Adressbuch speichern"
+"Sorry, no quotes are available for this order at this time","Für diese Bestellung sind derzeit leider keine Angebote verfügbar"
 "Estimated Total","Geschätzte Gesamtkosten"
 "You can create an account after checkout.","Nach dem Kauf können Sie ein Benutzerkonto erstellen."
 "You already have an account with us. Sign in or continue as guest.","Sie haben bereits ein Konto bei uns. Melden Sie sich an oder kaufen Sie als Gast bei uns ein."
@@ -3639,6 +3640,7 @@ available,verfügbar
 "Manage Form Types","Formulartypen verwalten"
 "New Form Type","Neuer Formulartyp"
 "Edit Form Type ""%1""","Formulartyp ""%1"" bearbeiten"
+"Based On","Bitte bestätigen Sie, dass Sie die Seite wechseln möchten. Dadurch gehen alle nicht gespeicherten Informationen verloren!"
 "Form Label",Formularlabel
 "All Themes","Alle Themen"
 "For Theme","Für Thema"
