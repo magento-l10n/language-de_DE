@@ -9663,6 +9663,7 @@ Worldpay,WorldPay
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Wenn Sie Fragen bezüglich Ihrer Bestellung haben, können Sie uns über die E-Mail-Adresse <a href=""mailto:%store_email"">%store_email</a> kontaktieren."
 "Backup options",Sicherungsoptionen
 Warning,Warnhinweis
+"Insert Variable","Variable einfügen"
 "Recent items","Kürzlich verwendete Elemente"
 "Show all...","Alle anzeigen..."
 "Please enter a number greater 0 in this field.","In diesem Feld bitte eine Zahl größer 0 eingeben."
