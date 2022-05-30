@@ -414,6 +414,8 @@ options,Optionen
 "Select all","Alle auswählen"
 "Deselect all","Alle abwählen"
 "We couldn't find any records.","Es wurden keine Einträge gefunden."
+" of "," von "
+Page,Seite
 Show,Anzeigen
 "per page","pro Seite"
 "%s of %s selected","%s von %s ausgewählt"
@@ -1320,6 +1322,7 @@ Message:,Nachricht:
 "Qty Shipped","Versandte Menge"
 "Add Products to New Option","Füge Artikel zur neuen Option hinzu"
 "Add Products to Option ""%1""","Füge Artikel zur Option ""%1"" hinzu"
+"Special Price",Sonderpreis
 """option_id"" and ""parent_id"" values should be specified","""option_id"" und ""parent_id"" Werte sollten angegeben werden"
 """sku"" value should be specified","""sku"" Wert sollte angegeben werden"
 Always,Immer
@@ -1779,7 +1782,6 @@ Role,Rolle
 "start typing to search attribute","Tippen, um nach Attributen zu suchen"
 "Basic Settings",Grundeinstellungen
 "Advanced Settings","Erweiterte Einstellungen"
-"Special Price",Sonderpreis
 "Buy %1 for: ","Kaufen Sie %1 für: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Kauf %1 für %2 jeweils und <strong class=""benefit"">spare<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Kaufen Sie %1 für %2"
@@ -4373,7 +4375,6 @@ Numeric,Numerisch
 Generate,Erstellen
 "Code Pool used: ","Genutzter Code Pool: "
 " (free "," (kostenlos "
-" of "," von "
 " total)."," gesamt)."
 "Refund Gift Cards to Store Credit","Geschenkkarten zum Shopguthaben zurückerstatten"
 "Amount can be returned to Store Credit.","Der Betrag kann an Shop-Guthaben zurückgebucht werden."
@@ -5768,8 +5769,8 @@ Unsubscribe,Abbestellen
 "Customer Last Name","Nachname des Kunden"
 "Not Activated","Nicht aktiviert"
 Subscribed,Abonniert
-Unsubscribed,Abbestellen
-Unconfirmed,Unbestätigte
+Unsubscribed,Abbestellt
+Unconfirmed,Unbestätigt
 "Newsletter Subscriptions",Newsletter-Abonnements
 "Purchase order number is a required field.","Bestellnummer ist ein Pflichtfeld."
 "Make Check payable to:","Check ausstellen auf:"
@@ -8913,7 +8914,6 @@ Scope:,Geltungsbereich:
 "This is a demo store. No orders will be fulfilled.","Dies ist ein Demo-Shop. Bestellungen werden nicht ausgeführt."
 "Items %1 to %2 of %3 total","Artikel %1 bis %2 von %3 gesamt"
 "%1 Item(s)","%1 Artikel"
-Page,Seite
 "You're currently reading page","Sie lesen gerade die Seite"
 "We don't recognize this file extension.","Diese Dateierweiterung kann nicht erkannt werden."
 "1 column","1 Spalte"
