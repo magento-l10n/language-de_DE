@@ -608,6 +608,7 @@ Dashboard,Übersicht
 "Something went wrong while saving. Please review the error log.","Beim Speichern ist etwas schief gegangen. Bitte überprüfen Sie das Fehlerprotokoll."
 "Authentication storage is incorrect.","Authentifizierung-Speicher ist nicht korrekt."
 "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Die Konto-Anmeldung war nicht korrekt oder Ihr Konto ist vorübergehend deaktiviert. Bitte warten Sie und versuchen Sie es später erneut."
+Today,Heute
 "Last 24 Hours","Letzte 24 Stunden"
 "Last 7 Days","Letzte 7 Tage"
 "Current Month","Aktueller Monat"
@@ -693,6 +694,8 @@ Loading...,"Wird geladen …"
 "User agent exceptions override product and CMS pages rules.","Ausnahmen von User-Agenten überschreiben Produkt- und CMS-Seitenregeln."
 "Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Suchzeichenketten sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE) und werden in derselben Reihenfolge wie angegebene validiert."
 Examples,Beispiele
+"Previous Page","Vorherige Seite"
+"Next Page","Nächste Seite"
 "Use Default Value","Standardwert verwenden"
 "We could not detect a size.","Wir konnten keine Größe erkennen."
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren."
@@ -780,6 +783,8 @@ City,Stadt
 "Set Return-Path","Return-Path festgelegt"
 "Return-Path Email","Zurückgegangene Email"
 "Enable Frontend Resize","Frontend-Resize aktivieren"
+"Maximum Width","Maximale Breite"
+"Maximum Height","Maximale Höhe"
 Admin,Administrator
 "Admin User Emails","Admin User E-Mails"
 "Forgot Password Email Template","Passwort vergessen Email Template"
@@ -3470,6 +3475,7 @@ Password:,Passwort:
 "Track order history","Bestellverlauf verfolgen"
 "Check out faster","Schneller bestellen"
 "Checkout using your account","Mit Ihrem Konto bestellen"
+"Show Password","Passwort anzeigen"
 "Are you sure you want to delete this address?","Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
 Weak,Schwach
 Medium,Mittel
@@ -5757,6 +5763,7 @@ Subscriber,Abonnent
 Processed,Verarbeitet
 Recipients,Empfänger
 Unsubscribe,Abbestellen
+"Are you sure you want to delete the selected subscriber(s)?","Sind Sie sicher, dass Sie die ausgewählten Newsletter-Abonnenten löschen möchten?"
 "Customer First Name","Vorname des Kunden"
 "Customer Last Name","Nachname des Kunden"
 "Not Activated","Nicht aktiviert"
