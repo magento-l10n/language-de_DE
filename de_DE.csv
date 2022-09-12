@@ -413,9 +413,17 @@ Environment,Umgebung
 options,Optionen
 "Select all","Alle auswählen"
 "Deselect all","Alle abwählen"
+Selected,Markierte
 "We couldn't find any records.","Es wurden keine Einträge gefunden."
+" Item(s)"," Objekt(e)"
+"Items ","Objekt "
+" to "," bis "
 " of "," von "
+" total"," gesamt"
 Page,Seite
+Previous,Vorherige
+"You're currently reading page","Sie lesen gerade die Seite"
+Next,Weiter
 Show,Anzeigen
 "per page","pro Seite"
 "%s of %s selected","%s von %s ausgewählt"
@@ -652,7 +660,6 @@ password,Passwort
 "About the calendar","Über den Kalender"
 "Go Today",Heute
 Previous,Zurück
-Next,Weiter
 WK,Woche
 Time,Zeit
 Hour,Stunde
@@ -8915,7 +8922,6 @@ Scope:,Geltungsbereich:
 "This is a demo store. No orders will be fulfilled.","Dies ist ein Demo-Shop. Bestellungen werden nicht ausgeführt."
 "Items %1 to %2 of %3 total","Artikel %1 bis %2 von %3 gesamt"
 "%1 Item(s)","%1 Artikel"
-"You're currently reading page","Sie lesen gerade die Seite"
 "We don't recognize this file extension.","Diese Dateierweiterung kann nicht erkannt werden."
 "1 column","1 Spalte"
 "Default welcome msg!",Standard-Willkommensnachricht!
