@@ -9688,6 +9688,7 @@ Warning,Warnhinweis
 Translate,Übersetzen
 "Please remove invalid characters: {0}.","Bitte entfernen Sie ungültige Zeichen: {0}."
 "Please enter a valid social security number (Ex: 123-45-6789).","Bitte geben Sie eine gültige Sozialversicherungsnummer ein (z.B. 123-45-6789)."
+"First character must be letter.","Erstes Zeichen muss ein Buchstabe sein."
 "Please select one of the options above.","Bitte wählen Sie eine der oben genannten Optionen."
 "Please select a file.","Bitte wählen Sie eine Datei."
 "Please select one of the options.","Bitte wählen Sie eine der Optionen."
@@ -9703,6 +9704,7 @@ Translate,Übersetzen
 "Please enter a valid number.","Bitte geben Sie eine gültige Zahl ein."
 "This is required field","Dies ist ein Pflichtfeld"
 "Admin is a required field in each row.","Admin ist in jeder Zeile ein erforderliches Feld."
+"Please enter a quantity greater than 0.","Geben Sie eine Menge größer 0 ein."
 "Please fix this field.","Bitte korrigieren Sie dieses Feld."
 "Please enter a valid URL.","Bitte geben Sie eine gültige URL ein."
 "Please enter a valid date (ISO).","Bitte geben Sie ein gültiges Datum ein (ISO)."
