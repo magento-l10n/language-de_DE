@@ -1,25 +1,22 @@
 All,Alle
 None,Keine
 "Allowed Scopes","Zulässige Bereiche"
-"More permissions are needed to delete the ""%1"" item.","Sie haben keine ausreichenden Berechtigungen, um das Element ""%1"" zu löschen."
 "You need more permissions to apply some of the rule updates.","Sie benötigen weitere Berechtigungen, um diese Regel-Änderungen anzuwenden."
-"More permissions are needed to view this item.","Weitere Berechtigungen sind erforderlich, um dieses Element anzuzeigen."
+"You need more permissions to access website ""%1"".","Sie benötigen weitere Berechtigungen, um auf die Website ""%1"" zugreifen zu können."
+"Role Scopes","Bereich der Rolle"
+Custom,Benutzerdefiniert
+"More permissions are needed to delete the ""%1"" item.","Sie haben keine ausreichenden Berechtigungen, um das Element ""%1"" zu löschen."
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Die Entität muss einer Store View zugeordnet werden. Überprüfen Sie die Zuordnung und versuchen Sie es erneut."
-"This item needs to be assigned to a store view.
-                Please select a website for this product in ""Product in Websites"".","Dieser Artikel muss einer Shopansicht zugewiesen werden.
-                Bitte wählen Sie eine Website für dieses Produkt unter ""Produkt in Websites"" aus."
 "Orders can only be completed in an active store. Verify the store and try again.","Bestellungen können nur in einer aktiven Shop-Ansicht abgeschlossen werden. Überprüfen Sie die Shop-Ansicht und versuchen Sie es erneut."
 "This item needs to be assigned to a store view. Assign item and try again.","Dieses Element muss ein Shop-Ansicht zugeordnet werden. Weisen Sie den Artikel zu und versuchen Sie es erneut."
 "More permissions are needed to save this item.","Weitere Berechtigungen sind erforderlich, um dieses Element zu speichern."
 "More permissions are needed to delete this item.","Sie haben keine ausreichenden Berechtigungen, um dieses Element zu löschen."
+"More permissions are needed to view this item.","Weitere Berechtigungen sind erforderlich, um dieses Element anzuzeigen."
 "At least one website or store group needs to be selected. Select and try again.","Mindestens eine Webseite oder Shop-Gruppe muss ausgewählt werden. Wählen Sie und versuchen Sie es erneut."
 "More permissions are needed to set All Scopes to a Role.","Weitere Berechtigungen werden benötigt, um alle Bereiche auf eine Rolle zu setzen."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","Die ""%1"" Website-ID ist nicht korrekt. Überprüfen Sie die Website-ID und wiederholen Sie den Vorgang."
-"You need more permissions to access website ""%1"".","Sie benötigen weitere Berechtigungen, um auf die Website ""%1"" zugreifen zu können."
 "The ""%1"" store ID is incorrect. Verify the store ID and try again.","Die ""%1"" Store-ID ist nicht korrekt. Überprüfen Sie die Store-ID und versuchen Sie es erneut."
 "More permissions are needed to save this setting.","Sie haben keine ausreichenden Berechtigungen, um dieses Element zu speichern."
-"Role Scopes","Bereich der Rolle"
-Custom,Benutzerdefiniert
 "Read Details","Details anzeigen"
 "Mark as Read","Als gelesen markieren"
 "Are you sure?","Sind Sie sicher?"
@@ -37,8 +34,6 @@ Notifications,Benachrichtigungen
 "Total of %1 record(s) have been removed.","Insgesamt wurden %1 Einträge entfernt."
 "We couldn't remove the messages because of an error.","Wir konnten die Nachrichten aufgrund eines Fehlers nicht entfernen."
 "The message has been removed.","Die Nachricht wurde entfernt."
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Sie haben alle kürzlichen Systemmitteilungen gesehen und gelöst.
-Bitte aktualisieren Sie die Web-Seite um die Mitteilungs-Benachrichtigung zurück zu setzen."
 "1 Hour","1 Stunde"
 "2 Hours","2 Stunden"
 "6 Hours","6 Stunden"
@@ -63,7 +58,6 @@ notice,unwichtige
 Close,Schließen
 "See All (","Alle anzeigen ("
 " unread)"," ungelesen)"
-"System Messages",Systemmeldungen
 "Show Toolbar","Symbolleiste anzeigen"
 "Show List","Liste anzeigen"
 "Use HTTPS to Get Feed","Bitte verwende HTTPS und den Feed anzuzeigen"
@@ -73,6 +67,8 @@ Severity,Schweregrad
 "Date Added","Hinzugefügt am"
 Message,Nachricht
 Actions,Aktionen
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Sie haben alle kürzlichen Systemmitteilungen gesehen und gelöst.
+Bitte aktualisieren Sie die Web-Seite um die Mitteilungs-Benachrichtigung zurück zu setzen."
 "Manage Shopping Cart","Warenkorb verwalten"
 "Create Order","Neue Bestellung"
 Back,Zurück
@@ -109,18 +105,10 @@ Configure,Konfigurieren
 "You must buy at least %1 of these per purchase.","Du musst mindestens %1 dieser Produkte dieser pro Einkauf kaufen."
 "Specify the product's options.","Bitte geben sie Produkt Optionen an."
 "Alert me when this item is available.","Benachrichtigen Sie mich, wenn dieser Artikel verfügbar ist."
-"This customer couldn't be found. Verify the customer and try again.","Dieser Kunde konnte nicht gefunden werden. Überprüfen Sie den Kunden und versuchen Sie es erneut."
 "Shopping cart management is disabled for this customer.","Warenkorb Verwaltung ist für diesen Kunden deaktiviert."
-"This store couldn't be found. Verify the store and try again.","Dieser Shop konnte nicht gefunden werden. Überprüfen Sie den Shop und versuchen Sie es erneut."
 Customers,Kunden
 "Shopping Cart",Warenkorb
-"An error occurred. For details, see the error log.","Ein Fehler ist aufgetreten. Für Details schauen Sie bitte in das Fehlerprotokoll."
 "You do not have access to this.","Sie haben darauf keinen Zugriff."
-"The ordered item needs to be loaded. Load the item and try again.","Der zu kaufen gewünschte Artikel muss geladen werden. Wählen Sie den Artikel und versuchen Sie es erneut."
-"The quote item ID needs to be received. Set the ID and try again.","Die Artikel-ID muss empfangen worden sein. Setzen Sie die ID und versuchen es erneut."
-"The quote item needs to be loaded. Load the item and try again.","Der Artikel muss geladen werden. Laden Sie den Artikel und versuchen Sie es erneut."
-"The wish list item ID needs to be received. Set the ID and try again.","Die Wunschlisten-Artikel-ID muss empfangen worden sein. Setzen Sie die ID und versuchen Sie es erneut."
-"The wish list item needs to be loaded. Load the item and try again.","Der Wunschlisten Artikel muss geladen worden sein. Laden Sie den Artikel und versuchen Sie es erneut."
 "An error has occurred. See error log for details.","Ein Fehler ist aufgetreten. Details sind in der Fehlerlogdatei sichtbar."
 "You cannot configure a product.","Sie können kein Produkt konfigurieren."
 "You removed the items.","Sie haben die Artikel entfernt."
@@ -151,7 +139,6 @@ Customers,Kunden
 "Yes, for Specified Customer Groups","Ja, für angegebene Kundengruppen"
 "Yes, for Everyone","Ja, für alle"
 No,Nein
-"The file is corrupt and can't be used.","Die Datei ist beschädigt und kann nicht verwendet werden."
 "Please upload the file in .csv format.","Bitte laden Sie die Datei im CSV-Format hoch."
 "%1 item(s) need your attention.","%1 Artikel benötigen ihre Aufmerksamkeit."
 "Apply Coupon Code","Gutscheincode anwenden"
@@ -206,6 +193,15 @@ File,Datei
 "The text of the link to the My Account &gt; Order by SKU page","Der Text des Links zu mein Konto &gt; Bestellung mit Artikelnummer"
 "Load a list of SKUs","Laden Sie eine Liste von Artikelnummern"
 "Order by SKU Template","Nach Artikelnummer-Vorlage sortieren"
+"This customer couldn't be found. Verify the customer and try again.","Dieser Kunde konnte nicht gefunden werden. Überprüfen Sie den Kunden und versuchen Sie es erneut."
+"This store couldn't be found. Verify the store and try again.","Dieser Shop konnte nicht gefunden werden. Überprüfen Sie den Shop und versuchen Sie es erneut."
+"An error occurred. For details, see the error log.","Ein Fehler ist aufgetreten. Für Details schauen Sie bitte in das Fehlerprotokoll."
+"The ordered item needs to be loaded. Load the item and try again.","Der zu kaufen gewünschte Artikel muss geladen werden. Wählen Sie den Artikel und versuchen Sie es erneut."
+"The quote item ID needs to be received. Set the ID and try again.","Die Artikel-ID muss empfangen worden sein. Setzen Sie die ID und versuchen es erneut."
+"The quote item needs to be loaded. Load the item and try again.","Der Artikel muss geladen werden. Laden Sie den Artikel und versuchen Sie es erneut."
+"The wish list item ID needs to be received. Set the ID and try again.","Die Wunschlisten-Artikel-ID muss empfangen worden sein. Setzen Sie die ID und versuchen Sie es erneut."
+"The wish list item needs to be loaded. Load the item and try again.","Der Wunschlisten Artikel muss geladen worden sein. Laden Sie den Artikel und versuchen Sie es erneut."
+"The file is corrupt and can't be used.","Die Datei ist beschädigt und kann nicht verwendet werden."
 "Please correct the data sent.","Bitte korrigieren Sie die gesendeten Daten."
 "Entity type model '%1' is not found","Entity Type Model '%1' konnte nicht gefunden werden"
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entitätsmodell Typ muss eine Instanz des \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein"
@@ -239,23 +235,14 @@ Yes,Ja
 "Error while checking if topic is synchronous","Fehler beim Überprüfen, wenn das Thema synchron ist"
 "Subscription status",Abonnementstatus
 "Sorry, there has been an error processing your request. Please try again later.","Es tut uns leid, bei der Bearbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
-"The time value is using an unsupported format. Enter a supported format and try again.","Der Zeitwert verwendet ein nicht unterstütztes Format. Geben Sie ein unterstütztes Format ein und versuchen Sie es erneut."
 "Cron settings can't be saved","Cron-Einstellungen konnten nicht gespeichert werden"
 "There was an error save new configuration value.","Beim Speichern der Konfigurationswerte ist ein Fehler aufgetreten."
-"Please select an industry.","Bitte wählen Sie eine Branche aus."
 "--Please Select--","-- Bitte wählen --"
-"Command ""%1"" was not found.","Befehl ""%1"" wurde nicht gefunden."
-"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein oder als Daten, die in einen String umgewandelt werden können, und versuchen Sie es erneut."
-"The data is invalid. Enter the data as a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein, und versuchen Sie es erneut."
-"The data is invalid. Use a valid cipher method and try again.","Die Daten sind ungültig. Verwenden Sie eine gültige Chiffrierungsmethode und versuchen Sie es erneut."
-"Enter the encryption key and try again.","Geben Sie den Kodierungsschlüssel ein und versuchen Sie es erneut."
-"The ""%1"" source doesn't exist.","Die Quelle ""%1"" existiert nicht."
 "These arguments can't be empty ""%1""","Diese Argumente dürfen nicht leer sein ""%1"""
 "Cannot find predefined integration user!","Vordefinierter Integrationsbenutzer konnte nicht gefunden werden!"
 "File is not ready yet.","Die Datei ist noch nicht bereit."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Ihre Basis-URL wurde geändert und Ihre Berichte werden aktualisiert. Das ""Advanced Reporting"" wird verfügbar sein, sobald diese Änderung verarbeitet wurde. Bitte versuchen Sie es später erneut."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Fehler beim Synchronisieren der Daten mit dem Magento Business Intelligence-Dienst. "
-"Retry Synchronization","Synchronisierung erneut versuchen"
 TestMessage,Testnachricht
 "Apps and Games","Apps und Games"
 "Athletic/Sporting Goods",Sportartikel
@@ -288,6 +275,14 @@ Industry,Branche
 "Pharma and Medical Devices","Pharma- und Medizinprodukte"
 "Technology B2B","Technologie B2B"
 Other,Andere
+"The time value is using an unsupported format. Enter a supported format and try again.","Der Zeitwert verwendet ein nicht unterstütztes Format. Geben Sie ein unterstütztes Format ein und versuchen Sie es erneut."
+"Please select an industry.","Bitte wählen Sie eine Branche aus."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein oder als Daten, die in einen String umgewandelt werden können, und versuchen Sie es erneut."
+"The data is invalid. Enter the data as a string and try again.","Die Daten sind ungültig. Geben Sie die Daten als String ein, und versuchen Sie es erneut."
+"The data is invalid. Use a valid cipher method and try again.","Die Daten sind ungültig. Verwenden Sie eine gültige Chiffrierungsmethode und versuchen Sie es erneut."
+"Enter the encryption key and try again.","Geben Sie den Kodierungsschlüssel ein und versuchen Sie es erneut."
+"The ""%1"" source doesn't exist.","Die Quelle ""%1"" existiert nicht."
+"Retry Synchronization","Synchronisierung erneut versuchen"
 Done,Fertig
 Retry,"Erneut versuchen"
 "'Action Details - #' .","'Aktionsdetails - #'."
@@ -320,8 +315,8 @@ Error,Fehler
 "Dismiss All Completed Tasks","Alle erledigten Aufgaben schließen"
 "Action Details - #","Aktionsdetails - #"
 "Number of Records Affected","Anzahl der betroffenen Datensätze"
-"The role wasn't found for the user. Verify the role and try again.","Für den Benutzer wurde diese Rolle nicht gefunden. Bitte überprüfen Sie die Benutzerrolle und versuchen Sie es erneut."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Beim kompilieren einer Liste von erlaubten Resourcen ist ein Fehler aufgetreten. Weitere Informationen finden Sie im Exception-Log."
+"The role wasn't found for the user. Verify the role and try again.","Für den Benutzer wurde diese Rolle nicht gefunden. Bitte überprüfen Sie die Benutzerrolle und versuchen Sie es erneut."
 "You created the order.","Sie haben die Bestellung erstellt."
 "Order saving error: %1","Fehler beim Speichern der Bestellung: %1"
 "Please choose a payment method.","Bitte wählen Sie eine Zahlungsart."
@@ -413,26 +408,10 @@ Environment,Umgebung
 options,Optionen
 "Select all","Alle auswählen"
 "Deselect all","Alle abwählen"
-Selected,Markierte
-"We couldn't find any records.","Es wurden keine Einträge gefunden."
-" Item(s)"," Objekt(e)"
-"Items ","Objekt "
-" to "," bis "
-" of "," von "
-" total"," gesamt"
-Page,Seite
-Previous,Vorherige
-"You're currently reading page","Sie lesen gerade die Seite"
-Next,Weiter
-Show,Anzeigen
-"per page","pro Seite"
 "%s of %s selected","%s von %s ausgewählt"
-"Search by keyword","Suche nach Schlagwort"
-"This is a required field.","Dies ist ein Pflichtfeld."
 "B2B Features","B2B Funktionen"
 "Invalid Form Key. Please refresh the page.","Ungültiger Formularschlüssel. Bitte aktualisieren Sie die Seite."
 "You entered an invalid Secret Key. Please refresh the page.","Sie haben einen ungültigen Geheimschlüssel angegeben. Bitte laden Sie die Seite neu."
-"Invalid security or form key. Please refresh the page.","Ungültiger Sicherheits- oder Formularschlüssel. Bitte aktualisieren Sie die Seite."
 "Cache Storage Management",Cache-Speicherverwaltung
 "Flush Magento Cache","Magento-Cache leeren"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Der Cache-Speicher kann zusätzliche Daten enthalten. Sind Sie sicher, dass Sie ihn leeren möchten?"
@@ -549,13 +528,11 @@ To,Bis
 "Add New",Neu
 "Invalid export type supplied for grid export block","Ungültiger Exporttyp für Grid Export Block"
 "Please correct the column format and try again.","Korrigieren Sie das Spalten-Format und versuchen Sie es erneut."
-"An item needs to be selected. Select and try again.","Ein Element muss ausgewählt werden. Wählen Sie ein Element und versuchen Sie es erneut."
 Submit,Absenden
 "Unknown block type","Unbekannter Blocktyp"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Bitte korrigieren Sie die Tab-Konfiguration und versuchen Sie es erneut. Die Tab-ID darf nicht leer sein."
 "Please correct the tab configuration and try again.","Bitte korrigiere die Tab-Konfiguration und versuche es noch einmal."
 "You have logged out.","Sie haben sich abgemeldet."
-"These cache type(s) don't exist: %1","Diese Cache-Typ(en) existieren nicht: %1"
 "The image cache was cleaned.","Bildcache wurde geleert."
 "An error occurred while clearing the image cache.","Ein Fehler ist beim Leeren des Bildcaches aufgetreten."
 "The JavaScript/CSS cache has been cleaned.","JavaScript/CSS Caches wurde geleert."
@@ -609,26 +586,20 @@ Dashboard,Übersicht
 "Before modifying the store view code please make sure it is not used in index.php.","Bevor Sie den Code des Store Views bearbeiten, stellen Sie sicher, dass dieser nicht in der index.php verwendet wird."
 "New ","Neu "
 "All Stores","Alle Shops"
-"Please enable your Store View before using this Web Site as Default","Bitte aktivieren Sie Ihre Shop-Ansicht, bevor Sie diese Website als Standard verwenden"
 "You saved the website.","Sie haben die Website gespeichert."
 "The default store cannot be disabled","Der Standardsshop kann nicht deaktiviert werden"
 "You saved the store view.","Sie haben den Store View gespeichert."
 "An inactive store view cannot be saved as default store view","Ein inaktiver Store View kann nicht als Standard Store View gespeichert werden"
 "You saved the store.","Sie haben den Store gespeichert."
 "Something went wrong while saving. Please review the error log.","Beim Speichern ist etwas schief gegangen. Bitte überprüfen Sie das Fehlerprotokoll."
-"Authentication storage is incorrect.","Authentifizierung-Speicher ist nicht korrekt."
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Die Konto-Anmeldung war nicht korrekt oder Ihr Konto ist vorübergehend deaktiviert. Bitte warten Sie und versuchen Sie es später erneut."
-Today,Heute
 "Last 24 Hours","Letzte 24 Stunden"
 "Last 7 Days","Letzte 7 Tage"
 "Current Month","Aktueller Monat"
 YTD,Jahresverlauf
 2YTD,Zweijahresverlauf
+"Authentication storage is incorrect.","Authentifizierung-Speicher ist nicht korrekt."
 Order,Bestellung
 "Order #%1","Bestellung #%1"
-"Save &amp; Continue","Speichern &amp; Fortfahren"
-"Save &amp; Close","Speichern &amp; Schließen"
-"Save &amp; New","Speichern &amp; Neu"
 "Sorry, you need permissions to view this content.","Bitte entschuldigen Sie, Sie benötigen Berechtigungen, um diesen Inhalt zu sehen."
 "Next steps","Nächste Schritte"
 "If you think this is an error, try signing out and signing in again.","Wenn Sie der Meinung sind, dass dies ein Fehler ist, versuchen Sie, sich abzumelden und sich erneut anzumelden."
@@ -641,9 +612,9 @@ Username,Benutzername
 Password,Passwort
 password,Passwort
 "Sign in",Anmelden
+"Select Range:","Bereich auswählen:"
 "No Data Found","Keine Daten gefunden"
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Die Diagramme sind deaktiviert. <a href=""%1"">Diagramme aktivieren</a>."
-"Select Range:","Bereich auswählen:"
 "Last Orders","Letzte Bestellungen"
 "Last Search Terms","Die Letzten Suchbegriffe"
 "Top Search Terms","Top Suchbegriffe"
@@ -660,16 +631,16 @@ password,Passwort
 "About the calendar","Über den Kalender"
 "Go Today",Heute
 Previous,Zurück
+Next,Weiter
 WK,Woche
 Time,Zeit
 Hour,Stunde
 "JavaScript may be disabled in your browser.","JavaScript ist in Ihrem Browser womöglich deaktiviert."
 "To use this website you must first enable JavaScript in your browser.","Um diese Webseite zu benutzen müssen Sie zuerst JavaScript in Ihrem Browser aktivieren."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Dies ist eine Demo-Installation. Jegliche Bestellung in diesem Shop wird weder beachtet noch ausgeführt."
-"Privacy Policy",Datenschutzerklärung
 "Report an Issue","Ein Problem melden"
-Scope:,Gültigkeitsbereich:
 "Stores Configuration","Stores Konfiguration"
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren."
 "Additional Cache Management","Zusätzliche Cache-Verwaltung"
 "Flush Catalog Images Cache","Leere Katalog-Bilder-Cache"
 "Pregenerated product images files","Vorgenerierte Produktbilder"
@@ -687,6 +658,7 @@ Thumbnail,Vorschaubild
 "Additional Settings","Zusätzliche Einstellungen"
 "records found","Einträge gefunden"
 selected,ausgewählt
+"per page","pro Seite"
 "Previous page","Vorherige Seite"
 "of %1","von %1"
 "Next page","Nächste Seite"
@@ -699,15 +671,7 @@ selected,ausgewählt
 "This tab contains invalid data. Please resolve this before saving.","Diese Registerkarte enthält ungültige Daten. Bitte korrigieren Sie diese vor dem Speichern."
 "The information in this tab has been changed.","Die Informationen in diesem Tab wurden geändert."
 Loading...,"Wird geladen …"
-"User Agent Rules",User-Agent-Regeln
-"User agent exceptions override product and CMS pages rules.","Ausnahmen von User-Agenten überschreiben Produkt- und CMS-Seitenregeln."
-"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Suchzeichenketten sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE) und werden in derselben Reihenfolge wie angegebene validiert."
-Examples,Beispiele
-"Previous Page","Vorherige Seite"
-"Next Page","Nächste Seite"
-"Use Default Value","Standardwert verwenden"
 "We could not detect a size.","Wir konnten keine Größe erkennen."
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren."
 "Warning message",Warnmeldung
 "This operation can take a long time","Dieser Vorgang kann lange dauern"
 "Allow everything","Alles erlauben"
@@ -791,9 +755,6 @@ City,Stadt
 "Disable Email Communications","Deaktivieren Sie die E-Mail-Kommunikation"
 "Set Return-Path","Return-Path festgelegt"
 "Return-Path Email","Zurückgegangene Email"
-"Enable Frontend Resize","Frontend-Resize aktivieren"
-"Maximum Width","Maximale Breite"
-"Maximum Height","Maximale Höhe"
 Admin,Administrator
 "Admin User Emails","Admin User E-Mails"
 "Forgot Password Email Template","Passwort vergessen Email Template"
@@ -853,9 +814,9 @@ Tags,Schlagwörter
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404-Fehler</h1><p>Seite nicht gefunden.</p>"
 "Community Edition",Community-Edition
 "Default Theme",Standard-Thema
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Wenn kein Wert bestimmt ist, werden System-Standardvorgaben verwendet. Die System-Standardvorgabe kann durch Drittanbieter-Erweiterungen angepasst/modifiziert sein."
 "Applied Theme","Angewendetes Thema"
 "Design Rule","Design Regel"
+"User Agent Rules",User-Agent-Regeln
 Pagination,Paginierung
 "How many links to display at once.","Wie viele Links auf einmal angezeigen."
 "Pagination Frame",Paginierungsrahmen
@@ -866,6 +827,17 @@ Pagination,Paginierung
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternativer Text für den Link zu den folgenden Seiten im Paginierungsmenü. Falls dieser leer ist, wird die vorgegebene Pfeilgrafik benutzt."
 "Anchor Text for Next","Anchor-Text für Nachfolgende"
 "Theme Name",Themen-Name
+"Maximum Width","Maximale Breite"
+"Maximum Height","Maximale Höhe"
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Wenn kein Wert bestimmt ist, werden System-Standardvorgaben verwendet. Die System-Standardvorgabe kann durch Drittanbieter-Erweiterungen angepasst/modifiziert sein."
+"Enable Frontend Resize","Frontend-Resize aktivieren"
+"Invalid security or form key. Please refresh the page.","Ungültiger Sicherheits- oder Formularschlüssel. Bitte aktualisieren Sie die Seite."
+"An item needs to be selected. Select and try again.","Ein Element muss ausgewählt werden. Wählen Sie ein Element und versuchen Sie es erneut."
+"These cache type(s) don't exist: %1","Diese Cache-Typ(en) existieren nicht: %1"
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Die Konto-Anmeldung war nicht korrekt oder Ihr Konto ist vorübergehend deaktiviert. Bitte warten Sie und versuchen Sie es später erneut."
+"Save &amp; Continue","Speichern &amp; Fortfahren"
+"Save &amp; Close","Speichern &amp; Schließen"
+"Save &amp; New","Speichern &amp; Neu"
 "System Backup",Systemsicherung
 "Database and Media Backup","Datenbank- und Mediensicherung"
 "Database Backup",Datenbanksicherung
@@ -905,7 +877,6 @@ Database,Datenbank
 "The backup file handler was unspecified.","Der Sicherungsdatei-Handler wurde nicht spezifiziert."
 "Something went wrong while writing to the backup file ""%1"".","Etwas ging schief beim Beschreiben der Sicherungsdatei ""%1""."
 "We can't save the Cron expression.","Der Cron-Ausdruck kann nicht gespeichert werden."
-"Backup functionality is disabled","Die Sicherungsfunktion ist deaktiviert"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Sie werden alle Daten verlieren, die seit der letzten Sicherung erzeugt wurden. Dies schließt Admin-Benutzer, Kunden und Bestellungen ein."
 "Are you sure you want to continue?","Sind Sie sicher, dass Sie fortfahren möchten?"
 "This may take a few moments.","Die kann einige Augenblicke dauern."
@@ -928,8 +899,6 @@ Exclude,Ausschließen
 "Magento root directory",Magento-Root-Verzeichnis
 "Create Backup","Backup erstellen"
 Rollback,Wiederherstellung
-"Backup Settings",Sicherungseinstellungen
-"Enable Backup","Sicherung aktivieren"
 "Enable Scheduled Backup","Geplante Sicherungen aktivieren"
 Frequency,Häufigkeit
 "Maintenance Mode",Wartungsmodus
@@ -937,49 +906,26 @@ Frequency,Häufigkeit
 Size(bytes),"Größe (Bytes)"
 Type,Typ
 Download,Herunterladen
-"Dynamic Blocks","Dynamische Blöcke"
-"Add Dynamic Block","Dynamischen Block hinzufügen"
-"Save Dynamic Block","Dynamischen Block speichern"
-"Delete Dynamic Block","Dynamischen Block löschen"
+"Backup functionality is disabled","Die Sicherungsfunktion ist deaktiviert"
+"Backup Settings",Sicherungseinstellungen
+"Enable Backup","Sicherung aktivieren"
 "Save and Continue Edit","Speichern und weiter bearbeiten"
-"New Dynamic Block","Neuer dynamischer Block"
 "Default Content",Standard-Inhalt
 "No Default Content","Kein Standard-Inhalt"
-"Dynamic Block Default Content for All Store Views","Dynamischer Abschnitt Standardinhalt für alle Store-Views"
 "Store View Specific Content","Store View spezifischer Inhalt"
 "Use Default","Standard verwenden"
 "Related Promotions","Ähnliche Aktionen"
 Rule,Regel
 "Start Date",Start
 "End Date",Enddatum
-"Dynamic Block Properties","Dynamischer Block-Einstellungen"
-"Dynamic Block Name","Dynamischer Blockname"
 Active,Aktiv
 Inactive,Inaktiv
 "Applies To","Gilt für"
-"Any Dynamic Block Type","Jeder Dynamischer Block-Typ"
-"Specified Dynamic Block Types","Angegebener Dynamischer Block-Typ"
 "Specify Types","Typen angeben"
-"Dynamic Block Information","Dynamischer Block-Information"
-"Dynamic Block","Dynamischer Block"
-"Dynamic Block Type","Dynamischer Block-Typ"
-"Are you sure you want to delete these dynamic blocks?","Sind Sie sicher, dass Sie diese dynamischen Blöcke löschen möchten?"
-"Related Dynamic Blocks","Verbundene Dynamische Blöcke"
+Visibility,Sichtbarkeit
 Position,Reihenfolge
 "This rule no longer exists.","Diese Regel existiert nicht mehr."
-"You deleted the dynamic block.","Sie haben den dynamischen Block gelöscht."
-"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Etwas ist falsch gelaufen beim Löschen der Daten des dynamischen Abschnitts.
-Bitte überprüfe diesen Vorgangsbericht und versuche es nochmal."
-"We cannot find a dynamic block to delete.","Wir können keinen dynamischen Block zum Löschen finden."
-"This dynamic block no longer exists.","Dieser dynamische Block existiert nicht mehr."
-"Edit Dynamic Block","Dynamischen Block bearbeiten"
-"Please select a dynamic block(s).","Bitte wählen Sie einen dynamischen Block."
 "You deleted %1 record(s).","Sie haben %1 Eintragung(en) gelöscht."
-"Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Etwas ist falsch gelaufen während mehrere dynamische Abschnitte gelöscht wurden.
-Überprüfe diesen Vorgangs-Bericht und versuche es nochmal."
-"This dynamic block does not exist.","Dieser dynamische Block existiert nicht."
-"You saved the dynamic block.","Sie haben den dynamischen Block gespeichert."
-"We cannot save the dynamic block.","Wir können den dynamischen Block nicht speichern."
 "Please enter a name.","Bitte geben Sie einen Namen ein."
 "-- None --","-- Keine --"
 "Content Area",Inhaltsbereich
@@ -987,22 +933,48 @@ Footer,Fußzeile
 Header,Kopfzeile
 "Left Column","Linke Spalte"
 "Right Column","Rechte Spalte"
-"Manage Dynamic Blocks","Dynamische Blöcke Verwalten"
-"Dynamic Blocks Rotator","Dynamischer Abschnitt Rotierer"
-"Displays Specified or Promotion Dynamic Blocks","Zeigt bestimmte oder Promotion Dynamische Abschnitte an"
-"Dynamic Blocks to Display","Anzuzeigende dynamische Abschnitte"
-"Specified Dynamic Blocks","Angegebene Dynamische Blöcke"
-"Cart Price Rule Related","Zugehörige Warenkorb-Preisregel"
-"Catalog Price Rule Related","Zugehörige Katalog-Preisregel"
-"Restrict by Dynamic Block Types","Nach Typen der dynamischen Abschnitte einschränken"
 "Rotation Mode",Rotationsmodus
 "Display all instead of rotating","Alle anzeigen anstatt zu rotieren"
 "One at the time, Random","Eins zur Zeit, Zufall"
 "One at the time, Series","Eins zur Zeit, Serien"
 "One at the time, Shuffle","Eins zur Zeit, Mischen"
+"Dynamic Blocks","Dynamische Blöcke"
+"Add Dynamic Block","Dynamischen Block hinzufügen"
+"Save Dynamic Block","Dynamischen Block speichern"
+"Delete Dynamic Block","Dynamischen Block löschen"
+"New Dynamic Block","Neuer dynamischer Block"
+"Dynamic Block Default Content for All Store Views","Dynamischer Abschnitt Standardinhalt für alle Store-Views"
+"Dynamic Block Properties","Dynamischer Block-Einstellungen"
+"Dynamic Block Name","Dynamischer Blockname"
+"Any Dynamic Block Type","Jeder Dynamischer Block-Typ"
+"Specified Dynamic Block Types","Angegebener Dynamischer Block-Typ"
+"Dynamic Block Information","Dynamischer Block-Information"
+"Dynamic Block","Dynamischer Block"
+"Dynamic Block Type","Dynamischer Block-Typ"
+"Are you sure you want to delete these dynamic blocks?","Sind Sie sicher, dass Sie diese dynamischen Blöcke löschen möchten?"
+"Related Dynamic Blocks","Verbundene Dynamische Blöcke"
+"You deleted the dynamic block.","Sie haben den dynamischen Block gelöscht."
+"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Etwas ist falsch gelaufen beim Löschen der Daten des dynamischen Abschnitts.
+Bitte überprüfe diesen Vorgangsbericht und versuche es nochmal."
+"We cannot find a dynamic block to delete.","Wir können keinen dynamischen Block zum Löschen finden."
+"This dynamic block no longer exists.","Dieser dynamische Block existiert nicht mehr."
+"Edit Dynamic Block","Dynamischen Block bearbeiten"
+"Please select a dynamic block(s).","Bitte wählen Sie einen dynamischen Block."
+"Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Etwas ist falsch gelaufen während mehrere dynamische Abschnitte gelöscht wurden.
+Überprüfe diesen Vorgangs-Bericht und versuche es nochmal."
+"This dynamic block does not exist.","Dieser dynamische Block existiert nicht."
+"You saved the dynamic block.","Sie haben den dynamischen Block gespeichert."
+"We cannot save the dynamic block.","Wir können den dynamischen Block nicht speichern."
+"Manage Dynamic Blocks","Dynamische Blöcke Verwalten"
+"Dynamic Blocks Rotator","Dynamischer Abschnitt Rotierer"
+"Displays Specified or Promotion Dynamic Blocks","Zeigt bestimmte oder Promotion Dynamische Abschnitte an"
+"Dynamic Blocks to Display","Anzuzeigende dynamische Abschnitte"
+"Specified Dynamic Blocks","Angegebene Dynamische Blöcke"
+"Restrict by Dynamic Block Types","Nach Typen der dynamischen Abschnitte einschränken"
 "Specify Dynamic Blocks","Dynamische Blöcke angeben"
 "Dynamic Block Inline Template","Dynamischer Abschnitt Inline-Vorlage"
-Visibility,Sichtbarkeit
+"Cart Price Rule Related","Zugehörige Warenkorb-Preisregel"
+"Catalog Price Rule Related","Zugehörige Katalog-Preisregel"
 "All Segments","Alle Segmente"
 "Customer Segment",Kundensegment
 "Allowed Credit Card Types","Pflichtangabe der Rechnungsadresse des Kunden"
@@ -1264,11 +1236,11 @@ Fixed,Festkosten
 "Add Products to Option","Produkte zur Option hinzufügen"
 "Delete Option",Menge:
 "What are you looking for?","Was suchen Sie?"
+"Use Default Value","Standardwert verwenden"
 "There is no defined renderer for ""%1"" option type.","Es ist kein Renderer für ""%1"" Optionstyp definiert."
 "Could not save child: ""%1""","Untergeordnetes Element konnte nicht gespeichert werden: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Produkt mit der angegebenen Artikelnummer: ""%1"" enthält keine Option: ""%2"""
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Kindelement mit der angegebenen Artikelnummer ""%1"" wurde bereits Artikel %2 zugewiesen."
-"The option couldn't be saved.","Die Option konnte nicht gespeichert werden."
 "Price Range",Preisbereich
 "As Low as",Nur
 Together,Zusammen
@@ -1306,8 +1278,8 @@ Invoiced,"In Rechnung gestellt"
 Shipped,Versandt
 Refunded,Erstattet
 Canceled,Storniert
-"Regular Price","Regulärer Preis"
 "As low as",Ab
+"Regular Price","Regulärer Preis"
 "Buy %1 with %2 discount each","%1 mit jeweils %2 Rabatt kaufen"
 "Go back to product details","Zurück zu den Produktdetails"
 "Customize and Add to Cart","Anpassen und in den Warenkorb legen"
@@ -1330,6 +1302,7 @@ Message:,Nachricht:
 "Add Products to New Option","Füge Artikel zur neuen Option hinzu"
 "Add Products to Option ""%1""","Füge Artikel zur Option ""%1"" hinzu"
 "Special Price",Sonderpreis
+"The option couldn't be saved.","Die Option konnte nicht gespeichert werden."
 """option_id"" and ""parent_id"" values should be specified","""option_id"" und ""parent_id"" Werte sollten angegeben werden"
 """sku"" value should be specified","""sku"" Wert sollte angegeben werden"
 Always,Immer
@@ -1358,14 +1331,11 @@ Forms,Formulare
 "Enable CAPTCHA on Storefront","Captcha für Frontend aktivieren"
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA für ""Benutzer erstellen""- und ""Passwort vergessen""-Formulare sind immer aktiviert, wenn gewählt."
 Root,Wurzel
-"Are you sure you want to delete this category?","Sind Sie sicher, dass Sie diese Kategorie löschen möchten?"
 "Use Config Settings","Konfigurationseinstellungen verwenden"
 "Use All Available Attributes","Alle verfügbaren Attribute verwenden"
 "Add Subcategory","Neue Unterkategorie"
 "Add Root Category","Neue Haupt-Kategorie"
 Day,Tag
-from,von
-to,bis
 "WYSIWYG Editor",WYSIWYG-Editor
 "Add Product","Neuer Artikel"
 label,Kennzeichen
@@ -1426,9 +1396,9 @@ Empty,Zeige
 "Add Attribute","Attribut hinzufügen"
 "Add New Group","Neue Gruppe"
 "Add Group","Gruppe hinzufügen"
+"Edit Attribute Set Name","Name des Attribut-Sets bearbeiten"
 "For internal use","Intern verwendet"
 "Based On","Basiert auf"
-"Edit Attribute Set Name","Name des Attribut-Sets bearbeiten"
 "Add New Attribute Set","Neues Attribut-Set hinzufügen"
 "Add Attribute Set","Attribut-Set hinzufügen"
 "Attribute Sets",Attribut-Sets
@@ -1501,12 +1471,11 @@ Categories,Kategorien
 "Category is not available for requested store.","Kategorie ist nicht für den angeforderten Store verfügbar."
 "There was a category move error.","Ist ein Fehler aufgetreten beim Verschieben der Kategorie."
 "You moved the category.","Sie haben die Kategorie verschoben."
-"Something went wrong while saving the category.","Beim Speichern der Kategorie ging etwas schief."
 "You saved the category.","Sie haben die Kategorie gespeichert."
+"Something went wrong while saving the category.","Beim Speichern der Kategorie ging etwas schief."
 "Please select products for attributes update.","Bitte wählen Sie Produkte zur Attributaktualisierung."
 "Please make sure to define SKU values for all processed products.","Bitte stellen Sie sicher, SKU-Werte für alle verarbeiteten Produkte zu definieren."
 "Something went wrong while updating the product(s) attributes.","Während der Aktualisierung der Produktattribute ging etwas schief."
-"Something went wrong while processing the request.","Beim Verarbeiten der Abfrage ist ein Fehler aufgetreten."
 "Unable to add attribute","Attribut konnte nicht hinzugefügt werden"
 "Manage Product Attributes","Produkt-Attribute verwalten"
 "We can't delete the attribute.","Das Attribut kann nicht gelöscht werden."
@@ -1521,7 +1490,7 @@ Categories,Kategorien
 "You saved the product attribute.","Sie haben das Produkt-Attribute gespeichert."
 "An attribute with this code already exists.","Ein Attribut mit diesem Code existiert bereits."
 "An attribute with the same code (%1) already exists.","Ein Attribut mit dem gleichen Code (%1) existiert bereits."
-"The value of Admin must be unique. (%1)","Der Wert für Admin muss eindeutig sein. (%1)"
+"The value of Admin must be unique.","Der Wert für Admin muss eindeutig sein."
 "The value of Admin scope can't be empty.","Der Wert für den Admin Bereich darf nicht leer sein."
 "You duplicated the product.","Artikel wurde dupliziert."
 "This product doesn't exist.","Das Produkt existiert nicht."
@@ -1569,7 +1538,6 @@ List,Liste
 "Please select a static block.","Bitte wählen Sie einen statischen Block."
 "Could not save product ""%1"" with position %2 to category %3","Produkt ""%1"" mit der Position %2 konnte nicht in der Kategorie %3 gespeichert werden"
 "Could not save product ""%product"" with position %position to category %category","Produkt ""%product"" mit Position %position in Kategorie %category konnte nicht gespeichert werden"
-"Could not save products ""%products"" to category %category","Produkte ""%products"" konnten nicht in Kategorie %cgespeichert werden"
 "Operation do not allow to move a parent category to any of children category","Eine Hauptkategorie darf keiner Unterkategorie zugeordnet werden."
 "Could not move category","Die Kategorie konnte nicht verschoben werden"
 "Could not save category: %1","Kategorie %1 konnte nicht gespeichert werden."
@@ -1623,12 +1591,10 @@ Category,Kategorie
 "Use config","Konfiguration verwenden"
 "Attribute Set already exists.","Dieses Attribut-Set ist bereits vorhanden."
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Wir konnten die Datei %1 nicht kopieren. Löschen Sie Medien mit nicht vorhandenen Bildern und versuchen Sie es erneut."
-"The product can't be saved.","Das Produkt kann nicht gespeichert werden."
 "The option type to get group instance is incorrect.","Der Optionstyp um eine Gruppeninstanz zu bekommen ist falsch."
 "Select type options required values rows.","Typenoptionen für benötigte Wertezeilen auswählen."
 "Please specify date required option(s).","Bitte geben Sie die Datums Option(en) ein."
 "Please specify time required option(s).","Bitte geben Sie die Zeit Option(en) ein."
-"The product's required option(s) weren't entered. Make sure the options are entered and try again.","Bitte tragen Sie die fehlenden Daten für das Produkt ein und versuchen es erneut."
 "The option instance type in options group is incorrect.","Der Optionsinstanztyp in der Optionengruppe ist inkorrekt."
 "The product instance type in options group is incorrect.","Der Produktinstanztyp in der Optionengruppe ist inkorrekt."
 "The configuration item option instance in options group is incorrect.","Die Konfigurationsartikel-Optionsinstanz in der Optionengruppe ist inkorrekt."
@@ -1647,6 +1613,9 @@ Category,Kategorie
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Ungültiges Attribut Kosten = %cost. Zeile: SKU = %SKU, Store-ID: %sToreId."
 "Could not save Prices.","Die Preise konnten nicht gespeichert werden."
 "Could not delete Prices","Die Preise konnten nicht gelöscht werden"
+"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Der angeforderte Store wurde nicht gefunden. Row ID: SKU = %SKU, Store ID: %storeId, Preis Von: %priceFrom, Preis bis: %preisTo."
+"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ungültiges Attribut %label = %priceTo. Zeile: SKU = %SKU, Store ID: %storeId, Preis von: %priceFrom, Preis bis: %priceTo."
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ungültiger Attributpreis = %price. Zele: SKU = %SKU, Store ID: %storeId, Preis von: %priceFrom, Preis bis: %priceTo."
 "Could not save Tier Prices","Staffelpreise konntent nicht gespeichert werden"
 "Could not replace Tier Prices","Staffelpreise konnten nicht ersetzt werden"
 "Could not delete Tier Prices","Staffelpreise konnten nicht gelöscht werden"
@@ -1658,6 +1627,7 @@ Category,Kategorie
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Wir haben eine Duplikat website gefunden, Staffelpreis, Kundengruppe und Menge: Kundengruppe = %customerGroup, Website ID = %websiteId, Menge = %qty. Zeilen ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Keine Entität mit Kundengruppe Kundengruppe = %customerGroup. Zeile ID: SKU = %SKU, Website ID: %websiteId, Kundengruppe: %customerGroup, Menge: %qty."
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Artikel hat keinen Gruppenpreis mit solchen Daten: customerGroupId = '%1', website = %2, qty = %3"
+"Something went wrong while processing the request.","Beim Verarbeiten der Abfrage ist ein Fehler aufgetreten."
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 erweitert nicht \Magento\Catalog\Model\Product\Type\AbstractType"
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 erweitert nicht \Magento\Catalog\Model\Product\Type\Price"
 "Not Visible Individually","Einzeln nicht sichtbar"
@@ -1683,12 +1653,7 @@ Dropdown,Dropdown-Liste
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 erweitert nicht \Magento\Framework\Filter\Template"
 "Could not get extension attributes","Erweiterungsattribute konnten nicht abgerufen werden"
 message,Nachricht
-"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ungültiger Attributpreis = %price. Zele: SKU = %SKU, Store ID: %storeId, Preis von: %priceFrom, Preis bis: %priceTo."
-"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Der angeforderte Store wurde nicht gefunden. Row ID: SKU = %SKU, Store ID: %storeId, Preis Von: %priceFrom, Preis bis: %preisTo."
-"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ungültiges Attribut %label = %priceTo. Zeile: SKU = %SKU, Store ID: %storeId, Preis von: %priceFrom, Preis bis: %priceTo."
 "Lock wait timeout","Wartezeit sperren"
-"Product Name or SKU","Produktname oder Artikelnummer"
-"Start typing to find products","Eingabe starten, um Produkte zu finden"
 "Advanced Pricing","Erweiterte Preisgestaltung"
 "Customer Group Price",Kundengruppen-Preis
 "Customer Group",Kundengruppe
@@ -1731,12 +1696,11 @@ name,Bezeichnung
 "Manage Titles (Size, Color, etc.)","Verwalten von Titeln (Größe, Farbe usw.)"
 "Manage Options (Values of Your Attribute)","Optionen verwalten (Ausprägungen des Attributs)"
 "Sort Option",Sortieroption
-"The value of Admin must be unique.","Der Wert für Admin muss eindeutig sein."
 Groups,Gruppen
 "Double click on a group to rename it.","Doppelklick auf eine Gruppe um sie umzubenennen."
 "Unassigned Attributes","Nicht zugewiesene Attribute"
-"This group contains system attributes. Please move system attributes to another group and try again.","Diese Gruppe enthält Systemattribute. Bitte verschieben Sie die Systemattribute in eine andere Gruppe und versuchen es erneut."
 "A name is required.","Ein Name ist erforderlich."
+"This group contains system attributes. Please move system attributes to another group and try again.","Diese Gruppe enthält Systemattribute. Bitte verschieben Sie die Systemattribute in eine andere Gruppe und versuchen es erneut."
 "Please select a node.","Bitte wählen Sie einen Knoten."
 "Please enter a new group name.","Bitte geben Sie einen neuen Gruppennamen ein."
 "An attribute group named ""/name/"" already exists.","Eine Attributgruppe mit dem Namen ""/ name /"" ist bereits vorhanden."
@@ -1793,7 +1757,6 @@ Role,Rolle
 "Buy %1 for: ","Kaufen Sie %1 für: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Kauf %1 für %2 jeweils und <strong class=""benefit"">spare<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Kaufen Sie %1 für %2"
-"You added product %1 to the <a href=""%2"">comparison list</a>.","Sie haben das Produkt %1 zur <a href=""%2"">Vergleichsliste</a> hinzugefügt."
 "Shop By",Einkaufsoptionen
 "Shopping Options",Shopping-Möglichkeiten
 "Compare Products","Produkte vergleichen"
@@ -1821,18 +1784,14 @@ Show,Zeige
 "Set Descending Direction","Absteigend sortieren"
 "View as","Anzeigen als"
 "More Information","Weitere Informationen"
-"Maximum %1 characters","Maximal %1 Zeichen"
 "We don't recognize or support this file extension type.","Wir erkennen oder unterstützen diesen Dateierweiterungstyp nicht."
 "Configure Product","Konfiguriere Produkt"
-"This value does not follow the specified format (for example, 200X300).","Dieser Wert entspricht nicht der vorgegebenen Formatierung (zum Beispiel 200x300)."
 "Select type of option.","Wählen Sie den Typ der Option."
 "Please add rows to option.","Bitte fügen Sie Zeilen zur Option hinzu."
 "Choose existing category.","Eine bestehende Kategorie auswählen."
 "Image Detail",Bilddetails
 Adding...,"Wird hinzugefügt …"
 Added,Hinzugefügt
-remaining,verbleibend
-"too many","zu viele"
 "does not implement Storage Interface","implementiert nicht Storage Interface"
 "unselect all","Auswahl aufheben"
 Inventory,Inventar
@@ -1877,8 +1836,6 @@ Comma-separated.,"Durch Kommata getrennt."
 "Time Format",Zeitformat
 "Year Range",Jahrebereich
 "Please use a four-digit year format.","Bitte verwenden Sie ein vierstelliges Jahresformat."
-"Use Static URLs for Media Content in WYSIWYG","Verwende Statische URLs für Medieninhalte im WYSIWYG"
-"Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Medien-Inhalte werden als statische URL in den Editor eingefügt. Diese werden nicht aktualisiert, wenn die Basis-URL in der Systemkonfiguration verändert wird."
 "Top Level Category",Hauptkategorie
 "Product Info Column",Produktinfo-Spalte
 "Block after Info Column","Block nach der Info-Spalte"
@@ -1987,6 +1944,21 @@ Overview,Übersicht
 "Add To Compare","Zur Vergleichsliste hinzufügen"
 "Learn more","Weitere Informationen"
 "Recently Viewed","Kürzlich angesehen"
+"Are you sure you want to delete this category?","Sind Sie sicher, dass Sie diese Kategorie löschen möchten?"
+from,von
+to,bis
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Sie haben das Produkt %1 zur <a href=""%2"">Vergleichsliste</a> hinzugefügt."
+"Maximum %1 characters","Maximal %1 Zeichen"
+remaining,verbleibend
+"too many","zu viele"
+"This value does not follow the specified format (for example, 200X300).","Dieser Wert entspricht nicht der vorgegebenen Formatierung (zum Beispiel 200x300)."
+"The value of Admin must be unique. (%1)","Der Wert für Admin muss eindeutig sein. (%1)"
+"The product can't be saved.","Das Produkt kann nicht gespeichert werden."
+"The product's required option(s) weren't entered. Make sure the options are entered and try again.","Bitte tragen Sie die fehlenden Daten für das Produkt ein und versuchen es erneut."
+"Product Name or SKU","Produktname oder Artikelnummer"
+"Start typing to find products","Eingabe starten, um Produkte zu finden"
+"Use Static URLs for Media Content in WYSIWYG","Verwende Statische URLs für Medieninhalte im WYSIWYG"
+"Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Medien-Inhalte werden als statische URL in den Editor eingefügt. Diese werden nicht aktualisiert, wenn die Basis-URL in der Systemkonfiguration verändert wird."
 "Edit Event","Ereignis bearbeiten"
 "Add Event","Ereignis hinzufügen"
 Events,Ereignisse
@@ -2014,13 +1986,13 @@ Closed,Geschlossen
 "This product is no longer on sale.","Dieses Produkt wird nicht mehr verkauft."
 "Some of these products can no longer be sold.","Einige dieser Produkte können nicht mehr verkauft werden."
 "Select Category","Kategorie auswählen"
+Days,Tage
 Hrs,Stunden
 Mins,Minuten
 Sec,Sekunden
 "Preview Sale",Verkaufsvorschau
 "Go To Sale","Zum Verkauf"
 "View Sale","Zeige Angebote"
-Days,Tage
 "Catalog Events","Katalog Ereignisse"
 "Enable Catalog Events Functionality","Katalog-Events-Funktionalität aktivieren"
 "Enable Catalog Event Widget on Storefront","Katalog-Event-Widget im Frontend aktivieren"
@@ -2087,8 +2059,8 @@ End,Ende
 "Allow Qty Below 0 and Notify Customer","Menge unter 0 zulassen und Kunden informieren"
 "Unable to remove Stock with id ""%1""","Lagerbestand von ID ""%1"" konnte nicht gelöscht werden"
 "Unable to remove Stock Status for product %1","Lagerstatus von Produkt %1 konnte nicht entfernt werden"
-"Please correct the quantity for some products.","Bitte korrigieren Sie die Menge bei einigen Produkten."
 "The fewest you may purchase is %1.","Das Minimum, welches Sie kaufen können ist %1."
+"Please correct the quantity for some products.","Bitte korrigieren Sie die Menge bei einigen Produkten."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Wir haben nicht so viele ""%1"" wie angefragt, aber wir werden die übrigen %2 bestellen."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Wir haben ""%1"" nicht in der angeforderten Menge, sodass wir die übrigen %2 bestellen werden."
 "You can buy %1 only in quantities of %2 at a time.","Sie können %1 nur in einer Menge von %2 zu diesem Zeitpunkt kaufen."
@@ -2203,7 +2175,6 @@ Relevance,Relevanz
 "%1 and greater","%1 und mehr"
 "up to %1","bis zu %1"
 "Search Settings",Sucheinstellungen
-"Please enter a valid price range.","Bitte geben Sie einen gültigen Preisbereich an."
 "Advanced Search","Erweiterte Suche"
 "<strong>%1 item</strong> were found using the following search criteria","Es wurden <strong>%1 Artikel</strong> gefunden, die den folgenden Suchkriterien entsprechen"
 "<strong>%1 items</strong> were found using the following search criteria","Es wurden <strong>%1 Artikel</strong> für die folgenden Suchbegriffe gefunden"
@@ -2216,6 +2187,7 @@ Relevance,Relevanz
 "Minimal Query Length","Minimale Suchbegriff-Länge"
 "Maximum Query Length","Maximale Suchbegriff-Länge"
 "Rebuild Catalog product fulltext search index","Index der Katalog Volltextsuche neu erstellen"
+"Please enter a valid price range.","Bitte geben Sie einen gültigen Preisbereich an."
 "The requested price is not found.","Der gewünschte Preis wurde nicht gefunden."
 "Update %1 from %2 to %3.","Update %1 von %2 bis %3."
 View/Edit,Anzeigen/bearbeiten
@@ -2242,6 +2214,7 @@ Path,Pfad
 "Catalog Products List","Liste Katalogartikel"
 "List of Products","Liste der Produkte"
 "Products Grid Template","Produkt-Raster Vorlage"
+"Invalid method: %1","Ihre Kreditkarte wird belastet für"
 "My Cart (1 item)","Mein Warenkorb (1 Artikel)"
 "My Cart (%1 items)","Mein Warenkorb (%1 Artikel)"
 "My Cart","Mein Warenkorb"
@@ -2256,7 +2229,6 @@ Path,Pfad
 "We can't remove the item.","Der Artikel kann nicht entfernt werden."
 "%1 was updated in your shopping cart.","%1 wurde in Ihrem Warenkorb aktualisiert."
 "We can't update the item right now.","Wir können das Element jetzt nicht aktualisieren."
-"Something went wrong while saving the page. Please refresh the page and try again.","Beim Speichern der Seite ist etwas schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
 "We can't update the shopping cart.","Warenkorb konnte nicht aktualisiert werden."
 "One-page checkout is turned off.","One-Page Checkout ist deaktiviert."
 "Guest checkout is disabled.","Gastbestellungen sind nicht erlaubt."
@@ -2276,7 +2248,6 @@ Checkout,Kasse
 "Display number of items in cart","Zeige Anzahl der Produkte im Warenkorb"
 "Display item quantities","Zeige Artikelanzahl"
 "Carrier with such method not found: %1, %2","Ein Versand mit der Methode %1,%2 konnte nicht gefunden werden"
-"The shipping method is missing. Select the shipping method and try again.","Die Versandart ist nicht vorhanden. Bitte wählen Sie eine Versandart und versuchen Sie es erneut."
 " item"," Artikel"
 " items"," Artikel"
 "Totals calculation is not applicable to empty cart","Summenberechnung gilt nicht für leeren Warenkorb"
@@ -2287,7 +2258,6 @@ Checkout,Kasse
 "Sorry, guest checkout is not available.","Abmelden für Gäste ist nicht verfügbar."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sie müssen Ihr Konto bestätigen. Bitte überprüfen Sie Ihre E-Mail-Adresse für den Bestätigungslink oder <a href=""%1"">Klicken Sie hier</a> für einen neuen Link."
 "Load customer quote error","Fehler beim Laden des Kundenangebots"
-"Invalid method: %1","Ihre Kreditkarte wird belastet für"
 Error!,Fehler!
 "DB exception","Fehler in der Datenbank"
 "Print receipt","Beleg drucken"
@@ -2303,7 +2273,6 @@ Error!,Fehler!
 "Click <a href=""%1"">here</a> to continue shopping.","Klicken Sie <a href=""%1"">hier</a> um weiter einzukaufen."
 "Estimate Tax","Geschätzte Steuer"
 "Estimate Shipping and Tax","Geschätzter Versand und Steuern"
-"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zu Ihrem <a href=""%2"">Warenkorb</a> hinzugefügt."
 "Order #","Bestellung #"
 "Proceed to Checkout","Zur Kasse"
 "Your order number is: %1.","Ihre Bestellnummer lautet: %1."
@@ -2326,14 +2295,10 @@ Total:,Gesamtsumme:
 "My billing and shipping address are the same","Meine Rechnungs- und Lieferanschrift sind identisch"
 Update,Aktualisieren
 "Save in address book","Im Adressbuch speichern"
-"Sorry, no quotes are available for this order at this time","Für diese Bestellung sind derzeit leider keine Angebote verfügbar"
 "Estimated Total","Geschätzte Gesamtkosten"
 "You can create an account after checkout.","Nach dem Kauf können Sie ein Benutzerkonto erstellen."
 "You already have an account with us. Sign in or continue as guest.","Sie haben bereits ein Konto bei uns. Melden Sie sich an oder kaufen Sie als Gast bei uns ein."
 Login,Anmelden
-"Items in Cart","Artikel im Warenkorb"
-"Item in Cart","Artikel im Warenkorb"
-"View and Edit Cart","Warenkorb anzeigen und bearbeiten"
 "See Details","Details anzeigen"
 "Options Details",Optionen-Details
 "Cart Subtotal","Warenkorb Zwischensumme"
@@ -2344,14 +2309,14 @@ Login,Anmelden
 "Ship Here","Hierhin verschicken"
 "Ship To:","Verschicken an:"
 edit,bearbeiten
-"Shipping Address",Lieferadresse
-"New Address","Neue Adresse"
 "Order Summary",Bestellübersicht
+"View and Edit Cart","Warenkorb anzeigen und bearbeiten"
+"Field ","Feld "
+" is required."," ist erforderlich."
 "Provided Zip/Postal Code seems to be invalid.","Die angegebene Postleitzahl ist ungültig."
 " Example: "," Beispiel: "
 "If you believe it is the right one you can ignore this notice.","Wenn Sie glauben, dass dies richtig ist, können Sie den Hinweis ignorieren."
-"Field ","Feld "
-" is required."," ist erforderlich."
+"New Address","Neue Adresse"
 "Are you sure you would like to remove this item from the shopping cart?","Soll dieser Artikel wirklich aus Ihrem Warenkorb entfernt werden?"
 "Review & Payments","Prüfung & Zahlung"
 "Select a new payment method","Neue Zahlungsart auswählen"
@@ -2364,7 +2329,6 @@ edit,bearbeiten
 "Quote Lifetime (days)","Gültigkeit der Preise im Warenkorb (in Tagen)"
 "After Adding a Product Redirect to Shopping Cart","Nach Hinzufügen eines Artikels zum Warenkorb weiterleiten"
 "Number of Items to Display Pager","Anzahl der Elemente zum Anzeigen der Pager"
-"Show Cross-sell Items in the Shopping Cart","Cross-Selling-Artikel im Warenkorb anzeigen"
 "My Cart Link","Link zu meinem Warenkorb"
 "Display Cart Summary","Warenkorbzusammenfassung anzeigen"
 "Number of Items to Display Scrollbar","Anzahl der Elemente zum Anzeigen der Scroll-Leiste"
@@ -2377,11 +2341,18 @@ edit,bearbeiten
 "Separate by "","".","Trennen durch "",""."
 "Send Payment Failed Email Copy Method","Versandart der Kopie der E-Mails über fehlgeschlagene Zahlung"
 "Order Total",Bestellsumme
+"Shipping Address",Lieferadresse
 "We'll send your order confirmation here.","Hierhin werden wir Ihnen Ihre Bestellbestätigung schicken."
 Payment,Zahlung
 "Not yet calculated","Noch nicht berechnet"
-"The order was not successful!","Die Bestellung war nicht erfolgreich!"
 "Thank you for your purchase!","Vielen Dank für Ihre Bestellung!"
+"Sorry, no quotes are available for this order at this time","Für diese Bestellung sind derzeit leider keine Angebote verfügbar"
+"Item in Cart","Artikel im Warenkorb"
+"Items in Cart","Artikel im Warenkorb"
+"Something went wrong while saving the page. Please refresh the page and try again.","Beim Speichern der Seite ist etwas schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zu Ihrem <a href=""%2"">Warenkorb</a> hinzugefügt."
+"The shipping method is missing. Select the shipping method and try again.","Die Versandart ist nicht vorhanden. Bitte wählen Sie eine Versandart und versuchen Sie es erneut."
+"Show Cross-sell Items in the Shopping Cart","Cross-Selling-Artikel im Warenkorb anzeigen"
 "Terms and Conditions","Allgemeine Geschäftsbedingungen"
 "Add New Condition","Neue Bedingung hinzufügen"
 "Save Condition","Speichere Bedingung"
@@ -2418,6 +2389,7 @@ Identifier,Bezeichner
 "Manage Pages",Seiten
 "Add New Page","Neue Seite hinzufügen"
 "Delete Page","Seite löschen"
+"Save Page","Seite speichern"
 Created,Erstellt
 Modified,Geändert
 "Media Storage",Medienspeicher
@@ -2435,7 +2407,6 @@ Modified,Geändert
 Blocks,Blöcke
 "You saved the block.","Sie haben den Block gespeichert."
 "Something went wrong while saving the block.","Beim Speichern des Blocks ist etwas schief gegangen."
-"You duplicated the block.","Sie haben den Block dupliziert."
 "The page has been deleted.","Die Seite wurde gelöscht."
 "We can't find a page to delete.","Wir können keine Seite zum löschen finden."
 "This page no longer exists.","Diese Seite existiert nicht mehr."
@@ -2448,7 +2419,6 @@ Pages,Seiten
 "Page Title","Seiten Titel"
 "To apply changes you should fill in hidden required ""%1"" field","Um die Änderungen zu übernehmen, muss das versteckte Feld ""%1"" ausgefüllt werden"
 "You saved the page.","Sie haben die Seite gespeichert."
-"You duplicated the page.","Sie haben die Seite dupliziert."
 "Directory %1 is not under storage root path.","Verzeichnis %1 ist nicht unter dem Storage Root-Pfad."
 "Make sure that static block content does not reference the block itself.","Stellen Sie sicher, dass statischer Blockinhalt nicht auf den Block selbst verweist."
 "Enabled by Default","Standardmäßig aktiviert"
@@ -2470,7 +2440,6 @@ Pages,Seiten
 "Are you sure you want to delete a %1 record?","Sind Sie sicher, dass Sie den Datensatz %1 löschen möchten?"
 View,Anzeigen
 "No files found","Keine Dateien gefunden"
-"Save Page","Seite speichern"
 "Media Gallery",Mediengalerie
 "Content Management",Inhaltsverwaltung
 "CMS Home Page","CMS Startseite"
@@ -2481,7 +2450,6 @@ View,Anzeigen
 "Redirect to CMS-page if Cookies are Disabled","Zur CMS-Seite weiterleiten, wenn Cookies deaktiviert sind."
 "Show Notice if JavaScript is Disabled","Hinweis zeigen, wenn JavaScript deaktiviert ist"
 "Show Notice if Local Storage is Disabled","Zeige Hinweis an, wenn der Local-Storage deaktiviert ist"
-"Default Page Layout","Standard Seiten-Layout"
 "WYSIWYG Options","WYSIWYG Optionen"
 "Enable WYSIWYG Editor","WYSIWYG Editor aktivieren"
 "CMS Page Link",CMS-Seitenlink
@@ -2509,6 +2477,9 @@ View,Anzeigen
 "Custom design to","Eigenes Design bis"
 "Custom Theme","Benutzerdefiniertes Thema"
 "Custom Layout","Benutzerdefiniertes Layout"
+"You duplicated the block.","Sie haben den Block dupliziert."
+"You duplicated the page.","Sie haben die Seite dupliziert."
+"Default Page Layout","Standard Seiten-Layout"
 """identifiers"" of CMS blocks should be specified","""identifiers"" von CMS-Blöcken sollten angegeben werden"
 """Page id should be specified","""Seiten-Id sollte angegeben werden"
 "The CMS block with the ""%1"" ID doesn't exist.","Der CMS-Block mit der ID ""%1"" existiert nicht."
@@ -2603,6 +2574,9 @@ Blocked,Gesperrt
 "Company user",Unternehmensbenutzer
 "Individual user","Einzelner Nutzer"
 "Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Es ist nicht möglich, die Ressource auf ""erlauben"" zu setzen, da ihre übergeordnete Ressource(n) auf ""ablehnen"" gesetzt ist."
+"Invalid login or password.","Ungültiger Benutzername oder Passwort."
+"This account is locked.","Das Konto ist gesperrt."
+"Your account is not yet approved. If you have questions, please contact the seller.","Ihr Konto ist noch nicht freigeschaltet. Wenn Sie Fragen haben, kontaktieren Sie bitte den Verkäufer."
 "There was an error saving custom attributes.","Beim Speichern des Kundenattributs ist ein Fehler aufgetreten."
 "Invalid value of ""%value"" provided for the %fieldName field.","Ungültiger Wert ""%value"" für Feld %fieldName."
 """%fieldName"" is required. Enter and try again.","""%fieldName"" ist erforderlich. Bitte eingeben und erneut versuchen."
@@ -2624,9 +2598,6 @@ Blocked,Gesperrt
 "Cannot delete team with id %1","Team mit der ID %1 konnte nicht gelöscht werden"
 "You cannot assign a different role to a company admin.","Sie können einem Firmen-Admin keine andere Rolle zuweisen."
 "You cannot assign multiple roles to a user.","Sie können einem Benutzer nicht mehreren Rollen zuweisen."
-"Invalid login or password.","Ungültiger Benutzername oder Passwort."
-"This account is locked.","Das Konto ist gesperrt."
-"Your account is not yet approved. If you have questions, please contact the seller.","Ihr Konto ist noch nicht freigeschaltet. Wenn Sie Fragen haben, kontaktieren Sie bitte den Verkäufer."
 "Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.","Firmen-Admin kann nicht gelöscht werden. Der Löschvorgang wurde gestoppt. Bitte wiederholen Sie die Aktion für andere Kunden."
 "Something went wrong","Es ist ein Fehler aufgetreten"
 "This customer company account is blocked and customer cannot place orders.","Das Kunden-Firmen-Konto ist blockiert und der Kunde kann keine Bestellungen tätigen."
@@ -2647,7 +2618,6 @@ Duplicate,Kopieren
 "Company Name",Firmenname
 "Customer Type:",Kundentyp:
 Company:,Firma:
-"User Role",Benutzerrolle
 "Company Information",Unternehmensinformation
 "Company Legal Name","Rechtlicher Name des Unternehmens"
 "Company Email",Firmen-E-Mail
@@ -2666,6 +2636,7 @@ Company:,Firma:
 "Add Team","Team hinzufügen"
 "Edit Selected","Auswahl bearbeiten"
 "Delete Selected","Auswahl löschen"
+"User Role",Benutzerrolle
 "Team Title","Titel des Teams"
 "You don't have a company account yet.","Sie haben noch kein Unternehmenskonto."
 "VAT/TAX ID: ","USt.-ID: "
@@ -2751,6 +2722,7 @@ Proceed,Fortfahren
 "This action cannot be undone. Are you sure you want to delete this role?","Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie diese Rolle löschen möchten?"
 "Cannot Delete Role","Rolle kann nicht gelöscht werden"
 "Cannot Delete Customer","Kunde kann nicht gelöscht werden"
+"Set Inactive","Inaktiv setzen"
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","Benutzer mit dieser E-Mail-Adresse existiert bereits im System. Geben Sie eine andere E-Mail-Adresse ein um weiterzumachen. Wenn Sie Ihr aktuelles Konto als ein Administratorkonto verwenden möchten, kontaktieren Sie den Verkäufer."
 "Enable Company","Unternehmen freischalten"
 "Company Configuration",Unternehmenskonfiguration
@@ -2807,7 +2779,6 @@ Comment,Kommentar
 ZIP,PLZ
 "Company Admin",Firmen-Admin
 Gender,Geschlecht
-"Set Inactive","Inaktiv setzen"
 "Customer Type",Kundentyp
 "Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.","Sind Sie sicher, dass Sie dieses Firmenkonto vorübergehend deaktivieren möchten? Wenn Sie bestätigen, wird der Login für Firmenmitglieder blockiert."
 "Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>","Sind Sie sicher, dass Sie dieses Unternehmen auf aktiv setzen möchten? Wenn Sie bestätigen, können die Firmenmitglieder innerhalb ihres Firmenkontos arbeiten.>"
@@ -3107,15 +3078,13 @@ Select,Auswählen
 "No Image","Kein Bild"
 "Choose a different Product","Wählen Sie ein anderes Produkt"
 "Create Product Configurations","Produkt-Konfigurationen erstellen"
-"Buy %1 for %2 each and","Kaufe %1 zu jeweils %2 und"
-save,Speichern
-"Disable Product","Produkt deaktivieren"
-"Enable Product","Produkt aktivieren"
 "New Product Review","Neue Produktbewertung"
 "Here are the products you're about to create.","Hier sind die Produkte, die Sie gerade erstellen."
 "You created these products for this configuration.","Sie haben diese Produkte für diese Konfiguration erstellt."
 "Disassociated Products","Nicht verbunden Produkte"
 "These products are not associated.","Diese Produkte sind nicht miteinander verbunden."
+"Disable Product","Produkt deaktivieren"
+"Enable Product","Produkt aktivieren"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Ein Attribut wurde entfernt. Dieses Attribut wird nicht mehr in Ihrer Konfiguration angezeigt."
 "Select options for all attributes or remove unused attributes.","Wählen Sie Optionen für alle Attribute oder entfernen Sie nicht verwendete Attribute."
 "Choose this option to delete and replace extension data for all past configurations.","Wählen Sie diese Option, um Extension-Daten für alle bisherigen Konfigurationen zu löschen und zu ersetzen ."
@@ -3127,6 +3096,8 @@ save,Speichern
 "When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","Wenn Sie ein Attribut hinzufügen oder entfernen werden sämtliche Konfigurationen automatisch aktualisiert. Die aktuellen Konfigurationen müssen ggf. manuell wiederhergestellt werden."
 "Please select attribute(s).","Bitte Attribut(e) wählen."
 "Generate Products","Produkte generieren"
+"Buy %1 for %2 each and","Kaufe %1 zu jeweils %2 und"
+save,Speichern
 "Configurable Product Image","Konfigurierbares Produktbild"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Vielen Dank, dass Sie uns mit Ihren Kommentaren und Fragen kontaktieren. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen."
 "An error occurred while processing your form. Please try again later.","Während der Verarbeitung des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
@@ -3248,7 +3219,7 @@ Locked,Gesperrt
 "Add Date","Datum hinzufügen"
 "Days in Wish List","Tage in der Wunschliste"
 Unlock,Entsperren
-"Delete Image",Originalgröße
+"Delete Image","Bild löschen"
 "View Full Size","Originalgröße anzeigen"
 "All countries","Alle Länder"
 "Add New Customer Group","Neue Kundengruppe hinzufügen"
@@ -3272,7 +3243,6 @@ Unlock,Entsperren
 "There was an error detecting Customer Group.","Beim ermitteln der Kundengruppe ist ein Fehler aufgetreten."
 "Validate VAT Number","Umsatzsteuer-Identifikationsnummer überprüfen"
 "Date of Birth",Geburtsdatum
-Prev,Vor
 "Bad request.","Fehlerhafte Anfrage."
 "This confirmation key is invalid or has expired.","Der Bestätungslink ist ungültig oder bereits abgelaufen."
 "There was an error confirming the account","Während der Bestätigung des Accounts ist ein Fehler aufgetreten"
@@ -3283,6 +3253,7 @@ Prev,Vor
 "This email does not require confirmation.","Für diese E-Mail ist keine Bestätigung notwendig."
 "Wrong email.","E-Mail-Adresse falsch."
 "Your password reset link has expired.","Ihr Link zum Zurücksetzen des Passworts ist abgelaufen."
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Es gibt bereits ein Konto mit dieser E-Mail-Adresse. Ist das Ihre E-Mail-Adresse? Dann <a href=""%1""> Klicken Sie hier </a>, um Ihr Passwort anzufordern und Zugriff auf Ihr Konto zu bekommen."
 "We can't save the customer.","Der Kunde kann nicht gespeichert werden."
 "Please make sure your passwords match.","Bitte stellen Sie sicher, dass Ihre Kennwörter übereinstimmen."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Wenn Sie ein registrierter MwSt-Kunde sind, <a href=""%1"">klicken Sie bitte hier</a>, um Ihre Versandadresse für eine korrekte Mehrwehrtsteuerkalkulation einzugeben."
@@ -3292,6 +3263,7 @@ Prev,Vor
 "We're unable to send the password reset email.","Die E-Mail zum Zurücksetzen des Passworts konnte nicht gesendet werden."
 "Please enter your email.","Bitte geben Sie Ihre E-Mail Adresse ein."
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Wenn ein Kundenkonto mit %1 verknüpft ist, erhalten Sie per e-Mail einen Link zum Zurücksetzen Ihres Passworts."
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Dieses Kundenkonto wurde noch nicht bestätigt. "" ""<a href=""%1""> Klicken Sie hier</a>, um die Bestätigungs-Email erneut zu senden."
 "An unspecified error occurred. Please contact us for assistance.","Ein unbekannter Fehler ist aufgetreten. Bitte kontaktieren Sie uns wenn Sie Hilfe benötigen."
 "A login and a password are required.","Kundenkonto und Passwort sind erforderlich."
 "New Password and Confirm New Password values didn't match.","Bitte achten Sie darauf, dass Sie zweimal das gleiche Passwort eingeben."
@@ -3328,15 +3300,12 @@ Prev,Vor
 "Please load Wish List item.","Bitte laden Sie die den Wunschlisten Eintrag."
 "Login successful.","Login erfolgreich."
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 erweitert nicht \Magento\Customer\CustomerData\SectionSourceInterface"
-"Confirmation isn't needed.","Bestätigung ist nicht erforderlich."
 "The account is locked.","Dieses Konto ist gesperrt."
 "Please enter a password with at most %1 characters.","Bitte geben Sie ein Passwort mit höchstens %1 Zeichen ein."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum der verschiedenen Zeichenklassen im Passwort ist %1. Zeichenklassen: Kleinbuchstaben, Großbuchstaben, Ziffern, Sonderzeichen."
 "This customer already exists in this store.","Dieser Kunde ist bereits in diesem Store vorhanden."
-"The store view is not in the associated website.","Dieser Store-View gehört nicht zu dieser Website."
 "Invalid value of ""%value"" provided for the %fieldName field.","Ungültiger Wert ""%Wert"" für Feld %FeldName."
-"The password token is mismatched. Reset and try again.","Das Passwort-Token ist falsch. Zurücksetzen und erneut versuchen."
-"The password token is expired. Reset and try again.","Das Passwort-Token ist abgelaufen. Zurücksetzen und erneut versuchen."
+"Reset password token expired.","Token zum Zurücksetzen des Passworts ist abgelaufen."
 """%1"" is a required value.","""%1"" ist ein erforderlicher Wert."
 "Per Website","Pro Website"
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","Wir können Kundenkonten nicht global verwenden, wenn die Konten identische e-Mail-Adressen auf mehr als einer Website haben."
@@ -3344,7 +3313,6 @@ Prev,Vor
 "Unable to create directory %1.","Verzeichnis %1 konnte nicht erstellt werden."
 "Destination folder is not writable or does not exists.","Zielordner ist nicht beschreibbar oder existiert nicht."
 "Something went wrong while saving the file.","Beim Speichern der Datei ging etwas schief."
-"Reset password token expired.","Token zum Zurücksetzen des Passworts ist abgelaufen."
 "Attribute object is undefined","Attribut Objekt ist nicht definiert"
 """%1"" invalid type entered.","""%1"" Ungültiger Typ eingegeben."
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" enthält nicht alphabetische oder nicht numerische Zeichen."
@@ -3422,13 +3390,13 @@ Newsletters,Newsletter
 "You have no default billing address in your address book.","Sie haben keine Standard-Rechnungsanschrift in Ihrem Adressbuch."
 "Change Shipping Address","Lieferadresse ändern"
 "You have no default shipping address in your address book.","Sie haben keine Standard Versand-Adresse in Ihrem Adressbuch."
+"Additional Address Entries","Zusätzliche Adresseinträge"
 "Street Address %1","Straße %1"
 "It's a default billing address.","Es ist eine Standard-Rechnungsanschrift."
 "Use as my default billing address","Als meine Standard-Rechnungsanschrift verwenden"
 "It's a default shipping address.","Es ist eine Standard-Lieferanschrift."
 "Use as my default shipping address","Als meine Standard-Lieferadresse verwenden"
 "Go back",Zurück
-"Additional Address Entries","Zusätzliche Adresseinträge"
 "Please enter your email below and we will send you the confirmation link.","Bitte geben Sie Ihre e-Mail Adresse ein und wir senden Ihnen die Bestätigungs-Link."
 "Send confirmation link","Bestätigungs-Link senden"
 "Back to Sign In","Zurück zur Anmeldung"
@@ -3450,8 +3418,6 @@ Newsletters,Newsletter
 "Confirm Password","Passwort bestätigen"
 "Set a New Password","Neues Passwort festlegen"
 "You have signed out and will go to our homepage in 5 seconds.","Sie haben sich erfolgreich abgemeldet und werden in 5 Sekunden zur Startseite weitergeleitet."
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Dieses Kundenkonto wurde noch nicht bestätigt. "" ""<a href=""%1""> Klicken Sie hier</a>, um die Bestätigungs-Email erneut zu senden."
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Es gibt bereits ein Konto mit dieser E-Mail-Adresse. Ist das Ihre E-Mail-Adresse? Dann <a href=""%1""> Klicken Sie hier </a>, um Ihr Passwort anzufordern und Zugriff auf Ihr Konto zu bekommen."
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ihre Anmeldung hat viele Vorteile: schnellerer Bestellvorgang, speichern von mehreren Adressen, Sendungsverfolgung und vieles mehr."
 "Welcome to %store_name","Willkommen bei %store_name"
 "Welcome to %store_name.","Willkommen bei %store_name."
@@ -3486,7 +3452,6 @@ Password:,Passwort:
 "Track order history","Bestellverlauf verfolgen"
 "Check out faster","Schneller bestellen"
 "Checkout using your account","Mit Ihrem Konto bestellen"
-"Show Password","Passwort anzeigen"
 "Are you sure you want to delete this address?","Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
 Weak,Schwach
 Medium,Mittel
@@ -3560,9 +3525,7 @@ Strong,Sicher
 "Rebuild Customer grid index","Kunden-Raster-Index neuaufbauen"
 Group,Gruppe
 "Add New Customer","Neuen Kunden hinzufügen"
-"Are you sure you want to delete the selected customers?","Sind Sie sicher, dass Sie die ausgewählten Kunden löschen möchten?"
 "Subscribe to Newsletter","Newsletter abonnieren"
-"Are you sure you want to unsubscribe the selected customers from the newsletter?","Sind Sie sicher, dass Sie die ausgewählten Kunden vom Newsletter abmelden möchten?"
 "Unsubscribe from Newsletter","Vom Newsletter abmelden"
 "Customer Since","Kunde seit"
 "Confirmed email","Bestätigte E-Mail"
@@ -3580,6 +3543,12 @@ Addresses,Adressen
 "Edit Account Information","Kontoinformationen bearbeiten"
 "Password forgotten","Passwort vergessen"
 "You are signed out","Sie sind abgemeldet"
+"Confirmation isn't needed.","Bestätigung ist nicht erforderlich."
+"The store view is not in the associated website.","Dieser Store-View gehört nicht zu dieser Website."
+"The password token is mismatched. Reset and try again.","Das Passwort-Token ist falsch. Zurücksetzen und erneut versuchen."
+"The password token is expired. Reset and try again.","Das Passwort-Token ist abgelaufen. Zurücksetzen und erneut versuchen."
+"Are you sure you want to delete the selected customers?","Sind Sie sicher, dass Sie die ausgewählten Kunden löschen möchten?"
+"Are you sure you want to unsubscribe the selected customers from the newsletter?","Sind Sie sicher, dass Sie die ausgewählten Kunden vom Newsletter abmelden möchten?"
 "Store Credit",Shop-Guthaben
 "Delete Orphan Balances","Die Guthabenzahlung wurde von Ihrem Warenkorb entfernt."
 "Balance Change",Benutzt
@@ -3974,10 +3943,6 @@ kgs,kg
 "Undefined rate from ""%1-%2"".","Nicht definierter Satz von ""%1-%2""."
 "Please correct the target currency.",Webservicex
 "We can't retrieve a rate from %1 for %2.","Wechselkurs von %1 zu %2 konnte nicht abgerufen werden."
-"No API Key was specified or an invalid API Key was specified.","Es wurde kein oder ein ungültiger API-Schlüssel angegeben."
-"Currency rates can't be retrieved.","Währungskurse können nicht abgerufen werden."
-"The account this API request is coming from is inactive.","Das Konto, von dem diese API-Anfrage stammt, ist inaktiv."
-"An invalid base currency has been entered.","Eine ungültige Basiswährung wurde eingegeben."
 "FATAL ERROR:","SCHWERWIEGENDER FEHLER:"
 "Please specify the correct Import Service.","Bitte spezifizieren Sie den korrekten Import-Service."
 WARNING:,WARNUNG:
@@ -4002,6 +3967,10 @@ Continue,Fortsetzen
 "State Options",Bundeslandoptionen
 "State is Required for","Bundesland ist erforderlich für"
 "Allow to Choose State if It is Optional for Country","Erlauben Sie die Wahl des Bundeslandes, wenn er für das Land optional ist"
+"No API Key was specified or an invalid API Key was specified.","Es wurde kein oder ein ungültiger API-Schlüssel angegeben."
+"The account this API request is coming from is inactive.","Das Konto, von dem diese API-Anfrage stammt, ist inaktiv."
+"An invalid base currency has been entered.","Eine ungültige Basiswährung wurde eingegeben."
+"Currency rates can't be retrieved.","Währungskurse können nicht abgerufen werden."
 "Document is not saved due to error.","Dokument wurde wegen eines Fehlers nicht gespeichert."
 "More than one node matching the query: %1","Mehr als ein Knoten stimmt mit der Abfrage ""%1"" überein"
 "Invalid XML in file %1:\n%2","Ungültige XML in der Datei %1:\n%2"
@@ -4285,8 +4254,6 @@ Combined,Kombiniert
 "Gift Card Is Redeemable","Geschenkgutschein ist einlösbar"
 "We cannot create this gift card.","Gutschein kann nicht erstellt werden."
 "Gift Card Accounts",Geschenkkartenkonten
-"Some gift card accounts were not created properly. You can create gift card accounts manually <a href=""%1"">here</a>.","Einige Geschenkkartenkontos wurden nicht ordnungsgemäß erstellt. Sie können Geschenkkartenkonten <a href=""%1""> hier</a> manuell erstellen."
-"Amount should be specified or Open Amount should be allowed","Betrag sollte angegeben oder offener Betrag sollte erlaubt sein"
 "Duplicate amount found.","Betrag wurde doppelt gefunden."
 "Something went wrong while preparing the gift card.","Beim Vorbereiten der Geschenkkarte ist etwas schiefgelaufen."
 "Please specify a gift card amount.","Bitte geben Sie einen Betrag für die Geschenkkarte ein."
@@ -4297,6 +4264,7 @@ Combined,Kombiniert
 "Please specify a sender name.","Bitte geben Sie den Absendernamen an."
 "Please specify a recipient email.","Bitte geben Sie die Empfänger-E-Mail-Adresse an."
 "Please specify a sender email.","Bitte geben Sie die Absender-E-Mail-Adresse an."
+"Some gift card accounts were not created properly. You can create gift card accounts manually <a href=""%1"">here</a>.","Einige Geschenkkartenkontos wurden nicht ordnungsgemäß erstellt. Sie können Geschenkkartenkonten <a href=""%1""> hier</a> manuell erstellen."
 "Treat Balance as Store Credit","Kontostand wie Shop-Guthaben behandeln"
 "Lifetime (days)","Gültigkeitsdauer (Tage)"
 "Allow Message","Mitteilung erlauben"
@@ -4322,6 +4290,7 @@ Redeemable,Einlösbar
 "Allow Gift Message","Geschenknachricht erlauben"
 "Gift Message Maximum Length","Maximale Länge für Geschenknachrichten"
 "Generate Gift Card Account when Order Item is","Geschenkkartenkonto erstellen, wenn Auftragsposition ist"
+"Amount should be specified or Open Amount should be allowed","Betrag sollte angegeben oder offener Betrag sollte erlaubt sein"
 "Add Gift Card Account",Abgelaufen
 "Save & Send Email","Speichern & E-Mail senden"
 "Edit Gift Card Account: %1","Geschenkkarten-Konto %1 bearbeiten"
@@ -4350,6 +4319,7 @@ History,Historie
 "We cannot apply this gift card.","Wir können diese Geschenkkarte nicht anwenden."
 "Gift Card ""%1"" was removed.","Geschenkkarte ""%1"" wurde entfernt."
 "You can't remove this gift card.","Sie können diese Geschenk-Karte nicht entfernen."
+"You can't redeem a gift card now.","Sie können noch keine Geschenkkarten einlösen."
 "Gift Card ""%1"" was redeemed.","Geschenkkarte ""%1"" ist eingelöst."
 "We cannot redeem this gift card.","Wir können diese Geschenkekarte nicht einlösen."
 "The expiration date must be set in the future.","Das Ablaufdatum muss auf einen Punkt in der Zukunft gesetzt werden."
@@ -4367,6 +4337,7 @@ Available,Verfügbar
 Redeemed,Eingelöst
 Expired,Abgelaufen
 "Please enter a valid customer ID.","Bitte gib eine gültige Kunden-ID ein."
+"Gift Card Redeemed: %1. For customer #%2.","Geschenkkarte eingelöst: %1 Für Kunde #%2"
 "Order #%1.","Bestellung #%1."
 "Recipient: %1.","Empfänger: %1."
 "Customer #%1.","Kunde %1."
@@ -4374,19 +4345,17 @@ Expired,Abgelaufen
 "Unknown history action.","Unbekannte Verlaufsaktion."
 "We were unable to create full code pool size. Please check settings and try again.","Es konnte nicht der gesamte Code-Pool erstellt werden. Bitte überprüfen Sie Ihre Einstellungen und versuchen es anschließend erneut."
 "No codes left in the pool.","Keine Codes verfügbar."
-"You can't redeem a gift card now.","Sie können noch keine Geschenkkarten einlösen."
-"Gift Card Redeemed: %1. For customer #%2.","Geschenkkarte eingelöst: %1 Für Kunde #%2"
 Alphabetical,Alphabetisch
 Numeric,Numerisch
 "The maximum generated code length is 255. Please correct your settings.","Die maximale Codelänge für generierten Code ist 255. Bitte prüfen Sie Ihre Einstellungen."
 "test message",Testnachricht
-"Are you sure you want to continue without saving your changes?","Sind Sie sicher, dass Sie fortfahren möchten, ohne Ihre Änderungen zu speichern?"
 Generate,Erstellen
 "Code Pool used: ","Genutzter Code Pool: "
 " (free "," (kostenlos "
+" of "," von "
 " total)."," gesamt)."
+"Are you sure you want to continue without saving your changes?","Sind Sie sicher, dass Sie fortfahren möchten, ohne Ihre Änderungen zu speichern?"
 "Refund Gift Cards to Store Credit","Geschenkkarten zum Shopguthaben zurückerstatten"
-"Amount can be returned to Store Credit.","Der Betrag kann an Shop-Guthaben zurückgebucht werden."
 "Add Gift Card","Geschenkkarte hinzufügen"
 "Gift Card (%1)","Geschenkkarte (%1)"
 "This won't take long . . .","Das wird nicht lange dauern..."
@@ -4426,6 +4395,7 @@ Generate,Erstellen
 "Low Code Pool Threshold","Grenzwert für niedrigen Code-Pool"
 "IMPORTANT: Be sure to save your configuration before running generation process.","WICHTIG: Stellen Sie sicher, dass Sie Ihre Konfiguration speichern, bevor Sie den Generierungsprozess starten."
 "Are you sure you want to delete these gift card accounts?","Sind Sie sicher, dass Sie die Geschenkkartenkonten löschen möchten?"
+"Amount can be returned to Store Credit.","Der Betrag kann an Shop-Guthaben zurückgebucht werden."
 "Unknown entity type","Unbekannter Entity Type"
 "Test label",Test-Label
 "Gift Options",Geschenkoptionen
@@ -4749,7 +4719,6 @@ Filter,Filtern
 "Check Data","Daten prüfen"
 "Import Settings",Import-Einstellungen
 "Import Behavior",Import-Verhalten
-"Validation Strategy",Validierungsstrategie
 "Stop on Error","Bei Fehlern anhalten"
 "Skip error entries","Fehlerhafte Einträge überspringen"
 "Allowed Errors Count","Anzahl erlaubter Fehler"
@@ -4762,14 +4731,12 @@ Filter,Filtern
 "Images File Directory",Bilder-Dateiverzeichnis
 "Download Sample File","Download Beispiel-Datei"
 "Please correct the data sent value.","Bitte korrigieren Sie den gesendeten Datenwert."
-"Sorry, but the data is invalid or the file is not uploaded.","Entschuldigung, aber die Daten sind ungültig oder die Datei wurde nicht hochgeladen."
 "Import History",Import-Historie
 "Import history",Import-Historie
 "There is no sample file for this entity.","Es gibt keine Beispieldatei für diese Entität."
 "Maximum error count has been reached or system error is occurred!","Maximale Fehleranzahl erreicht wurde oder ein Systemfehler ist aufgetreten!"
-"Only the first 100 errors are shown. ","Nur die ersten 100 Fehler werden angezeigt. "
-"Download full report","Vollständigen Bericht herunterladen"
 "Import successfully done","Import erfolgreich durchgeführt"
+"Sorry, but the data is invalid or the file is not uploaded.","Entschuldigung, aber die Daten sind ungültig oder die Datei wurde nicht hochgeladen."
 "The file was not uploaded.","Die Datei wurde nicht hochgeladen."
 "Data validation failed. Please fix the following errors and upload the file again.","Datenüberprüfung fehlgeschlagen. Bitte beheben Sie die folgenden Fehler und laden Sie die Datei erneut hoch."
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Geprüfte Zeilen: %1, geprüft Einheiten: %2, ungültige Zeilen: %3, Gesamtfehler: %4"
@@ -4780,6 +4747,8 @@ Filter,Filtern
 "Show more","Mehr anzeigen"
 "Additional data","Zusätzliche Daten"
 "Following Error(s) has been occurred during importing process:","Folgende(r) Fehler ist/sind beim Import aufgetreten:"
+"Only the first 100 errors are shown. ","Nur die ersten 100 Fehler werden angezeigt. "
+"Download full report","Vollständigen Bericht herunterladen"
 "in row(s):","in Zeile(n):"
 "Make sure your file isn't more than %1M.","Stellen Sie sicher, dass die Datei nicht mehr als %1M ist."
 "We can't provide the upload settings right now.","Wir können die Upload-Einstellungen zur Zeit nicht bieten."
@@ -4837,6 +4806,7 @@ User,Benutzer
 "Imported File","Importierte Datei"
 "Error File",Fehlerprotokoll
 "Execution Time",Ausführungszeit
+"Validation Strategy",Validierungsstrategie
 "Indexer Management","Update beim Speichern"
 "Update by Schedule","Aktualisierung nach Zeitplan"
 "Update on Save","Nach dem Speichern aktualisieren"
@@ -5252,8 +5222,8 @@ Wishlist,Wunschzettel
 "Sign in to edit wish lists.","Melden Sie sich an, um Wunschzettel zu bearbeiten."
 "The wish list is not assigned to your account and can't be edited.","Die Wunschliste ist nicht auf Ihrem Konto zugeordnet und kann nicht bearbeitet werden."
 "Provide the wish list name.","Geben Sie den Wunschlisten-Namen an."
-"Only %1 wish list(s) can be created.","Es können nur %1 Wunschliste(n) erstellt werden."
 "Wish list ""%1"" already exists.","Wunschliste ""%1"" existiert bereits."
+"Only %1 wish list(s) can be created.","Es können nur %1 Wunschliste(n) erstellt werden."
 "Unknown Magento error","Unbekannter Magento-Fehler"
 "All Wish Lists","Alle Wunschlisten"
 "Add To Order","Keine Artikel"
@@ -5298,11 +5268,10 @@ Wishlist,Wunschzettel
 "Create Billing Address","Rechnungsanschrift anlegen"
 "Create Shipping Address","Lieferanschrift anlegen"
 "Data saving problem","Daten konnten nicht gespeichert werden"
-"We are unable to process your request. Please, try again later.","Wir können Ihre Anfrage nicht bearbeiten. Bitte versuchen Sie es später erneut."
-"Maximum qty allowed for Shipping to multiple addresses is %1","Die maximal erlaubte Menge für den Versand an mehrere Adressen ist %1"
 "We cannot open the overview page.","Die Übersichtsseite kann nicht geöffnet werden."
 "Please agree to all Terms and Conditions before placing the order.","Bitte akzeptieren Sie alle Geschäftsbedingungen bevor Sie Ihre Bestellung aufgeben."
 "Order place error","Fehler beim Aufgeben der Bestellung"
+"Maximum qty allowed for Shipping to multiple addresses is %1","Die maximal erlaubte Menge für den Versand an mehrere Adressen ist %1"
 "Select Addresses","Adressen wählen"
 "Shipping Information",Versandinformation
 "Billing Information",Bestellübersicht
@@ -5328,8 +5297,6 @@ Wishlist,Wunschzettel
 "Order Review",Bestellübersicht
 "Grand Total:",Gesamtsumme:
 "Submitting order information...","Bestellung wird übermittelt …"
-"Ship to:","Versand an:"
-Error:,Fehler:
 "Address %1 <span>of %2</span>","Adresse %1 <span>von %2</span>"
 "Sorry, no quotes are available for this order right now.","Zur Zeit sind leider keine Angebote für diese Bestellung verfügbar."
 "Continue to Billing Information","Weiter zu Rechnungsinformationen"
@@ -5341,18 +5308,15 @@ Error:,Fehler:
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Maximal erlaubte Menge für Versand an mehrere Adressen"
 "Review Order","Bestellung überprüfen"
 "Select Shipping Method","Versandart wählen"
+"We are unable to process your request. Please, try again later.","Wir können Ihre Anfrage nicht bearbeiten. Bitte versuchen Sie es später erneut."
+"Ship to:","Versand an:"
+Error:,Fehler:
 "MySQL Message Queue Cleanup","MySQL Message Queue aufräumen"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Alle Zeiten sind in Minuten angegeben. Verwenden Sie ""0"", wenn Sie die automatische Freigabe überspringen wollen."
 "Retry Messages In Progress After","Wiederholnachrichten laufen nach"
 "Successful Messages Lifetime","Gültigkeit für Success-Messages"
 "Failed Messages Lifetime","Gültigkeit für fehlgeschlagene Nachrichten"
 "New Messages Lifetime","Gültigkeit für neue Nachrichten"
-Quotes,Angebote
-"Created Date",Erstellungsdatum
-"Last Updated","Zuletzt aktualisiert"
-"Sales Rep",Außendienstler
-"Quote Total (Base)","Angebot Gesamtsumme (Basis)"
-"Quote Total (Negotiated)","Angebot Gesamtsumme (Ausgehandelt)"
 "Catalog Total Price (Excl. Tax)","Katalog Gesamtpreis (zzgl. Steuern)"
 "Catalog Total Price (Incl. Tax)","Katalog Gesamtpreis (inkl. Steuern)"
 "Catalog Total Price","Katalog Gesamtpreis"
@@ -5396,6 +5360,7 @@ deleted,gelöscht
 "Quote Grand Total (Incl. Tax)","Gesamtsumme des Angebots (inkl. Steuern)"
 "Grand Total to Be Charged","Gesamtsumme zu zahlen"
 "Requested quote was not found","Angefordertes Anbebot wurde nicht gefunden"
+Quotes,Angebote
 "Something went wrong during quote declining","Etwas ist beim Ablehnen des Angebots schiefgelaufen"
 "Attachment not found.","Anhang nicht gefunden."
 "Quote #%1","Angebot Nr. %1"
@@ -5425,6 +5390,7 @@ deleted,gelöscht
 "We can't update the items right now.","Wir können die Elemente jetzt nicht aktualisieren."
 "We can't order the quote right now because of an error: %1.","Wir können das Angebot momentan nicht bestellen, weil es Fehler gibt: %1."
 "We can't order the quote right now.","Wir können das Angebot jetzt nicht bestellen."
+Quote,Angebot
 "This quote will be charged in %1. The prices are given in %2 as reference only.","Dieses Angebot wird in %1 berechnet. Die Preise werden in %2 nur als Referenz angegeben."
 "We can't send the quote right now because of an error: %1.","Wir können das Angebot momentan nicht senden, weil es Fehler gibt: %1."
 "We can't send the quote right now.","Wir können das Angebot momentan nicht senden."
@@ -5448,6 +5414,7 @@ deleted,gelöscht
 "Shipping method cannot be set for a virtual quote.","Versandart kann nicht für ein virtuelles Angebot gesetzt werden."
 "Cannot add the shipping method. You must add a shipping address into the quote first.","Die Versandart kann nicht hinzugefügt werden. Sie müssen zuerst eine Lieferadresse in das Angebot einfügen."
 "Requested shipping method is not found. Row ID: ShippingMethodID = %ShippingMethodID.","Angeforderte Versandart wurde nicht gefunden. Zeilen-ID: Versandmethode ID = %ShippingMethodID."
+"Product with SKU %1 not found","Produkt mit SKU %1 nicht gefunden"
 "Negotiated quote not found.","Verhandeltes Angebot nicht gefunden."
 "Catalog Price: ","Katalogpreis: "
 "Quote Discount",Angebotsrabatt
@@ -5508,7 +5475,6 @@ Declined,Abgelehnt
 "The quote %quoteId is currently locked and cannot be submitted to the customer. Please check the quote status.","Das Angebot %quoteId ist derzeit gesperrt und kann daher nicht an den Kunden übermittelt werden. Bitte überprüfen Sie den Angebotsstatus."
 "Cannot delete all items from a B2B quote. The quote must contain at least one item.","Es können nicht alle Angebotspositionen aus einem B2B-Angebot gelöscht werden. Das Angebot muss mindestens eine Angebotsposition enthalten."
 "Cannot set the shipping price. You must select a shipping method first.","Der Versandpreis kann nicht festgelegt werden. Sie müssen zuerst eine Versandart auswählen."
-"Product with SKU %1 not found","Produkt mit SKU %1 nicht gefunden"
 "Product with SKU %1 not found in catalog","Produkt mit SKU %1 nicht im Katalog gefunden"
 "Street: street1, Postcode: 12345","Straße: straße1, Postleitzahl: 12345"
 "Validation error message","Fehlermeldung zum Validierungsfehler"
@@ -5530,6 +5496,7 @@ Seller,Verkäufer
 "Quote & Account Information","Angebots- und Kontoinformationen"
 "Quote # %1","Angebot Nr. %1"
 "Edit Company","Firma bearbeiten"
+"Sales Rep",Außendienstler
 "Add Product By SKU","Produkt per SKU hinzufügen"
 "Name & SKU","Name & Artikelnummer"
 Cost,Einkaufspreis
@@ -5640,7 +5607,6 @@ Expires:,"Gültig bis:"
 "Separate each file extension with a comma. Special symboles like dots, converted commas, asterisk, etc. are not allowed.","Trennen Sie jede Dateierweiterung mit einem Komma. Sonderzeichen wie Punkte, umgewandelte Kommas, Sternchen usw. sind nicht erlaubt."
 "Maximum file size","Maximale Dateigröße"
 "File size in MB. Note that this setting can be overridden by the server settings.","Dateigröße in MB. Beachten Sie, dass diese Einstellung durch die Servereinstellungen überschrieben werden kann."
-Quote,Angebot
 "Updated Quote Template (to Buyer)","Vorlage Angebot aktualisiert (an Käufer)"
 "Declined Quote Template (to Buyer)","Vorlage Angebot abgelehnt (an Käufer)"
 "New Quote Template (to Seller)","Vorlage neues Angebot (an Verkäufer)"
@@ -5654,7 +5620,11 @@ Quote,Angebot
 "Checkout with quote","Bezahlvorgang für Angebot"
 "View quotes of subordinate users","Angebote von untergeordneten Benutzern anzeigen"
 "Allow Quotes","Angebote erlauben"
+"Created Date",Erstellungsdatum
 "Submitted By","Eingereicht von"
+"Last Updated","Zuletzt aktualisiert"
+"Quote Total (Base)","Angebot Gesamtsumme (Basis)"
+"Quote Total (Negotiated)","Angebot Gesamtsumme (Ausgehandelt)"
 "Quote Name",Angebotsname
 "Quote Total","Angebot Gesamtsumme"
 "No such public catalog entity","Kein solche öffentliche Kataloginstanz"
@@ -5676,9 +5646,9 @@ Quote,Angebot
 "Generated under Insights in Manage data -> API Keys -> Insert Keys","Generiert unter Insights in Datenverwaltung -> API Schlüssel -> Schlüssel eingeben"
 "New Relic Application Name","""New Relic"" Application Name"
 "This is located by navigating to Settings from the New Relic APM website","Dies ist bei den Einstellungen der New Relic APM Website zu finden."
+"Enable Cron","Cron aktivieren"
 "Send Adminhtml and Frontend as Separate Apps","Adminhtml und Frontend als separate Anwendung senden"
 "In addition to the main app (which includes all PHP execution), separate apps for adminhtml and frontend will be created. Requires New Relic Application Name to be set.","Zusätzlich zur Haupt-Applikation (die alle PHP-Ausführung beinhaltet) werden separate Applikationen für das Adminhtml und das Frontend erstellt. Benötigt einen gesetzen New Relic Applications Namen."
-"Enable Cron","Cron aktivieren"
 "Delete Selected Problems","Ihre Anmeldung wurde bestätigt."
 "Unsubscribe Selected","Ausgewählte abmelden"
 "Save Newsletter","Newsletter speichern"
@@ -5713,19 +5683,15 @@ Subscribers,Abonnenten
 "The newsletter template has been saved.","Die Newslettervorlage wurde gespeichert."
 "Something went wrong while saving this template.","Beim Speichern dieser Vorlage ging etwas schief."
 "Something went wrong while saving your subscription.","Irgendetwas ging schief beim Speichern Ihres Abonnements."
-"We have saved your subscription.","Wir haben Ihr Abonnement gespeichert."
-"A confirmation request has been sent.","Eine Bestätigungsanfrage wurde versendet."
-"We have removed your newsletter subscription.","Wir haben Ihr Newsletter-Abonnement entfernt."
-"We have updated your subscription.","Wir haben Ihr Abonnement aktualisiert."
 "Your subscription has been confirmed.","Ihr Abonnement wurde bestätigt."
 "This is an invalid subscription confirmation code.","Der Abonnement Bestätigungscode ist ungültig."
 "This is an invalid subscription ID.","Dies ist eine ungültige Abonnement-ID."
 "This email address is already assigned to another user.","Diese E-Mail-Adresse ist bereits einem anderen Nutzer zugewiesen."
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Entschuldigung, aber der Administrator verweigert ein Abonnement für Gäste. Bitte <a href=""%1""> registrieren </a>."
 "This email address is already subscribed.","Diese E-Mail-Adresse ist bereits angemeldet."
-"Something went wrong with the subscription.","Da lief was falsch mit dem Abonnement."
 "The confirmation request has been sent.","Die Bestätigungsanfrage wurde gesendet."
 "Thank you for your subscription.","Vielen Dank für Ihre Anmeldung."
+"Something went wrong with the subscription.","Da lief was falsch mit dem Abonnement."
 "You unsubscribed.","Sie haben sich abgemeldet."
 "Something went wrong while unsubscribing you.","Etwas ist während Ihrer Abmeldung schiefgelaufen."
 Cancelled,Storniert
@@ -5773,7 +5739,6 @@ Subscriber,Abonnent
 Processed,Verarbeitet
 Recipients,Empfänger
 Unsubscribe,Abbestellen
-"Are you sure you want to delete the selected subscriber(s)?","Sind Sie sicher, dass Sie die ausgewählten Newsletter-Abonnenten löschen möchten?"
 "Customer First Name","Vorname des Kunden"
 "Customer Last Name","Nachname des Kunden"
 "Not Activated","Nicht aktiviert"
@@ -5781,7 +5746,10 @@ Subscribed,Abonniert
 Unsubscribed,Abbestellt
 Unconfirmed,Unbestätigt
 "Newsletter Subscriptions",Newsletter-Abonnements
-"Purchase order number is a required field.","Bestellnummer ist ein Pflichtfeld."
+"We have saved your subscription.","Wir haben Ihr Abonnement gespeichert."
+"A confirmation request has been sent.","Eine Bestätigungsanfrage wurde versendet."
+"We have removed your newsletter subscription.","Wir haben Ihr Newsletter-Abonnement entfernt."
+"We have updated your subscription.","Wir haben Ihr Abonnement aktualisiert."
 "Make Check payable to:","Check ausstellen auf:"
 "Send Check to:","Bezahlvorgang bei 0,&mdash; Gesamtsumme"
 "Purchase Order Number",Bestellnummer
@@ -5795,6 +5763,7 @@ Unconfirmed,Unbestätigt
 "Bank Transfer Payment","Zahlung per Überweisung"
 Instructions,Anweisungen
 "Cash On Delivery Payment","Zahlung per Nachnahme"
+"Purchase order number is a required field.","Bestellnummer ist ein Pflichtfeld."
 "Shipping Price","Gewicht gg. Ziel"
 "Export CSV","CSV exportieren"
 "Store Pickup","Abholung im Laden"
@@ -5906,7 +5875,6 @@ Help,Hilfe
 "We can't start the billing agreement wizard.","Wir konnten den Abrechnungsvereinbarung -Assistent nicht starten."
 "Billing Agreement # %1","Zahlungsvereinbarung # %1"
 "We can't initialize Express Checkout.","Wir konnten die Express-Kaufabwicklung nicht initialisieren."
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kann keine fälligen Aufträge mit einem Nullsaldo verarbeiten. Um Ihren Kauf abzuschließen, gehen Sie bitte die Standard-Kaufabwicklung durch."
 "PayPal Express Checkout Token does not exist.","PayPal Express Checkout Token existiert nicht."
 "A wrong PayPal Express Checkout Token is specified.","Ein falsches PayPal Express Checkout Token ist angegeben."
 "Express Checkout and Order have been canceled.","Express-Checkout und Bestellung wurde abgebrochen."
@@ -5952,6 +5920,7 @@ Auto,Automatisch
 "The maximum number of child authorizations is reached.","Die maximale Anzahl an Child-Berechtigungen ist erreicht."
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","Wir werden eine Höhe von %1 autorisieren, sobald das Payment-Gateway es genehmigt."
 "The authorized amount is %1.","Der autorisierte Betrag beträgt %1."
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kann keine fälligen Aufträge mit einem Nullsaldo verarbeiten. Um Ihren Kauf abzuschließen, gehen Sie bitte die Standard-Kaufabwicklung durch."
 "A payer is not identified.","Ein Zahler ist nicht identifiziert."
 "Cannot get secure form URL from PayPal","Kann keine Secure Form URL von PayPal erhalten"
 "Last Transaction ID","Letzte Transaktionsnummer"
@@ -6141,15 +6110,6 @@ Void,Aufheben
 "Header (center)","Header (Mitte)"
 "Sidebar (right)","Seitenleiste (rechts)"
 "Near PayPal Credit checkout button","In der Nähe des PayPal Credit Checkout Button"
-Blue,Blau
-Silver,Silber
-Black,Schwarz
-Vertical,Vertikal
-Pill,Pille
-Rectangle,Rechteck
-Pay,Bezahlen
-"Buy Now","Jetzt kaufen"
-Installment,Installation
 "Every 3 days","Alle 3 Tage"
 "Every 7 days","Alle 7 Tage"
 "Every 10 days","Alle 10 Tage"
@@ -6163,9 +6123,6 @@ Installment,Installation
 "Pending PayPal","PayPal ausstehend"
 "PayPal Reversed","PayPal storniert"
 "PayPal Canceled Reversal","PayPal abgebrochene Stornierung"
-"PayPal Credit",PayPal-Guthaben
-"PayPal Guest Checkout Credit Card Icons","PayPal Gast Checkout Kreditkarten Icons"
-"Elektronisches Lastschriftverfahren - German ELV","Elektronisches Lastschriftverfahren - Deutsche ELV"
 "Billing Agreement",Abrechnungsvereinbarung
 "Updated At","Aktualisiert am"
 "Not sure what PayPal payment method to use? Click ","Nicht sicher, welche PayPal-Zahlungsmethode benutzt werden soll? Klick"
@@ -6247,7 +6204,6 @@ Display,Anzeigen
 "Catalog Category Page",Kategorieseite
 "Catalog Product Page",Produktseite
 "Checkout Cart Page",Warenkorb-Seite
-Color,Farbe
 "Basic Settings - PayPal Express Checkout","Grundeinstellungen - PayPal Express Checkout"
 "Display on Product Details Page","Auf Produktdetail-Seite anzeigen"
 "Authorization Honor Period (days)","Autorisierungs-Honorierungs-Zeitraum (Tage)"
@@ -6292,16 +6248,6 @@ Color,Farbe
 "Header Border Color","Farbe des Header-Rahmens"
 "2-pixel perimeter around the header space.","2-Pixel Umfang um den Header."
 "Page Background Color",Seiten-Hintergrundfarbe
-"Customize Smart Buttons","Smart Buttons anpassen"
-"Checkout Page",Checkout-Seite
-"The installment feature is available only in these locales: en_MX, es_MX, en_BR, pt_BR.","Die Installationsfunktion ist nur in diesen Locales verfügbar: de_MX, es_MX, en_BR, pt_BR."
-"Mexico Installment Period",Mexiko-Installationszeitraum
-"Brazil Installment Period","Brasiliens Installationszeitraum"
-Shape,Form
-"Product Pages",Produkt-Seiten
-"Cart Page",Warenkorbseite
-"Mini Cart",Miniwarenkorb
-Features,Funktionen
 "Accept payments with a PCI-compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>)","Akzeptieren Sie Zahlungen mit einer PCI-konformen Kasse, sodass die Kunden auf Ihrer Website bleiben. (<u>Beinhaltet Express Checkout</u>)"
 "Payments Advanced and Express Checkout","Payments Advanced und Express Checkout"
 Vendor,Verkäufer
@@ -6337,14 +6283,37 @@ Vendor,Verkäufer
 "Card Issuer Is Outside The United States","Kartenbesitzer ist außerhalb der Vereinigten Staaten"
 "Card Security Code Does Not Match","Karten-Sicherheits-Code stimmt nicht überein"
 "Payflow Pro and Express Checkout","Payflow Pro und Express Checkout"
+Blue,Blau
+Silver,Silber
+Black,Schwarz
+Vertical,Vertikal
+Pill,Pille
+Rectangle,Rechteck
+Pay,Bezahlen
+"Buy Now","Jetzt kaufen"
+Installment,Installation
+"PayPal Credit",PayPal-Guthaben
+"PayPal Guest Checkout Credit Card Icons","PayPal Gast Checkout Kreditkarten Icons"
+"Elektronisches Lastschriftverfahren - German ELV","Elektronisches Lastschriftverfahren - Deutsche ELV"
+"Customize Smart Buttons","Smart Buttons anpassen"
+"Checkout Page",Checkout-Seite
+"The installment feature is available only in these locales: en_MX, es_MX, en_BR, pt_BR.","Die Installationsfunktion ist nur in diesen Locales verfügbar: de_MX, es_MX, en_BR, pt_BR."
+"Mexico Installment Period",Mexiko-Installationszeitraum
+"Brazil Installment Period","Brasiliens Installationszeitraum"
+Shape,Form
+Color,Farbe
+"Product Pages",Produkt-Seiten
+"Cart Page",Warenkorbseite
+"Mini Cart",Miniwarenkorb
+Features,Funktionen
+"Not you?","Nicht Sie?"
 "Your shopping cart has been updated with new prices.","Ihr Warenkorb wurde mit neuen Preisen aktualisiert."
+"Welcome, %1!","Willkommen, %1!"
 "We cannot load the configuration from file %1.","Die Konfiguration von Datei %1 kann nicht geladen werden."
 "Method ""%1"" is not defined in ""%2""","Methode ""%1"" ist nicht definiert in ""%2"""
 "Remember Me","Angemeldet bleiben"
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Kreuzen Sie &quot;Remember Me&quot; an, um auf diesem Computer angemeldet zu bleiben und künftig Ihren Warenkorb anzusehen ohne sich anzumelden."
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Aktivieren Sie 'Angemeldet bleiben', um von diesem Computer auf Ihren Warenkorb zugreifen, auch wenn Sie nicht angemeldet sind."
-"Welcome, %1!","Willkommen, %1!"
-"Not you?","Nicht Sie?"
 "Persistent Shopping Cart","Persistenter Warenkorb"
 "Enable Persistence","Sitzungsdatenspeicherung aktivieren"
 "Persistence Lifetime (seconds)","Persistenz Gültigkeitsdauer (Sekunden)"
@@ -6363,9 +6332,7 @@ Vendor,Verkäufer
 "Default Product Price",Standardproduktpreis
 "You saved the alert subscription.","Sie werden keine Verfügbarkeitsbenachrichtigungen mehr erhalten."
 "There are not enough parameters.","Es gibt nicht genügend Parameter."
-"The alert subscription couldn't update at this time. Please try again later.","Das Alarm-Abonnement konnte nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
 "Alert subscription has been saved.","Alarm-Abonnierung wurde gespeichert."
-"The product wasn't found. Verify the product and try again.","Das Produkt wurde nicht gefunden. Überprüfen Sie das Produkt und versuchen Sie es erneut."
 "You deleted the alert subscription.","Sie haben das Alarm-Abo gelöscht."
 "You will no longer receive price alerts for this product.","Sie erhalten künftig keine Preis-Alarme mehr für dieses Produkt."
 "Unable to update the alert subscription.","Das Alarm-Abo konnte nicht aktualisiert werden."
@@ -6391,6 +6358,8 @@ Price:,Preis:
 "Product Alerts Run Settings","Ausführungseinstellungen für Artikelbenachrichtigungen"
 "Notify me when the price drops","Benachrichtigen Sie mich, wenn der Preis fällt"
 "Notify me when this product is in stock","Benachrichtigen Sie mich, wenn das Produkt wieder auf Lager ist"
+"The alert subscription couldn't update at this time. Please try again later.","Das Alarm-Abonnement konnte nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+"The product wasn't found. Verify the product and try again.","Das Produkt wurde nicht gefunden. Überprüfen Sie das Produkt und versuchen Sie es erneut."
 Url,URL
 "Preview Image",Vorschau-Bild
 "Get Video Information","Video-Informationen erhalten"
@@ -6398,7 +6367,6 @@ Url,URL
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo unterstützt.<br />Um ein YouTube Video hinzuzufügen, geben Sie bitte zuerst den <a href=""%1"">YouTube API Schlüssel</a> ein."
 "Protocol isn't allowed","Protokoll ist nicht erlaubt"
 "Add Video","Video hinzufügen"
-"Delete image in all store views","Bild in allen Storeviews löschen"
 "Delete video","Video löschen"
 Title:,Titel:
 Uploaded:,"Hochgeladen am:"
@@ -6418,6 +6386,7 @@ Duration:,Dauer:
 "Autostart base video","Basis-Video automatisch abspielen"
 "Show related video","Zugehörige Videos anzeigen"
 "Auto restart video","Video automatisch erneut abspielen"
+"Delete image in all store views","Bild in allen Storeviews löschen"
 "Images And Videos","Bilder und Videos"
 "Edit Catalog Price Rules","Bearbeiten der Katalog-Preisregeln"
 "Edit Cart Price Rules","Warenkorb Preisregeln bearbeiten"
@@ -6456,8 +6425,8 @@ Duration:,Dauer:
 "The qty value is required to update quote item.","Eine Mengenangabe ist erforderlich, um den Warenkorb zu aktualisieren."
 "Minimum order amount is %1","Mindestbestellwert beträgt %1"
 "Invalid customer id %1","Ungültige Kunden ID %1"
-"Invalid customer address id %1","Ungültige Kundenadress ID %1"
 "Invalid address id %1","Ungültige Adress ID %1"
+"Invalid customer address id %1","Ungültige Kundenadress ID %1"
 "Invalid state change requested","Ungültige Statusänderung angefordert"
 "Only 1 shipping assignment can be set","Nur eine Versandzuordnung zulässig"
 "This item price or quantity is not valid for checkout.","Dieser Artikelpreis oder diese Menge ist für die Kaufabwicklung nicht gültig."
@@ -7023,6 +6992,7 @@ Returns,"Details anzeigen"
 "Are you sure you want to close this returns request?","Sind Sie sicher, dass Sie diese Rücksendeanfrage schließen möchten?"
 "Return #%1 - %2","Rücksendung #%1 - %2"
 "RMA Item Details",RMA-Artikeldetails
+"Delete Image",Originalgröße
 "Submit Comment","Kommentar erstellen"
 "Custom Value",lb
 "Print Shipping Label","Versandetikette drucken"
@@ -7095,10 +7065,10 @@ RMA,Rücksendung
 "We can't add a label right now.","Das Label konnte nicht hinzugefügt werden."
 "You selected the wrong RMA.","Sie haben die falsche Warenrücksendenummer ausgewählt."
 "We can't create a return transaction for order #%1.","Für die Bestellung #%1 kann keine Retoure erstellt werden."
-"Create New Return","Neue Rücksendung erstellen"
-"We can't delete the label right now.","Das Label konnte nicht gelöscht werden."
 "You submitted Return #%1.","Sie haben die Rückgabe #%1 eingereicht."
 "We can't create a return right now. Please try again later.","Die Retoure konnte nicht erstellt werden. Bitte versuchen Sie es später noch einmal."
+"Create New Return","Neue Rücksendung erstellen"
+"We can't delete the label right now.","Das Label konnte nicht gelöscht werden."
 "Return #%1","Rücksendung #%1"
 "Cannot add message.","Nachricht kann nicht hinzugefügt werden."
 "My Returns","Meine Retouren"
@@ -7123,7 +7093,6 @@ RMA,Rücksendung
 "You entered an invalid email address: ""%1"".","Sie haben eine ungültige E-Mail Adresse angegeben: ""%1""."
 "You entered an invalid hostname: ""%1""","Sie haben einen ungültigen Hostnamen angegeben: ""%1""."
 """%1"" is longer than allowed.","""%1"" ist länger als erlaubt."
-"The label cannot be created for '%1' because the product does not exist in the system.","Das Label kann nicht für '%1' erstellt werden, da das Produkt nicht im System vorhanden ist."
 "We can't save this RMA. No items were specified.","Die RMA konnte nicht gespeichert werden: Keine Elemente ausgewählt."
 "Partially Authorized","Teilweise autorisiert"
 "Return Received","Rücksendung erhalten"
@@ -7245,6 +7214,7 @@ Answers,Antworten
 "RMA Customer Comments","RMA Kunden Kommentare"
 "RMA Comment Email Recipient","Empfänger für RMA-Kommentar-E-Mails"
 "Enabled for RMA","Für RMA aktiviert"
+"The label cannot be created for '%1' because the product does not exist in the system.","Das Label kann nicht für '%1' erstellt werden, da das Produkt nicht im System vorhanden ist."
 Feed,"RSS Konfiguration"
 "Miscellaneous Feeds","Verschiedene Feeds"
 "Get Feed","Feed abrufen"
@@ -7350,6 +7320,7 @@ Capture,Erfassen
 "Status Label",Statusbezeichnung
 "Store View Specific Labels","Store View spezifische Bezeichnungen"
 "Total Paid","Total bezahlt"
+"Total Due","Total schuldig"
 "Are you sure you want to send an order email to customer?","Sind Sie sicher, dass Sie eine Bestellbestätigung per E-Mail an den Kunden senden wollen?"
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Es wird eine Offline-Erstattung erstellt. Um eine online Erstattung durchzuführen, öffnen Sie bitte eine Rechnung und erstellen Sie eine Gutschrift. Möchten Sie fortsetzen?"
 "Are you sure you want to void the payment?","Sind Sie sicher, dass Sie die Zahlung aufheben möchten?"
@@ -7387,7 +7358,6 @@ Transactions,Transaktionen
 "Applies to Any of the Specified Order Statuses except canceled orders","Gilt für eine der angegebenen Auftragsstatus außer stornierte Aufträge"
 "Show Actual Values","Aktuelle Werte zeigen"
 "New Order RSS","RSS für neue Bestellungen"
-"Shopping cart",Warenkorb
 "Discount (%1)","Rabatt (%1)"
 "Transaction # %1 | %2","Transaktion # %1 | %2"
 Value,Wert
@@ -7395,7 +7365,6 @@ Value,Wert
 "Back to My Orders","Zurück zu ""Meine Bestellungen"""
 "View Another Order","Andere Bestellung ansehen"
 "About Your Refund","Über Ihre Rückerstattung"
-"You have placed no orders.","Sie haben noch keine Bestellungen aufgegeben."
 "Subscribe to Order Status","Bestellstatus abonnieren"
 "About Your Invoice","Über Ihre Rechnung"
 "Print Order # %1","Bestellung # %1 drucken"
@@ -7411,9 +7380,7 @@ Unassign,"Zuordnung aufheben"
 "You canceled the order.","Sie haben die Bestellung storniert."
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" Gutschein-Code wurde nicht angewendet. Rabatt gilt nicht für die ausgewählten Artikel."
 "The coupon code has been accepted.","Der Gtuscheincode wurde akzeptiert."
-"The coupon code has been removed.","Der Rabattcode wurde entfernt."
 "New Order","Neue Bestellung"
-"Error while processing order.","Fehler beim Verarbeiten der Bestellung."
 "Cannot add new comment.","Kann neuen Kommentar nicht hinzufügen."
 "The credit memo has been canceled.","Die Gutschrift wurde storniert."
 "Credit memo has not been canceled.","Die Rechnungskorrektur wurde nicht storniert."
@@ -7430,7 +7397,6 @@ Unassign,"Zuordnung aufheben"
 "We can't void the credit memo.","Die Rechnungskorrektur kann nicht annulliert werden."
 "The order no longer exists.","Die Bestellung existiert nicht mehr."
 "We can't create credit memo for the order.","Für die Bestellung kann keine Rechungskorrektur erstellt werden."
-"This creditmemo no longer exists.","Diese Gutschrift existiert nicht mehr."
 "Edit Order","Bestellungen bearbeiten"
 "You sent the order email.","Sie haben die Bestell-E-Mail gesendet."
 "We can't send the email order right now.","Die Bestell-E-Mail kann momentan nicht versandt werden."
@@ -7440,13 +7406,11 @@ Unassign,"Zuordnung aufheben"
 "Invoice canceling error",Rechnungs-Stornierungsfehler
 "The invoice has been captured.","Rechnung wurde erfasst."
 "The order does not allow an invoice to be created.","Die Bestellung erlaubt es nicht, dass eine Rechnung erstellt wird."
-"The invoice can't be created without products. Add products and try again.","Die Rechnung kann nicht ohne Produkte erstellt werden. Bitte fügen Sie Produkte hinzu und versuchen es erneut."
 "New Invoice","Neue Rechnung"
-"The invoice can't be saved at this time. Please try again later.","Die Rechnung kann zu diesem Zeitpunkt nicht gespeichert werden. Bitte versuchen Sie es später erneut."
-"We can't send the invoice email right now.","Die Rechnung-E-Mail kann momentan nicht versandt werden."
-"We can't send the shipment right now.","Die Lieferschein-E-Mail kann momentan nicht versandt werden."
 "You created the invoice and shipment.","Sie haben die Rechnung und Sendung erstellt."
 "The invoice has been created.","Die Rechnung wurde erstellt."
+"We can't send the invoice email right now.","Die Rechnung-E-Mail kann momentan nicht versandt werden."
+"We can't send the shipment right now.","Die Lieferschein-E-Mail kann momentan nicht versandt werden."
 "Cannot update item quantity.","Artikelanzahl konnte nicht aktualisiert werden."
 "The invoice has been voided.","Die Rechnung wurde storniert."
 "Invoice voiding error","Fehler beim Stornieren der Rechnung."
@@ -7465,7 +7429,6 @@ Unassign,"Zuordnung aufheben"
 "Transaction has been approved.","Transaktion wurde genehmigt."
 "Transaction has been voided/declined.","Transaktion wurde storniert/abgelehnt."
 "There is no update for the transaction.","Es gibt kein Update für die Transaktion."
-"Action ""%1"" is not supported.","Aktion ""%1"" wird nicht unterstützt."
 "We can't update the payment right now.","Die Zahlung kann momentan nicht aktualisiert werden."
 "You assigned the order status.","Sie haben den Auftragsstatus zugeordnet."
 "Something went wrong while assigning the order status.","Bei der Zuordnung des Auftragsstatus ist ein Fehler aufgetreten."
@@ -7494,13 +7457,10 @@ Unassign,"Zuordnung aufheben"
 "Shipping Address: ","Lieferadresse: "
 "Billing Address: ","Rechnungsadresse: "
 "Please specify order items.","Bitte Bestell-Artikel angeben.."
-"The shipping method is missing. Select the shipping method and try again.","Die Versandart fehlt. Wählen Sie die Versandart und versuchen Sie es erneut."
-"The payment method isn't selected. Enter the payment method and try again.","Die Zahlungsart ist nicht ausgewählt. Geben Sie die Zahlungsart ein und versuchen Sie es erneut."
 "This payment method is not available.","Diese Zahlungsart ist nicht verfügbar."
 "Validation is failed.","Überprüfung fehlgeschlagen."
 "Path ""%1"" is not part of allowed directory ""%2""","Pfad ""%1"" ist kein Teil des erlaubten Verzeichnis ""%2"""
 "Identifying Fields required","Identifizierende Felder erforderlich"
-"An ID is needed. Set the ID and try again.","Eine ID ist erforderlich. Setzen Sie die ID und versuchen Sie es erneut."
 """Invoice Document Validation Error(s):\n"" .","""Fehler bei der Gültigkeitsprüfung des Rechnungsdokuments:\n""."
 "Could not save an invoice, see error log for details","Rechnung konnte nicht gespeichert werden, Details siehe Fehlerprotokoll."
 "A hold action is not available.","Eine Halte-Aktion ist nicht verfügbar."
@@ -7512,15 +7472,11 @@ Unassign,"Zuordnung aufheben"
 "Please enter the fax number.","Bitte geben Sie die Faxnummer ein."
 "Please enter the zip/postal code.","Bitte geben Sie die Postleitzahl ein."
 "Please enter the country.","Bitte geben Sie das Land ein."
-"The entity that was requested doesn't exist. Verify the entity and try again.","Die angeforderte Entität existiert nicht. Überprüfen Sie die Entität und versuchen Sie es erneut."
-"The order address couldn't be deleted.","Die Bestelladresse konnte nicht gelöscht werden."
-"The order address couldn't be saved.","Die Bestelladresse konnte nicht gespeichert werden."
 "Unknown State","Unbekannter Status"
 "Could not delete the comment.","Kommentar konnte nicht gelöscht werden."
 "Could not save the creditmemo comment.","Der Gutschrift-Kommentar konnte nicht gespeichert werden."
 "We found an invalid quantity to refund item ""%1"".","Wir fanden eine ungültige Menge des erstatteten Artikels ""%1""."
 "The creditmemo contains product item that is not part of the original order.","Die Gutschrift enthält einen Produktartikel, der kein Bestandteil der ursprünglichen Bestellung ist."
-"The creditmemo contains incorrect product items.","Die Gutschrift enthält fehlerhafte Artikel."
 "The quantity to refund must not be greater than the unrefunded quantity.","Die zu erstattende Menge darf nicht größer sein als die nicht erstattete Menge."
 "Maximum shipping amount allowed to refund is: %1","Maximal erlaubte Versandmenge für Rückerstattung ist: %1"
 "Order Id is required for creditmemo document","Bestellungs-ID ist für das Gutschrift-Dokument erforderlich"
@@ -7595,10 +7551,6 @@ Mixed,Gemischt
 "The order does not allow a shipment to be created.","Die Bestellung erlaubt keinen Versand."
 """Creditmemo Document Validation Error(s):\n"" .","""Gutschriftendokumentvalidierungsfehler:\n"" ."
 "Could not save a Creditmemo, see error log for details","Gutschrift konnte nicht gespeichert werden, für Details bitte Error Log einsehen"
-"Reorders are not allowed.","Nachbestellungen sind nicht erlaubt."
-"Could not find a product with ID ""%1""","Produkt mit ID ""%1 "" konnte nicht gefunden werden"
-"Could not add the product with SKU ""%1"" to the shopping cart: %2","Das Produkt mit der SKU ""%1"" konnte nicht zum Warenkorb hinzugefügt werden: %2"
-"Could not add the product with SKU ""%1"" to the shopping cart","Das Produkt mit der SKU ""%1"" kontte nicht in den Warenkorb gelegt werden"
 "We can't save the address:\n%1","Wir können die Adresse:\n%1 nicht speichern"
 "We don't have enough information to save the parent transaction ID.","Die Informationen sind nicht ausreichend, um die übergeordnete Transaktions-ID zu speichern."
 "We cannot create an empty shipment.","Es kann keine leere Sendung erstellt werden."
@@ -7675,7 +7627,6 @@ Complete,Vollständig
 "The invoice will be created offline without the payment gateway.","Die Rechnung wird ohne die Zahlungs-Gateway offline erstellt werden."
 "Email Copy of Invoice","E-Mail Kopie der Rechnung"
 "Items Invoiced","In Rechnung gestellte Artikel"
-"Total Due","Total schuldig"
 "Total Tax","Gesamtbetrag Steuern"
 "From Name","Von Name"
 "To Name","An Name"
@@ -7707,6 +7658,7 @@ Complete,Vollständig
 "Print All Refunds","Alle Rückerstattungen drucken"
 "Refund #","Rückerstattung #"
 "Print Refund","Rückerstattung drucken"
+"You have placed no orders.","Sie haben noch keine Bestellungen aufgegeben."
 "Print Order","Bestellung drucken"
 "Print All Invoices","Alle Rechnungen drucken"
 "Invoice #","Rechnung #"
@@ -7751,8 +7703,6 @@ Operations,Aktionen
 "Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.","Wählen Sie, ob die Kunden-IP in Bestellungen, Rechnungen, Lieferungen und Gutschriften angezeigt werden soll."
 "Checkout Totals Sort Order",Bestellsummen-Sortierreihenfolge
 "Allow Reorder","Nachbestellug erlauben"
-"Allow Zero GrandTotal","Zero GrandTotal erlauben"
-"Allow Zero GrandTotal for Creditmemo","Zero GrandTotal für Creditmemo erlauben"
 "Invoice and Packing Slip Design","Rechnungs- und Lieferschein Design"
 "Logo for PDF Print-outs (200x50)","Logo für PDF-Ausdrucke (200x50)"
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Ihr Standardlogo wird in PDF- und HTML-Dokumenten verwendet.<br />(jpeg, tiff, png) Sollten Verzerrungen im PDF-Dokument auftreten, versuchen Sie bitte ein größeres Bild zu verwenden."
@@ -7839,6 +7789,17 @@ Operations,Aktionen
 "PDF Invoices","PDF Rechnungen"
 "PDF Shipments","PDF Lieferungen"
 "PDF Creditmemos","PDF Gutschriften"
+"Allow Zero GrandTotal","Zero GrandTotal erlauben"
+"Allow Zero GrandTotal for Creditmemo","Zero GrandTotal für Creditmemo erlauben"
+"The invoice can't be created without products. Add products and try again.","Die Rechnung kann nicht ohne Produkte erstellt werden. Bitte fügen Sie Produkte hinzu und versuchen es erneut."
+"The invoice can't be saved at this time. Please try again later.","Die Rechnung kann zu diesem Zeitpunkt nicht gespeichert werden. Bitte versuchen Sie es später erneut."
+"The shipping method is missing. Select the shipping method and try again.","Die Versandart fehlt. Wählen Sie die Versandart und versuchen Sie es erneut."
+"The payment method isn't selected. Enter the payment method and try again.","Die Zahlungsart ist nicht ausgewählt. Geben Sie die Zahlungsart ein und versuchen Sie es erneut."
+"An ID is needed. Set the ID and try again.","Eine ID ist erforderlich. Setzen Sie die ID und versuchen Sie es erneut."
+"The entity that was requested doesn't exist. Verify the entity and try again.","Die angeforderte Entität existiert nicht. Überprüfen Sie die Entität und versuchen Sie es erneut."
+"The order address couldn't be deleted.","Die Bestelladresse konnte nicht gelöscht werden."
+"The order address couldn't be saved.","Die Bestelladresse konnte nicht gespeichert werden."
+"The creditmemo contains incorrect product items.","Die Gutschrift enthält fehlerhafte Artikel."
 "Move to Archive","Wir konnten die ausgewählten Bestellungen nicht archivieren."
 "Move to Order Management","Ins Bestellmanagement verschieben"
 "We have archived the order.","Die Bestellung wurde archiviert."
@@ -7874,6 +7835,7 @@ Coupons/Discounts,Gutscheine/Rabatte
 "We can't delete the rule right now. Please review the log and try again.","Die Regel kann im Moment nicht gelöscht werden. Bitte das Log prüfen und erneut versuchen."
 "New Cart Price Rule","Neue Warenkorb Preisregel"
 "Rule is not defined","Regel ist nicht definiert"
+"%1 coupon(s) have been generated.","%1 Gutscheine wurden generiert."
 "Invalid data provided","Ungültige Daten angegeben"
 "Something went wrong while generating coupons. Please review the log and try again.","Bei der Generierung des Gutscheins ist ein Fehler aufgetreten. Bitte überprüfen Sie das Protokoll und versuchen es erneut."
 "The wrong rule is specified.","Die falsche Regel ist angegeben."
@@ -7886,10 +7848,6 @@ Coupons/Discounts,Gutscheine/Rabatte
 "No Coupon","Ohne Rabattcode"
 "Specific Coupon","Nur mit angegebenem Rabattcode"
 "Can't acquire coupon.","Kann Gutschein nicht erstellen."
-"Percent of product price discount","Prozentualer Rabatt je Artikel"
-"Fixed amount discount","Fester Rabattbetrag"
-"Fixed amount discount for whole cart","Fester Rabattbetrag für den gesamten Warenkorb"
-"Buy X get Y free (discount amount is Y)","X kaufen, Y kostenlos bekommen (Rabattbetrag ist Y)"
 "Total Items Quantity",Artikelgesamtmenge
 "Shipping Postcode",Versand-Postleitzahl
 "Shipping Region",Versandregion
@@ -7909,12 +7867,15 @@ FOUND,GEFUNDEN
 "total quantity",Gesamtmenge
 "total amount",Gesamtsumme
 "If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","Wenn %1 %2 %3 für eine Unterauswahl der Artikel im Warenkorb %4 dieser Bedingungen erfüllen:"
+"Percent of product price discount","Prozentualer Rabatt je Artikel"
+"Fixed amount discount","Fester Rabattbetrag"
+"Fixed amount discount for whole cart","Fester Rabattbetrag für den gesamten Warenkorb"
+"Buy X get Y free (discount amount is Y)","X kaufen, Y kostenlos bekommen (Rabattbetrag ist Y)"
 "Specified rule does not allow automatic coupon generation","Festgelegte Regel ermöglicht keine automatische Generierung von Gutscheinen"
 "Error occurred when generating coupons: %1","Bei der Generierung von Gutscheinen ist ein Fehler aufgetreten: %1"
 "Some coupons are invalid.","Einige Rabattcodes sind ungültig."
 "Item totals are not set for the rule.","Artikelsummen sind nicht für die Regel festgelegt."
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 Warenkorb-Preisregel(n) basierend auf dem Attribut ""%2"" wurden deaktiviert."
-"%1 coupon(s) have been generated.","%1 Gutscheine wurden generiert."
 "Your coupon was successfully removed.","Ihr Rabattcode wurde erfolgreich entfernt."
 "Your coupon was successfully applied.","Ihr Rabattcode wurde erfolgreich angewendet."
 "Auto Generated Specific Coupon Codes","Automatisch erstellte Rabattcodes"
@@ -8071,8 +8032,8 @@ Successful,Erfolgreich
 "You already have an identical search term query.","Sie haben bereits eine identische Suchbegriffsanfrage."
 "Your search query can't be longer than %1, so we shortened your query.","Ihr Suchbegriff darf nicht länger als %1 sein, deshalb habenw wir Ihre Anfrage verkürzt."
 "Merge conflict with existing synonym group(s): %1","Konflikt beim Zusammenführen mit vorhandener/n Synonymgruppe(n): %1"
-"Are you sure you want to delete synonym group with id: %1?","Sind Sie sicher, dass Sie die Synonymgruppe mit der folgenden ID löschen möchten: %1?"
 "    All Store Views","    Alle Store Views"
+"Are you sure you want to delete synonym group with id: %1?","Sind Sie sicher, dass Sie die Synonymgruppe mit der folgenden ID löschen möchten: %1?"
 "Search entire store here...","Gesamten Shop hier durchsuchen..."
 "There are no search terms available.","Es sind keine Suchbegriffe verfügbar."
 "Search Engine",Suchmaschine
@@ -8092,7 +8053,6 @@ Synonyms,Synonyme
 "By IP and Email","Nach IP und E-Mail"
 "By IP","Nach IP"
 "By Email","Per E-Mail"
-"We received too many requests for password resets. Please wait and try again later or contact %1.","Wir haben zu viele Anfragen für das Zurücksetzen Ihres Passworts erhalten. Bitte warten Sie und versuchen Sie es später erneut oder kontaktieren Sie %1."
 "Incorrect Security Checker class. It has to implement SecurityCheckerInterface","Falsche Security Checker Klasse. Sie muss SecurityCheckerInterface implementieren"
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Dieses Administratoren-Konto ist an mehreren Standorten offen. Beachten Sie, dass andere Browser oder Sitzungen auf demselben Computer als andere Standorte gelten."
 "Concurrent session information:","Information über gleichzeitige Sessions:"
@@ -8107,6 +8067,7 @@ Synonyms,Synonyme
 "Limit the number of password reset request per hour. Use 0 to disable.","Begrenzt die Anzahl an Passwort-Reset-Anfragen pro Stunde. 0 für Deaktivierung."
 "Min Time Between Password Reset Requests","Mindestdauer zwischen Passwort-Reset-Anfragen"
 "Delay in minutes between password reset requests. Use 0 to disable.","Verzögerung zwischen Passwort-Reset-Anfragen in Minuten. 0 für Deaktivierung."
+"We received too many requests for password resets. Please wait and try again later or contact %1.","Wir haben zu viele Anfragen für das Zurücksetzen Ihres Passworts erhalten. Bitte warten Sie und versuchen Sie es später erneut oder kontaktieren Sie %1."
 "You can't send messages more than %1 times an hour.","Sie können Nachrichten nicht häufiger als %1 mal pro Stunde senden."
 "The link to a friend was sent.","Der Link an einen Freund wurde gesendet."
 "We found some problems with the data.","Wir haben ein paar Probleme mit den Daten gefunden."
@@ -8253,13 +8214,11 @@ MSRP,UVP:
 "the shipment email is not sent","die Versandbestätigungs-E-Mail wird nicht gesendet"
 "Shipment #%1 | %3 (%2)","Sendung #%1 | %3 (%2)"
 "Create Shipping Label...","Erstelle Versandetikett"
-"Delivered on:","Zugestellt am:"
 "About Your Shipment","Über Ihre Sendung"
 "We can't initialize shipment for adding tracking number.","Wir können den Versand nicht für das Hinzufügen der Tracking-Nummer initialisieren."
 "Cannot add tracking number.","Trackingnummer kann nicht hinzugefügt werden."
 "You created the shipping label.","Das Versandetikett wurde erstellt."
 "An error occurred while creating shipping label.","Beim Erstellen des Versandetiketts trat ein Fehler auf."
-"You sent the shipment.","Sie haben die Sendung verschickt."
 "Cannot send shipment information.","Versandinformationen können nicht versendet werden."
 "There are no shipping labels related to selected orders.","Es existieren keine Versandetiketten passend zu den ausgewählten Bestellungen."
 "New Shipment","Neuer Versand"
@@ -8313,6 +8272,7 @@ Carrier:,Versender:
 "email us at ","senden Sie uns eine E-Mail an"
 Info:,Information:
 Track:,Verfolgung:
+"Delivered on:","Zugestellt am:"
 "There is no tracking available for this shipment.","Für diese Sendung gibt es keine Verfolgung."
 "There is no tracking available.","Keine Verfolgung verfügbar."
 "Track history",Sendungsverfolgung
@@ -8327,6 +8287,7 @@ Origin,Herkunft
 "Shipping Policy",Versandbedingungen
 "Track your order","Verfolgen Sie Ihre Bestellung"
 "Track All Shipments","Alle Sendungen verfolgen"
+"You sent the shipment.","Sie haben die Sendung verschickt."
 "In Review","Neue Kundenmeinungen"
 Unrequested,Ungefragt
 "This order already has associated case entity","Diese Bestellung hat bereits eine assoziierte Großeinheit"
@@ -8437,18 +8398,17 @@ Calendar,Kalender
 Includes,Umfasst
 "Current store is not active.","Ihre Sprache:"
 "Requested store is inactive","Der angeforderte Store ist inaktiv"
-"The requested store cannot be found. Please check the request and try again.","Der angeforderte Shop kann nicht gefunden werden. Bitte überprüfen Sie die Anfrage und versuchen Sie es erneut."
 "Environment emulation nesting is not allowed.","Environment Emulation Nesting ist nicht erlaubt."
 "The following stores are not associated with a root category: ' . . '. For the store to be displayed in the storefront, it must be associated with a root category.","Die folgenden Filialen sind nicht mit einer Root-Kategorie verknüpft: ' . . '. Damit der Shop im Schaufenster angezeigt werden soll, muss er mit einer Root-Kategorie verknüpft werden."
 "Group with the same code","Gruppe mit dem gleichen Code"
 "Store with the same code","Mit dem gleichen Code speichern"
 "Website with the same code","Webseite mit dem gleichen Code"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Der Website Code darf nur Buchstaben (a-z), Ziffern (0-9) oder Tiefstrich (_) enthalten, und das erste Zeichen muss ein Buchstabe sein."
+"Name is required","Bitte gib einen Namen an"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Der Store Code darf nur Buchstaben (a-z), Ziffern (0-9) oder Tiefstrich (_) enthalten, und das erste Zeichen muss ein Buchstabe sein."
 "Store is inactive","Store ist inaktiv"
 "Invalid store parameter.","Ungültiger Store-Parameter."
 "Default store is inactive","Standard Shop ist inaktiv"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Der Store Code darf nur Buchstaben (a-z), Ziffern (0-9) oder Tiefstrich (_) enthalten, und das erste Zeichen muss ein Buchstabe sein."
-"Name is required","Bitte gib einen Namen an"
 "no such entity exception","keine solche Ausnahme"
 "Your Language:","Ihre Sprache:"
 "Your Language","Ihre Sprache"
@@ -8658,9 +8618,9 @@ Swatch,Muster
 "Choose a color","Eine Farbe wählen"
 "Upload a file","Eine Datei hochladen"
 "Select from the following attribute values for this product. Each unique combination of values creates a unique product SKU.","Wählen Sie aus den folgenden Attributwerten für dieses Produkt. Jede Kombination von Werten erzeugt eine eigene Artikelnummer."
-More,Mehr
 "Swatches per Product","Muster je Artikel"
 "Show Swatches in Product List","Muster in Produktliste anzeigen"
+More,Mehr
 "Related Products Rule","Zugehörige Produktregel"
 "Product Result Conditions (leave blank for matching all products)","Bedingungen für Produkt-Resultat (leer lassen, um alle Produkte zu finden)"
 "Products to Display","Produkte zur Anzeige"
@@ -8841,9 +8801,9 @@ State/Region,"Bundesland / Region"
 "Invalid file upload attempt","Ungültiger Datei-Upload-Versuch"
 "Invalid file upload attempt.","Ungültiger Datei-Upload-Versuch."
 "Invalid file format.","Ungültiges Dateiformat."
-"Country code is invalid: %1","Ländercode ist ungültig: %1"
 "Import Tax Rates","Steuersätze importieren"
 "Export Tax Rates","Steuersätze exportieren"
+"Country code is invalid: %1","Ländercode ist ungültig: %1"
 "Import/Export Tax Rates","Import/Export Steuersätze"
 "Save and Continue","Speichern und fortfahren"
 "Save Configuration","Konfiguration speichern"
@@ -8881,7 +8841,6 @@ Themes,Themen
 "Insert File","Datei einfügen"
 welcome,willkommen
 "Design Configuration",Design-Konfiguration
-"We cannot find a theme with id ""%1"".","Das Thema mit der ID ""%1"" konnte nicht gefunden werden."
 "You deleted the theme.","Sie haben das Thema gelöscht."
 "We cannot delete the theme.","Das Thema kann nicht gelöscht werden."
 "File not found: ""%1"".","Datei wurde nicht gefunden: ""%1""."
@@ -8891,6 +8850,7 @@ welcome,willkommen
 "This theme is not editable.","Das Thema kann nicht bearbeitet werden."
 "You saved the theme.","Das Thema wurde gespeichert."
 "We can't upload the CSS file right now.","Die CSS-Datei kann nicht hochgeladen werden."
+"We cannot find a theme with id ""%1"".","Das Thema mit der ID ""%1"" konnte nicht gefunden werden."
 "We can't upload the JS file right now.","Die JS-Datei kann nicht hochgeladen werden."
 "Sorry, something went wrong. That's all we know.","Entschuldigung, es ist ein Fehler aufgetreten. Das ist alles, was wir wissen."
 "Invalid type","Ungültiger Typ"
@@ -8921,9 +8881,10 @@ Scope:,Geltungsbereich:
 "For the best experience on our site, be sure to turn on Javascript in your browser.","Um unsere Website in bester Weise zu erfahren, aktivieren Sie Javascript in Ihrem Browser."
 "Local Storage seems to be disabled in your browser.","Der lokale Speicher scheint in Ihrem Browser deaktiviert zu sein."
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","Um unsere Website in bester Weise zu erfahren, aktivieren Sie die lokale Speicherung in Ihrem Browser."
-"This is a demo store. No orders will be fulfilled.","Dies ist ein Demo-Shop. Bestellungen werden nicht ausgeführt."
 "Items %1 to %2 of %3 total","Artikel %1 bis %2 von %3 gesamt"
 "%1 Item(s)","%1 Artikel"
+Page,Seite
+"You're currently reading page","Sie lesen gerade die Seite"
 "We don't recognize this file extension.","Diese Dateierweiterung kann nicht erkannt werden."
 "1 column","1 Spalte"
 "Default welcome msg!",Standard-Willkommensnachricht!
@@ -8948,7 +8909,6 @@ Scope:,Geltungsbereich:
 "Welcome Text",Begrüßungstext
 "This will be displayed just before the body closing tag.","Dies wird kurz vor dem schließenden Tag angezeigt."
 "Miscellaneous HTML","Diverses HTML"
-"Display Report Bugs Link","Zeige Fehlerlink"
 "Default Robots",Standard-Roboter
 "Edit custom instruction of robots.txt File","Benutzerdefinierte Anweisung der robots.txt-Datei bearbeiten"
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.","Diese Aktion wird Ihre benutzerdefinierte Anweisungen löschen und die robots.txt-Datei auf die System-Standardeinstellungen zurücksetzen."
@@ -8959,6 +8919,8 @@ Account,Konto
 "2 columns with left bar","2 Spalten mit linker Spalte"
 "2 columns with right bar","2 Spalten mit rechter Spalte"
 "3 columns","3 Spalten"
+"Display Report Bugs Link","Zeige Fehlerlink"
+"This is a demo store. No orders will be fulfilled.","Dies ist ein Demo-Shop. Bestellungen werden nicht ausgeführt."
 "TinyMCE 3 (deprecated)","TinyMCE 3 (veraltet)"
 "Dictionary (Translation on Storefront side)","Wörterbuch (Übersetzung im Frontend)"
 "Embedded (Translation on Admin side)","Eingebettete (Übersetzung auf Admin-Seite)"
@@ -8973,8 +8935,6 @@ Translations,Übersetzungen
 "New %1","Neue/r/s %1"
 "Unsupported bookmark action.","Nicht unterstützte Lesezeichen-Aktion."
 Filters,Filter
-"The file upload field is disabled.","Das Datei-Upload-Feld ist deaktiviert."
-"was not uploaded","wurde nicht hochgeladen"
 Selected,Ausgewählt
 "Select All on This Page","Alle auf dieser Seite anwählen"
 "Deselect All on This Page","Alle auf dieser Seite abwählen"
@@ -8987,6 +8947,7 @@ Off,Aus
 "You have successfully saved your edits.","Ihre Änderungen wurden erfolgreich gespeichert."
 "There are {placeholder} messages requires your attention.","Es gibt {placeholder} Nachrichten, die Ihre Aufmerksamkeit erfordern."
 "You haven't selected any items!","Sie haben keine Einträge ausgewählt!"
+"Search by keyword","Suche nach Schlagwort"
 Keyword,Stichwort
 "Please enter more or equal than {0} symbols.","Bitte geben Sie mehr als oder genau {0} Zeichen ein."
 "Please enter less or equal than {0} symbols.","Bitte geben Sie weniger als oder genau {0} Zeichen ein."
@@ -8997,7 +8958,6 @@ Keyword,Stichwort
 "Letters, numbers, spaces or underscores only please","Bitte nur Buchstaben, Zahlen, Leerzeichen und Unterstrich"
 "Letters only please","Geben Sie bitte nur Buchstaben an"
 "No white space please","Bitte geben Sie keine Leerzeichen ein"
-"No marginal white space please","Bitte geben Sie keine Leerzeichen ein"
 "Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Ihre Postleitzahl muss in dem Bereich 902xx-Xxxx - 905-Xx-xxxx sein"
 "A positive or negative non-decimal number please","Bitte eine positive oder negative Ganzzahl"
 "The specified vehicle identification number (VIN) is invalid.","Die angegebene Fahrzeug-Identifizierungsnummer (FIN) ist ungültig."
@@ -9053,9 +9013,7 @@ Attention,Achtung
 "Label Actions Two","Label Aktionen eins"
 "Some Dynamic Actions","Einige dynamische Aktionen"
 "Log JS Errors to Session Storage","JS-Fehler im Session-Speicher protokollieren"
-"If enabled, can be used by functional tests for extended reporting","Wenn aktiviert, kann es durch Funktionstests für die erweiterte Berichterstattung verwendet werden"
 "Log JS Errors to Session Storage Key","JS-Fehler in Sessionspeicher-Schlüssel loggen"
-"Use this key to retrieve collected js errors","Verwenden Sie diese Taste, um den gesammelten Js Fehler abzuholen"
 settings/label,einstellungen/Label
 settings/title,einstellungen/Titel
 settings/description,"Steuereinstellungen Beschreibung:"
@@ -9068,6 +9026,11 @@ settings/size,einstellungen/Größe
 settings/notice,einstellungen/Notiz
 settings/addBefore,einstellungen/addVor
 settings/addAfter,einstellungen/addAfter
+"If enabled, can be used by functional tests for extended reporting","Wenn aktiviert, kann es durch Funktionstests für die erweiterte Berichterstattung verwendet werden"
+"Use this key to retrieve collected js errors","Verwenden Sie diese Taste, um den gesammelten Js Fehler abzuholen"
+"The file upload field is disabled.","Das Datei-Upload-Feld ist deaktiviert."
+"No marginal white space please","Bitte geben Sie keine Leerzeichen ein"
+"was not uploaded","wurde nicht hochgeladen"
 "UPS Next Day Air","Worldwide Express"
 "UPS Second Day Air","UPS Second Day Air A.M"
 "Next Day Air Early AM","Nächster Tag Luftpost früher Vormittag"
@@ -9096,8 +9059,8 @@ Pallet,Palette
 Residential,"Auf den Wohnsitz bezogen"
 Commercial,Gewerblich
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Leider ging etwas schief. Bitte versuchen Sie es erneut oder nehmen Kontakt mit uns auf, und wir werden versuchen zu helfen."
-"Cannot retrieve shipping rates","Versandkosten können nicht abgerufen werden"
 "We can't convert a rate from ""%1-%2"".","Wir können keine Rate von ""%1-%2"" konvertieren."
+"Cannot retrieve shipping rates","Versandkosten können nicht abgerufen werden"
 "Delivery Confirmation",Lieferbestätigung
 "Signature Required","Unterschrift erforderlich"
 "Adult Signature Required","Unterschrift eines Volljährigen erforderlich"
@@ -9114,10 +9077,10 @@ Container,Verpackungsart
 "Live Account",Live-Konto
 "User ID",Benutzer-ID
 "Enable Negotiated Rates","Vereinbarte Preise aktivieren"
-"Request Tax-Inclusive Rate","Steuer-Inklusive Rate anfordern"
 "Shipper Number","Absender Nummer"
 "Required for negotiated rates; 6-character UPS","Erforderlich für die ausgehandelten Tarife; 6-Zeichen UPS"
 "This enables or disables SSL verification of the Magento server by UPS.","Dies aktiviert oder deaktiviert die SSL-Überprüfung der Magento-Server durch UPS."
+"Request Tax-Inclusive Rate","Steuer-Inklusive Rate anfordern"
 "Edit URL Rewrite for a Category","URL-Rewrite einer Kategorie bearbeiten"
 "Add URL Rewrite for a Category","URL Rewrite für eine Kategorie hinzufügen"
 Category:,Kategorie:
@@ -9212,13 +9175,13 @@ username,Benutzername
 "Forgot your password?","Passwort vergessen?"
 "Reset a Password","Zurücksetzen eines Passworts"
 "Roles Resources",Rollenressourcen
-"Hello,","Hallo,"
-"If you have not authorized this action, please contact us immediately at %store_email","Wenn Sie diese Aktion nicht autorisiert haben, kontaktieren Sie uns bitte sofort unter %store_email"
-"Thanks,","Vielen Dank,"
 "Password Reset Confirmation for %name","Bestätigung der Passwortrücksetzung für %name"
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung angefordert haben, setzen Sie Ihr Passwort hier zurück:"
 "New %changes for %user_name","Neue %changes für %user_name"
+"Hello,","Hallo,"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Wir haben eine Anforderung zum Ändern der folgenden Informationen im Zusammenhang mit Ihrem Konto bei %store_name erhalten: %changes."
+"If you have not authorized this action, please contact us immediately at %store_email","Wenn Sie diese Aktion nicht autorisiert haben, kontaktieren Sie uns bitte sofort unter %store_email"
+"Thanks,","Vielen Dank,"
 "User Roles",Benutzerrollen
 "User Notification Template","Vorlage für Benutzerbenachrichtigung"
 "We will disable this feature if the value is empty.","Diese Funktion wird deaktiviert, wenn der Wert leer ist."
@@ -9466,7 +9429,6 @@ Operator,Betreiber
 Logic,Logik
 "Add Condition","Bedingung hinzufügen"
 "Match products by rule","Produkte nach Regel zuordnen"
-"Wait loading...","Lade Daten..."
 "Save and Close","Speichern und schließen"
 "Visual Merchandiser Options","Visuelle Merchandiser Optionen"
 "Visual Merchandiser","Visueller Merchandiser"
@@ -9480,6 +9442,7 @@ Logic,Logik
 Sort,Ordnen
 "Automatic Sorting","Automatische Sortierung"
 "Sort order",Sortierreihenfolge
+"Wait loading...","Lade Daten..."
 "Operation allowed only in HTTPS","Standard-Schriftsatz für Antwort"
 "Cannot perform GET operation with store code 'all'","Kann GET Operation mit Store Code 'all' nicht ausführen"
 "Request does not match any route.","Abfrage entspricht keiner Route."
@@ -9535,7 +9498,6 @@ Country/State,Land/Bundesland
 "Widget Insertion","Widget einfügen"
 "Insert Widget","Widget einfügen"
 Choose...,"Bitte wählen..."
-"Inserting a widget does not create a widget instance.","Das Einfügen eines Widgets erstellt keine Widget-Instanz."
 "Widget Type",Widget-Typ
 "Manage Widget Instances","Widget-Instanzen verwalten"
 "Add Widget","Widgets hinzufügen"
@@ -9555,6 +9517,7 @@ Choose...,"Bitte wählen..."
 "All Pages","Alle Seiten"
 "Specified Page","Ausgewählte Seiten"
 "Add Layout Update","Layout Update hinzufügen"
+"Remove Layout Update","Layout Update entfernen"
 "Widget Options","Widget Optionen"
 "Please specify a Widget Type.","Bitte wählen Sie einen Widget-Typen."
 "Please specify a correct widget.","Bitte wählen Sie einen korrekten Widget-Typen."
@@ -9563,10 +9526,10 @@ Choose...,"Bitte wählen..."
 "The widget instance has been saved.","Die Widget-Instanz wurde gespeichert."
 description,Beschreibung
 "We cannot create the widget instance because it is missing required information.","Die Widget-Instanz kann nicht erstellt werden, weil benötigte Informationen fehlen."
-"Remove Layout Update","Layout Update entfernen"
 "Specific %1","Bestimmte %1"
 "Defines whether a link to My Account","Ein Link zu mein Konto festlegen"
 "Widget ID",Widget-ID
+"Inserting a widget does not create a widget instance.","Das Einfügen eines Widgets erstellt keine Widget-Instanz."
 "Wish List Sharing","Wunschliste teilen"
 "My Wish List","Meine Wunschliste"
 "We can't specify a product.","Es konnte kein Produkt angegeben werden."
@@ -9575,15 +9538,14 @@ description,Beschreibung
 "We can't add the item to the cart right now.","Das Produkt konnte nicht zum Warenkorb hinzugefügt werden."
 "%1 has been moved to your wish list.","%1 wurde zu Ihrer Wunschliste hinzugefügt."
 "We can't move the item to the wish list.","Das Element konnte nicht in die Wunschliste verschoben werden."
-"You must login or register to add items to your wishlist.","Sie müssen sich einloggen oder registrieren, um Produkte zu Ihrer Wunschliste hinzuzufügen."
 "We can't delete the item from Wish List right now because of an error: %1.","Infolge eines Fehlers kann das Produkt momentan nicht vom Wunschzettel gelöscht werden: %1."
 "We can't delete the item from the Wish List right now.","Wir können den Artikel jetzt nicht vom Wunschzettel löschen."
 "Message length must not exceed %1 symbols","Die Nachrichtenlänge darf %1 Zeichen nicht überschreiten"
 "Your wish list has been shared.","Ihre Wunschliste wurde geteilt."
 "We can't delete item from Wish List right now.","Artikel kann im Moment nicht vom Wunschzettel entfernt werden."
-"%1 has been updated in your Wish List.","%1 wurde in Ihrer Wunschliste erneuert."
 "Can't save description %1","Beschreibung %1 kann nicht gespeichert werden."
 "Can't update wish list","Kann Wunschzettel nicht aktualisieren"
+"%1 has been updated in your Wish List.","%1 wurde in Ihrer Wunschliste erneuert."
 "We can't update your Wish List right now.","Die Wunschliste konnte nicht aktualisiert werden."
 "The requested Wish List doesn't exist.","Die angeforderte Wunschliste existiert nicht."
 "Display number of items in wish list","Zeige Anzahl der Produkte in der Wunschliste"
@@ -9605,7 +9567,6 @@ error-message,Fehlermeldung
 "View Product","Produkt anzeigen"
 "This Wish List has no Items","Diese Wunschliste enthält keine Artikel"
 "%1 has been added to your Wish List.","%1 wurde zu Ihrer Wunschliste hinzugefügt."
-"%1 has been removed from your Wish List.","%1 wurde von Ihrer Wunschliste entfernt."
 "RSS link to %1's wishlist","RSS-Link zu %1's Wunschliste"
 "RSS Feed",RSS-Feed
 "Wish List is empty now.","Die Wunschliste ist nun leer."
@@ -9620,14 +9581,16 @@ error-message,Fehlermeldung
 "Wish List Section",Wunschliste-Abschnitt
 "Share Options",Teilen-Optionen
 "Max Emails Allowed to be Sent","Maximale Anzahl Mails, die gesendet werden dürfen"
-"10 by default. Max - 10000","Standard: 10. Maximum - 10000"
 "Email Text Length Limit","Längenbeschränkung für E-Mail-Text"
-"Show in Sidebar","In Seitenleiste anzeigen"
 "My Wish List Link","Meine Wunschlisten Link"
 "Display Wish List Summary","Zusammenfassung der Wunschliste anzeigen"
 "No Items Found","Keine Einträge gefunden"
 "User Description",Benutzerbeschreibung
 "Product Details and Comment","Produktdetails und Kommentar"
+"%1 has been removed from your Wish List.","%1 wurde von Ihrer Wunschliste entfernt."
+"10 by default. Max - 10000","Standard: 10. Maximum - 10000"
+"You must login or register to add items to your wishlist.","Sie müssen sich einloggen oder registrieren, um Produkte zu Ihrer Wunschliste hinzuzufügen."
+"Show in Sidebar","In Seitenleiste anzeigen"
 "Missing key ""model"" in Wishlist Item value data","Fehlender Schlüssel ""model"" in Wunschlistenartikel-Werten"
 "Missing key ""model"" in Wishlist value data","Fehlender Schlüssel ""model"" in Wunschlisten-Werten"
 "Credit card type",WorldPay
@@ -9679,7 +9642,7 @@ Worldpay,WorldPay
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Wenn Sie Fragen bezüglich Ihrer Bestellung haben, können Sie uns über die E-Mail-Adresse <a href=""mailto:%store_email"">%store_email</a> kontaktieren."
 "Backup options",Sicherungsoptionen
 Warning,Warnhinweis
-"Insert Variable","Variable einfügen"
+"Insert Widget...","Widget einfügen …"
 "Recent items","Kürzlich verwendete Elemente"
 "Show all...","Alle anzeigen..."
 "Please enter a number greater 0 in this field.","In diesem Feld bitte eine Zahl größer 0 eingeben."
@@ -9690,7 +9653,7 @@ Warning,Warnhinweis
 Translate,Übersetzen
 "Please remove invalid characters: {0}.","Bitte entfernen Sie ungültige Zeichen: {0}."
 "Please enter a valid social security number (Ex: 123-45-6789).","Bitte geben Sie eine gültige Sozialversicherungsnummer ein (z.B. 123-45-6789)."
-"First character must be letter.","Erstes Zeichen muss ein Buchstabe sein."
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Bitte nur Buchstaben (a-z), Ziffern (0-9) oder Unterstriche (_) in diesem Feld verwenden, das erste Zeichen muss ein Buchstabe sein."
 "Please select one of the options above.","Bitte wählen Sie eine der oben genannten Optionen."
 "Please select a file.","Bitte wählen Sie eine Datei."
 "Please select one of the options.","Bitte wählen Sie eine der Optionen."
@@ -9706,7 +9669,7 @@ Translate,Übersetzen
 "Please enter a valid number.","Bitte geben Sie eine gültige Zahl ein."
 "This is required field","Dies ist ein Pflichtfeld"
 "Admin is a required field in each row.","Admin ist in jeder Zeile ein erforderliches Feld."
-"Please enter a quantity greater than 0.","Geben Sie eine Menge größer 0 ein."
+"Password cannot be the same as email address.","Passwort kann nicht gleich der E-Mail-Adresse sein."
 "Please fix this field.","Bitte korrigieren Sie dieses Feld."
 "Please enter a valid URL.","Bitte geben Sie eine gültige URL ein."
 "Please enter a valid date (ISO).","Bitte geben Sie ein gültiges Datum ein (ISO)."
@@ -9724,3 +9687,12 @@ Translate,Übersetzen
 "Please enter a valid year (1900-%1).","Bitte geben Sie ein gültiges Jahr (1900-%1) an."
 "Please enter a valid day (1-%1).","Bitte geben Sie einen gültigen Tag (1-%1) an."
 "Please enter a date from the past.","Bitte geben Sie ein Datum aus der Vergangenheit an."
+"Maximum length of this field must be equal or less than %1 symbols.","Maximale Länge dieses Feldes muss gleich oder kleiner als %1 Zeichen sein."
+"Please enter a quantity greater than 0.","Geben Sie eine Menge größer 0 ein."
+"The maximum you may purchase is %1.","Das Maximum, welches Sie kaufen können ist %1."
+"Forbidden extensions has been used. Avoid usage of ","Verbotene Erweiterungen wurden verwendet. Vermeide Nutzung von "
+"Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Bitte geben Sie 6 oder mehr Zeichen ein. Leerzeichen am Anfang oder Ende der Zeichenkette werden entfernt."
+"Insert Variable","Variable einfügen"
+"The widget %1 is no longer available. Select a different widget.","Das Widget %1 ist nicht mehr verfügbar. Wählen Sie ein anderes Widget."
+"First character must be letter.","Erstes Zeichen muss ein Buchstabe sein."
+"The password can't be the same as the email address. Create a new password and try again.","Passwort kann nicht gleich der E-Mail-Adresse sein. Erstellen Sie ein neues Passwort und versuchen Sie es erneut."
