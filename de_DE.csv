@@ -3544,6 +3544,7 @@ Addresses,Adressen
 "Password forgotten","Passwort vergessen"
 "You are signed out","Sie sind abgemeldet"
 "Confirmation isn't needed.","Bestätigung ist nicht erforderlich."
+"The password can't begin or end with a space. Verify the password and try again.","Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden. Überprüfen Sie das Passwort und versuchen Sie es erneut."
 "The store view is not in the associated website.","Dieser Store-View gehört nicht zu dieser Website."
 "The password token is mismatched. Reset and try again.","Das Passwort-Token ist falsch. Zurücksetzen und erneut versuchen."
 "The password token is expired. Reset and try again.","Das Passwort-Token ist abgelaufen. Zurücksetzen und erneut versuchen."
