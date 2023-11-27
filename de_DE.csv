@@ -235,14 +235,23 @@ Yes,Ja
 "Error while checking if topic is synchronous","Fehler beim Überprüfen, wenn das Thema synchron ist"
 "Subscription status",Abonnementstatus
 "Sorry, there has been an error processing your request. Please try again later.","Es tut uns leid, bei der Bearbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+"Time value has an unsupported format","Das Datumsformat wird nicht unterstützt"
 "Cron settings can't be saved","Cron-Einstellungen konnten nicht gespeichert werden"
 "There was an error save new configuration value.","Beim Speichern der Konfigurationswerte ist ein Fehler aufgetreten."
+"Please select a vertical.","Bitte wählen Sie eine Vertikale aus."
 "--Please Select--","-- Bitte wählen --"
+"Command was not found.","Befehl wurde nicht gefunden."
+"Input data must be string or convertible into string.","Eingabedaten müssen eine Zeichenfolge oder zu einer Zeichenfolge konvertierbar sein."
+"Input data must be non-empty string.","Eingabedaten müssen eine nicht leere Zeichenfolge sein."
+"Not valid cipher method.","Ungültige Verschlüsselungsmethode."
+"Encryption key can't be empty.","Verschlüsselungsschlüssel darf nicht leer sein."
+"Source ""%1"" is not exist","Quelle ""%1"" existiert nicht"
 "These arguments can't be empty ""%1""","Diese Argumente dürfen nicht leer sein ""%1"""
 "Cannot find predefined integration user!","Vordefinierter Integrationsbenutzer konnte nicht gefunden werden!"
 "File is not ready yet.","Die Datei ist noch nicht bereit."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Ihre Basis-URL wurde geändert und Ihre Berichte werden aktualisiert. Das ""Advanced Reporting"" wird verfügbar sein, sobald diese Änderung verarbeitet wurde. Bitte versuchen Sie es später erneut."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Fehler beim Synchronisieren der Daten mit dem Magento Business Intelligence-Dienst. "
+"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Synchronisierung erneut versuchen</a>"
 TestMessage,Testnachricht
 "Apps and Games","Apps und Games"
 "Athletic/Sporting Goods",Sportartikel
@@ -256,6 +265,9 @@ Configuration,Konfiguration
 Industry,Branche
 "In order to personalize your Advanced Reporting experience, please select your industry.","Um Ihr ""Advanced Reporting"" optimal einstellen zu können, wählen Sie bitte Ihre Branche."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Erfahren Sie mehr von der Magento Business Intelligence</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Business Intelligence bietet Ihnen eine einfache und klare Möglichkeit datenbasierter handeln zu können.</br>Erfahren Sie mehr über die <a target=""_blank"" href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> Tarife."
 "Auto Parts",Autoteile
 "Baby/Children’s Apparel, Gear and Toys","Baby-/Kinderbekleidung, Ausrüstung und Spielzeug"
 "Beauty and Cosmetics","Beauty und Kosmetik"
@@ -1336,6 +1348,8 @@ Root,Wurzel
 "Add Subcategory","Neue Unterkategorie"
 "Add Root Category","Neue Haupt-Kategorie"
 Day,Tag
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>von</span></label>"
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>zu</span></label>"
 "WYSIWYG Editor",WYSIWYG-Editor
 "Add Product","Neuer Artikel"
 label,Kennzeichen
@@ -1367,6 +1381,7 @@ Scope,Geltungsbereich
 "Visible in Advanced Search","Sichtbar in erweiterter Suche"
 "Comparable on Storefront","Vergleichbar im Frontend"
 "Use for Promo Rule Conditions","Für Preisregeln verwenden"
+"Enable WYSIWYG","WYSIWYG aktivieren"
 "Allow HTML Tags on Storefront","HTML im Frontend erlauben"
 "Visible on Catalog Pages on Storefront","Auf Katalogseiten im Frontend sichtbar"
 "Used in Product Listing","In Artikelliste verwendet"
@@ -1392,7 +1407,7 @@ Comparable,Vergleichbar
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","Sie sind dabei, alle Produkte in diesem Attribut-Set zu löschen. Sind Sie sicher, dass Sie das tun wollen?"
 "New Set Name","Neuer Set Name"
 "Edit Attribute Set '%1'","Attribut-Set '%1' bearbeiten"
-Empty,Zeige
+Empty,Leer
 "Add Attribute","Attribut hinzufügen"
 "Add New Group","Neue Gruppe"
 "Add Group","Gruppe hinzufügen"
@@ -1471,12 +1486,15 @@ Categories,Kategorien
 "Category is not available for requested store.","Kategorie ist nicht für den angeforderten Store verfügbar."
 "There was a category move error.","Ist ein Fehler aufgetreten beim Verschieben der Kategorie."
 "You moved the category.","Sie haben die Kategorie verschoben."
+"Attribute ""%1"" is required.","Attribut ""%1"" ist erforderlich."
 "You saved the category.","Sie haben die Kategorie gespeichert."
 "Something went wrong while saving the category.","Beim Speichern der Kategorie ging etwas schief."
 "Please select products for attributes update.","Bitte wählen Sie Produkte zur Attributaktualisierung."
 "Please make sure to define SKU values for all processed products.","Bitte stellen Sie sicher, SKU-Werte für alle verarbeiteten Produkte zu definieren."
+"A total of %1 record(s) were updated.","Insgesamt wurden %1 Einträge aktualisiert."
 "Something went wrong while updating the product(s) attributes.","Während der Aktualisierung der Produktattribute ging etwas schief."
 "Unable to add attribute","Attribut konnte nicht hinzugefügt werden"
+"Please, specify attributes","Bitte Attribute angeben"
 "Manage Product Attributes","Produkt-Attribute verwalten"
 "We can't delete the attribute.","Das Attribut kann nicht gelöscht werden."
 "You deleted the product attribute.","Sie haben das Produktattribut gelöscht."
@@ -1486,6 +1504,7 @@ Categories,Kategorien
 "Edit Product Attribute","Produkt-Attribut bearbeiten"
 "An attribute set named '%1' already exists.","Ein Attributset mit dem Namen '%1' ist bereits vorhanden."
 "Something went wrong while saving the attribute.","Beim Speichern des Attributs ist ein Fehler aufgetreten."
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Der Attribut-Code ""%1"" ist ungültig. Bitte verwenden Sie nur Buchstaben (a-z), Ziffern (0-9) oder Unterstriche (_) in diesem Feld. Das erste Zeichen sollte ein Buchstabe sein."
 "We can't update the attribute.","Wir können das Attribut nicht aktualisieren."
 "You saved the product attribute.","Sie haben das Produkt-Attribute gespeichert."
 "An attribute with this code already exists.","Ein Attribut mit diesem Code existiert bereits."
@@ -1500,6 +1519,7 @@ Categories,Kategorien
 "A total of %1 record(s) have been deleted.","Insgesamt wurden %1 Einträge gelöscht."
 "A total of %1 record(s) have been updated.","Insgesamt wurden %1 Einträge aktualisiert."
 "Something went wrong while updating the product(s) status.","Während der Aktualisierung des Produkt-Status ist ein Fehler aufgetreten."
+"Unable to save product","Produkt konnte nicht gespeichert werden"
 "You saved the product.","Das Produkt wurde gespeichert."
 "SKU for product %1 has been changed to %2.","Artikelnummer für Produkt %1 wurde in %2 geändert."
 "The image cannot be removed as it has been assigned to the other image role","Das Bild kann nicht entfernt werden, weil es einer anderen Bildrolle zugewiesen wurde"
@@ -1512,6 +1532,7 @@ Categories,Kategorien
 "This attribute set no longer exists.","Dieses Attribut-Set existiert nicht mehr."
 "You saved the attribute set.","Das Attribut-Set wurde gespeichert."
 "Something went wrong while saving the attribute set.","Beim Speichern des Attribut-Sets ist ein Fehler aufgetreten."
+"You added product %1 to the comparison list.","Sie haben das Produkt %1 zur Vergleichsliste hinzugefügt."
 "You cleared the comparison list.","Sie haben die Vergleichsliste gelöscht."
 "Something went wrong  clearing the comparison list.","Während des Löschens der Vergleichsliste ist ein Fehler aufgetreten."
 "You removed product %1 from the comparison list.","Sie haben Produkt %1 aus der Vergleichsliste entfernt."
@@ -1530,6 +1551,7 @@ List,Liste
 "We can't move the category because the parent category name matches the child category name.","Wir können die Kategorie nicht verschieben, da der Name der übergeordneten Kategorie mit dem der Kind-Kategorie übereinstimmt."
 "Something went wrong while getting the image url.","Beim Speichern der Bild-URL ging etwas schief."
 "Can't delete root category.","Root-Kategorie kann nicht gelöscht werden."
+"The value of attribute ""%1"" must be unique.","Der Wert des Attributs ""%1"" muss eindeutig sein."
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Standardsortierung der Artikelliste steht in den verfügbaren Sortierungen nicht zur Auswahl."
 "No layout updates","Keine Layout Aktualisierungen"
 "Products only","Nur Produkte"
@@ -1537,6 +1559,7 @@ List,Liste
 "Static block and products","Statischer Block und Produkte"
 "Please select a static block.","Bitte wählen Sie einen statischen Block."
 "Could not save product ""%1"" with position %2 to category %3","Produkt ""%1"" mit der Position %2 konnte nicht in der Kategorie %3 gespeichert werden"
+"Category does not contain specified product","Kategorie enthält nicht das angegebene Produkt"
 "Could not save product ""%product"" with position %position to category %category","Produkt ""%product"" mit Position %position in Kategorie %category konnte nicht gespeichert werden"
 "Operation do not allow to move a parent category to any of children category","Eine Hauptkategorie darf keiner Unterkategorie zugeordnet werden."
 "Could not move category","Die Kategorie konnte nicht verschoben werden"
@@ -1573,15 +1596,20 @@ Center,Mitte
 "The attribute model is not defined.","Das Attribut-Modell ist nicht definiert."
 Category,Kategorie
 "%1 - %2","%1 – %2"
+"%1 was not found in algorithms","%1 wurde nicht in den Algorithmen gefunden"
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 erweitert nicht \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface"
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 erweitert nicht \Magento\Catalog\Model\Layer\Filter\AbstractFilter"
 "The filter must be an object. Please set the correct filter.","Der Filter muss ein Objekt sein. Bitte verwenden Sie einen korrekten Filter."
 "Clear Price","Preis löschen"
 "%1 and above","%1 und mehr"
+"The filters must be an array.","Die Filter müssen ein Array sein."
+"Product was not registered","Produkt wurde nicht registriert"
+"Store was not registered","Store wurde nicht registriert"
 "Group price must be a number greater than 0.","Gruppenpreis muss eine Zahl größer als 0 sein."
 "Media Gallery converter should be an instance of EntryConverterInterface.","Mediengalerie-Konverter sollte eine Instanz von EntryConverterInterface sein."
 "There is no MediaGalleryEntryConverter for given type","Es gibt keinen MediaGalleryEntryConverter für den gegebenen Typ"
 "Please enter a number 0 or greater in this field.","Bitte geben Sie eine Zahl größer gleich 0 ein."
+"The value of attribute ""%1"" must be set","Der Wert des Attributs ""%1"" muss angegeben werden"
 "SKU length should be %1 characters maximum.","Die Länge der Artikelnummer sollte maximal %1 Zeichen betragen."
 "Please enter a valid number in this field.","Bitte geben Sie eine gültige Nummer in dieses Feld ein."
 "We found a duplicate website, tier price, customer group and quantity.","Wir fanden Webseite, Staffelpreis, Kundengruppe und Menge als Dublette."
@@ -2379,6 +2407,9 @@ Sales,Verkäufe
 "Something went wrong while saving this condition.","Beim Speichern der Bedingungen ist ein Fehler aufgetreten."
 Automatically,Automatisch
 Manually,Manuell
+"Please agree to all the terms and conditions before placing the order.","Bitte stimmen Sie den Geschäftsbedingungen zu, bevor Sie ihre Bestellung abschließen."
+"Unable to save checkout agreement %1","Bestellbedingung %1 konnte nicht gespeichert werden"
+"Unable to remove checkout agreement %1","Bestellbedingung %1 konnte nicht gelöscht werden"
 "Terms & Conditions","Allgemeine Geschäftsbedingungen"
 "Enable Terms and Conditions","Allgemeine Geschäftsbedingungen aktivieren"
 "Preview Quote Lifetime (minutes)","Gültigkeit des Vorschau-Angebots (Minuten)"
@@ -2518,7 +2549,6 @@ Duplicated,Dupliziert
 "Thank you! We're reviewing your request and will contact you soon","Danke! Wir prüfen Ihre Anfrage und werden Sie in Kürze kontaktierern"
 "An error occurred on the server. Your changes have not been saved.","Auf dem Server ist ein Fehler aufgetreten. Ihre Änderungen wurden nicht gespeichert."
 "Create New Company","Neue Firma erstellen"
-"A total of %1 record(s) were updated.","Insgesamt wurden %1 Einträge aktualisiert."
 "Something went wrong. Please try again later.","Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
 "Invalid value of ""%value"" provided for the email field.","Ungültiger Wert für ""%value"" im E-Mail-Feld."
 "Invalid value ""%value"" given for the website ID field.","Ungültiger Wert ""%value"" im Website-ID-Feld angegeben."
@@ -8887,6 +8917,7 @@ Scope:,Geltungsbereich:
 Page,Seite
 "You're currently reading page","Sie lesen gerade die Seite"
 "We don't recognize this file extension.","Diese Dateierweiterung kann nicht erkannt werden."
+Empty,Zeige
 "1 column","1 Spalte"
 "Default welcome msg!",Standard-Willkommensnachricht!
 "Copyright © 2013-present Magento, Inc. All rights reserved.","Copyright © 2013-present Magento, Inc. Alle Rechte vorbehalten."
