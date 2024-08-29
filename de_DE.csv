@@ -1619,6 +1619,7 @@ Category,Kategorie
 "Use config","Konfiguration verwenden"
 "Attribute Set already exists.","Dieses Attribut-Set ist bereits vorhanden."
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Wir konnten die Datei %1 nicht kopieren. Löschen Sie Medien mit nicht vorhandenen Bildern und versuchen Sie es erneut."
+"The image content is not valid.","Der Bildinhalt ist nicht gültig."
 "The option type to get group instance is incorrect.","Der Optionstyp um eine Gruppeninstanz zu bekommen ist falsch."
 "Select type options required values rows.","Typenoptionen für benötigte Wertezeilen auswählen."
 "Please specify date required option(s).","Bitte geben Sie die Datums Option(en) ein."
