@@ -3,6 +3,7 @@ None,Keine
 "Allowed Scopes","Zulässige Bereiche"
 "You need more permissions to apply some of the rule updates.","Sie benötigen weitere Berechtigungen, um diese Regel-Änderungen anzuwenden."
 "You need more permissions to access website ""%1"".","Sie benötigen weitere Berechtigungen, um auf die Website ""%1"" zugreifen zu können."
+"You need more permissions to save this setting.","Sie brauchen weitere Berechtigungen, um diese Einstellung zu speichern."
 "Role Scopes","Bereich der Rolle"
 Custom,Benutzerdefiniert
 "More permissions are needed to delete the ""%1"" item.","Sie haben keine ausreichenden Berechtigungen, um das Element ""%1"" zu löschen."
@@ -684,6 +685,7 @@ selected,ausgewählt
 "The information in this tab has been changed.","Die Informationen in diesem Tab wurden geändert."
 Loading...,"Wird geladen …"
 "We could not detect a size.","Wir konnten keine Größe erkennen."
+"We don't recognize or support this file extension type.","Wir erkenne oder unterstützen diese Dateiendung nicht."
 "Warning message",Warnmeldung
 "This operation can take a long time","Dieser Vorgang kann lange dauern"
 "Allow everything","Alles erlauben"
@@ -839,17 +841,33 @@ Pagination,Paginierung
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternativer Text für den Link zu den folgenden Seiten im Paginierungsmenü. Falls dieser leer ist, wird die vorgegebene Pfeilgrafik benutzt."
 "Anchor Text for Next","Anchor-Text für Nachfolgende"
 "Theme Name",Themen-Name
+"You have entered an invalid password for current user.","Sie haben ein falsches Passwort für den aktuellen Benutzer eingegeben."
+"Access denied","Zugang verweigert"
+"You need more permissions to access this.","Sie brauchen mehr Berechtigungen, um hierauf zuzugreifen."
+"Report Bugs","Fehler melden"
+"Values less than 60 are ignored.","Werte kleiner als 60 werden ignoriert."
+"Search String",Suchbegriff
+"Page not found.","Seite nicht gefunden."
+"For Windows server only.","Nur für Windows-Server."
+"Images Upload Configuration",Bild-Upload-Konfiguration
 "Maximum Width","Maximale Breite"
+"Maximum allowed width for uploaded image.","Maximale erlaubte Breite für hochgeladene Bilder."
 "Maximum Height","Maximale Höhe"
+"Maximum allowed height for uploaded image.","Maximale erlaubte Höhe für hochgeladene Bilder."
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Wenn kein Wert bestimmt ist, werden System-Standardvorgaben verwendet. Die System-Standardvorgabe kann durch Drittanbieter-Erweiterungen angepasst/modifiziert sein."
 "Enable Frontend Resize","Frontend-Resize aktivieren"
 "Invalid security or form key. Please refresh the page.","Ungültiger Sicherheits- oder Formularschlüssel. Bitte aktualisieren Sie die Seite."
 "An item needs to be selected. Select and try again.","Ein Element muss ausgewählt werden. Wählen Sie ein Element und versuchen Sie es erneut."
 "These cache type(s) don't exist: %1","Diese Cache-Typ(en) existieren nicht: %1"
 "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Die Konto-Anmeldung war nicht korrekt oder Ihr Konto ist vorübergehend deaktiviert. Bitte warten Sie und versuchen Sie es später erneut."
+"An authentication error occurred. Verify and try again.","Ein Authentifizierungsfehler ist aufgetreten. Überprüfen Sie die Daten und versuchen Sie es erneut."
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Die Gültigkeitsdauer der Administrator-Sitzung ist ungültig. Setzen Sie die Sitzungs-Dauer auf 31536000 Sekunden (ein Jahr) oder kürzer und versuchen Sie es erneut."
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Die Gültigkeitsdauer der Administrator-Sitzung ist ungültig. Legen Sie die Sitzungs-Dauer auf 60 Sekunden oder länger und versuchen Sie es erneut."
 "Save &amp; Continue","Speichern &amp; Fortfahren"
 "Save &amp; Close","Speichern &amp; Schließen"
 "Save &amp; New","Speichern &amp; Neu"
+"Enable Hints for Storefront with URL Parameter","Hinweise für Shop mit URL-Parameter aktivieren"
+"Parameter Value",Parameterwert
 "System Backup",Systemsicherung
 "Database and Media Backup","Datenbank- und Mediensicherung"
 "Database Backup",Datenbanksicherung
@@ -2262,7 +2280,6 @@ Path,Pfad
 "One-page checkout is turned off.","One-Page Checkout ist deaktiviert."
 "Guest checkout is disabled.","Gastbestellungen sind nicht erlaubt."
 Checkout,Kasse
-"Page not found.","Seite nicht gefunden."
 "Something went wrong while processing your order. Please try again later.","Etwas ist bei der Abwicklung Ihrer Bestellung schief gegangen. Bitte versuchen Sie es später erneut."
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 erweitert nicht \Magento\Checkout\CustomerData\ItemInterface"
 "Payment Method",Zahlungsart
