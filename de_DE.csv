@@ -3368,7 +3368,7 @@ Unlock,Entsperren
 "Please enter a password with at most %1 characters.","Bitte geben Sie ein Passwort mit höchstens %1 Zeichen ein."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum der verschiedenen Zeichenklassen im Passwort ist %1. Zeichenklassen: Kleinbuchstaben, Großbuchstaben, Ziffern, Sonderzeichen."
 "This customer already exists in this store.","Dieser Kunde ist bereits in diesem Store vorhanden."
-"Invalid value of ""%value"" provided for the %fieldName field.","Ungültiger Wert ""%Wert"" für Feld %FeldName."
+"Invalid value of ""%value"" provided for the %fieldName field.","Ungültiger Wert """"%value"""" für Feld %fieldName."
 "Reset password token expired.","Token zum Zurücksetzen des Passworts ist abgelaufen."
 """%1"" is a required value.","""%1"" ist ein erforderlicher Wert."
 "Per Website","Pro Website"
